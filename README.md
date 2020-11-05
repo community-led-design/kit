@@ -1,8 +1,6 @@
-# Fluidic Eleventy
+# Community-Led Co-Design Toolkit
 
-## A simple starter kit for Eleventy-based static sites for the Fluid Project
-
-This repository contains the files needed to build [Eleventy](http://11ty.dev/)-based static sites for the [Fluid Project](https://fluidproject.org).
+This repository contains the source files for the [Community-Led Co-Design Toolkit](https://codesign.inclusivedesign.ca).
 
 ## Usage
 
@@ -35,11 +33,6 @@ If you make changes to the website, repeat the steps to build the image and star
 If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./dist/`
 directory to the web root of your server.
 
-## Features
-
-* Integrated [UI Options](https://docs.fluidproject.org/infusion/development/UserInterfaceOptionsAPI.html) Preferences Editor.
-* Basic static site configuration for developing project websites and blogs.
-
 ## Notes
 
 Modifications can be made to any source file or directory except for the contents of the `./dist/` directory. The
@@ -48,11 +41,13 @@ and  files in `dist` are overwritten at build time.
 
 ## License
 
-Fluidic Eleventy is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/codesign.inclusivedesign.ca/master/LICENSE.md).
+The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/codesign.inclusivedesign.ca/master/LICENSE.md).
 
-## Third Party Software in Fluidic Eleventy
+The website's content is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
-Fluidic Eleventy is based on other publicly available software, categorized by license:
+## Third Party Software in the Community-Led Co-Design Toolkit
+
+The Community-Led Co-Design Toolkit website is based on other publicly available software, categorized by license:
 
 ### MIT License
 
