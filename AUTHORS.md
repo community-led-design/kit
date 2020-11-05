@@ -4,16 +4,16 @@
 
 Copyright 2020
 
-This is the list of Fluidic Eleventy copyright holders. It does not list all individual contributors because some have assigned
-copyright to an institution, only made minor changes, or their contributions no longer appear in the codebase.
-Please see the version control system's revision history for details on contributions.
+This is the list of Community-Led Co-Design Toolkit copyright holders. It does not list all individual contributors
+because some have assigned copyright to an institution, only made minor changes, or their contributions no longer appear
+in the codebase. Please see the version control system's revision history for details on contributions.
 
 * OCAD University
 
 ## Contributors
 
 Individual contributions can be viewed on the
-[Contributors](https://github.com/fluid-project/fluidic-11ty/graphs/contributors) page, or through the version control
-system's revision history.
+[Contributors](https://github.com/inclusive-design/codesign.inclusivedesign.ca/graphs/contributors) page, or through the
+version control system's revision history.
 
 **Note**: Individual authors may not hold copyright. See above "Copyright Holders" section for more information.

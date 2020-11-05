@@ -1,7 +1,7 @@
 {
-    "name": "fluidic-11ty",
+    "name": "codesign.inclusivedesign.ca",
     "version": "0.1.0",
-    "description": "Fluid is an open, collaborative project to improve the user experience and inclusiveness of open source software.",
+    "description": "Website for the Community-Led Co-Design Toolkit.",
     "scripts": {
         "build": "npm-run-all -l clean build:*",
         "build:webpack": "cross-env NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -14,14 +14,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fluid-project/fluidic-11ty.git"
+        "url": "git+https://github.com/inclusive-design/codesign.inclusivedesign.ca.git"
     },
     "author": "OCAD University",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/fluid-project/fluidic-11ty/issues"
+        "url": "https://github.com/inclusive-design/codesign.inclusivedesign.ca/issues"
     },
-    "homepage": "https://github.com/fluid-project/fluidic-11ty#readme",
+    "homepage": "https://github.com/inclusive-design/codesign.inclusivedesign.ca#readme",
     "husky": {
         "hooks": {
             "pre-commit": "npm run lint",
@@ -32,7 +32,7 @@
         "@11ty/eleventy": "0.11.1",
         "@11ty/eleventy-plugin-rss": "1.0.9",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.4",
-        "@fluid-project/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#ee75b78"
+        "@inclusive-design/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#ee75b78"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
