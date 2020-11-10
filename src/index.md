@@ -1,6 +1,9 @@
 ---
-layout: layouts/base
+layout: layouts/home
 title: Community-Led Co-design Kit
+eleventyNavigation:
+    order: 0
+    key: Home
 ---
 An open source toolkit for sharing knowledge about how to do co-design led by community members and organizations.
 
@@ -26,9 +29,8 @@ Community-led co-design:
    Read the guide on [How to use this Kit](#TODO)
 3. Explore this kit
    Look through this kit by:  
-   [Playlists](#TODO)  
-   [Co-design building blocks](#TODO)  
-   Or, [Browse all](#TODO)
+   [Co-design building blocks](#building-blocks-of-codesign)  
+   Or, [Browse all](/#browse-all)
 
 ## Explore this kit
 
@@ -38,39 +40,12 @@ Community-led co-design:
 
 Each of these blocks includes guides, activities, and tools.
 
-#### Partnership
+{% for block in buildingBlocks %}
+   <h4>{{ block.name | safe }}</h4>
+   <p>{{ block.description | safe }}</p>
+   <p><a href="/resources/#{{ block.name | slug | codesign }}">Browse methods in {{ block.name | lower | safe }}</a></p>
+{% endfor %}
 
-Finding the people who you're interested in collaborating with, who are active participants in their community.
+### Browse all
 
-[Browse methods in partnership](/resources/#partnership)
-
-#### Community engagement
-
-Involving members of the community you're working with in the co-design process.
-
-[Browse methods in community engagement](/resources/#community-engagement)
-
-#### Co-design plan
-
-Planning all that is needed for the co-design engagement to get off the ground.
-
-[Browse methods in co-design plan](/resources/#codesign-plan)
-
-#### Facilitation
-
-Creating the environment and conditions for your co-designers to be able to participate and contribute.
-
-[Browse methods in facilitation](/resources/#facilitation)
-
-#### Ideas and outcomes
-
-Ideas and outcomes that result from the co-design sessions: How to document it, synthesize it, and also larger questions
-such as who owns these ideas.
-
-[Browse methods in ideas and outcomes](/resources/#ideas-and-outcomes)
-
-#### Reflections
-
-Taking the time to reflect on the process on what has gone well and what could be improved for next time.
-
-[Browse methods in reflections](/resources/#reflections)
+[Browse all resources](/resources/)

@@ -1,17 +1,28 @@
 <!doctype html>
-<html lang="en-ca" dir="ltr">
+<html class="no-js" lang="en-ca">
     <head>
-        <title>{% if title %} {{ title }} {% else %} {{ site.title }} {% endif %}</title>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link type="image/x-icon" href="{{ '/' | url }}assets/images/favicon.ico" rel="shortcut icon"/>
+        <meta charset="utf-8">
+        <title>{{ title if title else site.title }}</title>
+        <meta name="description" content="{{ description if description else site.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {# <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="https://codesign.inclusivedesign.ca/">
+        <meta property="og:image" content="/assets/images/opengraph.png"> #}
+
+        {# <link rel="manifest" href="/site.webmanifest"> #}
+        {# <link rel="apple-touch-icon" href="/assets/images/icon.png"> #}
+
+        {% include "partials/stylesheets.njk" %}
+
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
         {% include "partials/scripts.njk" %}
-        {% include "partials/stylesheets.njk" %}
     </head>
     {% block content %}
     <body class="page">
         {% include "partials/uio.njk" %}
+        {% include "partials/header.njk" %}
         <main>
             <article>
                 <header>

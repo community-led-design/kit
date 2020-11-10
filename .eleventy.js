@@ -16,7 +16,7 @@ const fs = require("fs");
 
 const fluidPlugin = require("@inclusive-design/eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const navigationPlugin = require("@11ty/eleventy-navigation");
 
 // Import transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -71,10 +71,16 @@ module.exports = function (config) {
             .slice(0, site.maxPostsPerPage);
     });
 
+    // Filters
+    config.addFilter("codesign", function (val) {
+        return val.replace("co-design", "codesign");
+    });
+
     // Plugins
     config.addPlugin(fluidPlugin);
     config.addPlugin(rssPlugin);
-    config.addPlugin(syntaxHighlight);
+    config.addPlugin(navigationPlugin);
+
 
     // 404
     config.setBrowserSyncConfig({

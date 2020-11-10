@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Partnership",
+        "description": "Finding the people who you're interested in collaborating with, who are active participants in their community."
+    },
+    {
+        "name": "Community engagement",
+        "description": "Involving members of the community you're working with in the co-design process."
+    },
+    {
+        "name": "Co-design plan",
+        "description": "Planning all that is needed for the co-design engagement to get off the ground."
+    },
+    {
+        "name": "Facilitation",
+    "   description": "Creating the environment and conditions for your co-designers to be able to participate and contribute."
+    },
+    {
+        "name": "Ideas and outcomes",
+        "description": "Ideas and outcomes that result from the co-design sessions: How to document it, synthesize it, and also larger questions such as who owns these ideas."
+    },
+    {
+        "name": "Reflections",
+        "description": "Taking the time to reflect on the process on what has gone well and what could be improved for next time."
+    }
+]
