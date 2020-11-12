@@ -1,6 +1,6 @@
 ---
 title: Resources
-layout: layouts/base
+layout: layouts/resources
 eleventyNavigation:
     order: 4
     key: Resources
