@@ -12,6 +12,7 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 "use strict";
 const jsdom = require("jsdom");
+const slugify = require("slugify");
 const {JSDOM} = jsdom;
 
 module.exports = function (value, outputPath) {
@@ -22,11 +23,23 @@ module.exports = function (value, outputPath) {
 
         const document = DOM.window.document;
         const articleImages = [...document.querySelectorAll("main article img")];
+        const headings = [...document.querySelectorAll("main article h2, main article h3, main article h4")];
 
         if (articleImages.length) {
             articleImages.forEach(image => {
                 // Enable native lazy-loading.
                 image.setAttribute("loading", "lazy");
+            });
+        }
+
+        if (headings.length) {
+            headings.forEach(heading => {
+                let headingId = slugify(heading.textContent, {
+                    replacement: "-",
+                    lower: true,
+                    strict: true
+                });
+                heading.setAttribute("id", headingId.replace(/co\-design/g, "codesign"));
             });
         }
 

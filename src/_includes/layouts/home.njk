@@ -1,6 +1,6 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-<body class="post">
+<body class="home">
     {% include "partials/uio.njk" %}
     {% include "partials/header.njk" %}
     <main>
@@ -10,6 +10,19 @@
             </header>
             <div class="content">
                 {{ content | safe }}
+                <h2>Explore this kit</h2>
+                <!-- TODO: Add playlists -->
+                <h3>Building blocks of co-design</h3>
+                <p>Each of these blocks includes guides, activities, and tools.</p>
+                {% for block in buildingBlocks %}
+                <div class="block">
+                    <h4>{{ block.name | safe }}</h4>
+                    <p>{{ block.description | safe }}</p>
+                    <p><a href="/resources/#{{ block.name | slug | codesign }}">Browse methods in {{ block.name | lower | safe }}</a></p>
+                </div>
+                {% endfor %}
+                <h3>Browse all</h3>
+                <p><a href="/resources/">Browse all resources</p>
             </div>
         </article>
     </main>

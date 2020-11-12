@@ -1,6 +1,7 @@
 ---
 layout: layouts/home
 title: Community-Led Co-design Kit
+permalink: /
 eleventyNavigation:
     order: 0
     key: Home
@@ -24,28 +25,10 @@ Community-led co-design:
 ## Where to start
 
 1. Introduction  
-   Read the [Introduction to co-design and community-led co-design](#TODO)
+   Read the [Introduction to co-design and community-led co-design](/introduction/)
 2. How to use this kit  
-   Read the guide on [How to use this Kit](#TODO)
+   Read the guide on [How to use this Kit](/how-to/)
 3. Explore this kit
    Look through this kit by:  
    [Co-design building blocks](#building-blocks-of-codesign)  
    Or, [Browse all](/#browse-all)
-
-## Explore this kit
-
-<!-- TODO: Add playlists -->
-
-### Building blocks of co-design
-
-Each of these blocks includes guides, activities, and tools.
-
-{% for block in buildingBlocks %}
-   <h4>{{ block.name | safe }}</h4>
-   <p>{{ block.description | safe }}</p>
-   <p><a href="/resources/#{{ block.name | slug | codesign }}">Browse methods in {{ block.name | lower | safe }}</a></p>
-{% endfor %}
-
-### Browse all
-
-[Browse all resources](/resources/)

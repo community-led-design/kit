@@ -22,9 +22,6 @@ const navigationPlugin = require("@11ty/eleventy-navigation");
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
-// Import data files
-const site = require("./src/_data/site.json");
-
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
@@ -35,6 +32,7 @@ module.exports = function (config) {
     // Passthrough copy
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/posts/images": "posts/images"});
+    config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy({"node_modules/infusion/dist/infusion-uio.min.js": "lib/infusion/infusion-uio.min.js"});
     config.addPassthroughCopy({"node_modules/infusion/dist/infusion-uio.min.js.map": "lib/infusion/infusion-uio.min.js.map"});
     config.addPassthroughCopy({"node_modules/infusion/src/components/tableOfContents/css/": "lib/infusion/src/components/tableOfContents/css/"});
@@ -54,22 +52,6 @@ module.exports = function (config) {
     config.addPassthroughCopy({"node_modules/infusion/src/lib/normalize/css/": "lib/infusion/src/lib/normalize/css/"});
     config.addPassthroughCopy({"node_modules/infusion/src/lib/open-dyslexic/fonts/": "lib/infusion/src/lib/open-dyslexic/fonts"});
     config.addPassthroughCopy({"node_modules/infusion/src/lib/opensans/fonts/": "lib/infusion/src/lib/opensans/fonts/"});
-
-    const now = new Date();
-
-    // Custom collections
-    const livePosts = post => post.date <= now && !post.data.draft;
-    config.addCollection("posts", collection => {
-        return [
-            ...collection.getFilteredByGlob("./src/posts/*.md").filter(livePosts)
-        ];
-    });
-    // The following collection is used to distribute posts into different pages. However, the default pagination has not been set in fluidproject.org and all posts are shown on single page
-    config.addCollection("postFeed", collection => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md").filter(livePosts)]
-            .reverse()
-            .slice(0, site.maxPostsPerPage);
-    });
 
     // Filters
     config.addFilter("codesign", function (val) {
