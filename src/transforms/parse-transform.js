@@ -32,15 +32,33 @@ module.exports = function (value, outputPath) {
             });
         }
 
-        if (headings.length) {
+        const toc = document.querySelector(".toc");
+
+        if (headings.length && toc) {
+            const tocNav = document.createElement("nav");
+            const tocUl = document.createElement("ul");
+            tocNav.setAttribute("aria-label", "Secondary Navigation");
+
             headings.forEach(heading => {
                 let headingId = slugify(heading.textContent, {
                     replacement: "-",
                     lower: true,
                     strict: true
                 });
-                heading.setAttribute("id", headingId.replace(/co\-design/g, "codesign"));
+                headingId = headingId.replace(/co\-design/g, "codesign");
+                heading.setAttribute("id", headingId);
+
+                const tocLi = document.createElement("li");
+                const tocLink = document.createElement("a");
+                tocLink.setAttribute("href", `#${headingId}`);
+                tocLink.textContent = heading.textContent;
+                tocLi.appendChild(tocLink);
+                tocUl.appendChild(tocLi);
             });
+
+            tocNav.appendChild(tocUl);
+            toc.appendChild(tocNav);
+            toc.classList.remove("hidden");
         }
 
         return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;

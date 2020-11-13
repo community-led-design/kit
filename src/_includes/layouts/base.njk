@@ -25,6 +25,10 @@
         <main class="px-6">
             <article>
                 {% include "partials/page-header.njk" %}
+                {% block toc %}
+                <div class="toc hidden">
+                </div>
+                {% endblock %}
                 {% block content %}
                 <div class="content space-y-4">
                 {{ content | safe }}

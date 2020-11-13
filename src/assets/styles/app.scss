@@ -9,6 +9,14 @@
     @apply max-w-6xl mx-auto my-12 px-6;
 }
 
+.toc {
+    @apply max-w-6xl mx-auto my-12 px-6;
+}
+
+.toc:empty {
+    @apply hidden;
+}
+
 a {
     @apply underline;
     @apply text-blue-600;
