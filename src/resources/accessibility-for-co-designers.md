@@ -2,7 +2,7 @@
 title: Accessibility for co-designers
 permalink: ''
 type: Guide
-building-block: Community engagement
+buildingBlock: Community engagement
 ---
 ## About this guide
 
