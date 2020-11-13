@@ -1,0 +1,57 @@
+---
+permalink: /admin/config.yml
+---
+backend:
+  name: git-gateway
+  branch: dev
+site_url: "https://codesign-kit.netlify.app"
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: "src/pages"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: resources
+    label: Resources
+    label_singular: Resource
+    folder: "src/resources"
+    slug: "{{slug}}"
+    preview_path: "resources/{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - label: "Resource Type"
+        name: "type"
+        widget: "select"
+        options:
+          - {label: "Guide", value: "guide"}
+          - {label: "Activity", value: "activity"}
+          - {label: "Tool", value: "tool"}
+      - label: "Building Block"
+        name: "building-block"
+        widget: "select"
+        options:
+          {% for block in buildingBlocks %}
+          - {label: "{{ block.name }}", value: "{{ block.name | slug }}"}
+          {% endfor %}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: case-studies
+    label: Case Studies
+    label_singular: Case Study
+    folder: "src/case-studies"
+    slug: "{{slug}}"
+    preview_path: "/case-studies/{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

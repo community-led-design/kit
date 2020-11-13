@@ -18,7 +18,7 @@
                 <div class="block">
                     <h4>{{ block.name | safe }}</h4>
                     <p>{{ block.description | safe }}</p>
-                    <p><a href="/resources/#{{ block.name | slug | codesign }}">Browse methods in {{ block.name | lower | safe }}</a></p>
+                    <p><a href="/resources/#{{ block.name | slug }}">Browse methods in {{ block.name | lower | safe }}</a></p>
                 </div>
                 {% endfor %}
                 <h3>Browse all</h3>

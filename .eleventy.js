@@ -53,11 +53,6 @@ module.exports = function (config) {
     config.addPassthroughCopy({"node_modules/infusion/src/lib/open-dyslexic/fonts/": "lib/infusion/src/lib/open-dyslexic/fonts"});
     config.addPassthroughCopy({"node_modules/infusion/src/lib/opensans/fonts/": "lib/infusion/src/lib/opensans/fonts/"});
 
-    // Filters
-    config.addFilter("codesign", function (val) {
-        return val.replace("co-design", "codesign");
-    });
-
     // Plugins
     config.addPlugin(fluidPlugin);
     config.addPlugin(rssPlugin);

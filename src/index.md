@@ -1,7 +1,6 @@
 ---
 layout: layouts/home
 title: Community-Led Co-design Kit
-permalink: /
 eleventyNavigation:
     order: 0
     key: Home
