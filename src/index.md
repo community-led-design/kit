@@ -29,5 +29,5 @@ Community-led co-design:
    Read the guide on [How to use this Kit](/how-to/)
 3. Explore this kit
    Look through this kit by:  
-   [Co-design building blocks](#building-blocks-of-codesign)  
+   [Co-design building blocks](#building-blocks-of-co-design)  
    Or, [Browse all](/#browse-all)
