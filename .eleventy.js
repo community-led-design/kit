@@ -58,6 +58,19 @@ module.exports = function (config) {
     config.addPlugin(rssPlugin);
     config.addPlugin(navigationPlugin);
 
+    // Collections
+
+    config.addCollection("resources", collection => {
+        return [
+            ...collection.getFilteredByGlob("src/resources/*.md").sort((a, b) => b.data.order - a.data.order)
+        ].reverse();
+    });
+
+    config.addCollection("caseStudies", collection => {
+        return [
+            ...collection.getFilteredByGlob("src/case-studies/*.md").sort((a, b) => b.data.order - a.data.order)
+        ].reverse();
+    });
 
     // 404
     config.setBrowserSyncConfig({

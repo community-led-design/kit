@@ -33,15 +33,15 @@ collections:
         name: "type"
         widget: "select"
         options:
-          - {label: "Guide", value: "guide"}
-          - {label: "Activity", value: "activity"}
-          - {label: "Tool", value: "tool"}
+          - "Guide"
+          - "Activity"
+          - "Tool"
       - label: "Building Block"
         name: "building-block"
         widget: "select"
         options:
           {% for block in buildingBlocks %}
-          - {label: "{{ block.name }}", value: "{{ block.name | slug }}"}
+          - "{{ block.name }}"
           {% endfor %}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: case-studies
