@@ -1,9 +1,7 @@
----
-permalink: /admin/config.yml
----
 backend:
   name: git-gateway
   branch: main
+publish_mode: editorial_workflow
 site_url: "https://codesign-kit.netlify.app"
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
@@ -32,18 +30,11 @@ collections:
       - label: "Resource Type"
         name: "type"
         widget: "select"
-        options:
-          - "Guide"
-          - "Activity"
-          - "Tool"
+        options: ["Guide", "Activity", "Tool"]
       - label: "Building Block"
         name: "building-block"
         widget: "select"
-        options:
-          {% for block in buildingBlocks %}
-          - "{{ block.name }}"
-          {% endfor %}
-      - {label: "Body", name: "body", widget: "markdown"}
+        options: ["Partnership", "Community engagement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
