@@ -11,6 +11,13 @@
             </header>
             <div class="content">
                 {{ content | safe }}
+                <div class="grid">
+                {% for caseStudy in collections.caseStudies %}
+                <article class="case-study">
+                    <h2><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
+                </article>
+                {% endfor %}
+                </div>
             </div>
         </article>
     </main>

@@ -10,12 +10,12 @@
             </header>
             <div class="content">
                 {{ content | safe }}
-                <div class="resources">
+                <div class="grid">
                 {% for resource in collections.resources %}
                 <article class="resource">
                     <h2><a href="{{ resource.url }}">{{ resource.data.title }}</a></h2>
-                    <p class="type">{{ resource.data.type }}</p>
-                    <p class="building-block">{{ resource.data.buildingBlock }}</p>
+                    <p class="type">Type: {{ resource.data.type }}</p>
+                    <p class="building-block">Building Block: {{ resource.data.buildingBlock }}</p>
                 </article>
                 {% endfor %}
                 </div>
