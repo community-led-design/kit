@@ -15,6 +15,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: resources

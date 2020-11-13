@@ -1,25 +1,14 @@
 {% extends "layouts/base.njk" %}
+
 {% block content %}
-<body class="case-studies
-">
-    {% include "partials/uio.njk" %}
-    {% include "partials/header.njk" %}
-    <main>
-        <article>
-            <header>
-                <h1>{{ title }}</h1>
-            </header>
-            <div class="content">
-                {{ content | safe }}
-                <div class="grid">
-                {% for caseStudy in collections.caseStudies %}
-                <article class="case-study">
-                    <h2><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
-                </article>
-                {% endfor %}
-                </div>
-            </div>
+<div class="content space-y-4">
+    {{ content | safe }}
+    <div class="grid grid-cols-3 gap-4">
+        {% for caseStudy in collections.caseStudies %}
+        <article class="caseStudy rounded border border-grey-500 shadow-md px-6 py-6">
+            <h2><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
         </article>
-    </main>
-</body>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

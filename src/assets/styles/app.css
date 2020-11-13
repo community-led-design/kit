@@ -1,7 +1,0 @@
-:root {
-    --base-font-family: "Open Sans", sans-serif;
-}
-
-body {
-    font-family: var(--base-font-family);
-}

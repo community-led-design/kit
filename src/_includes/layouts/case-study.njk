@@ -1,18 +1,7 @@
 {% extends "layouts/base.njk" %}
+
 {% block content %}
-<body class="case-study">
-    {% include "partials/uio.njk" %}
-    {% include "partials/header.njk" %}
-    <main>
-        <nav class="flc-toc-tocContainer"></nav>
-        <article>
-            <header>
-                <h1>{{ title }}</h1>
-            </header>
-            <div class="content">
-            {{ content | safe }}
-            </div>
-        </article>
-    </main>
-</body>
+<div class="content space-y-4">
+{{ content | safe }}
+</div>
 {% endblock %}

@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.banner,
+.header,
+.content,
+.footer {
+    @apply max-w-6xl mx-auto my-12 px-6;
+}
+
+a {
+    @apply underline;
+    @apply text-blue-600;
+}
+
+h1 {
+    @apply text-4xl;
+}
+
+h2 {
+    @apply text-2xl;
+}
+
+h3 {
+    @apply text-xl;
+}
+
+h4 {
+    @apply text-lg;
+}
+
+.content ul {
+    @apply list-disc;
+}
+
+.content ol {
+    @apply list-decimal;
+}

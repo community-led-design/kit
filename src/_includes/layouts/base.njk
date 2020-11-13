@@ -19,21 +19,19 @@
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
         {% include "partials/scripts.njk" %}
     </head>
-    {% block content %}
-    <body class="page">
+    <body>
         {% include "partials/uio.njk" %}
         {% include "partials/header.njk" %}
-        <main>
+        <main class="px-6">
             <article>
-                <header>
-                    <h1>{{ title }}</h1>
-                </header>
-                <div class="content">
+                {% include "partials/page-header.njk" %}
+                {% block content %}
+                <div class="content space-y-4">
                 {{ content | safe }}
                 </div>
+                {% endblock %}
             </article>
         </main>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     </body>
-    {% endblock %}
 </html>

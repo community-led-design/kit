@@ -1,12 +1,11 @@
 ---
 layout: layouts/home
 title: Community-Led Co-design Kit
+subtitle: An open source toolkit for sharing knowledge about how to do co-design led by community members and organizations.
 eleventyNavigation:
     order: 0
     key: Home
 ---
-An open source toolkit for sharing knowledge about how to do co-design led by community members and organizations.
-
 ## Community-led co-design
 
 Community-led co-design is an approach in which the co-design process, not just the outcomes, is developed in
