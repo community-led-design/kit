@@ -1,5 +1,11 @@
 ---
 title: C2LC Co-design
+subtitle: Co-designing an inclusive coding environment with children with complex needs
+authors:
+  - Sepideh Shahi
+organization: Inclusive Design Research Centre
+startDate: 2019
+endDate: false
 ---
 # Project overview
 

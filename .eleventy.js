@@ -25,6 +25,10 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
+    config.addPairedShortcode("accordion", content => {
+        return `<div class="accordion">\n${content}</div>`;
+    });
+
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
@@ -33,6 +37,7 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/posts/images": "posts/images"});
     config.addPassthroughCopy("src/admin/config.yml");
+    config.addPassthroughCopy("src/admin/details.js");
     config.addPassthroughCopy({"node_modules/infusion/dist/infusion-uio.min.js": "lib/infusion/infusion-uio.min.js"});
     config.addPassthroughCopy({"node_modules/infusion/dist/infusion-uio.min.js.map": "lib/infusion/infusion-uio.min.js.map"});
     config.addPassthroughCopy({"node_modules/infusion/src/components/tableOfContents/css/": "lib/infusion/src/components/tableOfContents/css/"});

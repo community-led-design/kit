@@ -24,7 +24,9 @@
         {% include "partials/header.njk" %}
         <main class="px-6">
             <article>
+                {% block pageHeader %}
                 {% include "partials/page-header.njk" %}
+                {% endblock %}
                 {% block toc %}
                 <div class="toc hidden">
                 </div>
