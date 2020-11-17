@@ -36,6 +36,7 @@ collections:
         name: "building-block"
         widget: "select"
         options: ["Partnership", "Community engagement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
