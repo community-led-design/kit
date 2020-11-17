@@ -16,7 +16,7 @@ const slugify = require("slugify");
 const {JSDOM} = jsdom;
 
 module.exports = function (value, outputPath) {
-    if (outputPath.endsWith(".html")) {
+    if (outputPath && outputPath.includes(".html")) {
         const DOM = new JSDOM(value, {
             resources: "usable"
         });

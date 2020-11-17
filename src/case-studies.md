@@ -2,6 +2,6 @@
 title: Case Studies
 layout: layouts/case-studies
 eleventyNavigation:
-    order: 5
+    order: 4
     key: Case Studies
 ---

@@ -1,6 +1,6 @@
 ---
 permalink: false
 eleventyNavigation:
-    order: 3
-    key: Resources
+  order: 1
+  key: Getting Started
 ---

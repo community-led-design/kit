@@ -1,8 +1,68 @@
-{% set navItems = collections.all | eleventyNavigation %}
-<nav class="mt-12 px-6">
-    <ul class="flex flex-col space-y-4 md:flex-row md:justify-end md:space-x-6 md:space-y-0">
-    {% for item in navItems %}
-        <li><a href="{{ item.url }}"{% if page.url === item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
-    {% endfor %}
-    </ul>
+<nav class="nav mt-12 px-6" id="menu" aria-labelledby="menu-label">
+    {% set navItems = collections.all | eleventyNavigation %}
+    <button class="menu-toggle hidden" id="menu-toggle" aria-expanded="false">{% include 'svg/menu.svg' %} menu</button>
+    <div class="menu">
+        <p class="menu-label h1 hidden" id="menu-label"><span class="sr-only">main </span>Menu</p>
+        <ul class="flex flex-col space-y-4 md:flex-row md:justify-end md:space-x-6 md:space-y-0">
+        {%- for entry in navItems %}
+	        {% set liClass, currentAttribute, relAttribute, parentAttribute = '' %}
+          {% set currentPage = page.url === entry.url %}
+
+          {% if eleventyNavigation.parent %}
+            {% set parentPage = entry.title === eleventyNavigation.parent %}
+          {% else %}
+            {% set parentPage = entry.url in page.url %}
+          {% endif %}
+
+	        {% if entry.rel %}
+	          {% set relAttribute = ' rel="' + entry.rel + '"' %}
+	        {% endif %}
+	
+	        {% if currentPage %}
+	          {% set currentAttribute = ' aria-current="page"' %}
+	        {% endif %}
+
+          {% if parentPage %}
+            {% set parentAttribute = ' data-parent="true"' %}
+          {% endif %}
+
+          {% if entry.children.length > 0 %}
+          {% set liClass = ' class="submenu-parent"' %}
+          {% endif %}
+        <li{{ liClass | safe }}>
+            <a{{ relAttribute | safe }}{{ parentAttribute | safe }}{{ currentAttribute | safe }} href="{{ entry.url | url }}">{{ entry.title }}</a>
+            {%- if entry.children.length > 0 %}
+            <ul>
+            {%- for child in entry.children %}
+              {% set currentAttribute, relAttribute = '' %}
+              {% set currentPage = page.url === child.url %}
+              {% if child.rel %}
+                {% set relAttribute = ' rel="' + child.rel + '"' %}
+              {% endif %}
+      
+              {% if currentPage %}
+                {% set currentAttribute = ' aria-current="page"' %}
+              {% endif %}
+              <li>
+                <a{{ relAttribute | safe }}{{ currentAttribute | safe }} href="{{ child.url | url }}">{{ child.title }}</a>
+              </li>
+            {%- endfor %}
+            {% if entry.title === "Resources" %}
+              {% for buildingBlock in buildingBlocks %}
+              {% set childSlug = buildingBlock.name | slug %}
+              {% set childUrl = "/building-blocks/" + childSlug + "/" %}
+              {% set childTitle = buildingBlock.name %}
+              {% set currentPage = page.url == childUrl %}
+              {% if currentPage %}
+                {% set currentAttribute = ' aria-current="page"' %}
+              {% endif %}
+              <li><a{{ currentAttribute | safe }} href="{{ childUrl | url }}">{{ childTitle }}</a></li>
+              {% endfor %}
+            {% endif %}
+            </ul>
+            {%- endif %}
+        </li>
+        {%- endfor %}
+        </ul>
+    </div>
 </nav>
