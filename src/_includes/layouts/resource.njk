@@ -3,7 +3,7 @@
 {% block pageHeader %}
 <header class="header space-y-4">
     <h1>{{ title | safe}}</h1>
-    <p class="subtitle text-2xl"><strong>{{ type }}</strong> for <strong>{{ buildingBlock | title }}</strong></p>
+    <p class="subtitle text-2xl"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
 </header>
 {% endblock %}
 
