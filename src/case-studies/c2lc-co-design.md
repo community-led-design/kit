@@ -7,7 +7,7 @@ organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
 ---
-# Project overview
+## Project overview
 
 * Coding to Learn and Create is a joint project of the Inclusive Design Research Centre (IDRC) at OCAD University and Bridges Canada. The project was awarded a grant of $1.7 million dollars by the Ministry of Innovation, Science and Economic Development, from the Accessible Technology Program.
 * The Coding to Learn and Create is developing an inclusive coding environment and an open educational resource repository in collaboration with educators, students, and their families.
@@ -19,15 +19,17 @@ endDate: false
   * For students with cognitive and learning disabilities, coding can help teach crucial collaborative and communication skills, strategies for problem-solving, task sequencing, spatial awareness, and metacognitive skills. Thus, participation in coding activities can be a strong reinforcer of equality in the school community.
 * Our Partners:
 
-  * [Bridges Canada](https://www.bridges-canada.com/)is the only cross-Canada, full service, assistive technology company, delivering support in assistive technology for learning, communication, alternative access, low vision and blindness needs.
+  * [Bridges Canada](https://www.bridges-canada.com/) is the only cross-Canada, full service, assistive technology company, delivering support in assistive technology for learning, communication, alternative access, low vision and blindness needs.
 * Desired outcome:
 
   * Maybe the desired outcome is: - building an inclusive and accessible coding environment that empowers all learners to be creators of their digital worlds, to express themselves using code and art, and to apply these skills to other areas of learning and daily life.
 * Learn more about the project:[](https://www.codelearncreate.org/)<https://www.codelearncreate.org/>
 
-# Co-design overview
+## Co-design overview
 
-* Goals:
+{% accordion %}
+
+### Goals:
 
   * Integrate the students' ideas into the design of the prototype early on as the project is being developed.
   * Partner with educators, students, and their families to develop a new inclusive coding environment scaffolded and customizable for students who have different physical, learning, and cognitive needs.
@@ -37,20 +39,23 @@ endDate: false
   * Students with complex learning needs and learning differences
   * The participants' families
   * Special education teachers
-* Outcomes:
+
+### Outcomes:
 
   Refined the coding environment based on:
 
   * Direct feedback and recommendations from the students, their families and special education teachers
   * Observational notes throughout the co-design sessions that helped to identify the pain-points, gaps, and moments of delight as students with complex learning needs were using the coding environment
 
-# Co-design process
+{% endaccordion %}
+
+## Co-design process
 
 To work with a broad range of learners and their educators, we worked with them in different contexts and applied different strategies to engage our co-designers in the process of learning about our coding environment and working with them to make it more accessible and fun. Although this work is ongoing, here are a few different examples of how we have applied co-design so far.
 
-**NOTE:**The activities below occurred at different times in various places. So we created different activity pathways that could be used simultaneously or in random order rather than have activities done in sequential order.
+**NOTE:** The activities below occurred at different times in various places. So we created different activity pathways that could be used simultaneously or in random order rather than have activities done in sequential order.
 
-## Activity: Summer coding camps for kids with diverse abilities
+### Activity: Summer coding camps for kids with diverse abilities
 
 * We had 5 coding camps in the summer of 2019. At each of these camps, our team members worked with kids with different abilities and from different age groups over five days.
 * During the first four days, the campers had a chance to work with different robots to learn basic coding concepts, such as categorization, sequences, parameters, and repeated patterns.
@@ -58,21 +63,21 @@ To work with a broad range of learners and their educators, we worked with them 
 * Once campers had an opportunity to trial the prototype and test its different aspects, they were involved in a co-design activity to generate ideas about how to improve the prototype to better address their needs.
 * To learn more about the activities and results from each camp, please visit our camp blog posts on the[Coding to Learn and Create website](https://www.codelearncreate.org/blog/).
 
-## Activity: Facilitated co-design workshops
+### Activity: Facilitated co-design workshops
 
 * At different phases of the project, IDRC team is holding small to medium size co-design workshops in order to bring together the intended user groups. During these workshops, participants work on specific topics related to the project.
 * In-person sessions take about 3-6 hours and remote workshops are about 1-2 hours. We often have 10-15 people participating in the workshops and 3-5 project team members facilitate the activities and support the participants.
 * The activities for each of these workshops are collaboratively planned with Bridges and other partner educators and advisors to ensure they are suitable for the participants.
 * To learn more about our facilitated workshops, please visit the blog post from our recent Art workshop**\[Link not created yet]**
 
-## Activity: Embedded co-design workshops at schools
+### Activity: Embedded co-design workshops at schools
 
 * IDRC and Bridges identified different organizations, schools, and institutions across Canada to invite them to participate in an embedded co-design process.
 * The project team worked with the interested organizations to plan activities that are appropriate for their context, members and available resources.
 * These sessions were conducted in the presence of facilitators from the project team as well as internal facilitators from the partner organization, such as teachers, assistants, and therapists.
 * After each session, the project team met with the internal facilitators to get their insight from the session and planned the activities for the following sessions.
 
-## Activity: Embedded virtual coding sessions
+### Activity: Embedded virtual coding sessions
 
 * Due to the COVID-19 pandemic, we stopped our in-person workshops. To continue our embedded co-design activities during the quarantine, we planned a series of online coding sessions with the students from the same school we conducted our embedded co-design workshops with.
 * We used Zoom for these sessions and invited students' teachers to join the sessions and participate in the planning process for each activity.
@@ -82,7 +87,7 @@ To work with a broad range of learners and their educators, we worked with them 
   * To learn more about embedded virtual co-design sessions visit our[Embedded co-design workshops posts](https://wiki.fluidproject.org/display/C2LC/Coding+to+Learn+and+Create+Co-Design+Kit)on the Fluid wiki.
 * Virtual activities will take the place of our in-person co-design efforts until it is safe to resume them.
 
-# Challenges and Learnings
+## Challenges and Learnings
 
 Here are some common challenges and learnings that our team experienced across different co-design activities and contexts:
 
@@ -93,7 +98,7 @@ Here are some common challenges and learnings that our team experienced across d
 * Including participants favorite topics and components in the activities helped maintain their engagement in the activity.
 * Repetition and establishing a routine was the key to success of each of these activities. Starting with a circle time, reviewing the session's agenda, and concluding at the end keep gave them a sense of order and helped them build the right expectations.
 
-# Recommendations
+## Recommendations
 
 * When co-designing with children and individuals with complex learning needs:
 
@@ -103,7 +108,7 @@ Here are some common challenges and learnings that our team experienced across d
   * Limit the sensory stimulation, and the number of tasks and the number of goals they have to achieve at each session to keep the participants focus on the planned activities
   * Short sessions with a clear agenda help students to remain engaged throughout the session
 
-# Impact
+## Impact
 
 * Through these co-design activities, we have been able to build a community of learners, educators, and activists who are interested in making coding accessible for kids with diverse needs.
 * Based on the input we gathered from co-design sessions, we have been able to modify our design and make sure every aspect of our coding environment was accessible and multi-modal.
@@ -112,14 +117,14 @@ Here are some common challenges and learnings that our team experienced across d
 
   * "Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression," said Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead
 
-# Next steps
+## Next steps
 
 * The C2LC project is a work in progress and the final coding environment will be disseminated in March 2022.
 * Our team will continue the co-design efforts and hold a variety of facilitated and embedded workshops to finalize the features and functionalities that are needed to make this environment accessible, inclusive, and fun to use.
 * Our team will also engage our co-designers, educators, and accessibility specialists as expert critics to try the coding environment at different stages and provide feedback about their experience with this web-based coding environment.
 * We are also building an open repository of learning tools and activities based on our ongoing co-design activities. This open repository aims to help learners either at home or school to develop the foundational skills for coding and start using any block-based coding environment, such as the C2LC "inclusive design coding environment" to build different programs.
 
-# Resources
+## Resources
 
 ### Project Overview
 

@@ -25,8 +25,9 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
+    // Shortcodes
     config.addPairedShortcode("accordion", content => {
-        return `<div class="accordion">\n${content}</div>`;
+        return `<div class="accordion space-y-4">\n${content}\n</div>`;
     });
 
     // Transforms
