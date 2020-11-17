@@ -31,7 +31,7 @@ module.exports = function (value, outputPath) {
                 image.setAttribute("loading", "lazy");
             });
         }
-        
+
         if (headings.length) {
             headings.forEach(heading => {
                 let headingId = slugify(heading.textContent, {
