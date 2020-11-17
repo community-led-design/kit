@@ -13,7 +13,7 @@ CMS.registerEditorComponent({
             required: true
         },
         {
-            name: "altText",
+            name: "alt",
             label: "Alternative Text",
             widget: "string"
         },
@@ -27,15 +27,15 @@ CMS.registerEditorComponent({
     fromBlock: match =>
         match && {
             image: match[1],
-            altText: match[2],
+            alt: match[2],
             caption: match[3]
         },
-    toBlock: function (obj) {
-        return `{% figure "${obj.image}", "${obj.altText}" %}\n${obj.caption}\n{% endfigure %}`;
+    toBlock: function ({alt, image, caption}) {
+        return `{% figure "${image || ""}", "${alt || ""}" %}\n${caption || ""}\n{% endfigure %}`;
     },
-    toPreview: function (obj) {
-        var md = window.markdownit();
-        var caption = obj.caption ? `<figcation>${md.render(obj.caption)}</figcaption>` : "";
-        return `<figure><img src="${obj.image}" alt="${obj.altText || ""}" />${caption}</figure>`;
+    toPreview: ({alt, image, caption}) => {
+        const md = window.markdownit();
+        const figcaption = caption ? `<figcation>${md.render(caption)}</figcaption>` : "";
+        return `<figure><img src="${image}" alt="${alt || ""}" />${figcaption}</figure>`;
     }
 });
