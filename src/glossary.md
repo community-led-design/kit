@@ -1,8 +1,9 @@
 ---
 title: Glossary
 layout: layouts/page
-eleventyNavigation:
-    order: 5
-    key: Glossary
+permalink: false # Not yet implemented.
+# eleventyNavigation:
+#     order: 5
+#     key: Glossary
 ---
 TODO.
