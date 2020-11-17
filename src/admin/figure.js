@@ -9,7 +9,8 @@ CMS.registerEditorComponent({
         {
             name: "image",
             label: "Image",
-            widget: "image"
+            widget: "image",
+            required: true
         },
         {
             name: "altText",
@@ -23,19 +24,18 @@ CMS.registerEditorComponent({
         }
     ],
     pattern: /{% figure "([\s\S]*?)", "([\s\S]*?)" %}([\s\S]*?){% endfigure %}/,
-    fromBlock: function (match) {
-        return {
+    fromBlock: match =>
+        match && {
             image: match[1],
             altText: match[2],
             caption: match[3]
-        };
-    },
+        },
     toBlock: function (obj) {
         return `{% figure "${obj.image}", "${obj.altText}" %}\n${obj.caption}\n{% endfigure %}`;
     },
     toPreview: function (obj) {
         var md = window.markdownit();
         var caption = obj.caption ? `<figcation>${md.render(obj.caption)}</figcaption>` : "";
-        return `<figure><img src="${obj.image}" alt="${obj.altText}" />${caption}</figure>`;
+        return `<figure><img src="${obj.image}" alt="${obj.altText || ""}" />${caption}</figure>`;
     }
 });
