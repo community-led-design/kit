@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the table of contents component.
+// -----------------------------------------------------------------------------
+
+.toc {
+    @apply max-w-6xl mx-auto my-12 px-6;
+}
+
+.toc:empty {
+    @apply hidden;
+}

@@ -1,47 +1,43 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@charset "UTF-8";
 
-.banner,
-.header,
-.content,
-.footer {
-    @apply max-w-6xl mx-auto my-12 px-6;
-}
+// 0. Tailwind
+@import 'tailwindcss/base',
+    'tailwindcss/components',
+    'tailwindcss/utilities';
 
-.toc {
-    @apply max-w-6xl mx-auto my-12 px-6;
-}
+// 1. Configuration and helpers
+@import
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins';
 
-.toc:empty {
-    @apply hidden;
-}
+// 2. Vendors
+@import
+    'vendors/uio';
 
-a {
-    @apply underline;
-    @apply text-blue-600;
-}
+// 3. Base stuff
+@import
+    'base/base',
+    'base/fonts',
+    'base/typography',
+    'base/helpers';
 
-h1 {
-    @apply text-4xl;
-}
+// 4. Layout-related sections
+@import
+    'layout/banner',
+    'layout/header',
+    'layout/content',
+    'layout/footer';
 
-h2 {
-    @apply text-2xl;
-}
+// 5. Components
+@import
+    'components/navigation',
+    'components/table-of-contents';
 
-h3 {
-    @apply text-xl;
-}
+// 6. Page-specific styles
+@import
+    'pages/home';
 
-h4 {
-    @apply text-lg;
-}
-
-.content ul:not([class]) {
-    @apply list-disc;
-}
-
-.content ol:not([class]) {
-    @apply list-decimal;
-}
+// 7. Themes
+@import
+    'themes/default';

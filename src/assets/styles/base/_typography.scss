@@ -1,0 +1,31 @@
+/**
+ * Basic typography style for copy text
+ */
+
+h1,
+.h1 {
+    @apply text-4xl;
+}
+
+h2,
+.h2 {
+    @apply text-2xl;
+}
+
+h3,
+.h3 {
+    @apply text-xl;
+}
+
+h4,
+.h4 {
+    @apply text-lg;
+}
+
+.content ul:not([class]) {
+    @apply list-disc;
+}
+
+.content ol:not([class]) {
+    @apply list-decimal;
+}

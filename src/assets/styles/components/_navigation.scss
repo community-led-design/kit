@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the primary navigation component.
+// -----------------------------------------------------------------------------
+
+.menu-toggle[aria-expanded="false"] + .menu {
+    display: none;
+}
+
+.menu [aria-expanded="false"] + * {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-toggle,
+    .menu-label {
+        display: none;
+    }
+
+    .menu-toggle[aria-expanded="false"] + .menu {
+        display: block;
+    }
+}
