@@ -49,7 +49,7 @@ elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 <p class="text-lg">Here's a large paragraph. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 
-<p class="text-sm italic">Here's a small paragraph. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+<p class="text-sm">Here's a small paragraph. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 
 > Here's a blockquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
