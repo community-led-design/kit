@@ -22,14 +22,24 @@
     }
 
     a {
-        &:active {
-            @apply shadow-none bg-blue-100 text-blue-600;
-        }
-
         &::before {
             @apply block h-full left-0 absolute w-full top-0;
 
             content: "";
         }
+
+        &:active {
+            @apply shadow-none bg-white text-blue-600;
+
+            &::before {
+                @apply bg-white rounded-lg;
+
+                z-index: -1;
+            }
+        }
+    }
+
+    *:not(a) {
+        @apply z-10;
     }
 }
