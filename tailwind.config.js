@@ -2,14 +2,11 @@
 "use strict";
 
 module.exports = {
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true
-    },
     purge: [
         "./src/**/*.njk",
         "./src/**/*.svg"
     ],
+    darkMode: false,
     theme: {
         colors: {
             black: "#000",
@@ -38,15 +35,15 @@ module.exports = {
             body: ["Alegreya Sans", "sans-serif"]
         },
         fontSize: {
-            sm: "1rem",
-            base: "1.125rem",
-            lg: "1.25rem",
-            xl: "1.5rem",
-            "2xl": "1.75rem",
-            "3xl": "2rem",
-            "4xl": "2.5rem",
-            "5xl": "3rem",
-            "6xl": "4.5rem"
+            sm: ["1rem", {lineHeight: "1.5"}],
+            base: ["1.125rem", {lineHeight: "1.5"}],
+            lg: ["1.25rem", {lineHeight: "1.35"}],
+            xl: ["1.5rem", {lineHeight: "1.35"}],
+            "2xl": ["1.75rem", {lineHeight: "1.35"}],
+            "3xl": ["2rem", {lineHeight: "1.25"}],
+            "4xl": ["2.5rem", {lineHeight: "1.2"}],
+            "5xl": ["3rem", {lineHeight: "1.25"}],
+            "6xl": ["4.5rem", {lineHeight: "1.2"}]
         },
         extend: {
             borderWidth: {

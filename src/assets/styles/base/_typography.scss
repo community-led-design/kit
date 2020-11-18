@@ -4,8 +4,6 @@
 
 body {
     @apply text-blue-600 font-body text-base;
-
-    line-height: 1.5;
 }
 
 h1,
@@ -21,16 +19,12 @@ h4,
 
 h1,
 .h1 {
-    @apply text-4xl;
-
-    line-height: 1.2;
+    @apply text-4xl md:text-6xl;
 }
 
 h2,
 .h2 {
-    @apply text-3xl;
-
-    line-height: 1.25;
+    @apply text-3xl md:text-5xl;
 }
 
 * + h2,
@@ -40,9 +34,7 @@ h2,
 
 h3,
 .h3 {
-    @apply text-xl;
-
-    line-height: 1.35;
+    @apply text-xl md:text-2xl;
 }
 
 * + h3,
@@ -59,9 +51,7 @@ h2 + .h3,
 
 h4,
 .h4 {
-    @apply text-lg;
-
-    line-height: 1.35;
+    @apply text-lg md:text-xl;
 }
 
 * + h4,
@@ -92,26 +82,4 @@ blockquote {
 
 .content ol:not([class]) {
     @apply list-decimal list-outside;
-}
-
-@media screen and (min-width: 768px) {
-    h1,
-    .h1 {
-        @apply text-6xl;
-    }
-
-    h2,
-    .h2 {
-        @apply text-5xl;
-    }
-
-    h3,
-    .h3 {
-        @apply text-2xl;
-    }
-
-    h4,
-    .h4 {
-        @apply text-xl;
-    }
 }
