@@ -51,3 +51,6 @@ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
 
 <p class="text-sm italic">Here's a small paragraph. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+> Here's a block quote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+> ut labore et dolore magna aliquyam erat, sed diam voluptua.
