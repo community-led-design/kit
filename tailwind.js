@@ -27,9 +27,10 @@ module.exports = {
                 600: "#233938"
             },
             yellow: {
-                100: "#f5d9c7",
-                300: "#f6b026",
-                500: "#ce9b62"
+                100: "#fefef4",
+                300: "#eec01f",
+                500: "#cda71f",
+                600: "#322908"
             }
         },
         fontFamily: {
@@ -50,6 +51,9 @@ module.exports = {
         extend: {
             borderWidth: {
                 "3": "3px"
+            },
+            borderRadius: {
+                "xs": "2px"
             }
         }
     },

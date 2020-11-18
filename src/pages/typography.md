@@ -43,7 +43,7 @@ elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 Here's a paragraph that immediately follows an unordered list. Lorem ipsum dolor sit amet, consetetur sadipscing
 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-Here's a paragraph with an [inline link](/typography/). Lorem ipsum dolor sit amet, consetetur sadipscing
+Here's a paragraph with an [inline link](/typography/) surrounded by other text. Lorem ipsum dolor sit amet, consetetur sadipscing
 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 <p class="text-lg">Here's a large paragraph. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

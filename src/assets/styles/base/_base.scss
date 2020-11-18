@@ -7,4 +7,20 @@
  */
 a {
     @apply underline text-blue-500 font-bold;
+
+    &:hover {
+        @apply text-blue-600;
+    }
+
+    &:focus {
+        @apply outline-none no-underline text-blue-600;
+
+        box-shadow: 0 0 0 4px #fff, 0 0 0 6px #1b4066;
+    }
+
+    &:active {
+        @apply outline-none no-underline text-white bg-blue-600;
+
+        box-shadow: 0 0 0 2px #1b4066, 0 0 0 4px #fff, 0 0 0 6px #1b4066;
+    }
 }
