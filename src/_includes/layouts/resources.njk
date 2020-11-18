@@ -11,11 +11,7 @@
     </div> #}
     <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {% for resource in collections.resources %}
-        <article class="resource rounded border border-grey-500 shadow-md px-6 py-6" data-type="{{ resource.data.type | slug }}" data-block="{{ resource.data.buildingBlock | slug }}">
-            <p class="type bg-black text-white inline-block px-4 -ml-6 mb-2"><span class="sr-only">Type: </span>{{ resource.data.type }}</p>
-            <p class="building-block"><span class="sr-only">Building Block: </span>{{ resource.data.buildingBlock }}</p>
-            <h2><a href="{{ resource.url }}">{{ resource.data.title }}</a></h2>
-        </article>
+        {% include "partials/components/card.njk" %}
         {% endfor %}
     </div>
 </div>

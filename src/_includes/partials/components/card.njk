@@ -1,0 +1,4 @@
+<article class="card resource px-6 py-6 bg-blue-100 h-48 flex flex-col justify-between" data-type="{{ resource.data.type | slug }}" data-block="{{ resource.data.buildingBlock | slug }}">
+    <h2 class="h4"><a class="no-underline" href="{{ resource.url }}">{{ resource.data.title }}</a></h2>
+    <p class=""><strong>{{ resource.data.type }}</strong> for <br class="md:hidden" /><strong>{{ resource.data.buildingBlock }}</strong></p>
+</article>

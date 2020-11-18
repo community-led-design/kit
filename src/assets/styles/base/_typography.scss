@@ -2,24 +2,28 @@
  * Basic typography style for copy text
  */
 
+body {
+    @apply text-blue-600 font-body text-base;
+}
+
 h1,
 .h1 {
-    @apply text-4xl;
+    @apply text-4xl font-bold;
 }
 
 h2,
 .h2 {
-    @apply text-2xl;
+    @apply text-3xl font-bold;
 }
 
 h3,
 .h3 {
-    @apply text-xl;
+    @apply text-xl font-bold;
 }
 
 h4,
 .h4 {
-    @apply text-lg;
+    @apply text-lg font-bold;
 }
 
 .content ul:not([class]) {
@@ -28,4 +32,26 @@ h4,
 
 .content ol:not([class]) {
     @apply list-decimal;
+}
+
+@media screen and (min-width: 768px) {
+    h1,
+    .h1 {
+        @apply text-6xl;
+    }
+
+    h2,
+    .h2 {
+        @apply text-5xl;
+    }
+
+    h3,
+    .h3 {
+        @apply text-2xl;
+    }
+
+    h4,
+    .h4 {
+        @apply text-xl;
+    }
 }

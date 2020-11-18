@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the card component.
+// -----------------------------------------------------------------------------
+
+.card {
+    @apply border-t-3;
+
+    &[data-type="activity"] {
+        @apply border-green-300;
+    }
+
+    &[data-type="guide"] {
+        @apply border-blue-300;
+    }
+
+    &[data-type="tool"] {
+        @apply border-yellow-300;
+    }
+}
