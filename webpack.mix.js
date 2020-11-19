@@ -34,6 +34,9 @@ mix.options({
 // Enable source maps.
 mix.sourceMaps(false, "source-map");
 
+// Disable notifications unless there's an error.
+mix.disableSuccessNotifications();
+
 // Add version string to assets in production.
 if (mix.inProduction()) {
     mix.version();
