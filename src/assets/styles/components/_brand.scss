@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains all application-wide Sass functions.
+// This file contains all styles related to the brand component.
 // -----------------------------------------------------------------------------
 
-@function rem($size) {
-    @return $size / 16 * 1rem;
+.brand {
+    display: none;
 }

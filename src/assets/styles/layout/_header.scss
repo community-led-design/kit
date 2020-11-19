@@ -3,5 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .header {
-    @apply max-w-6xl mx-auto my-12 px-6;
+    margin: 3rem auto; // TODO: Create variable.
+    max-width: 72rem; // TODO: Create variable.
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; // TODO: Create variable.
+
+    > * + * {
+        margin-top: 1rem;
+    }
 }

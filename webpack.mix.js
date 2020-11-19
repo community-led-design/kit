@@ -15,8 +15,6 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICEN
 const mix = require("laravel-mix");
 const moveFile = require("move-file");
 
-require("laravel-mix-tailwind");
-
 // Set public path.
 mix.setPublicPath("dist/assets");
 
@@ -26,7 +24,7 @@ mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
 
 // Process Sass.
-mix.sass("./src/assets/styles/app.scss", "dist/assets/styles").tailwind();
+mix.sass("./src/assets/styles/app.scss", "dist/assets/styles");
 
 // Don't modify stylesheet url() functions.
 mix.options({

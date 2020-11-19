@@ -1,3 +1,43 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
+
+$black: #000;
+$white: #fff;
+
+$blue-100: #eef3f9;
+$blue-300: #41cdfa;
+$blue-500: #1362b4;
+$blue-600: #1b4066;
+
+$green-100: #e8f3f2;
+$green-300: #98d1cd;
+$green-500: #375c59;
+$green-600: #233938;
+
+$yellow-100: #fefef4;
+$yellow-300: #eec01f;
+$yellow-500: #cda71f;
+$yellow-600: #322908;
+
+$font-base: "Alegreya Sans", sans-serif;
+$font-display: "Open Sans", sans-serif;
+
+$weight-normal: 500;
+$weight-bold: 700;
+
+// Type Scale
+$scale--1: rem(16); // sm
+$scale-0: rem(18); // base
+$scale-1: rem(20); // lg
+$scale-2: rem(24); // xl
+$scale-3: rem(28); // 2xl
+$scale-4: rem(32); // 3xl
+$scale-5: rem(40); // 4xl
+$scale-6: rem(48); // 5xl
+$scale-7: rem(72); // 6xl
+
+.text-scale-3 {
+    font-size: $scale-3;
+    line-height: 1.35;
+}

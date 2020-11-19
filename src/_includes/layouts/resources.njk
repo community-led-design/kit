@@ -9,7 +9,7 @@
     {# <div class="filters">
         <p>Filter by:</p>
     </div> #}
-    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid grid--md-2 grid--lg-3">
         {% for resource in collections.resources %}
         {% include "partials/components/card.njk" %}
         {% endfor %}

@@ -3,7 +3,10 @@
  */
 
 body {
-    @apply text-blue-600 font-body text-base;
+    color: $blue-600;
+    font-family: $font-base;
+    font-size: $scale-0;
+    line-height: 1.5;
 }
 
 h1,
@@ -14,17 +17,28 @@ h4,
 .h2,
 .h3,
 .h4 {
-    @apply font-display font-bold;
+    font-family: $font-display;
+    font-weight: $weight-bold;
 }
 
 h1,
 .h1 {
-    @apply text-4xl md:text-6xl;
+    font-size: $scale-5;
+    line-height: 1.2;
+
+    @media (min-width: 768px) {
+        font-size: $scale-7;
+    }
 }
 
 h2,
 .h2 {
-    @apply text-3xl md:text-5xl;
+    font-size: $scale-4;
+    line-height: 1.25;
+
+    @media (min-width: 768px) {
+        font-size: $scale-6;
+    }
 }
 
 * + h2,
@@ -34,7 +48,12 @@ h2,
 
 h3,
 .h3 {
-    @apply text-xl md:text-2xl;
+    font-size: $scale-2;
+    line-height: 1.35;
+
+    @media (min-width: 768px) {
+        font-size: $scale-3;
+    }
 }
 
 * + h3,
@@ -51,7 +70,12 @@ h2 + .h3,
 
 h4,
 .h4 {
-    @apply text-lg md:text-xl;
+    font-size: $scale-1;
+    line-height: 1.35;
+
+    @media (min-width: 768px) {
+        font-size: $scale-2;
+    }
 }
 
 * + h4,
@@ -69,17 +93,31 @@ h4,
 }
 
 blockquote {
-    @apply px-6 py-6 bg-blue-100 text-lg italic border-l-3 border-blue-500;
+    background: $blue-100;
+    border-left: solid 3px $blue-500; // TODO: Create variable.
+    font-size: $scale-1;
+    font-style: italic;
+    line-height: 1.35;
+    padding: 1.5rem; // TODO: Create variable
 }
 
 * + blockquote {
     margin-top: 1rem;
 }
 
+ul[role="list"],
+ol[role="list"] {
+    padding-left: 0;
+}
+
 .content ul:not([class]) {
-    @apply list-disc list-outside;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 0;
 }
 
 .content ol:not([class]) {
-    @apply list-decimal list-outside;
+    list-style-position: outside;
+    list-style-type: decimal;
+    padding-left: 0;
 }

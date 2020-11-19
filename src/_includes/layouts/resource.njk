@@ -1,9 +1,9 @@
 {% extends "layouts/base.njk" %}
 
 {% block pageHeader %}
-<header class="header space-y-4">
+<header class="header">
     <h1>{{ title | safe}}</h1>
-    <p class="subtitle text-2xl"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+    <p class="subtitle [ text-scale-3 ]"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
 </header>
 {% endblock %}
 

@@ -20,16 +20,16 @@
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
         {% include "partials/scripts.njk" %}
     </head>
-    <body>
+    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
         {% include "partials/uio.njk" %}
         {% include "partials/header.njk" %}
-        <main class="px-6">
+        <main>
             <article>
                 {% block pageHeader %}
                 {% include "partials/page-header.njk" %}
                 {% endblock %}
                 {% block toc %}
-                <div class="toc hidden">
+                <div class="toc">
                 </div>
                 {% endblock %}
                 {% block content %}

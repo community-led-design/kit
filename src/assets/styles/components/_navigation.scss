@@ -2,15 +2,49 @@
 // This file contains all styles related to the primary navigation component.
 // -----------------------------------------------------------------------------
 
+.nav {
+    margin-top: 3rem; // TODO: Create variable.
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; // TODO: Create variable.
+}
+
 .menu-toggle[aria-expanded="false"] + .menu {
     display: none;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+
+    > * + * {
+        margin-top: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: flex-end;
+
+        > * + * {
+            margin-left: 1.5rem;
+            margin-top: 0;
+        }
+
+        ul {
+            flex-direction: column;
+
+            > * + * {
+                margin-left: 0;
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 .menu [aria-expanded="false"] + * {
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .menu-toggle,
     .menu-label {
         display: none;

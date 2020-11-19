@@ -1,48 +1,56 @@
 {% extends "layouts/base.njk" %}
 
+{% set bodyClass = "home" %}
+
 {% block toc %}
 {% endblock %}
 
 {% block content %}
-<div class="content space-y-12">
-    <section class="space-y-4">
+<div class="content">
+    <section>
         <h2>Community-led co-design</h2>
         <p>Community-led co-design is an approach in which the co-design process, not just the outcomes, is developed in collaboration with community members who will be directly impacted by the design.</p>
         <p><strong>Community-led co-design:</strong></p>
-        <ul class="list-none font-bold grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            <li><span class="block bg-blue-500 h-48 mb-2"></span>Recognizes and leverages community leadership</li>
-            <li><span class="block bg-blue-500 h-48 mb-2"></span>Uses a familiar and comfortable environment</li>
-            <li><span class="block bg-blue-500 h-48 mb-2"></span>Creates more engaged communities</li>
-            <li><span class="block bg-blue-500 h-48 mb-2"></span>Moves from design <em>with</em> to design <em>by</em></li>
+        <ul role="list" class="grid grid--md-2 grid--lg-4">
+            <li><strong>Recognizes and leverages community leadership</strong></li>
+            <li><strong>Uses a familiar and comfortable environment</strong></li>
+            <li><strong>Creates more engaged communities</strong></li>
+            <li><strong>Moves from design <em>with</em> to design <em>by</em></strong></li>
         </ul>
         <p><a href="/about/">Read more about co-design and community-led co-design</a></p>
     </section>
-    <section class="space-y-4">
+    <section>
         <h2>Where to start</h2>
-        <ol class="list-decimal list-inside font-bold grid gap-4 lg:grid-cols-3">
+        <ol class="grid grid--lg-3">
             <li>
-                Introduction
-                <p class="font-normal mt-2">Read the <a href="/introduction/">Introduction to co-design and community-led co-design</a></p>
+                <p>
+                    <strong>Introduction</strong>
+                </p>
+                <p>Read the <a href="/introduction/">Introduction to co-design and community-led co-design</a></p>
             </li>
             <li>
-                How to use this kit
-                <p class="font-normal mt-2">Read the guide on <a href="/how-to/">How to use this Kit</a></p>
+                <p>
+                    <strong>How to use this kit</strong>
+                </p>
+                <p>Read the guide on <a href="/how-to/">How to use this Kit</a></p>
             </li>
             <li>
-                Explore this kit
-                <p class="font-normal mt-2">Look through this kit by:<br><a href="#building-blocks-of-co-design">Co-design building blocks</a><br>
+                <p>
+                    <strong>Explore this kit</strong>
+                </p>
+                <p>Look through this kit by:<br><a href="#building-blocks-of-co-design">Co-design building blocks</a><br>
                 Or, <a href="/#browse-all">Browse all</a></p>
             </li>
         </ol>
     </section>
-    <section class="space-y-4">
+    <section>
         <h2>Explore this kit</h2>
         <!-- TODO: Add playlists -->
         <h3>Building blocks of co-design</h3>
         <p>Each of these blocks includes guides, activities, and tools.</p>
-        <div class="grid gap-x-4 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid--md-2 grid--md-3">
         {% for block in buildingBlocks %}
-        <div class="block">
+        <div>
             <h4>{{ block.name | safe }}</h4>
             <p>{{ block.description | safe }}</p>
             <p><a href="/building-blocks/{{ block.name | slug }}/">Browse methods in {{ block.name | lower | safe }}</a></p>

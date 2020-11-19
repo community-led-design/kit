@@ -1,3 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.home .content {
+    > * + * {
+        margin-top: 3rem; // TODO: Create variable.
+    }
+
+    section > * + * {
+        margin-top: 1.5rem; // TODO: Create variable.
+    }
+
+    section ol {
+        padding-left: 0;
+    }
+}
