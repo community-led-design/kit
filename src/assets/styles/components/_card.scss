@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .card {
-    background: $blue-100;
+    background: map-get($colors, blue-100);
     border-top: solid 3px; // TODO: Create variable.
     cursor: pointer;
     display: flex;
@@ -25,19 +25,19 @@
     }
 
     &[data-type="activity"] {
-        border-color: $green-300;
+        border-color: map-get($colors, green-300);
     }
 
     &[data-type="guide"] {
-        border-color: $blue-300;
+        border-color: map-get($colors, blue-300);
     }
 
     &[data-type="tool"] {
-        border-color: $yellow-300;
+        border-color: map-get($colors, yellow-300);
     }
 
     a {
-        color: $blue-600;
+        color: map-get($colors, blue-600);
         text-decoration: none;
 
         &::before {
@@ -55,12 +55,12 @@
         }
 
         &:active {
-            background-color: $white;
+            background-color: map-get($colors, white);
             box-shadow: none;
-            color: $blue-600;
+            color: map-get($colors, blue-600);
 
             &::before {
-                background-color: $white;
+                background-color: map-get($colors, white);
                 border-radius: 0.5rem; // TODO: Create variable.
                 z-index: -1;
             }

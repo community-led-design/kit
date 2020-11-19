@@ -2,24 +2,25 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-$black: #000;
-$white: #fff;
+// Colors
+$colors: (
+    "black": #000,
+    "white": #fff,
+    blue-100: #eef3f9,
+    blue-300: #41cdfa,
+    blue-500: #1362b4,
+    blue-600: #1b4066,
+    green-100: #e8f3f2,
+    green-300: #98d1cd,
+    green-500: #375c59,
+    green-600: #233938,
+    yellow-100: #fefef4,
+    yellow-300: #eec01f,
+    yellow-500: #cda71f,
+    yellow-600: #322908
+);
 
-$blue-100: #eef3f9;
-$blue-300: #41cdfa;
-$blue-500: #1362b4;
-$blue-600: #1b4066;
-
-$green-100: #e8f3f2;
-$green-300: #98d1cd;
-$green-500: #375c59;
-$green-600: #233938;
-
-$yellow-100: #fefef4;
-$yellow-300: #eec01f;
-$yellow-500: #cda71f;
-$yellow-600: #322908;
-
+// Font Faces
 $font-base: "Alegreya Sans", sans-serif;
 $font-display: "Open Sans", sans-serif;
 

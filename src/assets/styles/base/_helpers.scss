@@ -17,3 +17,19 @@
 .inline {
     display: inline;
 }
+
+.flow > * + * {
+    margin-top: var(--flow-space, 1rem);
+}
+
+@each $name, $value in $colors {
+    .bg-#{$name} {
+        background: $value;
+    }
+}
+
+@each $name, $value in $colors {
+    .text-#{$name} {
+        color: $value;
+    }
+}

@@ -1,44 +1,37 @@
 <!doctype html>
 <html class="no-js" lang="en-ca">
     <head>
-        <meta charset="utf-8">
-        <title>{{ title + " – " + site.title if title else site.title }}</title>
-        <meta name="description" content="{{ description if description else site.description }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        {# <meta property="og:title" content="">
-        <meta property="og:type" content="">
-        <meta property="og:url" content="https://codesign.inclusivedesign.ca/">
-        <meta property="og:image" content="/assets/images/opengraph.png"> #}
+        {% include "partials/global/meta.njk" %}
 
         {# <link rel="manifest" href="/site.webmanifest"> #}
         {# <link rel="apple-touch-icon" href="/assets/images/icon.png"> #}
 
-        {% include "partials/stylesheets.njk" %}
+        {% include "partials/global/stylesheets.njk" %}
 
         <script>document.documentElement.classList.remove('no-js');</script>
         <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
-        {% include "partials/scripts.njk" %}
+        {% include "partials/global/scripts.njk" %}
     </head>
     <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
-        {% include "partials/uio.njk" %}
-        {% include "partials/header.njk" %}
+        {% include "partials/global/uio.njk" %}
+        {% include "partials/global/header.njk" %}
         <main>
             <article>
                 {% block pageHeader %}
-                {% include "partials/page-header.njk" %}
+                {% include "partials/global/page-header.njk" %}
                 {% endblock %}
                 {% block toc %}
                 <div class="toc">
                 </div>
                 {% endblock %}
                 {% block content %}
-                <div class="content">
+                <div class="content [ flow ]">
                 {{ content | safe }}
                 </div>
                 {% endblock %}
             </article>
         </main>
+        {% include "partials/global/footer.njk" %}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     </body>
 </html>

@@ -3,12 +3,10 @@
 // -----------------------------------------------------------------------------
 
 .home .content {
-    > * + * {
-        margin-top: 3rem; // TODO: Create variable.
-    }
+    --flow-space: 3rem;
 
-    section > * + * {
-        margin-top: 1.5rem; // TODO: Create variable.
+    section {
+        --flow-space: 1.5rem;
     }
 
     section ol {

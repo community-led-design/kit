@@ -14,25 +14,25 @@ main {
  * Basic styles for links
  */
 a {
-    color: $blue-500;
+    color: map-get($colors, blue-500);
     font-weight: $weight-bold;
     text-decoration: underline;
 
     &:hover {
-        color: $blue-600;
+        color: map-get($colors, blue-600);
     }
 
     &:focus {
         box-shadow: 0 0 0 4px #fff, 0 0 0 6px #1b4066; // TODO: Create variable.
-        color: $blue-600;
+        color: map-get($colors, blue-600);
         outline: none;
         text-decoration: none;
     }
 
     &:active {
-        background: $blue-600;
+        background: map-get($colors, blue-600);
         box-shadow: 0 0 0 2px #1b4066, 0 0 0 4px #fff, 0 0 0 6px #1b4066; // TODO: Create variable.
-        color: $white;
+        color: map-get($colors, white);
         outline: none;
         text-decoration: none;
     }

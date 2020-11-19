@@ -3,7 +3,7 @@
  */
 
 body {
-    color: $blue-600;
+    color: map-get($colors, blue-600);
     font-family: $font-base;
     font-size: $scale-0;
     line-height: 1.5;
@@ -93,8 +93,8 @@ h4,
 }
 
 blockquote {
-    background: $blue-100;
-    border-left: solid 3px $blue-500; // TODO: Create variable.
+    background: map-get($colors, blue-100);
+    border-left: solid 3px map-get($colors, blue-500); // TODO: Create variable.
     font-size: $scale-1;
     font-style: italic;
     line-height: 1.35;

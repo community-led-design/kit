@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
 
-    > * + * {
+    > li + li {
         margin-top: 1rem;
     }
 
@@ -24,7 +24,7 @@
         flex-direction: row;
         justify-content: flex-end;
 
-        > * + * {
+        > li + li {
             margin-left: 1.5rem;
             margin-top: 0;
         }
@@ -32,7 +32,7 @@
         ul {
             flex-direction: column;
 
-            > * + * {
+            > li + li {
                 margin-left: 0;
                 margin-top: 0;
             }

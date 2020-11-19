@@ -79,13 +79,13 @@ busting](https://laravel-mix.com/docs/5.0/versioning)):
 }
 ```
 
-The [`scripts.njk`](../_includes/partials/scripts.njk) and [`stylesheets.njk`](../_includes/partials/stylesheets.njk)
+The [`scripts.njk`](../_includes/partials/global/scripts.njk) and [`stylesheets.njk`](../_includes/partials/global/stylesheets.njk)
 template partials use this asset manifest to load scripts and stylesheets in the site header. When running webpack and
 Eleventy in watch mode (using `npm start`), a successful webpack build will update the asset manifest, triggering an
 Eleventy build and refreshing the local development site with updated CSS and JavaScript assets.
 
 If you wish to load different scripts or stylesheets on different pages, you will need to modify the
-[`scripts.njk`](../_includes/partials/scripts.njk) and [`stylesheets.njk`](../_includes/partials/stylesheets.njk)
+[`scripts.njk`](../_includes/partials/global/scripts.njk) and [`stylesheets.njk`](../_includes/partials/global/stylesheets.njk)
 template partials to accomplish this.
 
 ## Advanced Methods
