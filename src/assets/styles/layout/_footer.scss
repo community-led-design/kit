@@ -3,8 +3,23 @@
 // -----------------------------------------------------------------------------
 
 .footer {
-    margin: 3rem auto; // TODO: Create variable.
+    margin: 0 auto; // TODO: Create variable.
     max-width: 72rem; // TODO: Create variable.
     padding-left: 1.5rem;
     padding-right: 1.5rem; // TODO: Create variable.
+}
+
+.footer [rel="home"] {
+    display: inline-block;
+    height: rem(66);
+
+    svg {
+        fill: currentColor;
+        height: rem(66);
+        width: rem(256);
+    }
+
+    &:active svg {
+        fill: var(--bg-parent);
+    }
 }
