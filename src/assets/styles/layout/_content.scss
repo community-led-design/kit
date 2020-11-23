@@ -2,7 +2,8 @@
 // This file contains all styles related to the content area of the site.
 // -----------------------------------------------------------------------------
 
-.content {
+.content,
+.wrapper {
     margin: 3rem auto; // TODO: Create variable.
     max-width: 72rem; // TODO: Create variable.
     padding-left: 1.5rem;

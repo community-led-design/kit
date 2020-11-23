@@ -24,6 +24,8 @@
 
 @each $name, $value in $colors {
     .bg-#{$name} {
+        --bg-parent: #{$value};
+
         background: $value;
     }
 }
@@ -32,4 +34,18 @@
     .text-#{$name} {
         color: $value;
     }
+}
+
+.bg--full {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.mt-5 {
+    margin-top: rem(40);
+}
+
+img {
+    height: auto;
 }

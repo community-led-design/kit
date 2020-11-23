@@ -23,7 +23,7 @@ a {
     }
 
     &:focus {
-        box-shadow: 0 0 0 4px #fff, 0 0 0 6px #1b4066; // TODO: Create variable.
+        box-shadow: 0 0 0 4px var(--bg-parent, #{map-get($colors, "white")}), 0 0 0 6px map-get($colors, blue-600); // TODO: Create variable.
         color: map-get($colors, blue-600);
         outline: none;
         text-decoration: none;
@@ -31,9 +31,29 @@ a {
 
     &:active {
         background: map-get($colors, blue-600);
-        box-shadow: 0 0 0 2px #1b4066, 0 0 0 4px #fff, 0 0 0 6px #1b4066; // TODO: Create variable.
-        color: map-get($colors, white);
+        box-shadow: 0 0 0 2px map-get($colors, blue-600), 0 0 0 4px var(--bg-parent, #{map-get($colors, "white")}), 0 0 0 6px map-get($colors, blue-600); // TODO: Create variable.
+        color: var(--bg-parent, #{map-get($colors, white)});
         outline: none;
         text-decoration: none;
+    }
+}
+
+.text-white {
+    a {
+        color: map-get($colors, "white");
+
+        &:hover {
+            color: map-get($colors, blue-100);
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 4px var(--bg-parent), 0 0 0 6px map-get($colors, blue-100); // TODO: Create variable.
+            color: map-get($colors, blue-100);
+        }
+
+        &:active {
+            background: map-get($colors, blue-100);
+            box-shadow: 0 0 0 2px map-get($colors, blue-100), 0 0 0 4px var(--bg-parent), 0 0 0 6px map-get($colors, blue-100); // TODO: Create variable.
+        }
     }
 }
