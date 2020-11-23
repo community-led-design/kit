@@ -2,10 +2,13 @@
 // This file contains all styles related to the header of a specific page.
 // -----------------------------------------------------------------------------
 
-.header {
-    margin: 0 auto;
-    max-width: var(--max-content);
-    padding-left: var(--scale-2);
-    padding-right: var(--scale-2);
-    width: 100%;
+.header h1,
+.header .subtitle {
+    @media (min-width: 1024px) {
+        width: 50%;
+    }
+}
+
+.header .subtitle {
+    margin-top: var(--scale-5);
 }

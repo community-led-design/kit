@@ -1,6 +1,8 @@
-<header class="header">
-    <h1>{{ title | safe}}</h1>
-    {% if subtitle %}
-    <p class="subtitle">{{ subtitle | safe }}</p>
-    {% endif %}
+<header class="header bg-green-100 bg--full">
+    <div class="wrapper">
+        <h1>{{ title | safe}}</h1>
+        {% if subtitle %}
+        <p class="subtitle">{{ subtitle | safe }}</p>
+        {% endif %}
+    </div>
 </header>
