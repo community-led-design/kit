@@ -3,9 +3,9 @@
  */
 
 body {
-    color: map-get($colors, blue-600);
-    font-family: $font-base;
-    font-size: $scale-0;
+    color: var(--blue-600);
+    font-family: var(--font-base);
+    font-size: var(--scale-0);
     line-height: 1.5;
 }
 
@@ -17,92 +17,92 @@ h4,
 .h2,
 .h3,
 .h4 {
-    font-family: $font-display;
-    font-weight: $weight-bold;
+    font-family: var(--font-display);
+    font-weight: var(--weight-bold);
 }
 
 h1,
 .h1 {
-    font-size: $scale-5;
+    font-size: var(--scale-5);
     line-height: 1.2;
 
     @media (min-width: 768px) {
-        font-size: $scale-7;
+        font-size: var(--scale-8);
     }
 }
 
 h2,
 .h2 {
-    font-size: $scale-4;
+    font-size: var(--scale-4);
     line-height: 1.25;
 
     @media (min-width: 768px) {
-        font-size: $scale-6;
+        font-size: var(--scale-6);
     }
 }
 
 * + h2,
 * + .h2 {
-    margin-top: 4rem;
+    margin-top: var(--scale-7);
 }
 
 h3,
 .h3 {
-    font-size: $scale-2;
+    font-size: var(--scale-2);
     line-height: 1.35;
 
     @media (min-width: 768px) {
-        font-size: $scale-3;
+        font-size: var(--scale-3);
     }
 }
 
 * + h3,
 * + .h3 {
-    margin-top: 2.5rem;
+    margin-top: var(--scale-5);
 }
 
 h2 + h3,
 h2 + .h3,
 .h2 + h3,
 .h2 + .h3 {
-    margin-top: 2rem;
+    margin-top: var(--scale-4);
 }
 
 h4,
 .h4 {
-    font-size: $scale-1;
+    font-size: var(--scale-1);
     line-height: 1.35;
 
     @media (min-width: 768px) {
-        font-size: $scale-2;
+        font-size: var(--scale-2);
     }
 }
 
 * + h4,
 * + .h4 {
-    margin-top: 1.5rem;
+    margin-top: var(--scale-2);
 }
 
 * + p {
-    margin-top: 1rem;
+    margin-top: var(--scale--1);
 }
 
 * + ul,
 * + ol {
-    margin-top: 1rem;
+    margin-top: var(--scale--1);
 }
 
 blockquote {
-    background: map-get($colors, blue-100);
-    border-left: solid 3px map-get($colors, blue-500); // TODO: Create variable.
-    font-size: $scale-1;
+    background: var(--blue-100);
+    border-left: solid 3px var(--blue-500);
+    font-size: var(--scale-1);
     font-style: italic;
     line-height: 1.35;
-    padding: 1.5rem; // TODO: Create variable
+    padding: var(--scale-2);
 }
 
 * + blockquote {
-    margin-top: 1rem;
+    margin-top: var(--scale--1);
 }
 
 ul[role="list"],
@@ -120,4 +120,49 @@ ol[role="list"] {
     list-style-position: outside;
     list-style-type: decimal;
     padding-left: 0;
+}
+
+.text-scale--1 {
+    font-size: var(--scale--1);
+    line-height: 1.5;
+}
+
+.text-scale-0 {
+    font-size: var(--scale-0);
+    line-height: 1.5;
+}
+
+.text-scale-1 {
+    font-size: var(--scale-1);
+    line-height: 1.35;
+}
+
+.text-scale-2 {
+    font-size: var(--scale-2);
+    line-height: 1.35;
+}
+
+.text-scale-3 {
+    font-size: var(--scale-3);
+    line-height: 1.35;
+}
+
+.text-scale-4 {
+    font-size: var(--scale-4);
+    line-height: 1.25;
+}
+
+.text-scale-5 {
+    font-size: var(--scale-5);
+    line-height: 1.2;
+}
+
+.text-scale-6 {
+    font-size: var(--scale-6);
+    line-height: 1.25;
+}
+
+.text-scale-8 {
+    font-size: var(--scale-8);
+    line-height: 1.2;
 }

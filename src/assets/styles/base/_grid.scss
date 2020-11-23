@@ -4,7 +4,7 @@
 
 .grid {
     display: grid;
-    gap: var(--row-gap, 2rem) var(--column-gap, 2rem);
+    gap: var(--row-gap, var(--scale-4)) var(--column-gap, var(--scale-4));
 }
 
 .grid--2 {

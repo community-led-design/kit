@@ -3,10 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .footer {
-    margin: 0 auto; // TODO: Create variable.
-    max-width: 72rem; // TODO: Create variable.
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; // TODO: Create variable.
+    margin: auto auto 0;
+    max-width: var(--max-content);
+    padding-left: var(--scale-2);
+    padding-right: var(--scale-2);
+    width: 100%;
 }
 
 .footer [rel="home"] {
@@ -22,4 +23,8 @@
     &:active svg {
         fill: var(--bg-parent);
     }
+}
+
+.footer .grid {
+    margin-top: var(--scale-2);
 }

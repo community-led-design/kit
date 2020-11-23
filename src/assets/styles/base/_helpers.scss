@@ -22,6 +22,18 @@
     margin-top: var(--flow-space, 1rem);
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: var(--max-content);
+    padding: var(--scale-8) 0;
+}
+
+@each $name, $value in $scale {
+    .mt-#{$name} {
+        margin-top: var(--#{$name});
+    }
+}
+
 @each $name, $value in $colors {
     .bg-#{$name} {
         --bg-parent: #{$value};
@@ -40,14 +52,10 @@
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
-}
 
-.pt-5 {
-    padding-top: rem(40);
-}
-
-.pb-2 {
-    padding-bottom: rem(24);
+    .wrapper {
+        padding: var(--scale-8) var(--scale-2);
+    }
 }
 
 img {

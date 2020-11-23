@@ -5,34 +5,41 @@
 /**
  * Basic styles for page structure
  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 main {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; // TODO: Create variable.
+    padding-left: var(--scale-2);
+    padding-right: var(--scale-2); // TODO: Create variable.
 }
 
 /**
  * Basic styles for links
  */
 a {
-    color: map-get($colors, blue-500);
-    font-weight: $weight-bold;
+    color: var(--blue-500);
+    font-weight: var(--weight-bold);
     text-decoration: underline;
 
     &:hover {
-        color: map-get($colors, blue-600);
+        color: var(--blue-600);
     }
 
     &:focus {
-        box-shadow: 0 0 0 4px var(--bg-parent, #{map-get($colors, "white")}), 0 0 0 6px map-get($colors, blue-600); // TODO: Create variable.
-        color: map-get($colors, blue-600);
+        box-shadow: 0 0 0 4px var(--bg-parent, var(--white)), 0 0 0 6px var(--blue-600); // TODO: Create variable.
+        color: var(--blue-600);
         outline: none;
         text-decoration: none;
     }
 
     &:active {
-        background: map-get($colors, blue-600);
-        box-shadow: 0 0 0 2px map-get($colors, blue-600), 0 0 0 4px var(--bg-parent, #{map-get($colors, "white")}), 0 0 0 6px map-get($colors, blue-600); // TODO: Create variable.
-        color: var(--bg-parent, #{map-get($colors, white)});
+        background: var(--blue-600);
+        box-shadow: 0 0 0 2px var(--blue-600), 0 0 0 4px var(--bg-parent, var(--white)), 0 0 0 6px var(--blue-600); // TODO: Create variable.
+        color: var(--bg-parent, var(--white));
         outline: none;
         text-decoration: none;
     }
@@ -40,20 +47,21 @@ a {
 
 .text-white {
     a {
-        color: map-get($colors, "white");
+        color: var(--white);
 
         &:hover {
-            color: map-get($colors, blue-100);
+            color: var(--blue-100);
         }
 
         &:focus {
-            box-shadow: 0 0 0 4px var(--bg-parent), 0 0 0 6px map-get($colors, blue-100); // TODO: Create variable.
-            color: map-get($colors, blue-100);
+            box-shadow: 0 0 0 4px var(--bg-parent), 0 0 0 6px var(--blue-100); // TODO: Create variable.
+            color: var(--blue-100);
         }
 
         &:active {
-            background: map-get($colors, blue-100);
-            box-shadow: 0 0 0 2px map-get($colors, blue-100), 0 0 0 4px var(--bg-parent), 0 0 0 6px map-get($colors, blue-100); // TODO: Create variable.
+            background: var(--blue-100);
+            box-shadow: 0 0 0 2px var(--blue-100), 0 0 0 4px var(--bg-parent), 0 0 0 6px var(--blue-100); // TODO: Create variable.
+            color: var(--bg-parent);
         }
     }
 }

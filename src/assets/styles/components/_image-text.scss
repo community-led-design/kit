@@ -22,7 +22,7 @@
     }
 
     .subtitle {
-        font-weight: $weight-bold;
+        font-weight: var(--weight-bold);
     }
 
     .byline {

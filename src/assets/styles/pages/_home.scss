@@ -3,13 +3,10 @@
 // -----------------------------------------------------------------------------
 
 .home .content {
-    --flow-space: 3rem;
+    --flow-space: var(--scale-6);
 
     section {
-        --flow-space: 1.5rem;
-
-        padding-bottom: 3rem;
-        padding-top: 4rem;
+        --flow-space: var(--scale-2);
     }
 
     section ol {

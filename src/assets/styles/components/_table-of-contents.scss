@@ -3,10 +3,10 @@
 // -----------------------------------------------------------------------------
 
 .toc {
-    margin: 3rem auto; // TODO: Create variable.
-    max-width: 72rem; // TODO: Create variable.
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; // TODO: Create variable.
+    margin: var(--scale-6) auto;
+    max-width: var(--max-content);
+    padding-left: var(--scale-2);
+    padding-right: var(--scale-2);
 }
 
 .toc:empty {
