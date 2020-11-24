@@ -9,11 +9,11 @@
         {% include "partials/global/stylesheets.njk" %}
 
         <script>document.documentElement.classList.remove('no-js');</script>
-        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
+        {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
     </head>
     <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
-        {% include "partials/global/uio.njk" %}
+        {# {% include "partials/global/uio.njk" %} #}
         {% include "partials/global/header.njk" %}
         <main>
             <article>

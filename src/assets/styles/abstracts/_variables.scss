@@ -5,7 +5,9 @@
 // Colors
 $colors: (
     "black": #000,
+    black-opacity-30: transparentize(#000, 0.7),
     "white": #fff,
+    white-opacity-50: transparentize(#fff, 0.5),
     blue-100: #eef3f9,
     blue-300: #41cdfa,
     blue-500: #1362b4,
@@ -34,6 +36,7 @@ $weights: (
 
 // Scale
 $scale: (
+    scale--2: rem(14),
     scale--1: rem(16),
     scale-0: rem(18),
     scale-1: rem(20),

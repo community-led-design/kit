@@ -3,5 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .banner {
-    // TODO.
+    .wrapper {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+
+.home .banner {
+    background: var(--green-100);
 }
