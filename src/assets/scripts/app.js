@@ -77,13 +77,6 @@ document.addEventListener("click", event => {
 
     const expanded = menuToggle.getAttribute("aria-expanded") === "true" || false;
     menuToggle.setAttribute("aria-expanded", !expanded);
-    if (!expanded) {
-        menuToggle.nextElementSibling.classList.add("bg-blue-600");
-        menuToggle.nextElementSibling.classList.add("text-white");
-    } else {
-        menuToggle.nextElementSibling.classList.remove("bg-blue-600");
-        menuToggle.nextElementSibling.classList.remove("text-white");
-    }
 });
 
 // Handle click event on submenu toggle button.
