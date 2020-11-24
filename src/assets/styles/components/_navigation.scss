@@ -15,7 +15,15 @@
 
     svg {
         margin-right: 0.5rem;
+        margin-top: 1px;
     }
+}
+
+.menu-toggle[aria-expanded="true"] {
+    --button-color: var(--white);
+    --button-focus-color: var(--white);
+    --button-active-background: var(--white);
+    --button-active-color: var(--blue-600);
 }
 
 .menu-toggle[aria-expanded="false"] + .menu {
@@ -24,9 +32,11 @@
 }
 
 .menu {
+    background: var(--blue-600);
+    color: var(--white);
     margin-left: calc(-1 * var(--scale-4));
     margin-top: calc(-1 * (var(--scale-4) + var(--scale-0)));
-    padding-top: var(--scale-4);
+    padding-top: calc(var(--scale-4) + var(--scale-0));
     width: 100vw;
 }
 
@@ -42,6 +52,7 @@
 .menu ul > li a,
 .menu ul > li button {
     align-items: center;
+    color: inherit;
     display: flex;
     flex-direction: row;
     font-weight: var(--weight-bold);
