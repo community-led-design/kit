@@ -145,6 +145,8 @@
 
     .menu {
         --nav-current-background: transparent;
+        --nav-submenu-background: var(--nav-focus-background);
+        --nav-submenu-color: var(--nav-focus-color);
 
         background: var(--nav-background, inherit);
         color: var(--nav-color, currentColor);
@@ -153,21 +155,29 @@
         width: auto;
     }
 
-    [data-banner="light"] .menu {
+    [data-banner="light"] {
         --nav-hover-background: var(--white-opacity-70);
     }
 
-    [data-banner="dark"] .menu {
+    [data-banner="dark"] {
         --nav-color: var(--white);
         --nav-hover-background: var(--black-opacity-30);
         --nav-focus-background: var(--white);
         --nav-focus-color: var(--blue-600);
+        --nav-submenu-hover-background: var(--blue-100);
+        --nav-submenu-hover-color: var(--blue-600);
+        --nav-submenu-focus-background: var(--blue-600);
+        --nav-submenu-focus-color: var(--white);
     }
 
     .menu ul {
         flex-direction: row;
         height: rem(84);
         justify-content: flex-end;
+    }
+
+    .menu li {
+        position: relative;
     }
 
     .menu ul > li + li {
@@ -186,7 +196,8 @@
         }
 
         &:focus,
-        &:active {
+        &:active,
+        &[aria-expanded="true"] {
             background: var(--nav-focus-background, var(--blue-600));
             box-shadow: none;
             color: var(--nav-focus-color, var(--white));
@@ -210,14 +221,57 @@
                 color: var(--nav-focus-color, var(--white));
             }
         }
+
+        &[data-parent="true"][aria-expanded="true"] {
+            background: var(--nav-focus-background, var(--blue-600));
+            color: var(--nav-focus-color, var(--white));
+        }
     }
 
     .menu ul ul {
+        background: var(--nav-submenu-background, var(--blue-600));
+        color: var(--nav-submenu-color, var(--white));
         flex-direction: column;
+        height: auto;
+        left: 0;
+        position: absolute;
+        top: rem(84);
+        width: rem(256);
+        z-index: 20;
 
-        .menu ul ul li + li {
-            margin-left: 0;
-            margin-top: 0;
+        li a {
+            height: rem(40);
+            justify-content: flex-start;
+            padding-left: var(--scale-4);
+
+            &:hover {
+                background: var(--nav-submenu-hover-background, var(--black-opacity-30));
+                color: var(--nav-submenu-hover-color, var(--white));
+            }
+
+            &:focus,
+            &:active {
+                background: var(--nav-submenu-focus-background, var(--white));
+                color: var(--nav-submenu-focus-color, var(--blue-600));
+            }
+
+            &[aria-current="page"] {
+                &:hover {
+                    background: var(--nav-submenu-hover-background, var(--black-opacity-30));
+                    color: var(--nav-submenu-hover-color, var(--blue-600));
+                }
+
+                &:focus,
+                &:active {
+                    background: var(--nav-submenu-focus-background, var(--white));
+                    color: var(--nav-submenu-focus-color, var(--blue-600));
+                }
+            }
         }
+    }
+
+    .menu ul ul li + li {
+        margin-left: 0;
+        margin-top: 0;
     }
 }

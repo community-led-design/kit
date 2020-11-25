@@ -3,11 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .footer {
-    margin: auto auto 0;
-    max-width: var(--max-content);
-    padding-left: var(--scale-4);
-    padding-right: var(--scale-4);
     width: 100%;
+
+    .wrapper {
+        max-width: var(--max-content);
+    }
 }
 
 .footer [rel="home"] {
