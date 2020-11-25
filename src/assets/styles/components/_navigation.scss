@@ -128,13 +128,12 @@
     transform: rotate(-180deg);
 }
 
-.home .menu ul {
-    --nav-bg: var(--green-100);
-    --nav-bg-hover: var(--white-opacity-50);
-    --nav-bg-focus: var(--green-500);
-}
-
 @media (min-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
     .menu-toggle,
     .menu-label {
         display: none;
@@ -142,6 +141,27 @@
 
     .menu-toggle[aria-expanded="false"] + .menu {
         display: block;
+    }
+
+    .menu {
+        --nav-current-background: transparent;
+
+        background: var(--nav-background, inherit);
+        color: var(--nav-color, currentColor);
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    [data-banner="light"] .menu {
+        --nav-hover-background: var(--white-opacity-70);
+    }
+
+    [data-banner="dark"] .menu {
+        --nav-color: var(--white);
+        --nav-hover-background: var(--black-opacity-30);
+        --nav-focus-background: var(--white);
+        --nav-focus-color: var(--blue-600);
     }
 
     .menu ul {
@@ -160,6 +180,36 @@
         flex-direction: row;
         height: rem(84);
         justify-content: center;
+
+        &:hover {
+            background: var(--nav-hover-background, var(--blue-100));
+        }
+
+        &:focus,
+        &:active {
+            background: var(--nav-focus-background, var(--blue-600));
+            box-shadow: none;
+            color: var(--nav-focus-color, var(--white));
+            outline: none;
+        }
+
+        &[aria-current="page"],
+        &[data-parent="true"] {
+            background: var(--nav-current-background);
+            border-left: 0;
+            padding-left: var(--scale-4);
+            text-decoration: underline;
+
+            &:hover {
+                background: var(--nav-hover-background, var(--blue-100));
+            }
+
+            &:focus,
+            &:active {
+                background: var(--nav-focus-background, var(--blue-600));
+                color: var(--nav-focus-color, var(--white));
+            }
+        }
     }
 
     .menu ul ul {
