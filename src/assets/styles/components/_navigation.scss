@@ -125,7 +125,7 @@
 }
 
 .menu [aria-expanded="true"] svg {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 .home .menu ul {
