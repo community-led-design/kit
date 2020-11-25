@@ -71,4 +71,9 @@ $scale: (
     }
 
     --max-content: #{(rem(1234))};
+
+    // Navigation
+    --nav-current-background: transparent;
+    --nav-submenu-background: var(--nav-focus-background);
+    --nav-submenu-color: var(--nav-focus-color);
 }

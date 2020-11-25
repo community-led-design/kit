@@ -144,10 +144,6 @@
     }
 
     .menu {
-        --nav-current-background: transparent;
-        --nav-submenu-background: var(--nav-focus-background);
-        --nav-submenu-color: var(--nav-focus-color);
-
         background: var(--nav-background, inherit);
         color: var(--nav-color, currentColor);
         margin: 0;
