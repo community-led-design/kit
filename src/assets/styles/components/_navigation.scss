@@ -46,6 +46,10 @@
 }
 
 .menu {
+    --nav-current-background: transparent;
+    --nav-submenu-background: var(--nav-focus-background);
+    --nav-submenu-color: var(--nav-focus-color);
+
     background: var(--blue-600);
     color: var(--white);
     margin-left: calc(-1 * var(--scale-4));
@@ -180,6 +184,11 @@
         margin-top: 0;
     }
 
+    .menu ul > li button {
+        position: relative;
+        z-index: 10;
+    }
+
     .menu ul > li a,
     .menu ul > li button {
         display: flex;
@@ -226,6 +235,7 @@
 
     .menu ul ul {
         background: var(--nav-submenu-background, var(--blue-600));
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         color: var(--nav-submenu-color, var(--white));
         flex-direction: column;
         height: auto;
@@ -233,7 +243,6 @@
         position: absolute;
         top: rem(84);
         width: rem(256);
-        z-index: 20;
 
         li a {
             height: rem(40);
@@ -259,7 +268,7 @@
 
                 &:focus,
                 &:active {
-                    background: var(--nav-submenu-focus-background, var(--white));
+                    background: var(--nav-submenu-focus-background, var(--blue-100));
                     color: var(--nav-submenu-focus-color, var(--blue-600));
                 }
             }
