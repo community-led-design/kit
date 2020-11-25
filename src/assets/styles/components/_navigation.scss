@@ -10,12 +10,18 @@
 }
 
 .menu-toggle {
+    margin-right: calc(-1 * var(--scale--2));
     margin-top: var(--scale-0);
     z-index: 10;
 
-    svg {
-        margin-right: 0.5rem;
-        margin-top: 1px;
+    .button__label {
+        margin-left: 0.5rem;
+    }
+}
+
+.menu-toggle[aria-expanded="false"] {
+    #menu-close {
+        display: none;
     }
 }
 
@@ -24,6 +30,14 @@
     --button-focus-color: var(--white);
     --button-active-background: var(--white);
     --button-active-color: var(--blue-600);
+
+    #menu-open {
+        display: none;
+    }
+
+    .button__label {
+        display: none;
+    }
 }
 
 .menu-toggle[aria-expanded="false"] + .menu {
