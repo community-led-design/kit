@@ -15,7 +15,7 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICEN
 const menuItems = document.querySelectorAll("#menu ul a");
 const menuToggle = document.querySelector("#menu-toggle");
 
-const dropdownLinks = [...document.querySelectorAll(".nav .submenu-parent > a")];
+const dropdownLinks = [...document.querySelectorAll(".nav .submenu-parent > a, .nav .submenu-parent > p")];
 const dropdownButtons = [];
 
 /**
@@ -49,7 +49,7 @@ dropdownLinks.forEach(link => {
     const toggleButton = document.createElement("button");
     const dropdown = link.nextElementSibling;
 
-    if (link.getAttribute("href") !== "#") {
+    if (link.getAttribute("href")) {
         const overviewLink = link.cloneNode();
         overviewLink.dataset.parent = false;
         overviewLink.textContent = "Overview";

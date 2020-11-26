@@ -2,7 +2,7 @@
     {% set navItems = collections.all | eleventyNavigation %}
     <button class="menu-toggle button--borderless" id="menu-toggle" aria-expanded="false">{% include 'svg/menu.svg' %}{% include 'svg/close.svg' %}<span class="[ button__label ]">menu</span></button>
     <div class="menu">
-        <p class="menu-label visually-hidden" id="menu-label">main menu</p>
+        <p class="h2 menu-label" id="menu-label">Main Menu</p>
         <ul role="list">
         {%- for entry in navItems %}
 	        {% set liClass, currentAttribute, relAttribute, parentAttribute = '' %}
@@ -32,7 +32,11 @@
           {% set liClass = ' class="submenu-parent"' %}
           {% endif %}
         <li{{ liClass | safe }}>
+            {% if entry.url == "#" %}
+            <p {{ parentAttribute | safe }}>{{ entry.title }}</p>
+            {% else %}
             <a{{ relAttribute | safe }}{{ parentAttribute | safe }}{{ currentAttribute | safe }} href="{{ entry.url | url }}">{{ entry.title }}</a>
+            {% endif %}
             {%- if entry.children.length > 0 %}
             <ul role="list">
             {%- for child in entry.children %}
