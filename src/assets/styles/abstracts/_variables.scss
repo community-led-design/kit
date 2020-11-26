@@ -71,4 +71,19 @@ $scale: (
     }
 
     --max-content: #{(rem(1234))};
+
+    // Navigation
+    --nav-background: inherit;
+    --nav-color: currentColor;
+    --nav-current-background: transparent;
+    --nav-hover-background: var(--blue-100);
+    --nav-hover-color: currentColor;
+    --nav-focus-background: var(--blue-600);
+    --nav-focus-color: var(--white);
+    --nav-submenu-background: var(--blue-600);
+    --nav-submenu-color: var(--white);
+    --nav-submenu-hover-background: var(--black-opacity-30);
+    --nav-submenu-hover-color: var(--white);
+    --nav-submenu-focus-background: var(--blue-100);
+    --nav-submenu-focus-color: var(--blue-600);
 }

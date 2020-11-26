@@ -46,10 +46,6 @@
 }
 
 .menu {
-    --nav-current-background: transparent;
-    --nav-submenu-background: var(--nav-focus-background);
-    --nav-submenu-color: var(--nav-focus-color);
-
     background: var(--blue-600);
     color: var(--white);
     margin-left: calc(-1 * var(--scale-4));
@@ -148,8 +144,8 @@
     }
 
     .menu {
-        background: var(--nav-background, inherit);
-        color: var(--nav-color, currentColor);
+        background: var(--nav-background);
+        color: var(--nav-color);
         margin: 0;
         padding: 0;
         width: auto;
@@ -164,6 +160,8 @@
         --nav-hover-background: var(--black-opacity-30);
         --nav-focus-background: var(--white);
         --nav-focus-color: var(--blue-600);
+        --nav-submenu-background: var(--white);
+        --nav-submenu-color: var(--blue-600);
         --nav-submenu-hover-background: var(--blue-100);
         --nav-submenu-hover-color: var(--blue-600);
         --nav-submenu-focus-background: var(--blue-600);
@@ -197,15 +195,15 @@
         justify-content: center;
 
         &:hover {
-            background: var(--nav-hover-background, var(--blue-100));
+            background: var(--nav-hover-background);
         }
 
         &:focus,
         &:active,
         &[aria-expanded="true"] {
-            background: var(--nav-focus-background, var(--blue-600));
+            background: var(--nav-focus-background);
             box-shadow: none;
-            color: var(--nav-focus-color, var(--white));
+            color: var(--nav-focus-color);
             outline: none;
         }
 
@@ -217,26 +215,26 @@
             text-decoration: underline;
 
             &:hover {
-                background: var(--nav-hover-background, var(--blue-100));
+                background: var(--nav-hover-background);
             }
 
             &:focus,
             &:active {
-                background: var(--nav-focus-background, var(--blue-600));
-                color: var(--nav-focus-color, var(--white));
+                background: var(--nav-focus-background);
+                color: var(--nav-focus-color);
             }
         }
 
         &[data-parent="true"][aria-expanded="true"] {
-            background: var(--nav-focus-background, var(--blue-600));
-            color: var(--nav-focus-color, var(--white));
+            background: var(--nav-focus-background);
+            color: var(--nav-focus-color);
         }
     }
 
     .menu ul ul {
-        background: var(--nav-submenu-background, var(--blue-600));
+        background: var(--nav-submenu-background);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        color: var(--nav-submenu-color, var(--white));
+        color: var(--nav-submenu-color);
         flex-direction: column;
         height: auto;
         left: 0;
@@ -245,31 +243,33 @@
         width: rem(256);
 
         li a {
+            background: var(--nav-submenu-background);
+            color: var(--nav-submenu-color);
             height: rem(40);
             justify-content: flex-start;
             padding-left: var(--scale-4);
 
             &:hover {
-                background: var(--nav-submenu-hover-background, var(--black-opacity-30));
-                color: var(--nav-submenu-hover-color, var(--white));
+                background: var(--nav-submenu-hover-background);
+                color: var(--nav-submenu-hover-color);
             }
 
             &:focus,
             &:active {
-                background: var(--nav-submenu-focus-background, var(--white));
-                color: var(--nav-submenu-focus-color, var(--blue-600));
+                background: var(--nav-submenu-focus-background);
+                color: var(--nav-submenu-focus-color);
             }
 
             &[aria-current="page"] {
                 &:hover {
-                    background: var(--nav-submenu-hover-background, var(--black-opacity-30));
-                    color: var(--nav-submenu-hover-color, var(--blue-600));
+                    background: var(--nav-submenu-hover-background);
+                    color: var(--nav-submenu-hover-color);
                 }
 
                 &:focus,
                 &:active {
-                    background: var(--nav-submenu-focus-background, var(--blue-100));
-                    color: var(--nav-submenu-focus-color, var(--blue-600));
+                    background: var(--nav-submenu-focus-background);
+                    color: var(--nav-submenu-focus-color);
                 }
             }
         }
