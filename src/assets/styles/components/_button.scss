@@ -89,6 +89,7 @@ a.button--secondary {
 }
 
 .button--borderless {
+    align-items: center;
     background: transparent;
     border: 2px solid transparent;
     border-radius: 2px;
@@ -99,7 +100,7 @@ a.button--secondary {
     font-weight: var(--weight-bold);
     height: var(--scale-4);
     line-height: 1;
-    padding: rem(6) rem(6) 0;
+    padding: 0 rem(6);
 
     &:hover {
         color: var(--btn-borderless-hover-color);
