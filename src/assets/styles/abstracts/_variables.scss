@@ -8,6 +8,7 @@ $colors: (
     black-opacity-30: transparentize(#000, 0.7),
     "white": #fff,
     white-opacity-50: transparentize(#fff, 0.5),
+    grey-300: #777,
     blue-100: #eef3f9,
     blue-300: #41cdfa,
     blue-500: #1362b4,
@@ -30,7 +31,8 @@ $fonts: (
 
 // Font Weights
 $weights: (
-    weight-normal: 500,
+    weight-normal: 400,
+    weight-medium: 500,
     weight-bold: 700
 );
 

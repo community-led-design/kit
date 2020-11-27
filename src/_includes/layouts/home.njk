@@ -9,46 +9,53 @@
 <div class="content">
     <section>
         <div class="wrapper">
-            <h2>Community-led co-design</h2>
+            <h2>Why community-led co-design?</h2>
             <p>Community-led co-design is an approach in which the co-design process, not just the outcomes, is developed in collaboration with community members who will be directly impacted by the design.</p>
-            <p><strong>Community-led co-design:</strong></p>
-            <ul role="list" class="grid grid--md-2 grid--lg-4">
+            <p class="h3">Community-led co-design:</p>
+            <ul role="list" class="grid text-scale-1 weight-medium grid--md-2 grid--lg-4 mt-scale-2">
                 <li>
-                    <p><img src="/assets/images/placeholder-16by9.png" width="448" height="252" /></p>
-                    <p><strong>Recognizes and leverages community leadership</strong></p>
+                    <p class="[ blob ] [ blob--green-100 ]">{% include "svg/blob-1.svg" %}</p>
+                    {# <p><img src="/assets/images/placeholder-16by9.png" alt="" width="448" height="252" /></p> #}
+                    <p>Recognizes and leverages community leadership</p>
                 </li>
                 <li>
-                    <p><img src="/assets/images/placeholder-16by9.png" width="448" height="252" /></p>
-                    <p><strong>Uses a familiar and comfortable environment</strong></p>
+                    <div class="[ blob ] [ blob--green-100 ]">{% include "svg/blob-2.svg" %}</p>
+                    {# <p><img src="/assets/images/placeholder-16by9.png" alt="" width="448" height="252" /></p> #}
+                    <p>Uses a familiar and comfortable environment</p>
                 </li>
                 <li>
-                    <p><img src="/assets/images/placeholder-16by9.png" width="448" height="252" /></p>
-                    <p><strong>Creates more engaged communities</strong></p>
+                    <p class="[ blob ] [ blob--green-100 ]">{% include "svg/blob-3.svg" %}</p>
+                    {# <p><img src="/assets/images/placeholder-16by9.png" alt="" width="448" height="252" /></p> #}
+                    <p>Creates more engaged communities</p>
                 </li>
                 <li>
-                    <p><img src="/assets/images/placeholder-16by9.png" width="448" height="252" /></p>
-                    <p><strong>Moves from design <em>with</em> to design <em>by</em></strong></p>
+                    <p class="blob blob--green-100">{% include "svg/blob-4.svg" %}</p>
+                     {# <p><img src="/assets/images/placeholder-16by9.png" alt="" width="448" height="252" /></p> #}
+                   <p>Moves from design <em>with</em> to design <em>by</em></p>
                 </li>
             </ul>
-            <p><a href="/about/">Read more about co-design and community-led co-design</a></p>
+            <p class="mt-scale-6"><a href="/about/">Read more about co-design and community-led co-design</a></p>
         </div>
     </section>
     <section class="bg-blue-600 text-white bg--full">
         <div class="wrapper">
             <h2>Where to start</h2>
-            <ol class="grid grid--lg-3">
+            <ol role="list" class="grid grid--lg-3 mt-scale-2">
                 <li>
-                    <p class="h3">Introduction</p>
+                    <p class="[ blob ] [ blob--yellow-500 ]">{% include "svg/blob-1.svg" %}</p>
+                    <p class="h3 mt-scale--1">Introduction</p>
                     <p>Read the <a href="/introduction/">Introduction to co-design and community-led co-design</a></p>
                 </li>
                 <li>
-                    <p class="h3">How to use this kit</p>
+                    <p class="[ blob ] [ blob--yellow-500 ]">{% include "svg/blob-2.svg" %}</p>
+                    <p class="h3 mt-scale--1">How to use this kit</p>
                     <p>Familiarize yourself on on <a href="/how-to/">How to use this Kit</a></p>
                 </li>
                 <li>
-                    <p class="h3">Explore this kit</p>
+                    <p class="[ blob ] [ blob--yellow-500 ]">{% include "svg/blob-3.svg" %}</p>
+                    <p class="h3 mt-scale--1">Explore this kit</p>
                     <p>Look through this kit by:<br><a href="#building-blocks-of-co-design">building blocks of co-design</a><br>
-                    Or, <a href="/#browse-all">Browse all</a></p>
+                    Or, <a href="/resources/">Browse all</a></p>
                 </li>
             </ol>
         </div>
@@ -56,25 +63,22 @@
     <section>
         <div class="wrapper">
             <h2>Explore this kit</h2>
-            <!-- TODO: Add community collections -->
+            {# TODO: Add community collections #}
             <h3>Building blocks of co-design</h3>
             <p>Each of these blocks includes guides, activities, and tools.</p>
             <div class="grid grid--md-2 grid--lg-3 mt-scale-5">
             {% for block in buildingBlocks %}
             <div>
-                <p><img src="/assets/images/placeholder-1by1.png" width="100" height="100" /></p>
+                {# <p><img src="/assets/images/placeholder-1by1.png" alt="" width="100" height="100" /></p> #}
                 <h4>{{ block.name | safe }}</h4>
                 <p>{{ block.description | safe }}</p>
                 <p><a href="/building-blocks/{{ block.name | slug }}/">Browse methods in {{ block.name | lower | safe }}</a></p>
             </div>
             {% endfor %}
             </div>
-        </div>
-    </section>
-    <section class="bg-yellow-300 bg--full">
-        <div class="wrapper">
+            <hr>
             <h3>Browse all resources</h3>
-            <p><a href="/resources/">Browse all</p>
+            <p><a class="[ button button--secondary ]" href="/resources/">Browse all</p>
         </div>
     </section>
 </div>
