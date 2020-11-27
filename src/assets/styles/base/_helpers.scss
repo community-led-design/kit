@@ -48,6 +48,12 @@
     }
 }
 
+@each $name, $value in $weights {
+    .#{$name} {
+        font-weight: $value;
+    }
+}
+
 .bg--full {
     margin-left: 50%;
     transform: translateX(-50%);
