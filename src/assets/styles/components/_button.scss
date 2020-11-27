@@ -18,7 +18,8 @@ button {
 .button,
 a.button {
     align-items: center;
-    appearance: button;
+    -webkit-appearance: none;
+    appearance: none;
     background: var(--btn-primary-background);
     border: 2px solid var(--btn-primary-border-color);
     border-radius: 3px;
