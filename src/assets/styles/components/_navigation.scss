@@ -15,6 +15,11 @@
     margin-top: var(--scale-0);
     z-index: 10;
 
+    svg {
+        height: 1em;
+        margin-top: rem(-1);
+    }
+
     .button__label {
         margin-left: 0.5rem;
     }
@@ -28,13 +33,13 @@
 
 .menu-toggle[aria-expanded="true"] {
     --btn-borderless-color: var(--white);
-    --btn-borderless-hover-color: var(--blue-100);
-    --btn-borderless-focus-color: var(--white);
-    --btn-borderless-focus-border-color: var(--white);
+    --btn-borderless-hover-color: var(--yellow-300);
+    --btn-borderless-focus-color: var(--yellow-300);
+    --btn-borderless-focus-border-color: var(--yellow-300);
     --btn-borderless-active-color: var(--blue-600);
-    --btn-borderless-active-background: var(--white);
+    --btn-borderless-active-background: var(--yellow-300);
     --btn-borderless-active-box-shadow: 0 0 0 2px var(--blue-600) inset;
-    --btn-borderless-active-border-color: var(--white);
+    --btn-borderless-active-border-color: var(--yellow-300);
 
     #menu-open {
         display: none;

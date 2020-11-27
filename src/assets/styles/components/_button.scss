@@ -23,7 +23,6 @@ a.button {
     border: 2px solid var(--btn-primary-border-color);
     border-radius: 3px;
     color: var(--btn-primary-color);
-    cursor: pointer;
     display: inline-flex;
     flex-direction: row;
     font-family: inherit;
@@ -88,7 +87,6 @@ a.button--secondary {
 }
 
 .button--borderless {
-    align-items: center;
     background: transparent;
     border: 2px solid transparent;
     border-radius: 2px;
@@ -99,7 +97,7 @@ a.button--secondary {
     font-weight: var(--weight-bold);
     height: var(--scale-4);
     line-height: 1;
-    padding: 0 rem(6);
+    padding: rem(7) rem(6) rem(6);
 
     &:hover {
         color: var(--btn-borderless-hover-color);
@@ -153,11 +151,11 @@ a.button--secondary {
 
     // Borderless Buttons
     --btn-borderless-color: var(--white);
-    --btn-borderless-hover-color: var(--blue-100);
-    --btn-borderless-focus-color: var(--white);
-    --btn-borderless-focus-border-color: var(--white);
+    --btn-borderless-hover-color: var(--yellow-300);
+    --btn-borderless-focus-color: var(--yellow-300);
+    --btn-borderless-focus-border-color: var(--yellow-300);
     --btn-borderless-active-color: var(--blue-600);
-    --btn-borderless-active-background: var(--white);
+    --btn-borderless-active-background: var(--yellow-300);
     --btn-borderless-active-box-shadow: 0 0 0 2px var(--blue-600) inset;
-    --btn-borderless-active-border-color: var(--white);
+    --btn-borderless-active-border-color: var(--yellow-300);
 }
