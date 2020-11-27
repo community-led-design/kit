@@ -257,9 +257,9 @@
         &[aria-current="page"],
         &[data-parent="true"] {
             background: var(--nav-current-background);
+            border-bottom: 2px solid currentColor;
             border-left: 0;
             padding-left: var(--scale-4);
-            text-decoration: underline;
 
             &:hover {
                 background: var(--nav-hover-background);
@@ -308,6 +308,9 @@
             }
 
             &[aria-current="page"] {
+                border-bottom: 0;
+                border-left: 2px solid currentColor;
+                height: rem(64);
                 padding-left: var(--scale-4);
 
                 &:hover {
