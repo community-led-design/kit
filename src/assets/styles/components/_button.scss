@@ -17,7 +17,6 @@ button {
 
 .button,
 a.button {
-    align-items: center;
     -webkit-appearance: none;
     appearance: none;
     background: var(--btn-primary-background);
@@ -32,10 +31,10 @@ a.button {
     font-weight: var(--weight-bold);
     height: rem(36);
     justify-content: center;
-    line-height: inherit;
+    line-height: 1;
     margin: 0;
     min-width: rem(268);
-    padding: 0;
+    padding: rem(8) 0 0;
     text-decoration: none;
     width: auto;
 
@@ -66,7 +65,6 @@ a.button--secondary {
     background: var(--btn-secondary-background);
     border: 2px solid var(--btn-secondary-border-color);
     color: var(--btn-secondary-color);
-    height: rem(38);
 
     &:hover {
         background: var(--btn-secondary-hover-background);
@@ -91,7 +89,6 @@ a.button--secondary {
 }
 
 .button--borderless {
-    align-items: flex-end;
     background: transparent;
     border: 2px solid transparent;
     border-radius: 2px;
@@ -101,8 +98,8 @@ a.button--secondary {
     font-size: var(--scale--1);
     font-weight: var(--weight-bold);
     height: var(--scale-4);
-    padding-left: rem(6);
-    padding-right: rem(6);
+    line-height: 1;
+    padding: rem(6) rem(6) 0;
 
     &:hover {
         color: var(--btn-borderless-hover-color);
