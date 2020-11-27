@@ -307,6 +307,8 @@
             }
 
             &[aria-current="page"] {
+                padding-left: var(--scale-4);
+
                 &:hover {
                     background: var(--nav-submenu-hover-background);
                     color: var(--nav-submenu-hover-color);
