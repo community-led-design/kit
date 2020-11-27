@@ -18,8 +18,8 @@ $colors: (
     green-500: #375c59,
     green-600: #233938,
     yellow-100: #fefef4,
-    yellow-300: #eec01f,
-    yellow-500: #cda71f,
+    yellow-300: #ecd481,
+    yellow-500: #eec01f,
     yellow-600: #322908
 );
 
@@ -73,6 +73,46 @@ $scale: (
     }
 
     --max-content: #{(rem(1234))};
+
+    // Primary Buttons
+    --btn-primary-background: var(--blue-600);
+    --btn-primary-color: var(--white);
+    --btn-primary-border-color: transparent;
+    --btn-primary-hover-background: var(--black);
+    --btn-primary-hover-color: var(--btn-primary-color);
+    --btn-primary-focus-background: var(--btn-primary-background);
+    --btn-primary-focus-color: var(--btn-primary-color);
+    --btn-primary-focus-border-color: var(--white);
+    --btn-primary-focus-box-shadow: 0 0 0 2px var(--btn-primary-focus-background);
+    --btn-primary-active-background: var(--white);
+    --btn-primary-active-color: var(--blue-600);
+    --btn-primary-active-border-color: var(--white);
+    --btn-primary-active-box-shadow: 0 0 0 2px var(--btn-primary-active-color), 0 0 0 2px var(--btn-primary-active-color) inset;
+
+    // Secondary Buttons
+    --btn-secondary-background: var(--white);
+    --btn-secondary-color: var(--blue-600);
+    --btn-secondary-border-color: var(--blue-600);
+    --btn-secondary-hover-background: var(--blue-100);
+    --btn-secondary-hover-color: var(--btn-secondary-color);
+    --btn-secondary-focus-background: var(--btn-secondary-background);
+    --btn-secondary-focus-color: var(--btn-secondary-color);
+    --btn-secondary-focus-border-color: var(--white);
+    --btn-secondary-focus-box-shadow: 0 0 0 2px var(--btn-secondary-focus-color), 0 0 0 2px var(--btn-secondary-focus-color) inset;
+    --btn-secondary-active-background: var(--blue-600);
+    --btn-secondary-active-color: var(--white);
+    --btn-secondary-active-border-color: var(--white);
+    --btn-secondary-active-box-shadow: 0 0 0 2px var(--btn-secondary-active-background), 0 0 0 3px var(--btn-secondary-active-background) inset;
+
+    // Borderless Buttons
+    --btn-borderless-color: var(--blue-500);
+    --btn-borderless-hover-color: var(--blue-600);
+    --btn-borderless-focus-color: var(--blue-600);
+    --btn-borderless-focus-border-color: var(--blue-600);
+    --btn-borderless-active-color: var(--white);
+    --btn-borderless-active-background: var(--blue-600);
+    --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
+    --btn-borderless-active-border-color: var(--blue-600);
 
     // Navigation
     --nav-background: inherit;

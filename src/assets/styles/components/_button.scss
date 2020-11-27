@@ -8,7 +8,6 @@ button {
     background-image: none;
     border: 0;
     color: inherit;
-    cursor: pointer;
     font-family: inherit;
     font-size: 100%;
     line-height: inherit;
@@ -16,40 +15,149 @@ button {
     padding: 0;
 }
 
-.button--borderless {
-    --button-color: currentColor;
-    --button-focus-color: var(--blue-600);
-    --button-active-background: var(--blue-600);
-    --button-active-color: var(--white);
-
-    align-items: center;
-    align-self: flex-end;
-    border: 2px solid transparent;
-    border-radius: 2px;
-    color: var(--button-color);
-    display: flex;
+.button,
+a.button {
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--btn-primary-background);
+    border: 2px solid var(--btn-primary-border-color);
+    border-radius: 3px;
+    color: var(--btn-primary-color);
+    cursor: pointer;
+    display: inline-flex;
     flex-direction: row;
-    font-size: var(--scale-0);
+    font-family: inherit;
+    font-size: var(--scale--1);
     font-weight: var(--weight-bold);
-    height: var(--scale-4);
-    padding-left: rem(6);
-    padding-right: rem(6);
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    min-width: rem(268);
+    padding: rem(9) 0 rem(7);
+    text-decoration: none;
+    width: auto;
 
     &:hover {
-        // TODO
+        background: var(--btn-primary-hover-background);
+        color: var(--btn-primary-hover-color);
     }
 
     &:focus {
-        border-color: var(--button-focus-color);
-        color: var(--button-focus-color);
+        background: var(--btn-primary-focus-background);
+        border-color: var(--btn-primary-focus-border-color);
+        box-shadow: var(--btn-primary-focus-box-shadow);
+        color: var(--btn-primary-focus-color);
         outline: none;
     }
 
     &:active {
-        background: var(--button-active-background);
-        border: 2px solid var(--button-active-background);
-        box-shadow: 0 0 0 2px var(--button-active-color) inset;
-        color: var(--button-active-color);
+        background: var(--btn-primary-active-background);
+        border-color: var(--btn-primary-active-border-color);
+        box-shadow: var(--btn-primary-active-box-shadow);
+        color: var(--btn-primary-active-color);
         outline: none;
     }
+}
+
+.button--secondary,
+a.button--secondary {
+    background: var(--btn-secondary-background);
+    border: 2px solid var(--btn-secondary-border-color);
+    color: var(--btn-secondary-color);
+
+    &:hover {
+        background: var(--btn-secondary-hover-background);
+        color: var(--btn-secondary-hover-color);
+    }
+
+    &:focus {
+        background: var(--btn-secondary-focus-background);
+        border-color: var(--btn-secondary-focus-border-color);
+        border-width: 2px;
+        box-shadow: var(--btn-secondary-focus-box-shadow);
+        color: var(--btn-secondary-focus-color);
+    }
+
+    &:active {
+        background: var(--btn-secondary-active-background);
+        border-color: var(--btn-secondary-active-border-color);
+        border-width: 2px;
+        box-shadow: var(--btn-secondary-active-box-shadow);
+        color: var(--btn-secondary-active-color);
+    }
+}
+
+.button--borderless {
+    align-items: center;
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    color: var(--btn-borderless-color);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--scale--1);
+    font-weight: var(--weight-bold);
+    height: var(--scale-4);
+    line-height: 1;
+    padding: 0 rem(6);
+
+    &:hover {
+        color: var(--btn-borderless-hover-color);
+    }
+
+    &:focus {
+        border-color: var(--btn-borderless-focus-border-color);
+        color: var(--btn-borderless-focus-color);
+        outline: none;
+    }
+
+    &:active {
+        background: var(--btn-borderless-active-background);
+        border-color: var(--btn-borderless-active-border-color);
+        box-shadow: var(--btn-borderless-active-box-shadow);
+        color: var(--btn-borderless-active-color);
+        outline: none;
+    }
+}
+
+[data-background="dark"] {
+    // Primary Buttons
+    --btn-primary-background: var(--green-100);
+    --btn-primary-color: var(--blue-600);
+    --btn-primary-border-color: transparent;
+    --btn-primary-hover-background: var(--green-300);
+    --btn-primary-hover-color: var(--btn-primary-color);
+    --btn-primary-focus-background: var(--btn-primary-background);
+    --btn-primary-focus-color: var(--btn-primary-color);
+    --btn-primary-focus-border-color: var(--blue-600);
+    --btn-primary-focus-box-shadow: 0 0 0 2px var(--btn-primary-focus-background);
+    --btn-primary-active-background: var(--blue-600);
+    --btn-primary-active-color: var(--green-100);
+    --btn-primary-active-border-color: var(--blue-600);
+    --btn-primary-active-box-shadow: 0 0 0 2px var(--btn-primary-active-color), 0 0 0 2px var(--btn-primary-active-color) inset;
+
+    // Secondary Buttons
+    --btn-secondary-background: var(--blue-600);
+    --btn-secondary-color: var(--white);
+    --btn-secondary-border-color: var(--white);
+    --btn-secondary-hover-background: var(--black-opacity-30);
+    --btn-secondary-hover-color: var(--btn-secondary-color);
+    --btn-secondary-focus-background: var(--btn-secondary-background);
+    --btn-secondary-focus-color: var(--btn-secondary-color);
+    --btn-secondary-focus-border-color: var(--blue-600);
+    --btn-secondary-focus-box-shadow: 0 0 0 2px var(--btn-secondary-focus-color), 0 0 0 2px var(--btn-secondary-focus-color) inset;
+    --btn-secondary-active-background: var(--white);
+    --btn-secondary-active-color: var(--blue-600);
+    --btn-secondary-active-border-color: var(--blue-600);
+    --btn-secondary-active-box-shadow: 0 0 0 2px var(--btn-secondary-active-background), 0 0 0 3px var(--btn-secondary-active-background) inset;
+
+    // Borderless Buttons
+    --btn-borderless-color: var(--white);
+    --btn-borderless-hover-color: var(--blue-100);
+    --btn-borderless-focus-color: var(--white);
+    --btn-borderless-focus-border-color: var(--white);
+    --btn-borderless-active-color: var(--blue-600);
+    --btn-borderless-active-background: var(--white);
+    --btn-borderless-active-box-shadow: 0 0 0 2px var(--blue-600) inset;
+    --btn-borderless-active-border-color: var(--white);
 }
