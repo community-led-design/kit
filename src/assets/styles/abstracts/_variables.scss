@@ -7,7 +7,7 @@ $colors: (
     "black": #000,
     black-opacity-30: transparentize(#000, 0.7),
     "white": #fff,
-    white-opacity-50: transparentize(#fff, 0.5),
+    white-opacity-70: transparentize(#fff, 0.3),
     blue-100: #eef3f9,
     blue-300: #41cdfa,
     blue-500: #1362b4,
@@ -111,4 +111,19 @@ $scale: (
     --btn-borderless-active-background: var(--blue-600);
     --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
     --btn-borderless-active-border-color: var(--blue-600);
+
+    // Navigation
+    --nav-background: inherit;
+    --nav-color: currentColor;
+    --nav-current-background: transparent;
+    --nav-hover-background: var(--blue-100);
+    --nav-hover-color: currentColor;
+    --nav-focus-background: var(--blue-600);
+    --nav-focus-color: var(--white);
+    --nav-submenu-background: var(--blue-600);
+    --nav-submenu-color: var(--white);
+    --nav-submenu-hover-background: var(--black-opacity-30);
+    --nav-submenu-hover-color: var(--white);
+    --nav-submenu-focus-background: var(--blue-100);
+    --nav-submenu-focus-color: var(--blue-600);
 }

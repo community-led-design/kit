@@ -1,4 +1,4 @@
-<header role="banner" class="banner bg--full">
+<header role="banner" class="[ banner ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]"{% if banner %} data-banner="{{ banner }}"{% endif %}>
     <div class="wrapper">
         {% include "partials/components/brand.njk" %}
         {% include "partials/components/navigation.njk" %}
