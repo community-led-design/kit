@@ -13,7 +13,9 @@
           {% elif "building-blocks" in page.url %}
             {% set parentPage = entry.title === "Resources" %}
           {% elif entry.url !== "/" %}
-            {% set parentPage = entry.url in page.url %}
+            {% if page.url !== entry.url %}
+              {% set parentPage = entry.url in page.url %}
+            {% endif %}
           {% endif %}
 
 	        {% if entry.rel %}

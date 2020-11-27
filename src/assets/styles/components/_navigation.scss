@@ -279,6 +279,11 @@
             }
         }
 
+        &[data-parent="true"]::after {
+            left: var(--scale-4);
+            width: calc(100% - (2 * var(--scale-4) + #{rem(20)}));
+        }
+
         &[data-parent="true"][aria-expanded="true"] {
             background: var(--nav-focus-background);
             color: var(--nav-focus-color);
