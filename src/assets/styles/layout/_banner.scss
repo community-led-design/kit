@@ -2,13 +2,6 @@
 // This file contains all styles related to the banner of the site.
 // -----------------------------------------------------------------------------
 
-.banner {
-    .wrapper {
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-}
-
-.home .banner {
-    background: var(--green-100);
+.banner .wrapper {
+    padding: 0 var(--scale-4);
 }
