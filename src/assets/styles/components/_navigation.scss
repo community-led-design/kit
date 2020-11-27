@@ -74,9 +74,9 @@
     display: flex;
     flex-direction: row;
     font-weight: var(--weight-bold);
-    height: rem(50);
+    height: rem(64);
     justify-content: space-between;
-    padding: var(--scale-4);
+    padding: 0 var(--scale-4);
     text-align: left;
     text-decoration: none;
     width: 100%;
@@ -155,9 +155,9 @@
         display: flex;
         flex-direction: row;
         font-weight: var(--weight-bold);
-        height: rem(50);
+        height: rem(64);
         justify-content: space-between;
-        padding: var(--scale-4);
+        padding: 0 var(--scale-4);
         text-align: left;
         text-decoration: none;
         width: 100%;
@@ -183,6 +183,7 @@
 
     .menu-toggle[aria-expanded="false"] + .menu {
         display: block;
+        margin-top: 0;
     }
 
     .menu {
@@ -216,7 +217,7 @@
 
     .menu ul {
         flex-direction: row;
-        height: rem(84);
+        height: rem(64);
         justify-content: flex-end;
     }
 
@@ -237,7 +238,7 @@
     .menu ul > li button {
         display: flex;
         flex-direction: row;
-        height: rem(84);
+        height: rem(64);
         justify-content: center;
 
         &:hover {
@@ -285,13 +286,13 @@
         height: auto;
         left: 0;
         position: absolute;
-        top: rem(84);
+        top: rem(64);
         width: rem(256);
 
         li a {
             background: var(--nav-submenu-background);
             color: var(--nav-submenu-color);
-            height: rem(40);
+            height: rem(64);
             justify-content: flex-start;
             padding-left: var(--scale-4);
 
