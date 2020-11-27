@@ -257,9 +257,16 @@
         &[aria-current="page"],
         &[data-parent="true"] {
             background: var(--nav-current-background);
-            border-bottom: 2px solid currentColor;
             border-left: 0;
             padding-left: var(--scale-4);
+
+            &::after {
+                border-bottom: 2px solid currentColor;
+                bottom: var(--scale-1);
+                content: "";
+                position: absolute;
+                width: calc(100% - (2 * var(--scale-4)));
+            }
 
             &:hover {
                 background: var(--nav-hover-background);
@@ -292,7 +299,6 @@
         li a {
             background: var(--nav-submenu-background);
             color: var(--nav-submenu-color);
-            height: rem(64);
             justify-content: flex-start;
             padding-left: var(--scale-4);
 
@@ -308,10 +314,12 @@
             }
 
             &[aria-current="page"] {
-                border-bottom: 0;
                 border-left: 2px solid currentColor;
-                height: rem(64);
                 padding-left: var(--scale-4);
+
+                &::after {
+                    display: none;
+                }
 
                 &:hover {
                     background: var(--nav-submenu-hover-background);
@@ -375,10 +383,14 @@
 
         .menu ul > li a,
         .menu ul > li p {
-            height: rem(40);
+            height: rem(48);
             justify-content: flex-start;
 
             &[aria-current="page"] {
+                &::after {
+                    display: none;
+                }
+
                 border-left: 3px solid var(--nav-hover-color);
                 padding-left: rem(29);
             }
