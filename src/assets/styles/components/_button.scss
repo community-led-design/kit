@@ -90,6 +90,39 @@ a.button--secondary {
     }
 }
 
+.button--borderless {
+    align-items: flex-end;
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    color: var(--btn-borderless-color);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--scale--1);
+    font-weight: var(--weight-bold);
+    height: var(--scale-4);
+    padding-left: rem(6);
+    padding-right: rem(6);
+
+    &:hover {
+        color: var(--btn-borderless-hover-color);
+    }
+
+    &:focus {
+        border-color: var(--btn-borderless-focus-border-color);
+        color: var(--btn-borderless-focus-color);
+        outline: none;
+    }
+
+    &:active {
+        background: var(--btn-borderless-active-background);
+        border-color: var(--btn-borderless-active-border-color);
+        box-shadow: var(--btn-borderless-active-box-shadow);
+        color: var(--btn-borderless-active-color);
+        outline: none;
+    }
+}
+
 [data-background="dark"] {
     // Primary Buttons
     --btn-primary-background: var(--green-100);
@@ -120,36 +153,14 @@ a.button--secondary {
     --btn-secondary-active-color: var(--blue-600);
     --btn-secondary-active-border-color: var(--blue-600);
     --btn-secondary-active-box-shadow: 0 0 0 2px var(--btn-secondary-active-background), 0 0 0 3px var(--btn-secondary-active-background) inset;
-}
 
-.button--borderless {
-    align-items: center;
-    align-self: flex-end;
-    border: 2px solid transparent;
-    display: flex;
-    flex-direction: row;
-    font-size: var(--scale-0);
-    font-weight: var(--weight-bold);
-    height: var(--scale-4);
-    padding-left: rem(6);
-    padding-right: rem(6);
-
-    &:hover {
-        // TODO
-    }
-
-    &:focus {
-        border-color: var(--blue-600);
-        border-radius: 2px;
-        color: var(--blue-600);
-        outline: none;
-    }
-
-    &:active {
-        background: var(--blue-600);
-        border: 2px solid var(--blue-600);
-        box-shadow: 0 0 0 2px var(--white) inset;
-        color: var(--white);
-        outline: none;
-    }
+    // Borderless Buttons
+    --btn-borderless-color: var(--white);
+    --btn-borderless-hover-color: var(--blue-100);
+    --btn-borderless-focus-color: var(--white);
+    --btn-borderless-focus-border-color: var(--white);
+    --btn-borderless-active-color: var(--blue-600);
+    --btn-borderless-active-background: var(--white);
+    --btn-borderless-active-box-shadow: 0 0 0 2px var(--blue-600) inset;
+    --btn-borderless-active-border-color: var(--white);
 }

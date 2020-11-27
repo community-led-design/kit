@@ -101,4 +101,14 @@ $scale: (
     --btn-secondary-active-color: var(--white);
     --btn-secondary-active-border-color: var(--white);
     --btn-secondary-active-box-shadow: 0 0 0 2px var(--btn-secondary-active-background), 0 0 0 3px var(--btn-secondary-active-background) inset;
+
+    // Borderless Buttons
+    --btn-borderless-color: var(--blue-500);
+    --btn-borderless-hover-color: var(--blue-600);
+    --btn-borderless-focus-color: var(--blue-600);
+    --btn-borderless-focus-border-color: var(--blue-600);
+    --btn-borderless-active-color: var(--white);
+    --btn-borderless-active-background: var(--blue-600);
+    --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
+    --btn-borderless-active-border-color: var(--blue-600);
 }

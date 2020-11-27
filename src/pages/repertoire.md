@@ -67,11 +67,13 @@ diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
 <div class="wrapper">
     <p><button class="button" type="button">Primary Button</button></p>
     <p><button class="button button--secondary" type="button">Secondary Button</button></p>
+    <p><button class="button--borderless" type="button">Borderless Button</button></p>
 </div>
 
 <div class="[ bg-blue-600 bg--full ]" data-background="dark">
     <div class="wrapper">
         <p><button class="button" type="button">Primary Button</button></p>
         <p><button class="button button--secondary" type="button">Secondary Button</button></p>
+        <p><button class="button--borderless" type="button">Borderless Button</button></p>
     </div>
 </div>
