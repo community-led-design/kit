@@ -74,6 +74,16 @@ $scale: (
 
     --max-content: #{(rem(1234))};
 
+    // Links
+    --link-color: var(--blue-500);
+    --link-hover-color: var(--blue-600);
+    --link-focus-background: var(--blue-600);
+    --link-focus-color: var(--white);
+    --link-focus-box-shadow: 0 0 0 2px var(--blue-600);
+    --link-active-background: var(--blue-500);
+    --link-active-color: var(--white);
+    --link-active-box-shadow: 0 0 0 2px var(--blue-500);
+
     // Primary Buttons
     --btn-primary-background: var(--blue-600);
     --btn-primary-color: var(--white);
