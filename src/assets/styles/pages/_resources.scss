@@ -11,6 +11,17 @@
     margin-top: var(--scale-8);
 }
 
+.no-js {
+    .filters,
+    .results {
+        display: none;
+    }
+
+    .resources {
+        margin-top: var(--scale-8);
+    }
+}
+
 @media (min-width: 768px) {
     .filters {
         display: flex;
