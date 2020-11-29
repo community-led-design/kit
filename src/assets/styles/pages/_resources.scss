@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the resources page.
+// -----------------------------------------------------------------------------
+
+.filters {
+    border-bottom: 1px solid var(--black);
+    padding-bottom: var(--scale-2);
+}
+
+.results:empty {
+    margin-top: var(--scale-8);
+}
+
+@media (min-width: 768px) {
+    .filters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .filters br {
+        display: none;
+    }
+}

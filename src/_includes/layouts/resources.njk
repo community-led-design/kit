@@ -1,15 +1,38 @@
 {% extends "layouts/base.njk" %}
 
+{% block headerScripts %}
+<script type="text/javascript" src="/assets{{ assets['/scripts/filtering.js'] }}" defer></script>
+{% endblock %}
+
 {% block toc %}
 {% endblock %}
 
 {% block content %}
 <div class="content [ flow ]">
     {{ content | safe }}
-    {# <div class="filters">
-        <p>Filter by:</p>
-    </div> #}
-    <div class="grid grid--md-2 grid--lg-3">
+    <div class="[ filters ] [ mt-scale-2 ]">
+        <div>
+            Show me&nbsp;<br>
+            <label class="visually-hidden" for="format">format</label>
+            <select class="[ inline ]" id="format">
+                <option value="">Any format</option>
+                {% for format in [{slug: "activity", name: "Activities"}, {slug: "guide", name: "Guides"}, {slug: "tool", name: "Tools"}] %}
+                <option value="{{ format.slug }}">{{ format.name }}</option>
+                {% endfor %}
+            </select>
+            for&nbsp;<br>
+            <label class="visually-hidden" for="building-block">building block</label>
+            <select class="[ inline ]" id="building-block">
+                <option value="">Any building block</option>
+                {% for buildingBlock in buildingBlocks %}
+                <option value="{{ buildingBlock.name | slug }}">{{ buildingBlock.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button id="clear-filters" class="button--borderless" type="button">Clear filters</button>
+    </div>
+    <div id="results" class="results [ text-scale-1 mt-scale-3 mb-scale-4 ]" role="alert" aria-live="polite"></div>
+    <div id="resources" class="grid grid--md-2 grid--lg-3 [ mb-scale-8 ]">
         {% for resource in collections.resources %}
         {% include "partials/components/card.njk" %}
         {% endfor %}
