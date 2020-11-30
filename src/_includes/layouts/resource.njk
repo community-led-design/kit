@@ -1,14 +1,27 @@
 {% extends "layouts/base.njk" %}
 
+{% set bodyClass = "single-resource" %}
+
 {% block pageHeader %}
-<header class="header">
-    <h1>{{ title | safe}}</h1>
-    <p class="subtitle [ text-scale-3 ]"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
+    <div class="wrapper">
+        <h1>{{ title | safe}}</h1>
+        <p class="subtitle [ text-scale-3 ]"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+    </div>
 </header>
 {% endblock %}
 
 {% block content %}
-<div class="content [ flow ]">
-{{ content | safe }}
+<div class="[ bg-blue-100 ]">
+    <div class="[ content content-with-sidebar ]">
+        <div class="sidebar">
+            <nav class="toc" aria-labelledby="toc-label">
+                <h2 id="toc-label" class="h3">Table of Contents</h2>
+            </nav>
+        </div>
+        <div class="inner-content">
+        {{ content | safe }}
+        </div>
+    </div>
 </div>
 {% endblock %}

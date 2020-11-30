@@ -15,6 +15,12 @@ const jsdom = require("jsdom");
 const slugify = require("slugify");
 const {JSDOM} = jsdom;
 
+const slugifyOptions = {
+    replacement: "-",
+    lower: true,
+    strict: true
+};
+
 module.exports = function (value, outputPath) {
     if (outputPath && outputPath.includes(".html")) {
         const DOM = new JSDOM(value, {
@@ -24,6 +30,7 @@ module.exports = function (value, outputPath) {
         const document = DOM.window.document;
         const articleImages = [...document.querySelectorAll("main article img")];
         const headings = [...document.querySelectorAll("main article h2, main article h3, main article h4")];
+        const tocHeadings = [...document.querySelectorAll(".inner-content h2, .inner-content h3")];
 
         if (articleImages.length) {
             articleImages.forEach(image => {
@@ -34,12 +41,19 @@ module.exports = function (value, outputPath) {
 
         if (headings.length) {
             headings.forEach(heading => {
-                let headingId = slugify(heading.textContent, {
-                    replacement: "-",
-                    lower: true,
-                    strict: true
-                });
+                let headingId = slugify(heading.textContent, slugifyOptions);
                 heading.setAttribute("id", headingId);
+            });
+        }
+
+        if (tocHeadings.length) {
+            const toc = document.querySelector("nav.toc");
+            tocHeadings.forEach(heading => {
+                let headingUrl = `#${slugify(heading.textContent, slugifyOptions)}`;
+                let tocItem = document.createElement("p");
+                tocItem.className = heading.tagName.replace("H", "level-");
+                tocItem.innerHTML = `<a href="${headingUrl}">${heading.textContent}</a>`;
+                toc.appendChild(tocItem);
             });
         }
 
