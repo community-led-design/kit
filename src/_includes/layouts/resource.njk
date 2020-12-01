@@ -10,7 +10,7 @@
 <header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
     <div class="wrapper">
         <h1>{{ title | safe}}</h1>
-        <p class="subtitle h4"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+        <p class="subtitle text-scale-2 weight-normal"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
     </div>
 </header>
 {% endblock %}
