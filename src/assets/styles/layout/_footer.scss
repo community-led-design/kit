@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site.
+// -----------------------------------------------------------------------------
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+
+    .wrapper {
+        padding-left: var(--scale-4);
+        padding-right: var(--scale-4);
+    }
+}
+
+.footer [rel="home"] {
+    display: inline-block;
+    height: rem(66);
+
+    svg {
+        fill: currentColor;
+        height: rem(66);
+        width: rem(256);
+    }
+
+    &:active svg {
+        fill: var(--bg-parent);
+    }
+}
+
+.footer .grid {
+    margin-top: var(--scale-2);
+}

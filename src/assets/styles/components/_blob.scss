@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the blob component.
+// -----------------------------------------------------------------------------
+
+.blob .number {
+    fill: var(--blue-600);
+}
+
+.blob--yellow-500 .blob {
+    fill: var(--yellow-500);
+}
+
+.blob--green-100 .blob {
+    fill: var(--green-100);
+}

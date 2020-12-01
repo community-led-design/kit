@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.home .content {
+    --flow-space: var(--scale-6);
+
+    section {
+        --flow-space: var(--scale-2);
+    }
+
+    section ol {
+        padding-left: 0;
+    }
+}

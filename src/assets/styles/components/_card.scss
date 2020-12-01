@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the card component.
+// -----------------------------------------------------------------------------
+
+.card {
+    background: var(--blue-100);
+    border-top: solid 3px; // TODO: Create variable.
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: rem(200);
+    justify-content: space-between;
+    padding: var(--scale-2) rem(27) rem(27); // TODO: Create variable.
+    position: relative;
+
+    &[hidden] {
+        display: none;
+    }
+
+    &:hover {
+        box-shadow: 0 0 16px rgba(27, 64, 102, 0.3); // TODO: Create variable.
+    }
+
+    &:focus-within {
+        border: solid 3px; // TODO: Create variable.
+        border-radius: 0.5rem; // TODO: Create variable.
+        box-shadow: 0 0 16px rgba(27, 64, 102, 0.3); // TODO: Create variable.
+        padding: var(--scale-2);
+    }
+
+    &[data-type="activity"] {
+        border-color: var(--green-300);
+    }
+
+    &[data-type="guide"] {
+        border-color: var(--blue-300);
+    }
+
+    &[data-type="tool"] {
+        border-color: var(--yellow-300);
+    }
+
+    a {
+        color: var(--blue-600);
+        text-decoration: none;
+
+        &::before {
+            content: "";
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        &:focus {
+            background: none;
+            box-shadow: none;
+        }
+
+        &:active {
+            background-color: var(--white);
+            box-shadow: none;
+            color: var(--blue-600);
+
+            &::before {
+                background-color: var(--white);
+                border-radius: 0.5rem; // TODO: Create variable.
+                z-index: -1;
+            }
+        }
+    }
+
+    br {
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    *:not(a) {
+        z-index: 10;
+    }
+}

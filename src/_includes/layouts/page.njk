@@ -1,7 +1,9 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-<div class="content space-y-4">
+<div class="content [ flow ]">
+<div class="inner-content">
 {{ content | safe }}
+</div>
 </div>
 {% endblock %}

@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the content area of the site.
+// -----------------------------------------------------------------------------
+
+.content {
+    margin: 0 auto;
+    max-width: var(--max-content);
+    padding: var(--scale-8) var(--scale-4);
+    width: 100%;
+}
+
+.content-with-sidebar {
+    padding-top: 0;
+
+    .sidebar {
+        background: white;
+        margin-left: calc(-1 * var(--scale-4));
+        padding: 0 var(--scale-4);
+        width: 100vw;
+    }
+
+    .inner-content {
+        padding-top: var(--scale-8);
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-with-sidebar {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .sidebar {
+            background: transparent;
+            margin: 0;
+            padding: var(--scale-8) 0 0;
+            position: sticky;
+            top: 0;
+            width: calc(3 / 12 * 100%);
+        }
+
+        .inner-content {
+            padding: var(--scale-8) 0 0;
+            width: calc(8 / 12 * 100%);
+        }
+    }
+}
