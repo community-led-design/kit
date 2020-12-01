@@ -13,28 +13,28 @@ to ensure accessibility barriers are removed as much as possible, so these criti
 The goal of this guide is to provide an example of different accessibility considerations, and provide suggested
 practices for including people with these different considerations.
 
-### Examples of accessibility considerations for...
+## Accessibility considerations
 
-#### Physical differences:
+### Physical differences
 
 * Mobility
 * Vision
 * Hearing
 
-#### Cognitive differences:
+### Cognitive differences
 
 * Working with varying attention spans
 * Memory loss
 * Communication styles
 * Cognitive load or capacity
 
-#### Mental health differences:
+### Mental health differences
 
 * Those with traumatic experiences, especially if what you're asking them to think about may call on those experiences
   (ex. immigration, safety in the city, precarious housing, workplace injury)
 * Mental health related disabilities, such as anxiety, depression, PTSD, bipolar, etc
 
-#### Social location differences:
+### Social location differences
 
 * Language differences
 * Literacy differences

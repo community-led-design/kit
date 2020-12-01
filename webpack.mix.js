@@ -21,6 +21,7 @@ mix.setPublicPath("dist/assets");
 // Process JavaScript files with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
+mix.js("./src/assets/scripts/toc.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
 
 // Process Sass.

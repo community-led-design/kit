@@ -2,7 +2,82 @@
 // This file contains all styles related to the table of contents component.
 // -----------------------------------------------------------------------------
 
-.toc {
-    max-height: 100vh;
-    overflow: scroll;
+.toc [aria-expanded] {
+    align-items: center;
+    border-top: 2px solid var(--blue-100);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--scale-1);
+    font-weight: var(--weight-bold);
+    height: rem(60);
+    justify-content: space-between;
+    margin-left: calc(-1 * var(--scale-4));
+    padding-left: var(--scale-4);
+    padding-right: var(--scale-4);
+    width: 100vw;
+
+    svg {
+        transition: 0.5s transform;
+    }
+}
+
+.toc [aria-expanded="true"] svg {
+    transform: rotate(-180deg);
+}
+
+.toc [aria-expanded="false"] + * {
+    display: none;
+}
+
+.toc [aria-expanded="true"] + * {
+    display: block;
+    padding-bottom: var(--scale-6);
+
+    h2 {
+        display: none;
+    }
+}
+
+.toc ul li {
+    font-size: var(--scale-1);
+}
+
+.toc ul ul li {
+    font-size: var(--scale-0);
+}
+
+.toc ul li + li {
+    margin-top: var(--scale-2);
+}
+
+.toc ul ul {
+    display: none;
+    margin-top: var(--scale--3);
+}
+
+.toc ul ul li + li {
+    margin-top: var(--scale--4);
+}
+
+@media (min-width: 1024px) {
+    .toc {
+        max-height: 100vh;
+        overflow: scroll;
+    }
+
+    .toc [aria-expanded] {
+        display: none;
+    }
+
+    .toc [aria-expanded="false"] + * {
+        display: block;
+    }
+
+    .toc [aria-expanded="true"] + * {
+        padding-bottom: 0;
+
+        h2 {
+            display: block;
+        }
+    }
 }

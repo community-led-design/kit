@@ -31,6 +31,7 @@ module.exports = function (value, outputPath) {
         const articleImages = [...document.querySelectorAll("main article img")];
         const headings = [...document.querySelectorAll("main article h2, main article h3, main article h4")];
         const tocHeadings = [...document.querySelectorAll(".inner-content h2, .inner-content h3")];
+        const tocUl = document.querySelector("nav.toc .toc-menu > ul");
 
         if (articleImages.length) {
             articleImages.forEach(image => {
@@ -42,19 +43,40 @@ module.exports = function (value, outputPath) {
         if (headings.length) {
             headings.forEach(heading => {
                 let headingId = slugify(heading.textContent, slugifyOptions);
-                heading.setAttribute("id", headingId);
+                if (!heading.getAttribute("id")) {
+                    heading.setAttribute("id", headingId);
+                }
             });
         }
 
-        if (tocHeadings.length) {
-            const toc = document.querySelector("nav.toc");
-            tocHeadings.forEach(heading => {
-                let headingUrl = `#${slugify(heading.textContent, slugifyOptions)}`;
-                let tocItem = document.createElement("p");
-                tocItem.className = heading.tagName.replace("H", "level-");
-                tocItem.innerHTML = `<a href="${headingUrl}">${heading.textContent}</a>`;
-                toc.appendChild(tocItem);
-            });
+        if (tocHeadings.length && tocUl) {
+            let output = "";
+
+            for (let i = 0; i < tocHeadings.length; i++) {
+                let heading, prevHeading;
+                prevHeading = false;
+                heading = tocHeadings[i];
+
+                if (i > 0) {
+                    prevHeading = tocHeadings[i - 1].tagName;
+                }
+
+                if (!prevHeading) {
+                    output += "<li>";
+                } else if (heading.tagName === "H2" && prevHeading === "H3") {
+                    output += "</ul></li><li>";
+                } else if (heading.tagName === "H3" && prevHeading === "H2") {
+                    output += "<ul role=\"list\"><li>";
+                } else {
+                    output += "</li><li>";
+                }
+                output += `<a href="#${slugify(heading.textContent, slugifyOptions)}">${heading.textContent}</a>`;
+                if (i === (tocHeadings.length - 1)) {
+                    output += "</li>";
+                }
+            }
+
+            tocUl.innerHTML = output;
         }
 
         return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;

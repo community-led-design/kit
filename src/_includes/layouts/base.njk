@@ -11,6 +11,8 @@
         <script>document.documentElement.classList.remove('no-js');</script>
         {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
+        {% block headerScripts %}
+        {% endblock %}
     </head>
     <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
         {# {% include "partials/global/uio.njk" %} #}

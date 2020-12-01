@@ -110,13 +110,13 @@ ol[role="list"] {
     padding-left: 0;
 }
 
-.content ul:not([class]) {
+.inner-content ul:not([class]) {
     list-style-position: outside;
     list-style-type: disc;
     padding-left: 0;
 }
 
-.content ol:not([class]) {
+.inner-content ol:not([class]) {
     list-style-position: outside;
     list-style-type: decimal;
     padding-left: 0;
