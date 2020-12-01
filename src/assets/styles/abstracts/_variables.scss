@@ -126,6 +126,12 @@ $scale: (
     --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
     --btn-borderless-active-border-color: var(--blue-600);
 
+    // Selects
+    --select-color: var(--blue-500);
+    --select-hover-color: var(--blue-600);
+    --select-focus-color: var(--blue-600);
+    --select-focus-border-color: var(--blue-600);
+
     // Navigation
     --nav-background: inherit;
     --nav-color: currentColor;
