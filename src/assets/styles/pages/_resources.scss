@@ -7,7 +7,9 @@
     padding-bottom: var(--scale-2);
 
     .button {
+        display: block;
         margin-top: var(--scale-0);
+        width: 100%;
     }
 }
 
@@ -26,7 +28,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .filters {
         align-items: center;
         display: flex;
@@ -42,7 +44,9 @@
         }
 
         .button {
+            display: inline;
             margin-top: 0;
+            width: auto;
         }
     }
 
