@@ -5,6 +5,10 @@
 .filters {
     border-bottom: 1px solid var(--black);
     padding-bottom: var(--scale-2);
+
+    .button {
+        margin-top: var(--scale-0);
+    }
 }
 
 .results:empty {
@@ -24,9 +28,22 @@
 
 @media (min-width: 768px) {
     .filters {
+        align-items: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        select {
+            margin-right: var(--scale-2);
+        }
+
+        #clear-filters {
+            margin-left: auto;
+        }
+
+        .button {
+            margin-top: 0;
+        }
     }
 
     .filters br {

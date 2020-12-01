@@ -12,20 +12,21 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICEN
 
 "use strict";
 
-const formatMenu = document.getElementById("format");
+const typeMenu = document.getElementById("type");
 const buildingBlockMenu = document.getElementById("building-block");
+const applyFilters = document.getElementById("apply-filters");
 const clearFilters = document.getElementById("clear-filters");
 const resources = document.getElementById("resources");
 const results = document.getElementById("results");
 
-const applyFilters = function () {
-    const format = formatMenu.value;
+const applyCurrentFilters = function () {
+    const type = typeMenu.value;
     const buildingBlock = buildingBlockMenu.value;
 
-    const formatLabel = (format !== "") ? formatMenu.querySelector(`[value="${format}"]`).innerText : false;
+    const typeLabel = (type !== "") ? typeMenu.querySelector(`[value="${type}"]`).innerText : false;
     const buildingBlockLabel = (buildingBlock !== "") ? buildingBlockMenu.querySelector(`[value="${buildingBlock}"]`).innerText : false;
 
-    const filterString = [format, buildingBlock].join(" ").trim();
+    const filterString = [type, buildingBlock].join(" ").trim();
 
     let count = 0;
 
@@ -44,10 +45,10 @@ const applyFilters = function () {
 
     let resultsMessage = `<strong>${count} ${ (count === 1) ? "resource" : "resources" }</strong> matched `;
 
-    if (formatLabel && buildingBlockLabel) {
-        resultsMessage = `${resultsMessage} <strong>${formatLabel}</strong> for <strong>${buildingBlockLabel}</strong>${ (count === 0) ? "." : ":" }`;
-    } else if (formatLabel) {
-        resultsMessage = `${resultsMessage} <strong>${formatLabel}</strong>${ (count === 0) ? "." : ":" }`;
+    if (typeLabel && buildingBlockLabel) {
+        resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong> for <strong>${buildingBlockLabel}</strong>${ (count === 0) ? "." : ":" }`;
+    } else if (typeLabel) {
+        resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong>${ (count === 0) ? "." : ":" }`;
     } else if (buildingBlockLabel) {
         resultsMessage = `${resultsMessage} <strong>${buildingBlockLabel}</strong>${ (count === 0) ? "." : ":" }`;
     } else {
@@ -56,12 +57,10 @@ const applyFilters = function () {
     results.innerHTML = resultsMessage;
 };
 
-formatMenu.addEventListener("change", applyFilters);
-buildingBlockMenu.addEventListener("change", applyFilters);
-
+applyFilters.addEventListener("click", applyCurrentFilters);
 clearFilters.addEventListener("click", function () {
-    formatMenu.value = "";
+    typeMenu.value = "";
     buildingBlockMenu.value = "";
 
-    applyFilters();
+    applyCurrentFilters();
 });

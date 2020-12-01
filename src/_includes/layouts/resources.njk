@@ -9,16 +9,14 @@
     {{ content | safe }}
     <div class="[ filters ] [ mt-scale-2 ]">
         <div>
-            Show me&nbsp;<br>
-            <label class="visually-hidden" for="format">format</label>
-            <select class="[ inline ]" id="format">
-                <option value="">Any format</option>
-                {% for format in [{slug: "activity", name: "Activities"}, {slug: "guide", name: "Guides"}, {slug: "tool", name: "Tools"}] %}
-                <option value="{{ format.slug }}">{{ format.name }}</option>
+            <label class="[ weight-bold ]" for="type">Resource Type:</label>
+            <select class="[ inline ]" id="type">
+                <option value="">Any type</option>
+                {% for type in [{slug: "activity", name: "Activities"}, {slug: "guide", name: "Guides"}, {slug: "tool", name: "Tools"}] %}
+                <option value="{{ type.slug }}">{{ type.name }}</option>
                 {% endfor %}
-            </select>
-            for&nbsp;<br>
-            <label class="visually-hidden" for="building-block">building block</label>
+            </select><br>
+            <label class="[ weight-bold ]" for="building-block">Building Block:</label>
             <select class="[ inline ]" id="building-block">
                 <option value="">Any building block</option>
                 {% for buildingBlock in buildingBlocks %}
@@ -26,7 +24,8 @@
                 {% endfor %}
             </select>
         </div>
-        <button id="clear-filters" class="button--borderless" type="button">Clear filters</button>
+        <button id="apply-filters" class="button" type="button">Apply filters</button>
+        <button id="clear-filters" class="button button--secondary" type="button">Clear filters</button>
     </div>
     <div id="results" class="results [ text-scale-1 mt-scale-3 mb-scale-4 ]" role="alert" aria-live="polite"></div>
     <div id="resources" class="resources grid grid--md-2 grid--lg-3 [ mb-scale-8 ]">
