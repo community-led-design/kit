@@ -13,6 +13,10 @@
     padding: var(--scale-2) rem(27) rem(27); // TODO: Create variable.
     position: relative;
 
+    &[hidden] {
+        display: none;
+    }
+
     &:hover {
         box-shadow: 0 0 16px rgba(27, 64, 102, 0.3); // TODO: Create variable.
     }
@@ -51,6 +55,7 @@
         }
 
         &:focus {
+            background: none;
             box-shadow: none;
         }
 

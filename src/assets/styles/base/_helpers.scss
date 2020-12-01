@@ -32,6 +32,10 @@
     .mt-#{$name} {
         margin-top: var(--#{$name});
     }
+
+    .mb-#{$name} {
+        margin-bottom: var(--#{$name});
+    }
 }
 
 @each $name, $value in $colors {

@@ -1,4 +1,4 @@
-<article class="card resource" data-type="{{ resource.data.type | slug }}" data-block="{{ resource.data.buildingBlock | slug }}">
+<article class="card resource" data-filter="{{ resource.data.type | slug }} {{ resource.data.buildingBlock | slug }}">
     <h2 class="h4"><a href="{{ resource.url }}">{{ resource.data.title }}</a></h2>
     <p class=""><strong>{{ resource.data.type }}</strong> for&nbsp;<br /><strong>{{ resource.data.buildingBlock }}</strong></p>
 </article>
