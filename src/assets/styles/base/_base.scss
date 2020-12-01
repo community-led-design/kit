@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Basic styles for page structure
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+    border-radius: 0.5px;
+    color: var(--link-color);
+    font-weight: var(--weight-bold);
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--link-hover-color);
+    }
+
+    &:focus {
+        background: var(--link-focus-background);
+        box-shadow: var(--link-focus-box-shadow);
+        color: var(--link-focus-color);
+        outline: none;
+        text-decoration: none;
+    }
+
+    &:active {
+        background: var(--link-active-background);
+        box-shadow: var(--link-active-box-shadow);
+        color: var(--link-active-color);
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+[data-background="dark"] {
+    --link-color: var(--white);
+    --link-hover-color: var(--yellow-300);
+    --link-focus-background: var(--yellow-300);
+    --link-focus-color: var(--blue-600);
+    --link-focus-box-shadow: 0 0 0 2px var(--yellow-300);
+    --link-active-background: var(--white);
+    --link-active-color: var(--blue-600);
+    --link-active-box-shadow: 0 0 0 2px var(--white);
+}

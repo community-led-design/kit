@@ -1,43 +1,35 @@
 <!doctype html>
 <html class="no-js" lang="en-ca">
     <head>
-        <meta charset="utf-8">
-        <title>{{ title + " – " + site.title if title else site.title }}</title>
-        <meta name="description" content="{{ description if description else site.description }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        {# <meta property="og:title" content="">
-        <meta property="og:type" content="">
-        <meta property="og:url" content="https://codesign.inclusivedesign.ca/">
-        <meta property="og:image" content="/assets/images/opengraph.png"> #}
+        {% include "partials/global/meta.njk" %}
 
         {# <link rel="manifest" href="/site.webmanifest"> #}
         {# <link rel="apple-touch-icon" href="/assets/images/icon.png"> #}
 
-        {% include "partials/stylesheets.njk" %}
+        {% include "partials/global/stylesheets.njk" %}
 
-        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
-        {% include "partials/scripts.njk" %}
+        <script>document.documentElement.classList.remove('no-js');</script>
+        {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
+        {% include "partials/global/scripts.njk" %}
+        {% block headerScripts %}
+        {% endblock %}
     </head>
-    <body>
-        {% include "partials/uio.njk" %}
-        {% include "partials/header.njk" %}
-        <main class="px-6">
+    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+        {# {% include "partials/global/uio.njk" %} #}
+        {% include "partials/global/header.njk" %}
+        <main>
             <article>
                 {% block pageHeader %}
-                {% include "partials/page-header.njk" %}
-                {% endblock %}
-                {% block toc %}
-                <div class="toc hidden">
-                </div>
+                {% include "partials/global/page-header.njk" %}
                 {% endblock %}
                 {% block content %}
-                <div class="content space-y-4">
+                <div class="content">
                 {{ content | safe }}
                 </div>
                 {% endblock %}
             </article>
         </main>
+        {% include "partials/global/footer.njk" %}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     </body>
 </html>

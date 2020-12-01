@@ -12,4 +12,4 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICEN
 
 "use strict";
 
-// If your website needs custom JavaScript, put it here.
+require("./utils/nav.js");

@@ -1,4 +1,6 @@
 {
     "layout": "layouts/page",
-    "permalink": "/{{ title | slug }}/"
+    "permalink": "/{{ title | slug }}/",
+    "bannerBg": "blue-100",
+    "banner": "light"
 }

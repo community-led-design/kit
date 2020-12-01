@@ -15,18 +15,18 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICEN
 const mix = require("laravel-mix");
 const moveFile = require("move-file");
 
-require("laravel-mix-tailwind");
-
 // Set public path.
 mix.setPublicPath("dist/assets");
 
 // Process JavaScript files with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
+mix.js("./src/assets/scripts/filtering.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
+mix.js("./src/assets/scripts/toc.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
 
 // Process Sass.
-mix.sass("./src/assets/styles/app.scss", "dist/assets/styles").tailwind();
+mix.sass("./src/assets/styles/app.scss", "dist/assets/styles");
 
 // Don't modify stylesheet url() functions.
 mix.options({
@@ -35,6 +35,9 @@ mix.options({
 
 // Enable source maps.
 mix.sourceMaps(false, "source-map");
+
+// Disable notifications unless there's an error.
+mix.disableSuccessNotifications();
 
 // Add version string to assets in production.
 if (mix.inProduction()) {

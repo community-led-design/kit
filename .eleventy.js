@@ -35,8 +35,8 @@ module.exports = function (config) {
     config.addTransform("parse", parseTransform);
 
     // Passthrough copy
+    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/posts/images": "posts/images"});
     config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy("src/admin/*.js");
     config.addPassthroughCopy({"node_modules/infusion/dist/infusion-uio.min.js": "lib/infusion/infusion-uio.min.js"});

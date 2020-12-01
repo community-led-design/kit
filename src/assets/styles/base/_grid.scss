@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains styles for the grid system.
+// -----------------------------------------------------------------------------
+
+.grid {
+    display: grid;
+    gap: var(--row-gap, var(--scale-4)) var(--column-gap, var(--scale-4));
+}
+
+.grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--md-2 {
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.grid--lg-3 {
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.grid--lg-4 {
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

@@ -15,6 +15,9 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner Type", name: "banner", widget: "hidden"}
+      - {label: "Banner Background", name: "bannerBg", widget: "hidden"}
+      - {label: "Banner Text", name: "bannerText", widget: "hidden"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

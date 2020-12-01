@@ -1,0 +1,73 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+.visually-hidden {
+    border-width: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.inline {
+    display: inline;
+}
+
+.flow > * + * {
+    margin-top: var(--flow-space, 1rem);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: var(--max-content);
+    padding: var(--scale-8) 0;
+}
+
+@each $name, $value in $scale {
+    .mt-#{$name} {
+        margin-top: var(--#{$name});
+    }
+
+    .mb-#{$name} {
+        margin-bottom: var(--#{$name});
+    }
+}
+
+@each $name, $value in $colors {
+    .bg-#{$name} {
+        --bg-parent: #{$value};
+
+        background: $value;
+    }
+}
+
+@each $name, $value in $colors {
+    .text-#{$name} {
+        color: $value;
+    }
+}
+
+@each $name, $value in $weights {
+    .#{$name} {
+        font-weight: $value;
+    }
+}
+
+.bg--full {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+
+    .wrapper {
+        padding: var(--scale-8) var(--scale-4);
+    }
+}
+
+img {
+    height: auto;
+}
