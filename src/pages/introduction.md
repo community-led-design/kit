@@ -1,6 +1,6 @@
 ---
 layout: layouts/page
-title: Introduction to co-design and community-led co-design
+title: Introduction to community-led co-design
 permalink: /introduction/
 eleventyNavigation:
     parent: Getting Started
