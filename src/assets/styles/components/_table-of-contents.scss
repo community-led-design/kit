@@ -4,6 +4,7 @@
 
 .toc [aria-expanded] {
     align-items: center;
+    border-bottom: 2px solid var(--blue-100);
     border-top: 2px solid var(--blue-100);
     display: flex;
     flex-direction: row;
@@ -15,6 +16,20 @@
     padding-left: var(--scale-4);
     padding-right: var(--scale-4);
     width: 100vw;
+
+    &:focus {
+        background: var(--blue-600);
+        border-color: var(--blue-600);
+        color: var(--white);
+        outline: none;
+    }
+
+    &:active {
+        background: var(--blue-500);
+        border-color: var(--blue-500);
+        color: var(--white);
+        outline: none;
+    }
 
     svg {
         transition: 0.5s transform;
@@ -42,29 +57,24 @@
     font-size: var(--scale-1);
 }
 
-.toc ul ul li {
-    font-size: var(--scale-0);
-}
-
 .toc ul li + li {
-    margin-top: var(--scale-2);
-}
-
-.toc ul ul {
-    display: none;
-    margin-top: var(--scale--3);
-}
-
-.toc ul ul li + li {
     margin-top: var(--scale--4);
 }
 
-@media (min-width: 1024px) {
-    .toc {
-        max-height: 100vh;
-        overflow: scroll;
+@media (max-width: 1023px) {
+    .toc a {
+        align-items: center;
+        border-radius: 0;
+        display: block;
+        display: flex;
+        height: rem(45);
+        margin-left: calc(-1 * var(--scale-4));
+        padding: 0 var(--scale-4);
+        width: 100vw;
     }
+}
 
+@media (min-width: 1024px) {
     .toc [aria-expanded] {
         display: none;
     }
@@ -79,5 +89,9 @@
         h2 {
             display: block;
         }
+    }
+
+    .back-to-top {
+        display: none;
     }
 }

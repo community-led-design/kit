@@ -30,7 +30,7 @@ module.exports = function (value, outputPath) {
         const document = DOM.window.document;
         const articleImages = [...document.querySelectorAll("main article img")];
         const headings = [...document.querySelectorAll("main article h2, main article h3, main article h4")];
-        const tocHeadings = [...document.querySelectorAll(".inner-content h2, .inner-content h3")];
+        const tocHeadings = [...document.querySelectorAll(".inner-content h2")];
         const tocUl = document.querySelector("nav.toc .toc-menu > ul");
 
         if (articleImages.length) {
@@ -50,33 +50,25 @@ module.exports = function (value, outputPath) {
         }
 
         if (tocHeadings.length && tocUl) {
-            let output = "";
 
-            for (let i = 0; i < tocHeadings.length; i++) {
-                let heading, prevHeading;
-                prevHeading = false;
-                heading = tocHeadings[i];
-
+            let i = 0;
+            tocHeadings.forEach(heading => {
                 if (i > 0) {
-                    prevHeading = tocHeadings[i - 1].tagName;
+                    const skipBack = document.createElement("p");
+                    skipBack.className = "back-to-top";
+                    skipBack.innerHTML = "<a href=\"#toc\">Table of contents &uarr;</a>";
+                    heading.parentNode.insertBefore(skipBack, heading);
                 }
+                const tocItem = document.createElement("li");
+                tocItem.innerHTML = `<a href="#${slugify(heading.textContent, slugifyOptions)}">${heading.textContent}</a>`;
+                tocUl.appendChild(tocItem);
+                i++;
+            });
 
-                if (!prevHeading) {
-                    output += "<li>";
-                } else if (heading.tagName === "H2" && prevHeading === "H3") {
-                    output += "</ul></li><li>";
-                } else if (heading.tagName === "H3" && prevHeading === "H2") {
-                    output += "<ul role=\"list\"><li>";
-                } else {
-                    output += "</li><li>";
-                }
-                output += `<a href="#${slugify(heading.textContent, slugifyOptions)}">${heading.textContent}</a>`;
-                if (i === (tocHeadings.length - 1)) {
-                    output += "</li>";
-                }
-            }
-
-            tocUl.innerHTML = output;
+            const skipBack = document.createElement("p");
+            skipBack.className = "back-to-top";
+            skipBack.innerHTML = "<a href=\"#toc\">Table of contents &uarr;</a>";
+            document.querySelector(".inner-content").appendChild(skipBack);
         }
 
         return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;
