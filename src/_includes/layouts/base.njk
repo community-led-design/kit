@@ -22,12 +22,8 @@
                 {% block pageHeader %}
                 {% include "partials/global/page-header.njk" %}
                 {% endblock %}
-                {% block toc %}
-                <div class="toc">
-                </div>
-                {% endblock %}
                 {% block content %}
-                <div class="content [ flow ]">
+                <div class="content">
                 {{ content | safe }}
                 </div>
                 {% endblock %}

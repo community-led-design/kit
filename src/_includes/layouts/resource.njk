@@ -1,14 +1,36 @@
 {% extends "layouts/base.njk" %}
 
+{% set bodyClass = "single-resource" %}
+
+{% block headerScripts %}	
+<script type="text/javascript" src="/assets{{ assets['/scripts/toc.js'] }}" defer></script>
+{% endblock %} 		
+
 {% block pageHeader %}
-<header class="header">
-    <h1>{{ title | safe}}</h1>
-    <p class="subtitle [ text-scale-3 ]"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
+    <div class="wrapper">
+        <h1>{{ title | safe}}</h1>
+        <p class="subtitle text-scale-2 weight-normal"><strong>{{ type }}</strong> for <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+    </div>
 </header>
 {% endblock %}
 
 {% block content %}
-<div class="content [ flow ]">
-{{ content | safe }}
+<div class="[ bg-blue-100 ]">
+    <div class="[ content content-with-sidebar ]">
+        <div class="sidebar">
+            <nav id="toc" class="toc" aria-labelledby="table-of-contents">
+                <button type="button" aria-expanded="false">Table of contents <svg class="inline" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477" stroke="currentColor" stroke-width="2"/></svg></button>
+                <div class="toc-menu">
+                    <h2 id="table-of-contents" class="h3">Table of contents</h2>
+                    <ul role="list">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="inner-content">
+        {{ content | safe }}
+        </div>
+    </div>
 </div>
 {% endblock %}

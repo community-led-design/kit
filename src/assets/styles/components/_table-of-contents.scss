@@ -2,13 +2,96 @@
 // This file contains all styles related to the table of contents component.
 // -----------------------------------------------------------------------------
 
-.toc {
-    margin: var(--scale-6) auto;
-    max-width: var(--max-content);
+.toc [aria-expanded] {
+    align-items: center;
+    border-bottom: 2px solid var(--blue-100);
+    border-top: 2px solid var(--blue-100);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--scale-1);
+    font-weight: var(--weight-bold);
+    height: rem(60);
+    justify-content: space-between;
+    margin-left: calc(-1 * var(--scale-4));
     padding-left: var(--scale-4);
     padding-right: var(--scale-4);
+    width: 100vw;
+
+    &:focus {
+        background: var(--blue-600);
+        border-color: var(--blue-600);
+        color: var(--white);
+        outline: none;
+    }
+
+    &:active {
+        background: var(--blue-500);
+        border-color: var(--blue-500);
+        color: var(--white);
+        outline: none;
+    }
+
+    svg {
+        transition: 0.5s transform;
+    }
 }
 
-.toc:empty {
+.toc [aria-expanded="true"] svg {
+    transform: rotate(-180deg);
+}
+
+.toc [aria-expanded="false"] + * {
     display: none;
+}
+
+.toc [aria-expanded="true"] + * {
+    display: block;
+    padding-bottom: var(--scale-6);
+
+    h2 {
+        display: none;
+    }
+}
+
+.toc ul li {
+    font-size: var(--scale-1);
+}
+
+.toc ul li + li {
+    margin-top: var(--scale--4);
+}
+
+@media (max-width: 1023px) {
+    .toc a {
+        align-items: center;
+        border-radius: 0;
+        display: block;
+        display: flex;
+        height: rem(45);
+        margin-left: calc(-1 * var(--scale-4));
+        padding: 0 var(--scale-4);
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .toc [aria-expanded] {
+        display: none;
+    }
+
+    .toc [aria-expanded="false"] + * {
+        display: block;
+    }
+
+    .toc [aria-expanded="true"] + * {
+        padding-bottom: 0;
+
+        h2 {
+            display: block;
+        }
+    }
+
+    .back-to-top {
+        display: none;
+    }
 }
