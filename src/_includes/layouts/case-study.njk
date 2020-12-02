@@ -1,9 +1,50 @@
 {% extends "layouts/base.njk" %}
 
+{% set bodyClass = "single-case-study" %}
+
+{% block headerScripts %}	
+<script type="text/javascript" src="/assets{{ assets['/scripts/toc.js'] }}" defer></script>
+{% endblock %} 		
+
+{% block pageHeader %}
+<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
+    <div class="wrapper">
+        <h1 itemprop="name">{{ title | safe}}</h1>
+        {% if subtitle %}
+        <p class="subtitle [ text-scale-2 ] [ weight-bold ]">{{ subtitle }}</p>
+        {% endif %}
+        <p class="meta [ mt-scale-6 ]">By {% for author in authors %}
+            {%- if not loop.first -%}
+            {{ " and " if loop.last else ", " }}
+            {%- endif -%}
+            <span itemprop="author">{{ author }}</span>
+        {%- endfor %}{% if organization %}, <span itemprop="sourceOrganization">{{ organization }}</span>{% endif %}<br>
+        <span itemprop="temporalCoverage" content="{{ startDate }}/{{ endDate if endDate else ".." }}">{{ startDate }}{% if endDate -%}
+        {{ "–" + endDate if endDate !== startDate else "" }}
+        {%- else -%}
+        –present
+        {%- endif %}</span>
+        </p>
+    </div>
+</header>
+{% endblock %}
+
 {% block content %}
-<div class="content [ flow ]">
-<div class="inner-content">
-{{ content | safe }}
-</div>
+<div class="[ bg-green-100 ]">
+    <div class="[ content content-with-sidebar ]">
+        <div class="sidebar">
+            <nav id="toc" class="toc" aria-labelledby="table-of-contents">
+                <button type="button" aria-expanded="false">Table of contents <svg class="inline" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477" stroke="currentColor" stroke-width="2"/></svg></button>
+                <div class="toc-menu">
+                    <h2 id="table-of-contents" class="h3">Table of contents</h2>
+                    <ul role="list">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="inner-content">
+        {{ content | safe }}
+        </div>
+    </div>
 </div>
 {% endblock %}
