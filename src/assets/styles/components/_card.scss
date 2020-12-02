@@ -28,15 +28,15 @@
         padding: var(--scale-2);
     }
 
-    &[data-type="activity"] {
+    &[data-filter*="activity"] {
         border-color: var(--green-300);
     }
 
-    &[data-type="guide"] {
+    &[data-filter*="guide"] {
         border-color: var(--blue-300);
     }
 
-    &[data-type="tool"] {
+    &[data-filter*="tool"] {
         border-color: var(--yellow-300);
     }
 
