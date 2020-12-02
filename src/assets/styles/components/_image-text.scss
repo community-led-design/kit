@@ -3,26 +3,18 @@
 // -----------------------------------------------------------------------------
 
 .image-text {
-    .image {
-        display: flex;
-        flex-direction: column;
-        height: rem(360);
-        justify-content: center;
-        overflow: hidden;
+    display: grid;
+    gap: var(--scale-4);
 
+    .image {
         img {
             width: 100%;
         }
     }
 
-    .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .subtitle {
-        font-weight: var(--weight-bold);
+        font-size: var(--scale-1);
+        font-weight: var(--weight-medium);
     }
 
     .byline {
@@ -31,5 +23,27 @@
 
     .date {
         margin-top: rem(8);
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-text {
+        display: grid;
+        gap: var(--scale-4);
+        grid-template-columns: repeat(2, 1fr);
+
+        .image {
+            display: flex;
+            flex-direction: column;
+            height: rem(360);
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
 }

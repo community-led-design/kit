@@ -18,7 +18,15 @@
         {# {% include "partials/global/uio.njk" %} #}
         {% include "partials/global/header.njk" %}
         <main>
-            <article>
+            {% set itemType = "WebPage" %}
+            {% if bodyClass === "single-resource" %}
+                {% set itemType = "Guide" %}
+            {% elif bodyClass === "single-case-study" %}
+                {% set itemType = "Article" %}
+            {% elif page.url === "/about/" %}
+                {% set itemType = "AboutPage" %}
+            {% endif %}
+            <article itemscope itemtype="https://schema.org/{{ itemType }}">
                 {% block pageHeader %}
                 {% include "partials/global/page-header.njk" %}
                 {% endblock %}
