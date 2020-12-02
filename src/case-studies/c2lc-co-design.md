@@ -26,9 +26,6 @@ endDate: false
 * Learn more about the project:[](https://www.codelearncreate.org/)<https://www.codelearncreate.org/>
 
 ## Co-design overview
-
-{% accordion %}
-
 ### Goals:
 
   * Integrate the students' ideas into the design of the prototype early on as the project is being developed.
@@ -46,8 +43,6 @@ endDate: false
 
   * Direct feedback and recommendations from the students, their families and special education teachers
   * Observational notes throughout the co-design sessions that helped to identify the pain-points, gaps, and moments of delight as students with complex learning needs were using the coding environment
-
-{% endaccordion %}
 
 ## Co-design process
 
