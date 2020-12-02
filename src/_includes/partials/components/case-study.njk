@@ -1,17 +1,17 @@
-<article class="image-text">
+<article class="image-text" itemscope itemtype="https://schema.org/Report">
     <figure class="image">
         <img src="/assets/images/placeholder-16by10.png" alt="" width="570" height="356" />
     </figure>
     <div class="text">
-        <h2><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
+        <h2 itemprop="name"><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
         <p class="subtitle">{{ caseStudy.data.subtitle }}</p>
         <p class="byline">By {% for author in caseStudy.data.authors %}
             {%- if not loop.first -%}
             {{ " and " if loop.last else ", " }}
             {%- endif -%}
-            {{ author }}
-        {%- endfor %}{% if caseStudy.data.organization %}, {{ caseStudy.data.organization }}{% endif %}</p>
-        <p class="date">{{ caseStudy.data.startDate }}{% if caseStudy.data.endDate -%}
+            <span itemprop="author">{{ author }}</span>
+        {%- endfor %}{% if caseStudy.data.organization %}, <span itemprop="sourceOrganization">{{ caseStudy.data.organization }}</span>{% endif %}</p>
+        <p class="date" itemprop="temporalCoverage" content="{{ caseStudy.data.startDate }}/{{ caseStudy.data.endDate if caseStudy.data.endDate else ".." }}">{{ caseStudy.data.startDate }}{% if caseStudy.data.endDate -%}
         {{ "–" + caseStudy.data.endDate if caseStudy.data.endDate !== caseStudy.data.startDate else "" }}
         {%- else -%}
         –present

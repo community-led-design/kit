@@ -9,7 +9,7 @@
 {% block pageHeader %}
 <header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
     <div class="wrapper">
-        <h1>{{ title | safe}}</h1>
+        <h1 itemprop="name">{{ title | safe}}</h1>
         {% if subtitle %}
         <p class="subtitle [ text-scale-2 ] [ weight-bold ]">{{ subtitle }}</p>
         {% endif %}
@@ -17,13 +17,13 @@
             {%- if not loop.first -%}
             {{ " and " if loop.last else ", " }}
             {%- endif -%}
-            {{ author }}
-        {%- endfor %}{% if organization %}, {{ organization }}{% endif %}<br>
-        {{ startDate }}{% if endDate -%}
+            <span itemprop="author">{{ author }}</span>
+        {%- endfor %}{% if organization %}, <span itemprop="sourceOrganization">{{ organization }}</span>{% endif %}<br>
+        <span itemprop="temporalCoverage" content="{{ startDate }}/{{ endDate if endDate else ".." }}">{{ startDate }}{% if endDate -%}
         {{ "–" + endDate if endDate !== startDate else "" }}
         {%- else -%}
         –present
-        {%- endif %}
+        {%- endif %}</span>
         </p>
     </div>
 </header>
