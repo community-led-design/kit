@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the accordion component.
+// -----------------------------------------------------------------------------
+
+.accordion {
+    margin-top: var(--scale-2);
+
+    button {
+        align-items: center;
+        border: 2px solid transparent;
+        display: flex;
+        flex-direction: row;
+        font-family: var(--font-base);
+        font-size: var(--scale-1);
+        font-weight: var(--weight-medium);
+        height: rem(44);
+        justify-content: space-between;
+        margin-left: calc(-1 * var(--scale--4));
+        margin-top: -2px;
+        padding-left: var(--scale--4);
+        padding-right: var(--scale--4);
+        position: relative;
+        width: calc(100% + var(--scale--4) * 2);
+
+        &::after {
+            background: currentColor;
+            bottom: -2px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute;
+            width: calc(100% - var(--scale--4) * 2);
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: currentColor;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        &[aria-expanded="true"] .vertical {
+            display: none;
+        }
+    }
+
+    .panel {
+        padding: 0 0 var(--scale--2);
+    }
+
+    .panel + * {
+        margin-top: 0;
+    }
+}
+
+.accordion + * {
+    margin-top: var(--scale-4);
+}

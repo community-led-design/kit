@@ -11,22 +11,31 @@ endDate: false
 
 * Coding to Learn and Create is a joint project of the Inclusive Design Research Centre (IDRC) at OCAD University and Bridges Canada. The project was awarded a grant of $1.7 million dollars by the Ministry of Innovation, Science and Economic Development, from the Accessible Technology Program.
 * The Coding to Learn and Create is developing an inclusive coding environment and an open educational resource repository in collaboration with educators, students, and their families.
-* Context:
+
+<div class="accordion">
+
+### Context
 
   * Learning to code is increasingly part of the required curriculum in Canadian schools. Coding education is now mandatory in three provinces, and an encouraged part of the curriculum in most others.
   * Coding education can not only develop skills for future employment and career opportunities – “Learning to Code” But particularly for students with cognitive, communication and physical challenges, coding education can help develop social, daily living, and creative skills – “Coding to Learn.”
   * However, most popular programming environments are visual and incompatible with commonly-used assistive technologies (AT) and alternative input tools such as switches, onscreen keyboards, eye gaze systems, text-to-speech, and augmentative and alternative communication (AAC).
   * For students with cognitive and learning disabilities, coding can help teach crucial collaborative and communication skills, strategies for problem-solving, task sequencing, spatial awareness, and metacognitive skills. Thus, participation in coding activities can be a strong reinforcer of equality in the school community.
-* Our Partners:
+### Partners
 
   * [Bridges Canada](https://www.bridges-canada.com/) is the only cross-Canada, full service, assistive technology company, delivering support in assistive technology for learning, communication, alternative access, low vision and blindness needs.
-* Desired outcome:
+### Desired Outcome
 
   * Maybe the desired outcome is: - building an inclusive and accessible coding environment that empowers all learners to be creators of their digital worlds, to express themselves using code and art, and to apply these skills to other areas of learning and daily life.
-* Learn more about the project:[](https://www.codelearncreate.org/)<https://www.codelearncreate.org/>
+
+</div>
+
+[Learn more about the project](https://www.codelearncreate.org/)
 
 ## Co-design overview
-### Goals:
+
+<div class="accordion">
+
+### Goals
 
   * Integrate the students' ideas into the design of the prototype early on as the project is being developed.
   * Partner with educators, students, and their families to develop a new inclusive coding environment scaffolded and customizable for students who have different physical, learning, and cognitive needs.
@@ -37,12 +46,14 @@ endDate: false
   * The participants' families
   * Special education teachers
 
-### Outcomes:
+### Outcomes
 
   Refined the coding environment based on:
 
   * Direct feedback and recommendations from the students, their families and special education teachers
   * Observational notes throughout the co-design sessions that helped to identify the pain-points, gaps, and moments of delight as students with complex learning needs were using the coding environment
+
+</div>
 
 ## Co-design process
 
