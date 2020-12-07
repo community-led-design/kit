@@ -11,5 +11,11 @@
     },
     "parserOptions": {
         "ecmaVersion": 8
-    }
+    },
+    "overrides": [{
+        "files": ["src/assets/scripts/components/Accordion.js", "src/assets/scripts/app.js"],
+        "parserOptions": {
+            "sourceType": "module"
+        }
+    }]
 }
