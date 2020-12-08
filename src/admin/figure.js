@@ -35,7 +35,7 @@ CMS.registerEditorComponent({
     },
     toPreview: ({alt, image, caption}) => {
         const md = window.markdownit();
-        const figcaption = caption ? `<figcation>${md.render(caption)}</figcaption>` : "";
+        const figcaption = caption ? `<figcaption>${md.render(caption)}</figcaption>` : "";
         return `<figure><img src="${image}" alt="${alt.replace(/"/g, "&quot;") || ""}" />${figcaption}</figure>`;
     }
 });
