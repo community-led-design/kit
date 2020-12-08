@@ -33,7 +33,7 @@
         "@11ty/eleventy-navigation": "0.1.6",
         "@11ty/eleventy-plugin-rss": "1.0.9",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.4",
-        "@inclusive-design/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#ee75b78"
+        "@inclusive-design/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#e5a9103"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
@@ -45,7 +45,6 @@
         "html-minifier": "4.0.0",
         "husky": "4.3.0",
         "image-size": "0.9.3",
-        "infusion": "3.0.0-dev.20200326T173810Z.24ddb2718",
         "jsdom": "16.4.0",
         "laravel-mix": "5.0.9",
         "modern-css-reset": "1.3.0",
