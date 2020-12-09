@@ -17,7 +17,7 @@ select {
     font-weight: var(--weight-bold);
     height: var(--scale-4);
     line-height: 1;
-    padding: rem(6) rem(18) rem(6) rem(2);
+    padding: rem(6) rem(18) rem(6) rem(6);
 
     &:hover {
         background-image: var(--select-hover-icon);
