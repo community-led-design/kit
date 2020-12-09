@@ -128,9 +128,16 @@ $scale: (
 
     // Selects
     --select-color: var(--blue-500);
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231362b4' stroke-width='2'/%3E%3C/svg%3E");
     --select-hover-color: var(--blue-600);
+    --select-hover-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
     --select-focus-color: var(--blue-600);
+    --select-focus-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
     --select-focus-border-color: var(--blue-600);
+    --select-active-color: var(--white);
+    --select-active-background: var(--blue-600);
+    --select-active-box-shadow: 0 0 0 2px var(--white) inset;
+    --select-active-border-color: var(--blue-600);
 
     // Navigation
     --nav-background: inherit;

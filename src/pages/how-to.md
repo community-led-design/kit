@@ -1,6 +1,7 @@
 ---
 title: How to use this kit
 permalink: /how-to/
+toc: true
 eleventyNavigation:
   parent: Getting Started
   order: 2

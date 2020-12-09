@@ -2,6 +2,7 @@
 layout: layouts/page
 title: Introduction to community-led co-design
 permalink: /introduction/
+toc: true
 eleventyNavigation:
     parent: Getting Started
     order: 1
