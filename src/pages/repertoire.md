@@ -1,5 +1,6 @@
 ---
 title: Repertoire
+toc: false
 ---
 ## Typography
 
@@ -62,18 +63,32 @@ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
 Here's a paragraph that immediately follows a blockquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-## Buttons
+## Interactive Elements
 
 <div class="wrapper">
     <p><button class="button" type="button">Primary Button</button></p>
     <p><button class="button button--secondary" type="button">Secondary Button</button></p>
     <p><button class="button--borderless" type="button">Borderless Button</button></p>
+    <p>
+        <select>
+            <option value="">Select an option…</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+        </select>
+    </p>
 </div>
 
 <div class="[ bg-blue-600 bg--full ]" data-background="dark">
     <div class="wrapper">
         <p><button class="button" type="button">Primary Button</button></p>
-        <p><button class="button button--secondary" type="button">Secondary Button</button></p>
+        <p><button class="button button--secondary" type="button">Secondary Button</button><p>
         <p><button class="button--borderless" type="button">Borderless Button</button></p>
+        <p>
+            <select>
+                <option value="">Select an option…</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+        </p>
     </div>
 </div>
