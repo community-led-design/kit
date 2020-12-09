@@ -33,7 +33,8 @@
         "@11ty/eleventy-navigation": "0.1.6",
         "@11ty/eleventy-plugin-rss": "1.0.9",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.4",
-        "@inclusive-design/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#e5a9103"
+        "eleventy-plugin-fluid": "0.1.0",
+        "infusion": "3.0.0-dev.20201007T193943Z.440be20ec.FLUID-6145"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",

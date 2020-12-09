@@ -14,7 +14,7 @@
         {% endblock %}
     </head>
     <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
-        {# {% uioTemplate %} #}
+        {% uioTemplate %}
         {% include "partials/global/header.njk" %}
         <main>
             {% set itemType = "WebPage" %}
@@ -37,7 +37,6 @@
             </article>
         </main>
         {% include "partials/global/footer.njk" %}
-        {# {% uioInit %} #}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     </body>
 </html>
