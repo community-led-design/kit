@@ -9,13 +9,12 @@
         {% include "partials/global/stylesheets.njk" %}
 
         <script>document.documentElement.classList.remove('no-js');</script>
-        {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
         {% block headerScripts %}
         {% endblock %}
     </head>
     <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
-        {# {% include "partials/global/uio.njk" %} #}
+        {# {% uioTemplate %} #}
         {% include "partials/global/header.njk" %}
         <main>
             {% set itemType = "WebPage" %}
@@ -38,6 +37,7 @@
             </article>
         </main>
         {% include "partials/global/footer.njk" %}
+        {# {% uioInit %} #}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     </body>
 </html>

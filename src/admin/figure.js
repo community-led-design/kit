@@ -31,11 +31,11 @@ CMS.registerEditorComponent({
             caption: match[3]
         },
     toBlock: function ({alt, image, caption}) {
-        return `{% figure "${image || ""}", "${alt || ""}" %}\n${caption || ""}\n{% endfigure %}`;
+        return `{% figure "${image || ""}", "${alt.replace(/"/g, "&quot;") || ""}" %}\n${caption || ""}\n{% endfigure %}`;
     },
     toPreview: ({alt, image, caption}) => {
         const md = window.markdownit();
-        const figcaption = caption ? `<figcation>${md.render(caption)}</figcaption>` : "";
-        return `<figure><img src="${image}" alt="${alt || ""}" />${figcaption}</figure>`;
+        const figcaption = caption ? `<figcaption>${md.render(caption)}</figcaption>` : "";
+        return `<figure><img src="${image}" alt="${alt.replace(/"/g, "&quot;") || ""}" />${figcaption}</figure>`;
     }
 });
