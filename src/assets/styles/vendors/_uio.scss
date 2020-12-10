@@ -2,36 +2,91 @@
 // This file contains styles that are specific to the UIO integration.
 // -----------------------------------------------------------------------------
 
-.fl-theme-bw {
-    // TODO: Add contrast theme styles.
-}
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default),
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) [data-background="dark"] {
+    // Links
+    --link-focus-box-shadow: 0 0 0 2px var(--fl-linkColor, var(--fl-fgColor));
+    --link-active-box-shadow: 0 0 0 2px var(--fl-linkColor, var(--fl-fgColor));
 
-.fl-theme-wb {
-    // TODO: Add contrast theme styles.
-}
+    a:focus,
+    a:focus * {
+        background-color: var(--fl-linkColor, var(--fl-fgColor)) !important;
+        color: var(--fl-bgColor) !important;
+    }
 
-.fl-theme-by {
-    // TODO: Add contrast theme styles.
-}
+    // Primary Buttons
+    --btn-primary-focus-border-color: var(--fl-buttonBgColor, var(--fl-bgColor));
+    --btn-primary-focus-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor));
+    --btn-primary-active-border-color: var(--fl-buttonBgColor, var(--fl-bgColor));
+    --btn-primary-active-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)), 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)) inset;
 
-.fl-theme-yb {
-    // TODO: Add contrast theme styles.
-}
+    .button {
+        background-color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
+        color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
 
-.fl-theme-lgdg {
-    // TODO: Add contrast theme styles.
-}
+        &:focus {
+            border-color: var(--btn-primary-focus-border-color) !important;
+        }
 
-.fl-theme-gw {
-    // TODO: Add contrast theme styles.
-}
+        &:active {
+            background-color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
+            border-color: var(--btn-primary-active-border-color) !important;
+            color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
+        }
+    }
 
-.fl-theme-gd {
-    // TODO: Add contrast theme styles.
-}
+    // Secondary Buttons
+    --btn-secondary-focus-border-color: var(--fl-buttonBgColor, var(--fl-bgColor));
+    --btn-secondary-focus-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)), 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)) inset;
+    --btn-secondary-active-border-color: var(--fl-buttonBgColor, var(--fl-bgColor));
+    --btn-secondary-active-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)), 0 0 0 3px var(--fl-buttonFgColor, var(--fl-fgColor)) inset;
 
-.fl-theme-bbr {
-    // TODO: Add contrast theme styles.
+    .button--secondary,
+    a.button--secondary {
+        background-color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
+        color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
+
+        &:focus {
+            border-color: var(--btn-secondary-focus-border-color) !important;
+        }
+
+        &:active {
+            background-color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
+            border-color: var(--btn-secondary-active-border-color) !important;
+            color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
+        }
+    }
+
+    // Borderless Buttons
+    --btn-borderless-focus-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)), 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)) inset;
+    --btn-borderless-active-box-shadow: 0 0 0 2px var(--fl-buttonBgColor, var(--fl-bgColor)) inset;
+
+    .button--borderless {
+        &:focus {
+            border-color: var(--fl-buttonbgColor, var(--fl-bgColor)) !important;
+            box-shadow: var(--btn-borderless-focus-box-shadow);
+        }
+
+        &:active {
+            background-color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
+            border-color: var(--fl-buttonbgColor, var(--fl-bgColor));
+            color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
+        }
+    }
+
+    // Selects
+    --select-hover-icon: var(--select-icon);
+    --select-focus-icon: var(--select-icon);
+    --select-focus-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)), 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor)) inset;
+
+    select {
+        background-color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
+
+        &:focus {
+            border-color: var(--fl-buttonbgColor, var(--fl-bgColor)) !important;
+            box-shadow: var(--select-focus-box-shadow);
+        }
+    }
 }
 
 .fl-prefsEditor-separatedPanel {
@@ -58,20 +113,24 @@
     border: 1px solid var(--green-300);
     box-shadow: 0 0 rem(10) rgba(0, 0, 0, 0.1);
 
+    [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) & {
+        box-shadow: none;
+    }
+
     .home & {
         border-color: var(--green-300);
     }
 
     .page & {
-        border-color: var(--green-300);
+        border-color: var(--blue-300);
     }
 
     .resources & {
-        border-color: var(--green-300);
+        border-color: var(--blue-600);
     }
 
     .case-studies & {
-        border-color: var(--green-300);
+        border-color: var(--green-500);
     }
 }
 
@@ -118,15 +177,55 @@
         }
 
         .page & {
-            border-color: var(--green-300);
+            border-color: var(--blue-300);
         }
 
         .resources & {
-            border-color: var(--green-300);
+            border-color: var(--blue-600);
         }
 
         .case-studies & {
-            border-color: var(--green-300);
+            border-color: var(--green-500);
         }
     }
+}
+
+.fl-theme-bw,
+.fl-theme-bw [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-wb,
+.fl-theme-wb [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-yb,
+.fl-theme-yb [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23ff0' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-by,
+.fl-theme-by [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-lgdg,
+.fl-theme-lgdg [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23bdbdbb' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-gw,
+.fl-theme-gw [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%236c6c6c' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-gd,
+.fl-theme-gd [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23888' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.fl-theme-bbr,
+.fl-theme-bbr [data-background="dark"] {
+    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
 }
