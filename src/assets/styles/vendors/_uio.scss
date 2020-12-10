@@ -33,3 +33,100 @@
 .fl-theme-bbr {
     // TODO: Add contrast theme styles.
 }
+
+.fl-prefsEditor-separatedPanel {
+    padding-bottom: var(--scale-0);
+
+    .home & {
+        background: var(--green-100);
+    }
+
+    .page & {
+        background: var(--blue-100);
+    }
+
+    .resources & {
+        background: var(--blue-500);
+    }
+
+    .case-studies & {
+        background: var(--green-300);
+    }
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar {
+    border: 1px solid var(--green-300);
+    box-shadow: 0 0 rem(10) rgba(0, 0, 0, 0.1);
+
+    .home & {
+        border-color: var(--green-300);
+    }
+
+    .page & {
+        border-color: var(--green-300);
+    }
+
+    .resources & {
+        border-color: var(--green-300);
+    }
+
+    .case-studies & {
+        border-color: var(--green-300);
+    }
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    align-items: center;
+    background: var(--white);
+    box-shadow: 0 0 rem(10) rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: rem(44);
+    padding: 0 var(--scale-4);
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    margin-left: var(--scale-4);
+    padding-left: var(--scale-4);
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    align-items: center;
+    color: var(--blue-600);
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-base);
+}
+
+@media (min-width: 768px) {
+    .fl-prefsEditor-separatedPanel .fl-panelBar {
+        border-bottom: 0;
+    }
+
+    .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+        border-bottom: 1px solid var(--green-300);
+        border-bottom-left-radius: rem(3);
+        border-bottom-right-radius: rem(3);
+        border-left: 1px solid var(--green-300);
+        border-right: 1px solid var(--green-300);
+
+        .home & {
+            border-color: var(--green-300);
+        }
+
+        .page & {
+            border-color: var(--green-300);
+        }
+
+        .resources & {
+            border-color: var(--green-300);
+        }
+
+        .case-studies & {
+            border-color: var(--green-300);
+        }
+    }
+}
