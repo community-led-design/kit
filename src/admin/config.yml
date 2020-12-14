@@ -17,9 +17,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Banner Type", name: "banner", widget: "hidden"}
       - {label: "Banner Background", name: "bannerBg", widget: "hidden"}
       - {label: "Banner Text", name: "bannerText", widget: "hidden"}
@@ -35,15 +35,15 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - label: "Resource Type"
         name: "type"
         widget: "select"
         options: ["Guide", "Activity", "Tool"]
       - label: "Building Block"
-        name: "building-block"
+        name: "buildingBlock"
         widget: "select"
         options: ["Partnership", "Community engagement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
       - {label: "Body", name: "body", widget: "markdown"}
@@ -56,8 +56,13 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Authors", name: "authors", widget: "list"}
+      - {label: "Organization", name: "organization", widget: "string", required: false}
+      - {label: "Start Year", name: "startDate", widget: "string", required: true}
+      - {label: "End Year", name: "endDate", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
