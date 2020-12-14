@@ -15,12 +15,15 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Banner Type", name: "banner", widget: "hidden"}
       - {label: "Banner Background", name: "bannerBg", widget: "hidden"}
       - {label: "Banner Text", name: "bannerText", widget: "hidden"}
       - {label: "Table of Contents", name: "toc", widget: "hidden", default: true}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: resources
     label: Resources
@@ -31,6 +34,9 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - label: "Resource Type"
         name: "type"
@@ -50,5 +56,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", default: "/assets/images/opengraph.png"}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
