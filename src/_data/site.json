@@ -1,7 +1,6 @@
 {
-    "title": "Community-Led Co-design Toolkit",
-    "shortDesc": "Fluid is an open, collaborative project to improve the user experience and inclusiveness of open source software.",
-    "url": "https://co-design.inclusivedesign.ca/",
+    "title": "Community-Led Co-design Kit",
+    "description": "An open source toolkit for sharing knowledge about how to do co-design led by community members and organizations.",
     "authorName": "Inclusive Design Research Centre",
     "authorWebsite": "https://idrc.ocadu.ca/"
 }
