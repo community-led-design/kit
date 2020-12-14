@@ -15,7 +15,6 @@ JavaScript files will be written to `/dist/assets/scripts`. Additional JavaScrip
 // Process JavaScript files with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
-mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
 + mix.js("./src/assets/scripts/widget.js", "dist/assets/scripts");
 ```
 
@@ -74,8 +73,7 @@ busting](https://laravel-mix.com/docs/5.0/versioning)):
 {
     "/scripts/app.js": "/scripts/app.js?id=f45bfe43b5e6cb80a6da",
     "/styles/app.css": "/styles/app.css?id=bc8ec84445a00d932c8a",
-    "/scripts/matomo.js": "/scripts/matomo.js?id=3155c9bb3c237aa64c27",
-    "/scripts/uio.js": "/scripts/uio.js?id=41d589185ccf95cc14f9"
+    "/scripts/matomo.js": "/scripts/matomo.js?id=3155c9bb3c237aa64c27"
 }
 ```
 
@@ -116,7 +114,6 @@ follows.
     // Process JavaScript files with Babel.
     - mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
     - mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
-    - mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
     + const scriptPaths = fg.sync("./src/assets/scripts/*.js");
     +
     + scriptPaths.forEach(entryPath => {
@@ -147,7 +144,6 @@ template partials can be modified to automatically load all JavaScript and CSS f
     ```diff
     - <script type="text/javascript" src="/assets{{ assets['/scripts/app.js'] }}" defer></script>
     - <script type="text/javascript" src="/assets{{ assets['/scripts/matomo.js'] }}" defer></script>
-    - <script type="text/javascript" src="/assets{{ assets['/scripts/uio.js'] }}" defer></script>
     + {% set jsPattern = r/.*\.js$/ %}
     + {% for key, value in assets %}
     + {% if jsPattern.test(key) %}
