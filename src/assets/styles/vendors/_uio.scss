@@ -2,6 +2,10 @@
 // This file contains styles that are specific to the UIO integration.
 // -----------------------------------------------------------------------------
 
+.fl-icon-undo {
+    margin-right: 0.25rem;
+}
+
 [class*="fl-theme"]:not(.fl-theme-prefsEditor-default),
 [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) [data-background="dark"] {
     .blob {
