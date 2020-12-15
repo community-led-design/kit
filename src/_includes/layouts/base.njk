@@ -2,12 +2,16 @@
 <html class="no-js" lang="en-ca">
     <head>
         {% include "partials/global/meta.njk" %}
-
-        {# <link rel="manifest" href="/site.webmanifest"> #}
-        {# <link rel="apple-touch-icon" href="/assets/images/icon.png"> #}
-
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <link rel="alternate icon" type="image/png" href="/favicon.ico">
+        <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1b4066">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#eef3f9">
         {% include "partials/global/stylesheets.njk" %}
-
         <script>document.documentElement.classList.remove('no-js');</script>
         {% include "partials/global/scripts.njk" %}
         {% block headerScripts %}
