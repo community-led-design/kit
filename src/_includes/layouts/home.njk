@@ -69,7 +69,8 @@
             <div class="grid grid--md-2 grid--lg-3 mt-scale-5">
             {% for block in buildingBlocks %}
             <div>
-                {# <p><img src="/assets/images/placeholder-1by1.png" alt="" width="100" height="100" /></p> #}
+                {% set blockIllustration = "block-" + block.name | slug + ".svg" %}
+                <p class="block-icon">{% include "svg/" + blockIllustration %}</p>
                 <h4>{{ block.name | safe }}</h4>
                 <p>{{ block.description | safe }}</p>
                 <p><a href="/building-blocks/{{ block.name | slug }}/">Browse methods in {{ block.name | lower | safe }}</a></p>

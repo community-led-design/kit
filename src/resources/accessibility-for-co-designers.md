@@ -1,7 +1,7 @@
 ---
 title: Accessibility for co-designers
 type: Guide
-buildingBlock: Community engagement
+buildingBlock: Community involvement
 ---
 ## About this guide
 

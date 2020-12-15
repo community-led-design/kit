@@ -45,7 +45,7 @@ collections:
       - label: "Building Block"
         name: "buildingBlock"
         widget: "select"
-        options: ["Partnership", "Community engagement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
+        options: ["Partnership", "Community involvement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
       - {label: "Body", name: "body", widget: "markdown"}
   - name: case-studies
     label: Case Studies
