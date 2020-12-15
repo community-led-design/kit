@@ -50,6 +50,10 @@
     .text-#{$name} {
         color: $value;
     }
+
+    .border-#{$name} {
+        border-color: $value;
+    }
 }
 
 @each $name, $value in $weights {
@@ -66,6 +70,12 @@
     .wrapper {
         padding: var(--scale-8) var(--scale-4);
     }
+}
+
+.border-top-3 {
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-top: var(--scale-1);
 }
 
 img {
