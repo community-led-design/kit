@@ -14,7 +14,7 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 const fs = require("fs");
 
-const fluidPlugin = require("@inclusive-design/eleventy-plugin-fluid");
+const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 
@@ -39,6 +39,7 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy("src/admin/*.js");
+    config.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
 
     // Plugins
     config.addPlugin(fluidPlugin);
