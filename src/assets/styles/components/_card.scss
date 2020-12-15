@@ -81,4 +81,10 @@
     *:not(a) {
         z-index: 10;
     }
+
+    svg {
+        height: 1.25em;
+        margin-bottom: -0.25em;
+        width: 1.25em;
+    }
 }
