@@ -5,3 +5,12 @@
 .banner .wrapper {
     padding: 0 var(--scale-4);
 }
+
+@media (min-width: 1024px) {
+    .banner .wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
