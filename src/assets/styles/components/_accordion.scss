@@ -14,13 +14,17 @@
         font-size: var(--scale-1);
         font-weight: var(--weight-medium);
         height: rem(44);
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-left: calc(-1 * var(--scale--4));
         margin-top: -2px;
         padding-left: var(--scale--4);
         padding-right: var(--scale--4);
         position: relative;
         width: calc(100% + var(--scale--4) * 2);
+
+        svg {
+            margin-left: auto;
+        }
 
         &::after {
             background: currentColor;
