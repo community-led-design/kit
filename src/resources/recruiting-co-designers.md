@@ -38,15 +38,15 @@ If people raise any issues about accessibility or other concerns when you are sp
 
 ### Suggested content to include in recruitment communication
 
-Check out the[sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
+Check out the [sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
 
 ### To support recruitment
 
 Collaborators (designers or others) can support community organizations and leaders in recruiting by providing:
 
 * Recruitment letters, graphics, or social media call-outs
-* Detailed recruitment information (ex.[sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a))
-* Any[consent forms required](https://www.notion.so/Consent-forms-and-policies-48f311f302dc484db429cb92fa151bbe)
+* Detailed recruitment information (ex. [sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a))
+* Any [consent forms required](https://www.notion.so/Consent-forms-and-policies-48f311f302dc484db429cb92fa151bbe)
 
 ## Related activities
 
