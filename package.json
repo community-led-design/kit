@@ -1,13 +1,14 @@
 {
-    "name": "codesign.inclusivedesign.ca",
-    "version": "0.1.0",
-    "description": "Website for the Community-Led Co-Design Toolkit.",
+    "name": "co-design.inclusivedesign.ca",
+    "version": "1.0.0",
+    "description": "Website for the Community-Led Co-design Kit.",
     "scripts": {
         "build": "npm-run-all -l clean build:*",
         "build:webpack": "cross-env NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
         "build:eleventy": "cross-env NODE_ENV=production eleventy",
         "clean": "rimraf dist",
         "lint": "grunt lint",
+        "release": "standard-version -t ''",
         "start": "npm-run-all -l clean -p start:*",
         "start:webpack": "cross-env NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
         "start:eleventy": "cross-env NODE_ENV=development eleventy --serve"
@@ -57,6 +58,7 @@
         "sass": "1.29.0",
         "sass-loader": "10.1.0",
         "slugify": "1.4.6",
+        "standard-version": "^9.0.0",
         "stylus": "0.54.8",
         "stylus-loader": "4.3.0",
         "vue-template-compiler": "2.6.12"

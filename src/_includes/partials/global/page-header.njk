@@ -4,5 +4,10 @@
         {% if subtitle %}
         <p class="subtitle">{{ subtitle | safe }}</p>
         {% endif %}
+        {% if page.url == "/" %}
+        <div class="illustration">
+        {% include "svg/illustration.svg" %}
+        </div>
+        {% endif %}
     </div>
 </header>
