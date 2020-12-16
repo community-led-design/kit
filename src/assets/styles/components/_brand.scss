@@ -2,6 +2,11 @@
 // This file contains all styles related to the brand component.
 // -----------------------------------------------------------------------------
 
+.brand {
+    position: relative;
+    z-index: 1;
+}
+
 .brand a {
     color: var(--nav-color);
     display: inline-block;
