@@ -12,122 +12,110 @@
             height: auto;
             width: 100%;
 
-            .cls-1 {
-                stroke: var(--fl-fgColor, #ea5362);
+            .st0 {
+                fill: var(--fl-bgColor, white);
             }
 
-            .cls-24 {
+            .st1 {
+                fill: var(--fl-fgColor, url(#SVGID_1_));
+            }
+
+            .st2 {
+                fill: var(--fl-fgColor, url(#SVGID_2_));
+            }
+
+            .st3 {
+                fill: var(--fl-fgColor, url(#SVGID_3_));
+            }
+
+            .st4 {
+                fill: var(--fl-fgColor, url(#SVGID_4_));
+            }
+
+            .st5 {
+                fill: var(--fl-fgColor, url(#SVGID_5_));
+            }
+
+            .st6 {
+                fill: var(--fl-fgColor, url(#SVGID_6_));
+            }
+
+            .st7 {
+                fill: none;
                 stroke: var(--fl-fgColor, #1362b2);
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.7;
             }
 
-            .cls-1,
-            .cls-13,
-            .cls-24 {
-                fill: var(--fl-bgColor, #fff);
+            .st8 {
+                fill: var(--fl-fgColor, #64adef);
             }
 
-            .cls-13 {
+            .st9 {
+                fill: var(--fl-fgColor, #1b89ec);
+            }
+
+            .st10 {
+                fill: var(--fl-fgColor, #e1a633);
+            }
+
+            .st11 {
+                fill: var(--fl-fgColor, #f0c429);
+            }
+
+            .st12 {
+                fill: var(--fl-bgColor, white);
                 stroke: var(--fl-fgColor, #df9d0b);
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.7;
             }
 
-            .cls-2 {
-                fill: var(--fl-fgColor, #ecbe1f);
+            .st13 {
+                fill: var(--fl-fgColor, #eb7e88);
             }
 
-            .cls-3 {
-                fill: var(--fl-fgColor, url(#yellow_gradient));
+            .st14 {
+                fill: var(--fl-fgColor, #ea5362);
             }
 
-            .cls-4 {
-                fill: var(--fl-fgColor, url(#red_gradient));
+            .st15 {
+                fill: var(--fl-fgColor, #edbabf);
             }
 
-            .cls-5 {
-                fill: var(--fl-fgColor, url(#red_gradient-2));
+            .st16 {
+                stroke: var(--fl-fgColor, #ea5362);
+                stroke-linecap: round;
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.8;
             }
 
-            .cls-6 {
-                fill: var(--fl-fgColor, url(#linear-gradient));
-            }
-
-            .cls-7 {
-                fill: var(--fl-fgColor, url(#linear-gradient-2));
-            }
-
-            .cls-17,
-            .cls-18,
-            .cls-8 {
+            .st16,
+            .st17 {
                 fill: none;
             }
 
-            .cls-8 {
-                stroke: var(--fl-fgColor, #1362b2);
+            .st18 {
+                fill: var(--fl-fgColor, url(#SVGID_7_));
             }
 
-            .cls-13,
-            .cls-17,
-            .cls-8 {
-                stroke-miterlimit: 10;
+            .st19 {
+                fill: var(--fl-fgColor, #1b8aed);
             }
 
-            .cls-9 {
-                fill: var(--fl-fgColor, #64adef);
-                stroke: var(--fl-bgColor, none);
+            .st20 {
+                fill: var(--fl-fgColor, url(#SVGID_8_));
             }
 
-            .cls-10 {
-                fill: var(--fl-fgColor, #1b89ec);
-                stroke: var(--fl-bgColor, none);
+            .st21 {
+                fill: var(--fl-fgColor, #f9ac17);
             }
 
-            .cls-11 {
-                fill: var(--fl-fgColor, #e1a633);
-                stroke: var(--fl-bgColor, none);
+            .st22 {
+                fill: var(--fl-fgColor, url(#SVGID_9_));
             }
 
-            .cls-12 {
-                fill: var(--fl-fgColor, #f0c429);
-                stroke: var(--fl-bgColor, none);
-            }
-
-            .cls-14 {
-                fill: var(--fl-fgColor, #eb7e88);
-                stroke: var(--fl-bgColor, none);
-            }
-
-            .cls-15 {
-                fill: var(--fl-fgColor, #ea5362);
-                stroke: var(--fl-bgColor, none);
-            }
-
-            .cls-16 {
-                fill: var(--fl-fgColor, #edbabf);
-                stroke: var(--fl-bgColor, none);
-            }
-
-            .cls-17 {
-                stroke: var(--fl-fgColor, #edbabf);
-                stroke: var(--fl-bgColor, none);
-            }
-
-            .cls-19 {
-                fill: var(--fl-fgColor, url(#linear-gradient-3));
-            }
-
-            .cls-20 {
-                fill: var(--fl-fgColor, url(#linear-gradient-4));
-            }
-
-            .cls-21 {
-                fill: var(--fl-fgColor, url(#linear-gradient-5));
-            }
-
-            .cls-22 {
-                fill: var(--fl-fgColor, url(#linear-gradient-6));
-            }
-
-            .cls-23 {
-                fill: var(--fl-fgColor, url(#linear-gradient-7));
+            .st23 {
+                fill: var(--fl-fgColor, #e55c69);
             }
         }
     }
@@ -148,19 +136,19 @@
         }
 
         .block-icon .face-yellow-300 .face {
-            fill: var(--fl-bgColor, var(--yellow-300));
+            fill: var(--fl-fgColor, var(--yellow-300));
         }
 
         .block-icon .face-red-100 .face {
-            fill: var(--fl-bgColor, var(--red-100));
+            fill: var(--fl-fgColor, var(--red-100));
         }
 
         .block-icon .face-blue-200 .face {
-            fill: var(--fl-bgColor, var(--blue-200));
+            fill: var(--fl-fgColor, var(--blue-200));
         }
 
         .block-icon .face-green-200 .face {
-            fill: var(--fl-bgColor, var(--green-200));
+            fill: var(--fl-fgColor, var(--green-200));
         }
     }
 }
