@@ -1,6 +1,8 @@
 # Community-Led Co-Design Toolkit
 
-This repository contains the source files for the [Community-Led Co-Design Toolkit](https://codesign.inclusivedesign.ca).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41596f93-63f6-4071-865b-2d12aa7b1af3/deploy-status)](https://app.netlify.com/sites/co-design/deploys)
+
+This repository contains the source files for the [Community-Led Co-Design Toolkit](https://co-design.inclusivedesign.ca).
 
 ## Usage
 
