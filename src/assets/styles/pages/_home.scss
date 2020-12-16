@@ -12,6 +12,10 @@
             height: auto;
             width: 100%;
 
+            .cls-1 {
+                stroke: var(--fl-fgColor, #ea5362);
+            }
+
             .cls-1,
             .cls-13 {
                 fill: var(--fl-bgColor, #fff);
