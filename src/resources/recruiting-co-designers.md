@@ -3,7 +3,7 @@ title: Recruiting Co-Designers
 metaImage: /assets/images/placeholder-1by1.png
 metaImageAlt: preview image
 type: Activity
-buildingBlock: Community engagement
+buildingBlock: Community involvement
 ---
 ## What
 
@@ -38,7 +38,7 @@ If people raise any issues about accessibility or other concerns when you are sp
 
 ### Suggested content to include in recruitment communication
 
-Check out the [sample recruitment letter] (https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
+Check out the [sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
 
 ### To support recruitment
 
