@@ -2,14 +2,179 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.home .content {
-    --flow-space: var(--scale-6);
-
-    section {
-        --flow-space: var(--scale-2);
+.home {
+    .header .wrapper {
+        padding-bottom: 0;
     }
 
-    section ol {
-        padding-left: 0;
+    .illustration {
+        svg {
+            height: auto;
+            width: 100%;
+
+            .st0 {
+                fill: var(--fl-bgColor, white);
+            }
+
+            .st1 {
+                fill: var(--fl-fgColor, url(#SVGID_1_));
+            }
+
+            .st2 {
+                fill: var(--fl-fgColor, url(#SVGID_2_));
+            }
+
+            .st3 {
+                fill: var(--fl-fgColor, url(#SVGID_3_));
+            }
+
+            .st4 {
+                fill: var(--fl-fgColor, url(#SVGID_4_));
+            }
+
+            .st5 {
+                fill: var(--fl-fgColor, url(#SVGID_5_));
+            }
+
+            .st6 {
+                fill: var(--fl-fgColor, url(#SVGID_6_));
+            }
+
+            .st7 {
+                fill: none;
+                stroke: var(--fl-fgColor, #1362b2);
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.7;
+            }
+
+            .st8 {
+                fill: var(--fl-fgColor, #64adef);
+            }
+
+            .st9 {
+                fill: var(--fl-fgColor, #1b89ec);
+            }
+
+            .st10 {
+                fill: var(--fl-fgColor, #e1a633);
+            }
+
+            .st11 {
+                fill: var(--fl-fgColor, #f0c429);
+            }
+
+            .st12 {
+                fill: var(--fl-bgColor, white);
+                stroke: var(--fl-fgColor, #df9d0b);
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.7;
+            }
+
+            .st13 {
+                fill: var(--fl-fgColor, #eb7e88);
+            }
+
+            .st14 {
+                fill: var(--fl-fgColor, #ea5362);
+            }
+
+            .st15 {
+                fill: var(--fl-fgColor, #edbabf);
+            }
+
+            .st16 {
+                stroke: var(--fl-fgColor, #ea5362);
+                stroke-linecap: round;
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.8;
+            }
+
+            .st16,
+            .st17 {
+                fill: none;
+            }
+
+            .st18 {
+                fill: var(--fl-fgColor, url(#SVGID_7_));
+            }
+
+            .st19 {
+                fill: var(--fl-fgColor, #1b8aed);
+            }
+
+            .st20 {
+                fill: var(--fl-fgColor, url(#SVGID_8_));
+            }
+
+            .st21 {
+                fill: var(--fl-fgColor, #f9ac17);
+            }
+
+            .st22 {
+                fill: var(--fl-fgColor, url(#SVGID_9_));
+            }
+
+            .st23 {
+                fill: var(--fl-fgColor, #e55c69);
+            }
+        }
+    }
+
+    .content {
+        --flow-space: var(--scale-6);
+
+        section {
+            --flow-space: var(--scale-2);
+        }
+
+        section ol {
+            padding-left: 0;
+        }
+
+        .block-icon .stroke {
+            fill: var(--fl-fgColor, currentColor);
+        }
+
+        .block-icon .face-yellow-300 .face {
+            fill: var(--fl-bgColor, var(--yellow-300));
+        }
+
+        .block-icon .face-red-100 .face {
+            fill: var(--fl-bgColor, var(--red-100));
+        }
+
+        .block-icon .face-blue-200 .face {
+            fill: var(--fl-bgColor, var(--blue-200));
+        }
+
+        .block-icon .face-green-200 .face {
+            fill: var(--fl-bgColor, var(--green-200));
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .home {
+        .header {
+            height: rem(520);
+        }
+
+        .header .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: inherit;
+            justify-content: center;
+            padding-bottom: var(--scale-8);
+            padding-top: var(--scale-4);
+            position: relative;
+        }
+
+        .illustration {
+            bottom: 0;
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 50%;
+        }
     }
 }

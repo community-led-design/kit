@@ -26,6 +26,15 @@
         color: var(--fl-bgColor) !important;
     }
 
+    // Brand
+    .brand a {
+        &:hover,
+        &:focus,
+        &:active {
+            box-shadow: 0 0 0 2px  var(--fl-fgColor);
+        }
+    }
+
     // Primary Buttons
     --btn-primary-focus-border-color: var(--fl-buttonBgColor, var(--fl-bgColor));
     --btn-primary-focus-box-shadow: 0 0 0 2px var(--fl-buttonFgColor, var(--fl-fgColor));
@@ -97,6 +106,29 @@
         &:focus {
             border-color: var(--fl-buttonbgColor, var(--fl-bgColor)) !important;
             box-shadow: var(--select-focus-box-shadow);
+        }
+    }
+
+    // Navigation
+    --nav-focus-background: var(--fl-fgColor);
+    --nav-focus-color: var(--fl-bgColor);
+
+    .menu ul > li a:hover,
+    .menu ul > li button:hover {
+        box-shadow: 0 0 0 2px var(--fl-fgColor) inset;
+    }
+
+    .menu ul > li button:focus,
+    .menu ul > li button:active {
+        background: var(--nav-focus-background) !important;
+        color: var(--nav-focus-color) !important;
+
+        svg {
+            background: var(--nav-focus-background) !important;
+
+            path {
+                stroke: var(--nav-focus-color) !important;
+            }
         }
     }
 }

@@ -48,7 +48,7 @@ You'll see that this kit is roughly organized based on the **different building 
 
 Finding the people who you're interested in collaborating with, who are active participants in their community. You form the project together: What the project is about, what your collective goals and priorities are, and what the scope is.
 
-### Community engagement
+### Community involvement
 
 Involving members of the community you're working with in the co-design process. Community members can participate in many ways, including but not limited to: Planning the co-design process, facilitating the co-design sessions, or being a participant in the sessions.
 
