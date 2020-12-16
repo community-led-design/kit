@@ -16,8 +16,13 @@
                 stroke: var(--fl-fgColor, #ea5362);
             }
 
+            .cls-24 {
+                stroke: var(--fl-fgColor, #1362b2);
+            }
+
             .cls-1,
-            .cls-13 {
+            .cls-13,
+            .cls-24 {
                 fill: var(--fl-bgColor, #fff);
             }
 
