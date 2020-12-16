@@ -7,15 +7,11 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ deploy.url }}{{ page.url }}">
         <meta property="og:image" content="{{ deploy.url }}{{ metaImage if metaImage else '/assets/images/opengraph.png' }}">
-        {% if metaImageAlt %}
-        <meta property="og:image:alt" content="{{ metaImageAlt }}" />
-        {% endif %}
+        <meta property="og:image:alt" content="{{ metaImageAlt if metaImageAlt else "A line drawing of three hands holding different-shaped building blocks: a blue rectangular block, a red rectangular block topped with a pyramid, and a yellow cylindrical block." }}" />
         <meta property="og:site_name" content="{{ site.title }}">
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@idrc_ocadu" />
         <meta name="twitter:title" content="{{ title }}" />
         <meta name="twitter:description" content="{{ description if description else site.description }}" />
         <meta name="twitter:image" content="{{ deploy.url }}{{ metaImage if metaImage else '/assets/images/opengraph.png' }}" />
-        {% if metaImageAlt %}
-        <meta name="twitter:image:alt" content="{{ metaImageAlt }}" />
-        {% endif %}
+        <meta name="twitter:image:alt" content="{{ metaImageAlt if metaImageAlt else "A line drawing of three hands holding different-shaped building blocks: a blue rectangular block, a red rectangular block topped with a pyramid, and a yellow cylindrical block." }}" />

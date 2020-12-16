@@ -1,3 +1,10 @@
 <div class="brand">
-    <a rel="home" href="/"{% if page.url === '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
+    <a rel="home" href="/"{% if page.url === '/' %} aria-current="page"{% endif %}>
+        <span class="visually-hidden">{{ site.title }}</span>
+        {% if page.url === '/' %}
+            {% include "svg/kit-logo.svg" %}
+        {% else %}
+            {% include "svg/kit-logo-wordmark.svg" %}
+        {% endif %}
+    </a>
 </div>
