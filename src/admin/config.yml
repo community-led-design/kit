@@ -13,7 +13,9 @@ collections:
     slug: "{{slug}}"
     preview_path: "{{slug}}"
     create: true
+    filter: {field: "editable", value: true}
     fields:
+      - {label: "Editable", name: "editable", widget: hidden, default: true}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
