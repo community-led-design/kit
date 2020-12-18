@@ -7,8 +7,8 @@ eleventyNavigation:
   parent: Getting Started
   order: 1
   key: Introduction
-metaImage: /assets/images/opengraph.png
-metaImageAlt: remove this image
+metaImage: ''
+metaImageAlt: ''
 ---
 ## What is co-design?
 
