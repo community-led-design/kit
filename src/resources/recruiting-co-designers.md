@@ -1,7 +1,7 @@
 ---
 title: Recruiting Co-Designers
-metaImage: /assets/images/placeholder-1by1.png
-metaImageAlt: preview image
+metaImage: ''
+metaImageAlt: ''
 type: Activity
 buildingBlock: Community involvement
 ---
