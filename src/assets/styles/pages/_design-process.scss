@@ -1,0 +1,80 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the design process page.
+// -----------------------------------------------------------------------------
+
+.design-process {
+    .how-to a {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+    .how-to.bg-blue-100 svg {
+        .face {
+            fill: var(--fl-bgColor, var(--blue-100));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, ar(--blue-600)));
+        }
+    }
+
+    .how-to.bg-green-100 svg {
+        .face {
+            fill: var(--fl-bgColor, var(--green-100));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, var(--blue-600)));
+        }
+    }
+
+    .how-to.bg-white svg {
+        .face {
+            fill: var(--fl-bgColor, var(--white));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, var(--blue-600)));
+        }
+    }
+
+    .cloud svg {
+        fill: var(--fl-bgColor, var(--white));
+    }
+
+    .boat {
+        .water {
+            fill: var(--fl-fgColor, #a3dcef);
+        }
+
+        .hull {
+            fill: var(--fl-bgColor, #69653b);
+        }
+
+        .mast {
+            stroke: var(--fl-bgColor, var(--black));
+        }
+
+        .sail {
+            fill: var(--fl-fgColor, var(--white));
+            stroke: var(--fl-bgColor, #ccc);
+        }
+    }
+
+    &[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .how-to {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .design-process .header h1 {
+        width: 100%;
+    }
+}

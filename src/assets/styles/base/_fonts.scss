@@ -72,6 +72,17 @@
     font-display: swap;
     font-family: 'Open Sans';
     font-style: normal;
+    font-weight: 400;
+    src:
+        local(''),
+        url('../fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+        url('../fonts/open-sans-v18-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
     src:
         local(''),

@@ -1,0 +1,232 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "page design-process" %}
+
+{% block headerScripts %}	
+<script type="text/javascript" src="/assets{{ assets['/scripts/toc.js'] }}" defer></script>
+{% endblock %} 	
+
+{% block pageHeader %}
+<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
+    <div class="wrapper">
+        <h1 itemprop="name">
+            {{ title | safe}}<br />
+            <span class="weight-normal">Map and walking guide</span>
+            </h1>
+        <p class="subtitle">{{ subtitle | safe }}</p>
+    </div>
+</header>
+
+{% endblock %}
+
+{% block content %}
+<div class="[ content{% if toc %} content-with-sidebar{% endif %} ]">
+    {% if toc %}
+    <div class="sidebar">
+        <nav id="toc" class="toc" aria-labelledby="table-of-contents">
+            <button type="button" aria-expanded="false">Table of contents <svg class="inline" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477" stroke="currentColor" stroke-width="2"/></svg></button>
+            <div class="toc-menu">
+                <h2 id="table-of-contents" class="h3">Table of contents</h2>
+                <ul role="list">
+                </ul>
+            </div>
+        </nav>
+    </div>
+    {% endif %}
+    <div class="inner-content">
+        <h2>
+            {% include "svg/thought.svg" %}<br />
+            Before you go on your walk&hellip;
+        </h2>
+        <p class="h4">Questions to think about before you start</p>
+        <h3>Who are you walking with and what’s the goal?</h3>
+        <div class="[ grid ] [ grid--md-2 grid--lg-4 mt-scale-4 ]">
+            <div class="[ border-top-3 border-blue-300 pt-scale-1 ]">
+                <h4>Who are you walking with?</h4>
+                <p class="text-scale-1">Who's on your team?</p>
+                <p>Who&rsquo;s a part of your team? What expertise does everyone have? What
+                expertise and lived experiences are you missing?</p>
+            </div>
+            <div class="[ border-top-3 border-blue-300 pt-scale-1 ]">
+                <h4>What are your viewpoints?</h4>
+                <p class="text-scale-1">What's your goal?</p>
+                <p>What goals do you want to achieve together? How do you know when you&rsquo;ve
+                achieved your goal?</p>
+            </div>
+            <div class="[ how-to ] [ border-top-3 border-blue-300 bg-blue-100 pt-scale-1 pl-scale-1 pr-scale-1 ]">
+                <h4 class="[ weight-normal ]"><strong>How to</strong> build your team and set a goal</h4>
+                <p><a class="[ text-blue-600 ]" href="/building-blocks/partnership/">{% include "svg/process-partnership.svg" %} Build partnerships</a></p>
+                <p><a class="[ text-blue-600 ]" href="/building-blocks/community-involvement/">{% include "svg/process-community-involvement.svg" %} Involve the
+                community</a></p>
+            </div>
+        </div>
+        <h3>What’s your process?</h3>
+        <div class="[ grid ] [ grid--md-2 grid--lg-4 mt-scale-4 ]">
+            <div class="[ border-top-3 pt-scale-1 ]">
+                <h4>What&rsquo;s in your backpack?</h4>
+                <p class="text-scale-1">What materials do you need to bring?</p>
+                <p>What does your team need to bring to make sure everyone can walk together?</p>
+            </div>
+            <div class="[ border-top-3 pt-scale-1 ]">
+                <h4>What&rsquo;s your route?</h4>
+                <p class="text-scale-1">What's your process?</p>
+                <p>Based on the viewpoints your team wants to reach, what&rsquo;s the best route
+                to get to them? What&rsquo;s the route that will allow everyone to be able to
+                come along?</p>
+            </div>
+            <div class="[ border-top-3 pt-scale-1 ]">
+                <h4>How long is your walk?</h4>
+                <p class="text-scale-1">What's your timeline?</p>
+                <p>How long do you want to be on this trip for? Is it rigid, or is there some
+                flexibility to it?</p>
+            </div>
+            <div class="[ how-to ] [ border-top-3 border-green-300 bg-green-100 pt-scale-1 pl-scale-1 pr-scale-1 ]">
+                <h4 class="[ weight-normal ]"><strong>How to</strong> plan your process</h4>
+                <p><a class="[ text-blue-600 ]" href="/building-blocks/co-design-plan/">{% include "svg/process-co-design-plan.svg" %} Create a co-design plan</a></p>
+                <p><a class="[ text-blue-600 ]" href="/building-blocks/facilitation/">{% include "svg/process-facilitation.svg" %} Facilitation</a></p>
+            </div>
+        </div>
+        <div class="[ bg-blue-100 bg--full mt-scale-8 ]">
+            <div class="wrapper">
+                <h2>
+                    {% include "svg/compass.svg" %}<br />
+                    Where should you start?
+                </h2>
+                <p class="h4 mb-scale-4">How to know which area of design to go to</p>
+                <div class="grid grid--md-2 grid--lg-3">
+                    <div>
+                        <h3>
+                            <span class="text-blue-500">{% include "svg/point.svg" %}</span><br />
+                            Discovery
+                        </h3>
+                        <h4>Try discovery if you're asking&hellip;</h4>
+                        <p>&ldquo;I understand my stakeholders&rsquo; perspectives, but what about my users?</p>
+                        <p>&ldquo;What do the different people in the community really think about this issue?&rdquo;</p>
+                        <h4>About discovery</h4>
+                        <p>Gain a deep understanding of a topic or issue and how it affects different community members.</p>
+                        <p>Make sense of what you heard to share with others and move forward in the project.</p>
+                        <h4>During discovery, co-design can look like&hellip;</h4>
+                        <p>Picking the topic or issue to tackle together with the community</p>
+                        <p>Gaining a deep understanding of the issue from different community members&rsquo; perspectives</p>
+                        <p>Making sense of what you found out with the broader community, to make sure it&rsquo;s representative and accurate</p>
+                    </div>
+                    <div>
+                        <h3>
+                            <span class="text-green-500">{% include "svg/point.svg" %}</span><br />
+                            Brainstorming
+                        </h3>
+                        <h4>Try brainstorming if you're asking&hellip;</h4>
+                        <p>&ldquo;I&rsquo;ve done so much research. Now what do I do?&rdquo;</p>
+                        <p>&ldquo;I&rsquo;ve been stuck on this one idea for a long time, and it&rsquo;s not working. I need to come up with new ideas.&rdquo;</p>
+                        <h4>About brainstorming</h4>
+                        <p>Come up with and explore lots of ideas &mdash; at this time, more ideas are better!</p>
+                        <h4>During brainstorming, co-design can look like&hellip;</h4>
+                        <p>Creating space for the community to come up with their own ideas.</p>
+                    </div>
+                    <div>
+                        <h3>
+                            <span class="text-red-500">{% include "svg/point.svg" %}</span><br />
+                            Refinement
+                        </h3>
+                        <h4>Try refinement if you're asking&hellip;</h4>
+                        <p>&ldquo;How do I know which is the right idea to pursue?&rdquo;</p>
+                        <p>&ldquo;I know the general idea, but how will it work exactly?&rdquo;</p>
+                        <p>&ldquo;I&rsquo;ve been working on this idea for a long time, but what does the community think about it?&rdquo;</p>
+                        <h4>About refinement</h4>
+                        <p>Pick which idea(s) to go further with</p>
+                        <p>Create a functional version of the idea (prototype)</p>
+                        <p>Get feedback on the prototype to see how well it works</p>
+                        <h4>During refinement, co-design can look like&hellip;</h4>
+                        <p>Picking ideas to pursue together</p>
+                        <p>Designing different elements of the idea (ex. different features of an app, different aspects of a program, etc)</p>
+                        <p>Defining who to get feedback from, and what to ask them about</p>
+                    </div>
+                </div>
+                <hr />
+                <h3 class="mb-scale-4">Other features of the park</h3>
+                <div class="grid grid--md-2 grid--lg-3">
+                    <div>
+                        <h4>
+                            {% include "svg/bridge.svg" %}<br />
+                            The Bridges of Synthesis
+                        </h4>
+                        <p>Synthesis is often done when you go from one area of design to another. You do synthesis to make sense of what you learned. In discovery, you may be synthesizing community needs. In brainstorming, you may be synthesizing different ideas. In refining, you may be synthesizing feedback on your idea.</p>
+                        <div class="[ how-to ] [ bg-white mt-scale-1 pt-scale-1 pr-scale-1 pl-scale-1 pb-scale-1 ]">
+                            <p class="h4 weight-normal"><strong>How to</strong> do synthesis</p>
+                            <p><a class="[ text-blue-600 ]" href="/building-blocks/ideas-and-outcomes/">{% include "svg/process-ideas-and-outcomes.svg" %} Synthesize ideas and outcomes</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>
+                            {% include "svg/boat.svg" %}<br />
+                            The River of Community Involvement
+                        </h4>
+                        <p>Instead of involving the community at a specific point in the process, it&rsquo;s best to share whatever you&rsquo;re working on throughout the process. This way, community feedback willl inform your design at every point in the process.</p>
+                        <div class="[ how-to ] [ bg-white mt-scale-1 pt-scale-1 pr-scale-1 pl-scale-1 pb-scale-1 ]">
+                            <p class="h4 weight-normal"><strong>How to</strong> involve community</p>
+                            <p><a class="[ text-blue-600 ]" href="/building-blocks/community-involvement/">{% include "svg/process-community-involvement.svg" %} Involve community</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>
+                            <span class="cloud">{% include "svg/cloud.svg" %}</span><br />
+                            The Cloud of Reflection
+                        </h4>
+                        <p>During the process, it&rsquo;s important to take a bird&rsquo;s eye view and reflect: What&rsquo;s working well? What&rsquo;s not working so well? How can we improve?</p>
+                        <div class="[ how-to ] [ bg-white mt-scale-1 pt-scale-1 pr-scale-1 pl-scale-1 pb-scale-1 ]">
+                            <p class="h4 weight-normal"><strong>How to</strong> do reflection</p>
+                            <p><a class="[ text-blue-600 ]" href="/building-blocks/reflection/">{% include "svg/process-reflection.svg" %} Reflection</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>
+            {% include "svg/signpost.svg" %}<br />
+            Walking routes you can try
+        </h2>
+        <p class="h4">Linear and non-linear design processes</p>
+        <div class="grid grid--md-2 grid--lg-3 mt-scale-6 ">
+            <div class="[ border-top-3 border-blue-600 pt-scale-1 pb-scale-1 ]">
+                <h3>The classic</h3>
+                <p>The classic version of the design process goes in a linear order, from
+                discovery to brainstorming to refining.</p>
+            </div>
+            <div class="[ border-top-3 border-blue-600 pt-scale-1 pb-scale-1 ]">
+                <h3>Start where you are</h3>
+                <p>Often when you jump into a project, what you need may not start with
+                discovery, but rather brainstorming, refining, or even reflecting. You can start
+                with what makes most sense for your team and project.</p>
+                <p class="h4">Example</p>
+                <p>Your group already has an idea, and you want to see how well the community
+                thinks the idea is working.</p>
+            </div>
+            <div class="[ border-top-3 border-blue-600 pt-scale-1 pb-scale-1 ]">
+                <h3>The loop</h3>
+                <p>You can go through each area quickly, and repeat this cycle again and again.
+                This iterative process can help you run through your idea and gather feedback
+                quickly.</p>
+                <p class="h4">Example</p>
+                <p>Your group wants to get basic essential features for an app working. You start
+                there, and then do another cycle to think through the &ldquo;nice to have&rdquo;
+                features.</p>
+            </div>
+            <div class="[ border-top-3 border-blue-600 pt-scale-1 pb-scale-1 ]">
+                <h3>The shortcut</h3>
+                <p>Sometimes you only have a very short amount of time for design, so you might
+                pick and chose which phase is most important to you, and do a quick version of
+                it.</p>
+                <p class="h4">Example</p>
+                <p>You only have a few weeks to come up with a design, so you spend one hour
+                doing lightning rounds of brainstorming and refining.</p>
+            </div>
+            <div class="[ border-top-3 border-blue-600 pt-scale-1 pb-scale-1 ]">
+                <h3>Detours</h3>
+                <p>Sometimes you need to take detours because of unexpected events, like if your
+                planned route doesn&rsquo;t work for everyone in your team. Embrace the detour -
+                sometimes you might discover unexpected wonders there.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
