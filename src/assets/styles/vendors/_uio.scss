@@ -144,7 +144,8 @@
         background: var(--blue-100);
     }
 
-    .resources & {
+    .resources &,
+    .building-block & {
         background: var(--blue-500);
     }
 
@@ -169,7 +170,8 @@
         border-color: var(--blue-300);
     }
 
-    .resources & {
+    .resources &,
+    .building-block & {
         border-color: var(--blue-600);
     }
 
@@ -259,7 +261,8 @@
             border-color: var(--blue-300);
         }
 
-        .resources & {
+        .resources &,
+        .building-block & {
             border-color: var(--blue-600);
         }
 

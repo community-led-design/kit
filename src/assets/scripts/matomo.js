@@ -16,7 +16,7 @@ var _paq = window._paq || [];
 _paq.push(["trackPageView"]);
 _paq.push(["enableLinkTracking"]);
 (function () {
-    var siteId = ""; // Set this to the ID of your site in Matomo. Value must be quoted.
+    var siteId = "21"; // Set this to the ID of your site in Matomo. Value must be quoted.
     var u = "https://analytics.inclusivedesign.ca/";
     _paq.push(["setTrackerUrl", u + "matomo.php"]);
     _paq.push(["setSiteId", siteId]);

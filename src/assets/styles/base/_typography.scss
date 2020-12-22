@@ -17,8 +17,16 @@ h4,
 .h2,
 .h3,
 .h4 {
-    font-family: var(--font-display);
     font-weight: var(--weight-bold);
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    font-family: var(--font-display);
 }
 
 h1,
@@ -70,6 +78,7 @@ h2 + .h3,
 
 h4,
 .h4 {
+    font-family: var(--font-base);
     font-size: var(--scale-1);
     line-height: 1.35;
 

@@ -40,6 +40,7 @@ module.exports = function (config) {
     config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy("src/admin/*.js");
     config.addPassthroughCopy({"src/icons/": "/"});
+    config.addPassthroughCopy("src/robots.txt");
     config.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
 
     // Plugins

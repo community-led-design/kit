@@ -1,4 +1,5 @@
 ---
+editable: true
 title: How to use this kit
 permalink: /how-to/
 toc: true

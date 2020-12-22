@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+editable: true
 title: Introduction to community-led co-design
 permalink: /introduction/
 toc: true
