@@ -36,6 +36,22 @@
     .mb-#{$name} {
         margin-bottom: var(--#{$name});
     }
+
+    .pt-#{$name} {
+        padding-top: var(--#{$name});
+    }
+
+    .pb-#{$name} {
+        padding-bottom: var(--#{$name});
+    }
+
+    .pl-#{$name} {
+        padding-left: var(--#{$name});
+    }
+
+    .pr-#{$name} {
+        padding-right: var(--#{$name});
+    }
 }
 
 @each $name, $value in $colors {

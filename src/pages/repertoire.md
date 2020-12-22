@@ -1,6 +1,7 @@
 ---
 title: Repertoire
 toc: false
+editable: false
 ---
 ## Typography
 
