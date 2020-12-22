@@ -1,0 +1,278 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the design process page.
+// -----------------------------------------------------------------------------
+
+.design-process {
+    .how-to a {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+    .how-to svg {
+        &.block-co-design-plan,
+        &.block-facilitation,
+        &.block-ideas-and-outcomes,
+        &.block-reflection,
+        &.block-partnership,
+        &.block-community-involvement {
+            height: auto;
+        }
+
+        &.block-co-design-plan {
+            width: rem(31.92);
+        }
+
+        &.block-facilitation {
+            width: rem(36.855);
+        }
+
+        &.block-ideas-and-outcomes {
+            width: rem(23.875);
+        }
+
+        &.block-reflection {
+            width: rem(30);
+        }
+
+        &.block-partnership {
+            width: rem(30);
+        }
+
+        &.block-community-involvement {
+            width: rem(25);
+        }
+    }
+
+    .how-to.bg-blue-100 svg {
+        .face {
+            fill: var(--fl-bgColor, var(--blue-100));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, var(--blue-600)));
+        }
+    }
+
+    .how-to.bg-green-100 svg {
+        .face {
+            fill: var(--fl-bgColor, var(--green-100));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, var(--blue-600)));
+        }
+    }
+
+    .how-to.bg-white svg {
+        .face {
+            fill: var(--fl-bgColor, var(--white));
+        }
+
+        .stroke {
+            fill: var(--fl-linkColor, var(--fl-fgColor, var(--blue-600)));
+        }
+    }
+
+    .park {
+        height: auto;
+        width: 100%;
+
+        .fill-ebf6f4 {
+            fill: var(--fl-bgColor, #ebf6f4);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-39923d {
+            fill: var(--fl-fgColor, #39923d);
+        }
+
+        .fill-b2e18c {
+            fill: var(--fl-bgColor, #b2e18c);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .stroke-ccc {
+            stroke: var(--fl-fgColor, #ccc);
+        }
+
+        .fill-d8f0e6 {
+            fill: var(--fl-bgColor, #d8f0e6);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-cbdae5 {
+            fill: var(--fl-bgColor, #cbdae5);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-d2e2ed {
+            fill: var(--fl-bgColor, #d2e2ed);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-white {
+            fill: var(--fl-bgColor, var(--white));
+        }
+
+        .stroke-fg {
+            stroke: var(--fl-fgColor, transparent);
+        }
+
+        .stroke-abb8c5 {
+            stroke: var(--fl-fgColor, #abb8c5);
+        }
+
+        .fill-e7e4dd {
+            fill: var(--fl-bgColor, #e7e4dd);
+            stroke: var(--fl-fgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-69653b {
+            fill: var(--fl-fgColor, #69653b);
+            stroke: var(--fl-bgColor, transparent);
+            stroke-width: 1;
+        }
+
+        .fill-c4bbe8 {
+            fill: var(--fl-fgColor, #c4bbe8);
+        }
+
+        .fill-e8b7ac {
+            fill: var(--fl-fgColor, #e8b7ac);
+        }
+
+        .fill-cbdbe6 {
+            fill: var(--fl-bgColor, #cbdbe6);
+            stroke: var(--fl-fgColor, transparent);
+            stroke: 1;
+        }
+
+        .fill-eec01f {
+            fill: var(--fl-fgColor, #eec01f);
+        }
+
+        .fill-285788 {
+            background: var(--fl-bgColor, transparent);
+            fill: var(--fl-fgColor, #285788);
+        }
+
+        .stroke-c6bfa8 {
+            stroke: var(--fl-bgColor, #c6bfa8);
+        }
+
+        .fill-43c048 {
+            fill: var(--fl-fgColor, #43c048);
+        }
+
+        .fill-1b4066 {
+            fill: var(--fl-fgColor, #1b4066);
+        }
+
+        .fill-1362b4 {
+            fill: var(--fl-fgColor, #1362b4);
+        }
+
+        .fill-be303a {
+            fill: var(--fl-fgColor, #be303a);
+        }
+
+        .fill-4c647d {
+            fill: var(--fl-fgColor, #4c647d);
+        }
+
+        .stroke-375c59 {
+            stroke: var(--fl-fgColor, #375c59);
+        }
+
+        .stroke-white {
+            stroke: var(--fl-bgColor, var(--white));
+        }
+
+        .stroke-a3dcef {
+            stroke: var(--fl-fgColor, #a3dcef);
+        }
+
+        .fill-a3dcef {
+            fill: var(--fl-fgColor, #a3dcef);
+        }
+
+        .fill-a4dcd5 {
+            fill: var(--fl-fgColor, #a4dcd5);
+        }
+
+        .fill-0ed8be {
+            fill: var(--fl-fgColor, #0ed8be);
+        }
+
+        .fill-375c59 {
+            fill: var(--fl-fgColor, #375c59);
+        }
+
+        .fill-10bca6 {
+            fill: var(--fl-fgColor, #10bca6);
+        }
+
+        .fill-6c8aaa {
+            fill: var(--fl-fgColor, #6c8aaa);
+        }
+    }
+
+    .cloud svg {
+        fill: var(--fl-bgColor, var(--white));
+    }
+
+    .bridge {
+        height: auto;
+        width: rem(47);
+    }
+
+    .boat {
+        height: auto;
+        width: rem(55);
+
+        .water {
+            fill: var(--fl-fgColor, #a3dcef);
+        }
+
+        .hull {
+            fill: var(--fl-bgColor, #69653b);
+        }
+
+        .mast {
+            stroke: var(--fl-bgColor, var(--black));
+        }
+
+        .sail {
+            fill: var(--fl-fgColor, var(--white));
+            stroke: var(--fl-bgColor, #ccc);
+        }
+    }
+
+    .cloud {
+        height: auto;
+        width: rem(72);
+    }
+
+    &[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .how-to {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .design-process .header h1 {
+        width: 100%;
+    }
+}
