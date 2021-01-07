@@ -36,10 +36,10 @@ module.exports = function (config) {
 
     // Passthrough copy
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
+    config.addPassthroughCopy({"src/assets/icons/": "/"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy("src/admin/*.js");
-    config.addPassthroughCopy({"src/icons/": "/"});
     config.addPassthroughCopy("src/robots.txt");
     config.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
 
