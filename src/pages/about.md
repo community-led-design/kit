@@ -14,11 +14,11 @@ The Community-led Co-design Kit is an initiative out of the [Inclusive Design Re
 
 The learnings and insights in this kit have grown out of our experiences working with communities on projects such as [Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/), [Platform Co-op Development Kit](https://platform.coop/), and [Coding to Learn and Create](https://www.codelearncreate.org/). In addition our own projects, our ideas were also inspired by practitioners and advocates of disability justice, anti-oppression movements, and decolonialist research and design methodologies.
 
-We were fortunate enough to have many people in our community share their feedback with us. While we weren't able to address all of them this first version, we will be working our way through them in future versions. [See the to-do's based on their feedback - TBD]
+We were fortunate enough to have many people in our community share their feedback with us. While we weren't able to address all of it in this first version, we will be incorporating it in future versions. [See the to-do's based on their feedback - TBD]
 
 ## Want to contribute?
 
-Anyone can contribute to this kit. We welcome you to directly email us at idrc@ocadu.ca, or join our [project chatroom via Matrix.](https://matrix.to/#/#fluid-codesign-kit:matrix.org?via=matrix.org)
+Anyone can contribute to this kit. We welcome you to email us directly at idrc@ocadu.ca, or join our [project chatroom via Matrix.](https://matrix.to/#/#fluid-codesign-kit:matrix.org?via=matrix.org)
 
 ### **You can contribute in the following ways:**
 
