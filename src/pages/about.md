@@ -41,7 +41,7 @@ Anyone can contribute to this kit. We welcome you to email us directly at idrc@o
 - Give us feedback on how to make this website more valuable, usable, or accessible.
 - Tell us how you're using this kit - what's helpful about it, and what could be improved.
 
-If you don't see how you'd like to contribute in this list, please reach out and tell us how you'd like to.
+If you don't see how you'd like to contribute in this list, please contact us and tell us what would work for you.
 
 ## Contributors
 
