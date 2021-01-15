@@ -63,7 +63,7 @@
     margin-top: calc(-1 * (var(--scale-4) + var(--scale-0)));
     padding-top: calc(var(--scale-4) + var(--scale-0));
     position: relative;
-    width: 100vw;
+    width: calc(100vw - var(--scrollbar-width, 0));
     z-index: 10;
 }
 
