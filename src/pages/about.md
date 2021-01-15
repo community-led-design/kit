@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 ## About this kit
 
-The Community-led Co-design Kit is an initiative out of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/) in Toronto, Canada. The project is funded by the [Hewlett Foundation](https://hewlett.org/), for the [Flexible Learning Open Education project](https://floeproject.org/). This is our first iteration of this kit, with many more things we'd like to add down the road.
+The Community-led Co-design Kit is an initiative out of the [Inclusive Design Research Centre](https://idrc.ocadu.ca/) in Toronto, Canada. The project is funded by the [Hewlett Foundation](https://hewlett.org/), for the [Flexible Learning Open Education project](https://floeproject.org/). This is our first iteration of the kit, and there is much more content we'd like to add down the road.
 
 ## Making this kit
 
