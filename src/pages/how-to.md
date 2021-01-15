@@ -11,78 +11,44 @@ layout: layouts/page
 ---
 ## Goal of this kit
 
-The goal of this Community-Led Co-design Kit is to provide an open source toolkit for sharing knowledge about how to do co-design led by community members and organizations, and why it matters to creating more inclusive designs. 
+The goal of the Community-Led Co-design Kit is to provide an open toolkit for sharing knowledge about how to do co-design that is led by community members and organizations, and to share how this process contributes to the creation of more inclusive designs. 
 
-## Who is this kit for
+## Who this kit is for
 
 **Everyone is welcome to use and contribute to this kit.**
 
 We especially welcome those who:
 
-- **Don't have "design" in their job title.** While the design profession tends to recognize only  individuals with credentials, we believe that _"all people are designers... Design is the conscious effort to impose a meaningful order.",_ to quote Victor Papanek. The co-design process can benefit anyone who designs, which is to say, everyone.
-- **Are a part of a community organization or movement.** You may be curious about what design entails and how it can be used to create a more intentional and inclusive planning process for anything you're working on - whether it be a program, a process, or a website.
-- **Are a designer who wants change.** You want to critically question the methods that the design industry has inherited, or want to intentionally develop your practice in ways that prioritize inclusivity and equity.
+* **Don't have "design" in their job title.** The co-design process can benefit anyone who designs or is impacted by design, which is to say, everyone.
+* **Are a part of a community organization or movement.** You may be curious about what design entails and how it can be used to create a more intentional and inclusive planning process for anything you're working on - whether it be a program, a process, or a website.
+* **Are designers who want change.** You want to critically question the assumptions and methods of design, and want to intentionally develop your practice in ways that prioritize inclusivity and equity.
 
-## What's in here
+## What's in the kit
 
-### Guides
+The kit contains the following types of resources:
 
-Guides include considerations and suggested practices for specific topics, such as facilitation, remote co-design, or accessibility.
-
-### Activities
-
-Activities are suggested tasks that contribute to making co-design happen. They include things like planning your co-design activities, ensuring accessibility for your co-designers, and identifying your community facilitators. 
-
-### Tools
-
-Tools are adaptable templates or documents to use in your co-design process. For example, a tool can be a letter template for recruiting co-designers. 
-
-### Case studies
-
-Case studies showcase all the different ways community-led co-design can be practiced, as this approach can look dramatically different depending on the context of your project, collaborators, and community.
+* **Guides** - these include considerations and suggested practices for specific topics, such as facilitation, remote co-design, or accessibility.
+* **Activities** - these provide more detailed suggested practices that contribute to making co-design more inclusive. They include things like planning your co-design activities, ensuring accessibility for your co-designers, and identifying your community facilitators.
+* **Tools** - these are adaptable templates or documents that you can use and adapt in your co-design process. For example, a tool can be a letter template for recruiting co-designers, or a table you can fill out to generate design ideas.
+* **Case studies** - these provide examples of the different ways that community-led co-design can be practiced, based on specific design projects. The approach can look dramatically different depending on the context of your project, collaborators, and community.
 
 ## How the kit is organized
 
-You'll see that this kit is roughly organized based on the **different building blocks essential to putting together a co-design**. Here's a description of each building block:
+The resources in this kit are loosely organized around the following **building blocks of co-design**:
 
-### Partnerships
+* **Partnerships** - the resources under this building block can help you to find the people you’d like to collaborate with, who are active participants in their community. You create the project together: what the project is about, what your collective goals and priorities are, and what the scope is.
+* **Community involvement** - resources found here will help you to bring members of the community you're working with into the co-design process. Community members can participate in many ways, including but not limited to: planning the co-design process, facilitating the co-design sessions, or being a participant in the sessions.
+* **Co-design planning** - these resources can help you plan all that is needed for the co-design engagement, including activities, logistics, meeting accessibility needs, scheduling, and more.
+* **Facilitation** - these resources can help you to create the environment and conditions for participants to be able to fully contribute, and to support community leaders in doing so themselves.
+* **Ideas and outcomes** - resources found here relate to capturing and working with the ideas and outcomes that emerge from the co-design sessions, including how to document and synthesize them, and how to address questions such as attribution.
+* **Reflections** - these resources will help you take the time to reflect on the co-design process including what went well and what could be improved for next time.
 
-Finding the people who you're interested in collaborating with, who are active participants in their community. You form the project together: What the project is about, what your collective goals and priorities are, and what the scope is.
+## Where to begin
 
-### Community involvement
+* **Read the introduction first.** To get a sense of what we mean by co-design and community-led co-design, consider reading the [Introduction to Community-led co-design](/introduction/) document first. This document provides a more detailed description of our unique definition of and approach to co-design.
+* **Browse by building block.** If there is a particular aspect of co-design that you're interested in learning more about, you can start there.
+* **Browse by community collections (TBD).** We've asked some of our community members to put together collections of kit resources that they have found most useful. These include collections for:
 
-Involving members of the community you're working with in the co-design process. Community members can participate in many ways, including but not limited to: Planning the co-design process, facilitating the co-design sessions, or being a participant in the sessions.
-
-### Co-design plan
-
-Planning all that is needed for the co-design engagement to get off the ground. For example - activities, logistics, accessibility, schedules, and more.
-
-### Facilitation
-
-Creating the environment and conditions for your co-designers to be able to participate and contribute.
-
-### Ideas and outcomes
-
-Ideas and outcomes that result from the co-design sessions: How to document it, synthesize it, and also larger questions such as who owns these ideas. 
-
-### Reflections
-
-This building block is about taking the time to reflect on the process on what has gone well and what could be improved for next time.
-
-## How to use this kit
-
-### Read the introduction first
-
-To get a sense of what we mean by co-design and community-led co-design, consider reading [this introduction](/introduction/) first. Even if you already know what these things mean for your practice, our understandings may vary. This will explain where we're coming from when we initially put this kit together.
-
-### Browse by building block
-
-If you have a particular piece of co-design you're interested in learning more about, feel free to jump there first.
-
-### Browse by community reading list
-
-We've asked some of our community members to put together a reading list for us, based on what's helped them the most. 
-
-- Beginners
-- Designers and researchers
-- Community organizations
+  * Beginners - those new to co-design
+  * Designers and researchers
+  * Community organizations
