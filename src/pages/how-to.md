@@ -48,7 +48,6 @@ The resources in this kit are loosely organized around the following **building 
 * **Read the introduction first.** To get a sense of what we mean by co-design and community-led co-design, consider reading the [Introduction to Community-led co-design](/introduction/) document first. This document provides a more detailed description of our unique definition of and approach to co-design.
 * **Browse by building block.** If there is a particular aspect of co-design that you're interested in learning more about, you can start there.
 * **Browse by community collections (TBD).** We've asked some of our community members to put together collections of kit resources that they have found most useful. These include collections for:
-
-  * Beginners - those new to co-design
-  * Designers and researchers
-  * Community organizations
+    * Beginners - those new to co-design
+    * Designers and researchers
+    * Community organizations
