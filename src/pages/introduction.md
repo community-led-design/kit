@@ -14,7 +14,7 @@ metaImageAlt: ''
 
 Co-design is a process of designing with, rather than designing for. Those who are most impacted by the design, especially those with needs least served by existing designs, are involved in the process from its earliest stages. They are engaged throughout the process, and directly contribute to the creation of designs that meet their unique needs. Participants are not involved as research subjects or consultants, rather as designers engaged in active and sustained collaboration.
 
-Co-design can be undertaken at any stage of the design, and it encourages and makes space for a non-linear approach. Our [Design Process Map & Walking Guide](link) describes what co-design can look like at different stages of the design process and shows how one might take a non-linear path through those stages. No matter where you are beginning, or where you want to go, you can use co-design to make your design process more inclusive.
+Co-design can be undertaken at any stage of the design, and it encourages and makes space for a non-linear approach. Our [Design Process Map & Walking Guide](/designprocess/) describes what co-design can look like at different stages of the design process and shows how one might take a non-linear path through those stages. No matter where you are beginning, or where you want to go, you can use co-design to make your design process more inclusive.
 
 **Further resources:**
 
