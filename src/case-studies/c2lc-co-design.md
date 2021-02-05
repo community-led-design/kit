@@ -6,6 +6,7 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
+metaImage: /assets/images/boys-group-design-activity.jpg
 ---
 ## Project overview
 
