@@ -8,8 +8,6 @@ startDate: 2019
 endDate: false
 metaImage: /assets/images/design-activity-using-the-prototype.jpg
 ---
-![]()
-
 ## Project overview
 
 * **The Coding to Learn and Create Project** is developing an inclusive coding environment and an open educational resource for learners with complex learning needs. This is being done in collaboration with educators, students, and their families.
