@@ -6,8 +6,10 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
-metaImage: /assets/images/boys-group-design-activity.jpg
+metaImage: /assets/images/design-activity-using-the-prototype.jpg
 ---
+![]()
+
 ## Project overview
 
 * **The Coding to Learn and Create Project** is developing an inclusive coding environment and an open educational resource for learners with complex learning needs. This is being done in collaboration with educators, students, and their families.
@@ -63,7 +65,12 @@ As a result we worked with a broad range of learners and educators to develop di
 
 ### Approach: Summer coding camps
 
-* We had five coding camps in the summer of 2019. For each camp, we worked with kids with different abilities and from different age groups over a period of five days.
+![](/assets/images/boys-group-design-activity.jpg)
+
+![](/assets/images/design-activity-using-the-prototype.jpg)
+
+We had five coding camps in the summer of 2019. For each camp, we worked with kids with different abilities and from different age groups over a period of five days.
+
 * During the first four days, the campers worked with different robots to learn basic coding concepts, such as categorization, sequences, parameters, and repeated patterns. This was to help them get a sense of how other robots worked before giving feedback on the C2LC prototype. After each of these sessions, our team spent the afternoons and evenings to assess our co-designers' engagement in the activities, their struggles, and their successes. This ongoing assessment helped us revise our planned activities for the following days, prepare any additional materials or required scaffolding.
 * On the last day of their coding camp, we introduced the campers to our prototype. They had a chance to use our prototype to do various creative activities, such as drawing and painting.
 * Once campers had a chance to try our prototype, we did an activity to come up with ideas on how to improve the prototype to better suit their needs.
@@ -71,11 +78,17 @@ As a result we worked with a broad range of learners and educators to develop di
 
 ### Approach: Facilitated co-design workshops
 
+![](/assets/images/co-design-cole.jpg)
+
+![](/assets/images/img_3987.jpeg)
+
 * At different phases of the project, our team held small to medium size co-design workshops. These brought together students, educators, and parents to work on specific topics related to the project. Topics included coding for storytelling, creative expression, or completing goal-oriented tasks.
 * In-person sessions took 3-6 hours and virtual workshops were 1-2 hours in each workshop. We had 10-15 people who participated in the workshops, and 3-5 project team members who facilitated the activities and supported the participants.
 * The activities were planned together with Bridges and other partner educators and advisors to make sure they were suitable for the participants.
 
 ### Approach: Community-led co-design workshops at schools
+
+![](/assets/images/station-activities.jpg)
 
 * Our team invited various organizations and schools across Canada to take part in a community-led co-design process.
 * The team worked together with these organizations to plan activities that were appropriate for their context, participants, and available resources.
