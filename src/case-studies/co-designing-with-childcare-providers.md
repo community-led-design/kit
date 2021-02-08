@@ -6,7 +6,10 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: '2020'
 endDate: '2020'
-metaImage: /assets/images/87835952_1313820202140185_8925377383268089856_n.jpg
+metaImage: /assets/images/corise-preview.jpg
+metaImageAlt: >-
+  A childcare provider presenting her idea in front of a room of other childcare
+  provider co-design participants
 ---
 ## Project overview
 
@@ -37,8 +40,6 @@ CoRise Cooperative is a childcare provider-owned business. It aims to ease provi
 
 ### Who was there
 
-![](/assets/images/87579876_234193207605606_1908220636371615744_n.jpg)
-
 We had two workshops. Each workshop included:
 
 * Approximately 15 childcare providers
@@ -51,7 +52,7 @@ We had two workshops. Each workshop included:
 
 ### Community Involvement
 
-![](/assets/images/87822660_2578716258906282_4500918451086295040_n.jpg)
+![A childcare provider leads her small group in outlining their idea for a handbook for childcare providers](/assets/images/87822660_2578716258906282_4500918451086295040_n.jpg "Brainstorming in small groups")
 
 * Our team and our partners at CoRise wanted to use a community-led co-design approach from the very start. We asked our partners to find two childcare providers who would work with us to plan the activities, and take lead on facilitating the sessions.
 * The community facilitators joined us for the co-design planning sessions. They helped us think through the activities, and ultimately facilitated the sessions.
@@ -73,18 +74,21 @@ We had two workshops. Each workshop included:
 
 ### Ideas and Outcomes
 
-![](/assets/images/87539963_180873286549337_6135607579746762752_n.jpg)
-
-![](/assets/images/springfield-corise_flower-hub.jpg)
-
 * In the session, we worked on two distinct ideas that were identified as focus areas together with CoRise:
 
   * A "hub" that would centralize all of their digital tools in one place.
+
+  ![A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more.](/assets/images/springfield-corise_flower-hub.jpg "Childcare provider with her idea for a \"hub\"")
+
   * An expensing tool. We ended up with sketches and user flows for each of these tools.
+
+  ![A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool.](/assets/images/87539963_180873286549337_6135607579746762752_n.jpg "Childcare provider presenting her group's expense tool user flow")
 * Co-design is valuable not just in the outcomes that it produces, but also in the process itself - the conversations it sparks and the priorities it brings to the surface. Through the co-design sessions, providers:
 
   * Learned about the issues that faced child care providers who were license-exempt - they made less than a dollar per hour, per child. The group was able to hear from these providers themselves, and come up with ideas and strategies to supplement their income. The providers identified the hub as a way for license-exempt providers to say that they’re open for jobs, and for licensed providers to share opportunities. Other collaborative opportunities include sharing computers and digital devices, going on field trips together, and more.
   * Reinforced the strong desire to support each other. The need for a place to talk with other providers came up again and again. There is a strong desire from providers to be able to support and be supported by other providers. This support includes sharing recommendations for people to do your taxes, sharing complicated legal documents, or advising on how to communicate with parents in tricky situations.
+
+![A small group of childcare providers listen to their fellow co-designer present their ideas.](/assets/images/87579876_234193207605606_1908220636371615744_n.jpg "A group of childcare providers, listening to idea presentations")
 
 ## Challenges and learnings
 
@@ -101,18 +105,15 @@ We had two workshops. Each workshop included:
 
 * Our community facilitators are busy childcare providers, so the time they had to meet was limited. As a result it was challenging to create conditions where they could fully take part in the collaborative planning process.
 
-> **Learning: Name and remove accessibility barriers**<br> Come to a mutual understanding of what everyone's capacities were, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible? 
-> <br> <br> **Related activity:** Compensating co-designers, setting terms of engagement
+> **Learning: Name and remove accessibility barriers**<br> Come to a mutual understanding of what everyone's capacities were, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible?  <br> <br> **Related activity:** Compensating co-designers, setting terms of engagement
 
 ### Unlearning who's an expert and who's not
 
 * Our community facilitators were often hesitant to give us feedback on the co-design plan. They provided valuable feedback when they felt like the activities we were discussing was their domain - ex. the context of childcare providers' lives. However, we also wanted to hear their feedback on whether the activities would be easy to do or would resonate with the providers.
 
-> **Learning: Demonstrate lived experience as expertise**<br> Try out the activities with community facilitators. This will provide an opportunity for them to apply their lived experience to the activity, to understand that it is valuable, and to see how it can inform the activities and outcomes. This can help to challenge the idea that the designers are the "experts" and know best.
-> <br> <br> **Related activity:** Communicating the co-design approach from the start
+> **Learning: Demonstrate lived experience as expertise**<br> Try out the activities with community facilitators. This will provide an opportunity for them to apply their lived experience to the activity, to understand that it is valuable, and to see how it can inform the activities and outcomes. This can help to challenge the idea that the designers are the "experts" and know best. <br> <br> **Related activity:** Communicating the co-design approach from the start
 >
-> **Learning: Talk about what everyone brings to the table**<br> Before planning, have conversations together about what expertise does everyone brings to the table, and how does each party want to contribute to this project.
-> <br> <br> **Related activity:** Identify & discuss roles and responsibilities
+> **Learning: Talk about what everyone brings to the table**<br> Before planning, have conversations together about what expertise does everyone brings to the table, and how does each party want to contribute to this project. <br> <br> **Related activity:** Identify & discuss roles and responsibilities
 
 ## Impact
 
