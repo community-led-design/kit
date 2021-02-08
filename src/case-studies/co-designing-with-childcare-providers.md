@@ -16,7 +16,8 @@ metaImageAlt: >-
 * The Platform Co-op Development Kit was a project that aimed to build digital tools to help people start, grow, and convert to co-ops. As a part of this project, we did co-design with our partner cooperatives to understand what digital tools they needed.
 * This project was in collaboration with the **Platform Cooperative Consortium** at The New School, and involved the co-design of various tools with members in the co-op community and partner organizations, including **CoRise Cooperative**.
 
-<div class="accordion">
+{% accordion %}
+
 
 ### Our partner
 
@@ -27,7 +28,8 @@ CoRise Cooperative is a childcare provider-owned business. It aims to ease provi
 * To understand the technology needs of childcare providers
 * To build or source existing tools that would meet those needs
 
-</div>
+
+{% endaccordion %}
 
 ## Co-design overview
 
@@ -36,8 +38,7 @@ CoRise Cooperative is a childcare provider-owned business. It aims to ease provi
 * Co-design digital tools that would help ease the administrative burdens of the childcare providers
 * Co-design digital tools that would improve their work lives in general
 
-<div class="accordion">
-
+{% accordion %}
 ### Who was there
 
 We had two workshops. Each workshop included:
@@ -45,8 +46,7 @@ We had two workshops. Each workshop included:
 * Approximately 15 childcare providers
 * One community facilitator, who was also a childcare provider
 * One or two supporters, who weren't childcare providers
-
-</div>
+{% endaccordion %}
 
 ## Co-design process
 
@@ -78,7 +78,7 @@ We had two workshops. Each workshop included:
 
   * A "hub" that would centralize all of their digital tools in one place.
 
-  ![A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more.](/assets/media/springfield-corise_flower-hub.jpg "Childcare provider with her idea for a \"hub\"")
+  ![A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more.](/assets/media/springfield-corise_flower-hub.jpg "Childcare provider with her idea for a \\\"hub\\\"")
 
   * An expensing tool. We ended up with sketches and user flows for each of these tools.
 
