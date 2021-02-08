@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main
+publish_mode: editorial_workflow
 site_url: "https://co-design.netlify.app"
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
