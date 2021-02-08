@@ -6,7 +6,7 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: '2020'
 endDate: '2020'
-metaImage: /assets/images/corise-preview.jpg
+metaImage: /assets/media/corise-preview.jpg
 metaImageAlt: >-
   A childcare provider presenting her idea in front of a room of other childcare
   provider co-design participants
@@ -52,7 +52,7 @@ We had two workshops. Each workshop included:
 
 ### Community Involvement
 
-![A childcare provider leads her small group in outlining their idea for a handbook for childcare providers](/assets/images/87822660_2578716258906282_4500918451086295040_n.jpg "Brainstorming in small groups")
+![A childcare provider leads her small group in outlining their idea for a handbook for childcare providers](/assets/media/87822660_2578716258906282_4500918451086295040_n.jpg "Brainstorming in small groups")
 
 * Our team and our partners at CoRise wanted to use a community-led co-design approach from the very start. We asked our partners to find two childcare providers who would work with us to plan the activities, and take lead on facilitating the sessions.
 * The community facilitators joined us for the co-design planning sessions. They helped us think through the activities, and ultimately facilitated the sessions.
@@ -78,17 +78,17 @@ We had two workshops. Each workshop included:
 
   * A "hub" that would centralize all of their digital tools in one place.
 
-  ![A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more.](/assets/images/springfield-corise_flower-hub.jpg "Childcare provider with her idea for a \"hub\"")
+  ![A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more.](/assets/media/springfield-corise_flower-hub.jpg "Childcare provider with her idea for a \"hub\"")
 
   * An expensing tool. We ended up with sketches and user flows for each of these tools.
 
-  ![A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool.](/assets/images/87539963_180873286549337_6135607579746762752_n.jpg "Childcare provider presenting her group's expense tool user flow")
+  ![A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool.](/assets/media/87539963_180873286549337_6135607579746762752_n.jpg "Childcare provider presenting her group's expense tool user flow")
 * Co-design is valuable not just in the outcomes that it produces, but also in the process itself - the conversations it sparks and the priorities it brings to the surface. Through the co-design sessions, providers:
 
   * Learned about the issues that faced child care providers who were license-exempt - they made less than a dollar per hour, per child. The group was able to hear from these providers themselves, and come up with ideas and strategies to supplement their income. The providers identified the hub as a way for license-exempt providers to say that they’re open for jobs, and for licensed providers to share opportunities. Other collaborative opportunities include sharing computers and digital devices, going on field trips together, and more.
   * Reinforced the strong desire to support each other. The need for a place to talk with other providers came up again and again. There is a strong desire from providers to be able to support and be supported by other providers. This support includes sharing recommendations for people to do your taxes, sharing complicated legal documents, or advising on how to communicate with parents in tricky situations.
 
-![A small group of childcare providers listen to their fellow co-designer present their ideas.](/assets/images/87579876_234193207605606_1908220636371615744_n.jpg "A group of childcare providers, listening to idea presentations")
+![A small group of childcare providers listen to their fellow co-designer present their ideas.](/assets/media/87579876_234193207605606_1908220636371615744_n.jpg "A group of childcare providers, listening to idea presentations")
 
 ## Challenges and learnings
 

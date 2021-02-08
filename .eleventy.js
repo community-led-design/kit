@@ -24,8 +24,8 @@ function imageShortcode(src, alt, sizes, widths) {
     let options = {
         widths: widths,
         formats: ["jpeg"],
-        outputDir: "./dist/assets/images/generated",
-        urlPath: "/assets/images/generated/",
+        outputDir: "./dist/assets/media/generated",
+        urlPath: "/assets/media/generated/",
         sharpJpegOptions: {
             quality: 99,
             progressive: true
@@ -65,6 +65,7 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
     config.addPassthroughCopy({"src/assets/icons/": "/"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
+    config.addPassthroughCopy({"src/assets/media": "assets/media"});
     config.addPassthroughCopy("src/admin/config.yml");
     config.addPassthroughCopy("src/admin/*.js");
     config.addPassthroughCopy("src/robots.txt");

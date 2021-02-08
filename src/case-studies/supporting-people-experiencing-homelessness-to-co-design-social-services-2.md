@@ -5,7 +5,7 @@ authors:
   - Titania Veda
 organization: The City of Austin Innovation Team
 startDate: '2017'
-metaImage: /assets/images/group2.jpg
+metaImage: /assets/media/group2.jpg
 ---
 ## Project
 
@@ -67,9 +67,9 @@ The goal of the Advisory Committee was to:
 
 ### Recruitment
 
-![](/assets/images/img_20180419_115344.jpg)
+![](/assets/media/img_20180419_115344.jpg)
 
-![](/assets/images/20180201_112925.jpg)
+![](/assets/media/20180201_112925.jpg)
 
 To develop an in-field recruitment method, the Innovation Team worked with city stakeholders, emergency services, police, and city agencies that were in constant contact with people experiencing homelessness. Recruitment of the Advisory Committee was done via:
 
@@ -85,20 +85,20 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 ### Facilitation
 
-![](/assets/images/img_4470.jpg)
+![](/assets/media/img_4470.jpg)
 
-![](/assets/images/20180122_114733.jpg)
+![](/assets/media/20180122_114733.jpg)
 
 * During the first session, everyone co-designed the group's by-laws together. By-laws are an agreement on how the members were going to engage with each other and the Innovation Team. It was important that the by-laws were created together with the Advisory Committee to create a sense of ownership from everyone.
 * The Innovation Team co-designed a life skills learning program with the Advisory Committee to ensure the sessions were co-created while providing additional support for the members. They also received support from a social worker trained in group therapy.
 
 ### Ideas and outcomes
 
-![](/assets/images/screen-shot-2021-02-05-at-1.02.44-pm.png)
+![](/assets/media/screen-shot-2021-02-05-at-1.02.44-pm.png)
 
-![](/assets/images/screen-shot-2021-02-05-at-1.02.52-pm.png)
+![](/assets/media/screen-shot-2021-02-05-at-1.02.52-pm.png)
 
-![](/assets/images/screen-shot-2021-02-05-at-1.01.51-pm.png)
+![](/assets/media/screen-shot-2021-02-05-at-1.01.51-pm.png)
 
 * The sessions ranged from panhandling role play to providing healthcare feedback on a mobile shelter clinic.
 * As a result of the life skills learning program, the group created a [Coping Skills booklet](https://austininnovation.wixsite.com/solveforhomelessness/coping-zine) about skills they used to survive life on the streets. The booklet is now available in every library in Austin for people experiencing homelessness to access.
