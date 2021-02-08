@@ -11,7 +11,6 @@ collections:
     label_singular: Page
     folder: "src/pages"
     slug: "{{title}}"
-    preview_path: "{{slug}}"
     create: true
     filter: {field: "editable", value: true}
     fields:
@@ -32,7 +31,7 @@ collections:
     label_singular: Resource
     folder: "src/resources"
     slug: "{{title}}"
-    preview_path: "resources/{{slug}}"
+    preview_path: "/resources/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -54,7 +53,7 @@ collections:
     label_singular: Case Study
     folder: "src/case-studies"
     slug: "{{title}}"
-    preview_path: "/case-studies/{{slug}}"
+    preview_path: "/case-studies/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
