@@ -7,6 +7,10 @@ organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
 metaImage: /assets/images/design-activity-using-the-prototype.jpg
+metaImageAlt: >-
+  A group of students and an instructor is using the prototype to control the
+  movement of the robots. Markers have been stuck to the robots, so when they
+  move they draw images on a piece of paper underneath them.
 ---
 ## Project overview
 
@@ -63,9 +67,9 @@ As a result we worked with a broad range of learners and educators to develop di
 
 ### Approach: Summer coding camps
 
-![](/assets/images/boys-group-design-activity.jpg)
+![A group of students and an instructor is using the prototype to control the movement of the robots. Markers have been stuck to the robots, so when they move they draw images on a piece of paper underneath them.](/assets/images/boys-group-design-activity.jpg "Students using our prototype ")
 
-![](/assets/images/design-activity-using-the-prototype.jpg)
+![Four students in wheelchairs sit around a large piece of paper with robots sitting on top. The robots have been attached with markers and paintbrushes. The children are using their laptops to move the robots.](/assets/images/design-activity-using-the-prototype.jpg "Students testing out robots")
 
 We had five coding camps in the summer of 2019. For each camp, we worked with kids with different abilities and from different age groups over a period of five days.
 
@@ -76,9 +80,7 @@ We had five coding camps in the summer of 2019. For each camp, we worked with ki
 
 ### Approach: Facilitated co-design workshops
 
-![](/assets/images/co-design-cole.jpg)
-
-![](/assets/images/img_3987.jpeg)
+![A student in a wheelchair is sitting with a sheet of paper. The student is sketching out different parts of the prototype should look like.](/assets/images/co-design-cole.jpg "Student sketching our prototype")
 
 * At different phases of the project, our team held small to medium size co-design workshops. These brought together students, educators, and parents to work on specific topics related to the project. Topics included coding for storytelling, creative expression, or completing goal-oriented tasks.
 * In-person sessions took 3-6 hours and virtual workshops were 1-2 hours in each workshop. We had 10-15 people who participated in the workshops, and 3-5 project team members who facilitated the activities and supported the participants.
@@ -86,7 +88,7 @@ We had five coding camps in the summer of 2019. For each camp, we worked with ki
 
 ### Approach: Community-led co-design workshops at schools
 
-![](/assets/images/station-activities.jpg)
+![A teacher and student sit together. The student is using the ipad and robot while the teacher looks over.](/assets/images/station-activities.jpg "Teacher guiding student on using the robot")
 
 * Our team invited various organizations and schools across Canada to take part in a community-led co-design process.
 * The team worked together with these organizations to plan activities that were appropriate for their context, participants, and available resources.
