@@ -1,5 +1,5 @@
 ---
-title: Supporting people experiencing homelessness to co-design social services
+title: Lived experience advisory for Homelessness
 subtitle: Austin Homelessness Advisory Committee
 authors:
   - Titania Veda
