@@ -1,5 +1,5 @@
 ---
-title: 'Coding to Learn and Create: Co-designing with kids with complex needs'
+title: Co-designing with kids with complex needs
 subtitle: Adapting co-design approaches to different abilities
 authors:
   - Sepideh Shahi
