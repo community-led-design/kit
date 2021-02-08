@@ -64,6 +64,6 @@ collections:
       - {label: "End Year", name: "endDate", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
-      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image"}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
