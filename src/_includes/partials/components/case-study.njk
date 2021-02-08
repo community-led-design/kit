@@ -1,6 +1,12 @@
 <article class="image-text" itemscope itemtype="https://schema.org/Report">
     <figure class="image">
-        <img src="/assets/images/placeholder-16by10.png" alt="" width="570" height="356" />
+        {% if caseStudy.data.metaImage %}
+        {% set alt = "No image description provided." %}
+        {% if caseStudy.data.metaImageAlt %}
+            {% set alt = caseStudy.data.metaImageAlt %}
+        {% endif %}
+        {% resizeImage caseStudy.data.metaImage, alt, ['1x', '2x'], [570, 1140] %}
+        {% endif %}
     </figure>
     <div class="text">
         <h2 itemprop="name"><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>

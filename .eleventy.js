@@ -13,10 +13,36 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 "use strict";
 
 const fs = require("fs");
+const path = require("path");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const navigationPlugin = require("@11ty/eleventy-navigation");
+const eleventyImage = require("@11ty/eleventy-img");
+
+function imageShortcode(src, alt, sizes, widths) {
+    let options = {
+        widths: widths,
+        formats: ["jpeg"],
+        outputDir: "./dist/assets/images/generated",
+        urlPath: "/assets/images/generated/",
+        sharpJpegOptions: {
+            quality: 99,
+            progressive: true
+        }
+    };
+    let source = path.join(__dirname, "src/" , src);
+    eleventyImage(source, options);
+
+    let imageAttributes = {
+        alt,
+        sizes,
+        loading: "lazy"
+    };
+
+    let metadata = eleventyImage.statsSync(source, options);
+    return eleventyImage.generateHTML(metadata, imageAttributes);
+}
 
 // Import transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -29,6 +55,7 @@ module.exports = function (config) {
     config.addPairedShortcode("accordion", content => {
         return `<div class="accordion space-y-4">\n${content}\n</div>`;
     });
+    config.addNunjucksShortcode("resizeImage", imageShortcode);
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);

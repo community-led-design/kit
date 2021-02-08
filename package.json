@@ -7,6 +7,7 @@
         "build:webpack": "mix --production",
         "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
         "clean": "rimraf dist",
+        "debug": "DEBUG=Eleventy* npm start",
         "lint": "grunt lint",
         "release": "standard-version -t ''",
         "start": "npm-run-all -l clean -p start:*",
@@ -31,6 +32,7 @@
     },
     "dependencies": {
         "@11ty/eleventy": "0.11.1",
+        "@11ty/eleventy-img": "0.7.8",
         "@11ty/eleventy-navigation": "0.1.6",
         "@11ty/eleventy-plugin-rss": "1.1.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",

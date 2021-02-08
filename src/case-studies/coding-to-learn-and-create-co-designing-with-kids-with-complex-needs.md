@@ -6,7 +6,6 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
-metaImage: /assets/images/design-activity-using-the-prototype.jpg
 ---
 ## Project overview
 
