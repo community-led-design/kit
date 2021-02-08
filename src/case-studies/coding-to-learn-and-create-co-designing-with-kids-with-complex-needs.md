@@ -6,7 +6,7 @@ authors:
 organization: Inclusive Design Research Centre
 startDate: 2019
 endDate: false
-metaImage: /assets/images/design-activity-using-the-prototype.jpg
+metaImage: /assets/images/design-activity-using-the-prototype-preview.jpg
 metaImageAlt: >-
   A group of students and an instructor is using the prototype to control the
   movement of the robots. Markers have been stuck to the robots, so when they
