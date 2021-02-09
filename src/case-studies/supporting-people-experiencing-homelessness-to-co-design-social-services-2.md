@@ -17,6 +17,7 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 {% accordion %}
 
 
+
 ### Background
 
 * In July 2017, Bloomberg Philanthropies granted the City of Austin $1,250,000 over three years. This enabled the City of Austin to address the Mayor and Council’s priority to improve coordination across the city to combat homelessness.
@@ -38,11 +39,13 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 [Learn more about the project](https://austininnovation.wixsite.com/solveforhomelessness/ahac)
 
 
+
 {% endaccordion %}
 
 ## Co-design overview
 
 {% accordion %}
+
 
 
 ### Goal
@@ -64,6 +67,7 @@ The goal of the Advisory Committee was to:
   * be able to attend the bimonthly meetings,
   * be sober during the meetings,
   * be willing to take part actively and provide feedback.
+
 
 
 {% endaccordion %}
@@ -111,7 +115,9 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 * As a result of the life skills learning program, the group created a [Coping Skills booklet](https://austininnovation.wixsite.com/solveforhomelessness/coping-zine) about skills they used to survive life on the streets. The booklet is now available in every library in Austin for people experiencing homelessness to access.
 
   {% figure "/assets/media/zine-selection.jpg", "Four different drawings. Each one has a person's name written on it. Each drawing has a combination of sketches and words." %}
+
   A sample of pages from the Coping Skills booklet.
+
   {% endfigure %}
 * The Advisory Committee members also brought their own ideas to test. Two members, a couple named Bill and Judi, created a plan to deliver travel-sized toiletries to people on the streets and distribute them at a local church on Sundays. The facilitators provided the funding and support to prototype a rolling suitcase packed with mini shampoos, soaps, deodorants. The test brought to light two issues that people who have never been homeless might not know:
 
