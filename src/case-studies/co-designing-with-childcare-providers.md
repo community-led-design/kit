@@ -82,19 +82,19 @@ Brainstorming in small groups
 
   * A "hub" that would centralize all of their digital tools in one place.
 
-  {% figure "/assets/media/springfield-corise_flower-hub.jpg", "A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more." %}
-  
-  Childcare provider with her idea for a "hub"
+{% figure "/assets/media/springfield-corise_flower-hub.jpg", "A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more." %}
 
-  {% endfigure %}
+Childcare provider with her idea for a "hub"
+
+{% endfigure %}
 
   * An expensing tool. We ended up with sketches and user flows for each of these tools.
 
-  {% figure "/assets/media/87539963_180873286549337_6135607579746762752_n.jpg", "A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool."  %}
-  
-  Childcare provider presenting her group's expense tool user flow
-  
-  {% endfigure %}
+{% figure "/assets/media/87539963_180873286549337_6135607579746762752_n.jpg", "A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool."  %}
+
+Childcare provider presenting her group's expense tool user flow
+
+{% endfigure %}
 * Co-design is valuable not just in the outcomes that it produces, but also in the process itself - the conversations it sparks and the priorities it brings to the surface. Through the co-design sessions, providers:
 
   * Learned about the issues that faced child care providers who were license-exempt - they made less than a dollar per hour, per child. The group was able to hear from these providers themselves, and come up with ideas and strategies to supplement their income. The providers identified the hub as a way for license-exempt providers to say that they’re open for jobs, and for licensed providers to share opportunities. Other collaborative opportunities include sharing computers and digital devices, going on field trips together, and more.
@@ -112,23 +112,51 @@ A group of childcare providers, listening to idea presentations
 * Due to the limited scope of the project, we tried to identify common needs among all project partners, CoRise being only one of them. We hoped to design tools that could meet some of the needs of all partners. As a result, the co-design process was slow to begin and staggered among all the partners who each had their own scheduling needs. This meant that our timeframe for developing the tools shortened, making it challenging to meet our partners' needs.
 * In retrospect, it may have been better to focus on one or two partners and build something smaller that met their specific needs.
 
-> **Learning: Set terms of engagement**<br> Agree on goals, scope, and timelines early on in the project. In some cases it can be beneficial to stay flexible and allow things to develop more organically. This also needs to be agreed upon early on in the project, so that all parties can agree to and understand the process. <br><br> **Related activity**: Setting terms of engagement
->
-> **Learning: Scope to build trust**<br> When a project has limited resources and/or a short timeline, limit the number of communities or partners you are working with. This will help you focus specifically on meeting the needs of that community or organization. This also helps to build trust through realistic planning and goal-setting, and meeting those goals. If many partners or groups are involved in the project, you might consider other ways of organising the project. This can include working with each partner one at a time, or bringing members from different organizations together in shared co-design sessions.
+{% learning "Learning: Set terms of engagement" %}
+
+Agree on goals, scope, and timelines early on in the project. In some cases it can be beneficial to stay flexible and allow things to develop more organically. This also needs to be agreed upon early on in the project, so that all parties can agree to and understand the process.
+
+**Related activity**: Setting terms of engagement
+
+{% endlearning %}
+
+{% learning "Learning: Scope to build trust" %}
+
+When a project has limited resources and/or a short timeline, limit the number of communities or partners you are working with. This will help you focus specifically on meeting the needs of that community or organization. This also helps to build trust through realistic planning and goal-setting, and meeting those goals. If many partners or groups are involved in the project, you might consider other ways of organising the project. This can include working with each partner one at a time, or bringing members from different organizations together in shared co-design sessions.
+
+{% endlearning %}
 
 ### Community facilitators being able to fully participate
 
 * Our community facilitators are busy childcare providers, so the time they had to meet was limited. As a result it was challenging to create conditions where they could fully take part in the collaborative planning process.
 
-> **Learning: Name and remove accessibility barriers**<br> Come to a mutual understanding of what everyone's capacities were, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible?  <br> <br> **Related activity:** Compensating co-designers, setting terms of engagement
+{% learning "Learning: Name and remove accessibility barriers" %}
+
+Come to a mutual understanding of what everyone's capacities were, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible?
+
+**Related activity:** Compensating co-designers, setting terms of engagement
+
+{% endlearning %}
 
 ### Unlearning who's an expert and who's not
 
 * Our community facilitators were often hesitant to give us feedback on the co-design plan. They provided valuable feedback when they felt like the activities we were discussing was their domain - ex. the context of childcare providers' lives. However, we also wanted to hear their feedback on whether the activities would be easy to do or would resonate with the providers.
 
-> **Learning: Demonstrate lived experience as expertise**<br> Try out the activities with community facilitators. This will provide an opportunity for them to apply their lived experience to the activity, to understand that it is valuable, and to see how it can inform the activities and outcomes. This can help to challenge the idea that the designers are the "experts" and know best. <br> <br> **Related activity:** Communicating the co-design approach from the start
->
-> **Learning: Talk about what everyone brings to the table**<br> Before planning, have conversations together about what expertise does everyone brings to the table, and how does each party want to contribute to this project. <br> <br> **Related activity:** Identify & discuss roles and responsibilities
+{% learning "Learning: Demonstrate lived experience as expertise" %}
+
+Try out the activities with community facilitators. This will provide an opportunity for them to apply their lived experience to the activity, to understand that it is valuable, and to see how it can inform the activities and outcomes. This can help to challenge the idea that the designers are the "experts" and know best.
+
+**Related activity:** Communicating the co-design approach from the start
+
+{% endlearning %}
+
+{% learning "Learning: Talk about what everyone brings to the table" %}
+
+Before planning, have conversations together about what expertise does everyone brings to the table, and how does each party want to contribute to this project.
+
+**Related activity:** Identify & discuss roles and responsibilities
+
+{% endlearning %}
 
 ## Impact
 

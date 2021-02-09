@@ -14,6 +14,7 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 const fs = require("fs");
 const path = require("path");
+const MarkdownIt = require("markdown-it");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
@@ -53,8 +54,29 @@ module.exports = function (config) {
 
     // Shortcodes
     config.addPairedShortcode("accordion", content => {
-        return `<div class="accordion space-y-4">\n${content}\n</div>`;
+        return `<div class="accordion flow">\n${content}\n</div>`;
     });
+    config.addPairedShortcode("learning", (content, title) => {
+        if (title === "") {
+            title = "Learning";
+        }
+
+        let renderedContent;
+
+        if (content.trim()) {
+            const md = new MarkdownIt({
+                html: true,
+                breaks: true,
+                linkify: true
+            });
+
+            renderedContent = md.render(content).trim();
+        } else {
+            renderedContent = "";
+        }
+        return `<div class="learning-block">\n<p class="h4">${title}</p>\n${renderedContent}\n</div>`;
+    });
+
     config.addNunjucksShortcode("resizeImage", imageShortcode);
 
     // Transforms

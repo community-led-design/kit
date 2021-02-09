@@ -141,17 +141,21 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 Integrating the members and creating a safe space for everyone was tricky at the beginning. Tensions were high from living on the streets and struggling with mental illness, and arguments would arise. All members also brought personal grievances about a system they felt had failed them. It took about 5 - 6 months for the group to form a strong connection with each other.
 
-#### Learning: Encourage empathy and story sharing
+{% learning "Learning: Encourage empathy and story sharing" %}
 
 A big group of people who do not know each other can be scary. A way to get to know each other is to get the members to work in small groups. This makes it easier for individuals to open up. Make sure to bring in different methods, activities, and prompts to provide structure and increase group bonding. Activities such as picture drawing or writing can help participants be more comfortable in sharing their experiences and offering their advice and insights. It's also important to maintain a balance of listening to participants' concerns while providing compassionate redirection to keep the group focused on tasks and topics.
+
+{% endlearning %}
 
 ### Providing emotional and mental support
 
 By creating a safer space for members to voice their opinions, they opened up more when they felt emotionally and mentally cared for. However, facilitators were not equipped to give the professional mental and emotional support or have the case management expertise to assist people living in crisis. This issue was solved in part when the Advisory Committee's oversight moved over to the Austin Downtown Community Court (DACC), which was able to provide more support.
 
-#### Learnings: Start with small, feasible solutions
+{% learning "Learning: Start with small, feasible solutions" %}
 
 Training facilitators in trauma informed care practices so that agendas and activities are sensitive to possible re-traumatization can take time. Start with activities that participants can do themselves, such as mindful awareness and breathing, to support themselves and build self resilience. Bring in a expert who can provide mental and emotional support during workshops. Another option is to train your team to develop these skills. 
+
+{% endlearning %}
 
 ## Impact
 
