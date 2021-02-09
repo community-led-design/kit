@@ -24,7 +24,7 @@ CMS.registerEditorComponent({
             widget: "markdown"
         }
     ],
-    pattern: /{% figure "([\s\S]*?)", "([\s\S]*?)" %}([\s\S]*?){% endfigure %}/,
+    pattern: /^{% figure "([\s\S]*?)", "([\s\S]*?)" %}([\s\S]*?){% endfigure %}/,
     fromBlock: match =>
         match && {
             image: match[1],

@@ -37,6 +37,7 @@ CoRise Cooperative is a childcare provider-owned business. It aims to ease provi
 * Co-design digital tools that would improve their work lives in general
 
 {% accordion %}
+
 ### Who was there
 
 We had two workshops. Each workshop included:
@@ -44,6 +45,7 @@ We had two workshops. Each workshop included:
 * Approximately 15 childcare providers
 * One community facilitator, who was also a childcare provider
 * One or two supporters, who weren't childcare providers
+
 {% endaccordion %}
 
 ## Co-design process
