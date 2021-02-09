@@ -131,6 +131,10 @@ ol[role="list"] {
     padding-left: 0;
 }
 
+.inner-content > * + * {
+    margin-top: var(--scale-2);
+}
+
 .text-scale--1 {
     font-size: var(--scale--1);
     line-height: 1.5;

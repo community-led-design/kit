@@ -18,7 +18,7 @@ metaImageAlt: >-
 * Coding to Learn and Create is a joint project of the Inclusive Design Research Centre (IDRC) at OCAD University and Bridges Canada.
 * The project was awarded a grant of $1.7 million dollars by the Ministry of Innovation, Science and Economic Development, from the Accessible Technology Program.
 
-<div class="accordion">
+{% accordion %}
 
 ### Background
 
@@ -38,26 +38,26 @@ metaImageAlt: >-
 * To express themselves using code and art,
 * To apply these skills to other areas of learning and daily life.
 
-</div>
+{% endaccordion %}
 
 [Learn more about the project](https://www.codelearncreate.org/)
 
 ## Co-design overview
 
-<div class="accordion">
+{% accordion %}
 
 ### Goals
 
 * Co-design started at the very beginning of the project. We wanted to include the students' ideas into the design of the prototype early on, as well as throughout the project development.
 * We also wanted to create resources for teachers that they can adapt to their curricula
 
-### Who was there:
+### Who was there
 
 * Students with complex learning needs and learning differences
 * The students' families
 * Special education teachers
 
-</div>
+{% endaccordion %}
 
 ## Co-design approaches
 
@@ -67,9 +67,17 @@ As a result we worked with a broad range of learners and educators to develop di
 
 ### Approach: Summer coding camps
 
-![A group of students and an instructor is using the prototype to control the movement of the robots. Markers have been stuck to the robots, so when they move they draw images on a piece of paper underneath them.](/assets/media/boys-group-design-activity.jpg "Students using our prototype ")
+{% figure "/assets/media/boys-group-design-activity.jpg", "A group of students and an instructor is using the prototype to control the movement of the robots. Markers have been stuck to the robots, so when they move they draw images on a piece of paper underneath them." %}
 
-![Four students in wheelchairs sit around a large piece of paper with robots sitting on top. The robots have been attached with markers and paintbrushes. The children are using their laptops to move the robots.](/assets/media/design-activity-using-the-prototype.jpg "Students testing out robots")
+Students using our prototype 
+
+{% endfigure %}
+
+{% figure "/assets/media/design-activity-using-the-prototype.jpg", "Four students in wheelchairs sit around a large piece of paper with robots sitting on top. The robots have been attached with markers and paintbrushes. The children are using their laptops to move the robots." %}
+
+Students testing out robots
+
+{% endfigure %}
 
 We had five coding camps in the summer of 2019. For each camp, we worked with kids with different abilities and from different age groups over a period of five days.
 
@@ -80,7 +88,11 @@ We had five coding camps in the summer of 2019. For each camp, we worked with ki
 
 ### Approach: Facilitated co-design workshops
 
-![A student in a wheelchair is sitting with a sheet of paper. The student is sketching out different parts of the prototype should look like.](/assets/media/co-design-cole.jpg "Student sketching our prototype")
+{% figure "/assets/media/co-design-cole.jpg", "A student in a wheelchair is sitting with a sheet of paper. The student is sketching out different parts of the prototype should look like." %}
+
+Student sketching our prototype
+
+{% endfigure %}
 
 * At different phases of the project, our team held small to medium size co-design workshops. These brought together students, educators, and parents to work on specific topics related to the project. Topics included coding for storytelling, creative expression, or completing goal-oriented tasks.
 * In-person sessions took 3-6 hours and virtual workshops were 1-2 hours in each workshop. We had 10-15 people who participated in the workshops, and 3-5 project team members who facilitated the activities and supported the participants.
@@ -88,7 +100,11 @@ We had five coding camps in the summer of 2019. For each camp, we worked with ki
 
 ### Approach: Community-led co-design workshops at schools
 
-![A teacher and student sit together. The student is using the ipad and robot while the teacher looks over.](/assets/media/station-activities.jpg "Teacher guiding student on using the robot")
+{% figure "/assets/media/station-activities.jpg", "A teacher and student sit together. The student is using the ipad and robot while the teacher looks over." %}
+
+Teacher guiding student on using the robot
+
+{% endfigure %}
 
 * Our team invited various organizations and schools across Canada to take part in a community-led co-design process.
 * The team worked together with these organizations to plan activities that were appropriate for their context, participants, and available resources.

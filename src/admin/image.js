@@ -2,9 +2,10 @@
 
 "use strict";
 
+/** Note: this replaces the default image editor component. Seems to work? */
 CMS.registerEditorComponent({
-    id: "figure",
-    label: "Figure",
+    id: "image",
+    label: "Image",
     fields: [
         {
             name: "image",

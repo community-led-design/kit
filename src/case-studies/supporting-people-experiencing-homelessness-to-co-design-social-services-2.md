@@ -13,7 +13,7 @@ metaImage: /assets/media/group2.jpg
 
 * The Advisory Committee started with a 6-month pilot. The group included 13 members who were or are currently experiencing homelessness. By March 2018, the Advisory Committee had grown to 16 members with a 90% attendance rate for each meeting. The pilot was extended to 18 months.
 
-<div class="accordion">
+{% accordion %}
 
 ### Background
 
@@ -35,11 +35,11 @@ metaImage: /assets/media/group2.jpg
 
 [Learn more about the project](https://austininnovation.wixsite.com/solveforhomelessness/ahac)
 
-</div>
+{% endaccordion %}
 
 ## Co-design overview
 
-<div class="accordion">
+{% accordion %}
 
 ### Goal
 
@@ -61,15 +61,23 @@ The goal of the Advisory Committee was to:
   * be sober during the meetings,
   * be willing to take part actively and provide feedback.
 
-</div>
+{% endaccordion %}
 
 ## Co-design process
 
 ### Recruitment
 
-![](/assets/media/img_20180419_115344.jpg)
+{% figure "/assets/media/img_20180419_115344.jpg", "No alternative text provided." %}
 
-![](/assets/media/20180201_112925.jpg)
+
+
+{% endfigure %}
+
+{% figure "/assets/media/20180201_112925.jpg", "No alternative text provided." %}
+
+
+
+{% endfigure %}
 
 To develop an in-field recruitment method, the Innovation Team worked with city stakeholders, emergency services, police, and city agencies that were in constant contact with people experiencing homelessness. Recruitment of the Advisory Committee was done via:
 
@@ -85,20 +93,40 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 ### Facilitation
 
-![](/assets/media/img_4470.jpg)
+{% figure "/assets/media/img_4470.jpg", "No alternative text provided." %}
 
-![](/assets/media/20180122_114733.jpg)
+
+
+{% endfigure %}
+
+{% figure "/assets/media/20180122_114733.jpg", "No alternative text provided." %}
+
+
+
+{% endfigure %}
 
 * During the first session, everyone co-designed the group's by-laws together. By-laws are an agreement on how the members were going to engage with each other and the Innovation Team. It was important that the by-laws were created together with the Advisory Committee to create a sense of ownership from everyone.
 * The Innovation Team co-designed a life skills learning program with the Advisory Committee to ensure the sessions were co-created while providing additional support for the members. They also received support from a social worker trained in group therapy.
 
 ### Ideas and outcomes
 
-![](/assets/media/screen-shot-2021-02-05-at-1.02.44-pm.png)
+{% figure "/assets/media/screen-shot-2021-02-05-at-1.02.44-pm.png", "No alternative text provided." %}
 
-![](/assets/media/screen-shot-2021-02-05-at-1.02.52-pm.png)
 
-![](/assets/media/screen-shot-2021-02-05-at-1.01.51-pm.png)
+
+{% endfigure %}
+
+{% figure "/assets/media/screen-shot-2021-02-05-at-1.02.52-pm.png", "No alternative text provided." %}
+
+
+
+{% endfigure %}
+
+{% figure "/assets/media/screen-shot-2021-02-05-at-1.01.51-pm.png", "No alternative text provided." %}
+
+
+
+{% endfigure %}
 
 * The sessions ranged from panhandling role play to providing healthcare feedback on a mobile shelter clinic.
 * As a result of the life skills learning program, the group created a [Coping Skills booklet](https://austininnovation.wixsite.com/solveforhomelessness/coping-zine) about skills they used to survive life on the streets. The booklet is now available in every library in Austin for people experiencing homelessness to access.
