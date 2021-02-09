@@ -6,6 +6,7 @@ authors:
 organization: The City of Austin Innovation Team
 startDate: '2017'
 metaImage: /assets/media/group2.jpg
+metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 ---
 ## Project
 
@@ -14,6 +15,7 @@ metaImage: /assets/media/group2.jpg
 * The Advisory Committee started with a 6-month pilot. The group included 13 members who were or are currently experiencing homelessness. By March 2018, the Advisory Committee had grown to 16 members with a 90% attendance rate for each meeting. The pilot was extended to 18 months.
 
 {% accordion %}
+
 
 ### Background
 
@@ -35,11 +37,13 @@ metaImage: /assets/media/group2.jpg
 
 [Learn more about the project](https://austininnovation.wixsite.com/solveforhomelessness/ahac)
 
+
 {% endaccordion %}
 
 ## Co-design overview
 
 {% accordion %}
+
 
 ### Goal
 
@@ -61,21 +65,18 @@ The goal of the Advisory Committee was to:
   * be sober during the meetings,
   * be willing to take part actively and provide feedback.
 
+
 {% endaccordion %}
 
 ## Co-design process
 
 ### Recruitment
 
-{% figure "/assets/media/img_20180419_115344.jpg", "No alternative text provided." %}
-
-
+{% figure "/assets/media/img_20180419_115344.jpg", "Tables are set up in the outer edges of a school gym. There are people sitting at each of these tables, using laptops and referencing papers." %}
 
 {% endfigure %}
 
-{% figure "/assets/media/20180201_112925.jpg", "No alternative text provided." %}
-
-
+{% figure "/assets/media/20180201_112925.jpg", "A man sitting at table, using a landline phone and smiling at the camera. In front of the table there's a piece of paper that says &quot;welcome to the phone booth pilot&quot;." %}
 
 {% endfigure %}
 
@@ -93,15 +94,11 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 ### Facilitation
 
-{% figure "/assets/media/img_4470.jpg", "No alternative text provided." %}
-
-
+{% figure "/assets/media/img_4470.jpg", "A group of four to five people are standing in front of a white board, looking at pieces of paper taped up on the baord. " %}
 
 {% endfigure %}
 
-{% figure "/assets/media/20180122_114733.jpg", "No alternative text provided." %}
-
-
+{% figure "/assets/media/20180122_114733.jpg", "A group of five people sit at a table together, talking. The table is covered in papers, sticky notes, markers, waterbottles, and food. " %}
 
 {% endfigure %}
 
@@ -110,26 +107,12 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 ### Ideas and outcomes
 
-{% figure "/assets/media/screen-shot-2021-02-05-at-1.02.44-pm.png", "No alternative text provided." %}
-
-
-
-{% endfigure %}
-
-{% figure "/assets/media/screen-shot-2021-02-05-at-1.02.52-pm.png", "No alternative text provided." %}
-
-
-
-{% endfigure %}
-
-{% figure "/assets/media/screen-shot-2021-02-05-at-1.01.51-pm.png", "No alternative text provided." %}
-
-
-
-{% endfigure %}
-
 * The sessions ranged from panhandling role play to providing healthcare feedback on a mobile shelter clinic.
 * As a result of the life skills learning program, the group created a [Coping Skills booklet](https://austininnovation.wixsite.com/solveforhomelessness/coping-zine) about skills they used to survive life on the streets. The booklet is now available in every library in Austin for people experiencing homelessness to access.
+
+  {% figure "/assets/media/zine-selection.jpg", "Four different drawings. Each one has a person's name written on it. Each drawing has a combination of sketches and words." %}
+  A sample of pages from the Coping Skills booklet.
+  {% endfigure %}
 * The Advisory Committee members also brought their own ideas to test. Two members, a couple named Bill and Judi, created a plan to deliver travel-sized toiletries to people on the streets and distribute them at a local church on Sundays. The facilitators provided the funding and support to prototype a rolling suitcase packed with mini shampoos, soaps, deodorants. The test brought to light two issues that people who have never been homeless might not know:
 
   * Large bottles of toiletries are tricky for someone to carry around and prone to leaking.
