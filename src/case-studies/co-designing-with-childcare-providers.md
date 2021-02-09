@@ -52,10 +52,8 @@ We had two workshops. Each workshop included:
 
 ### Community Involvement
 
-{% figure "/assets/media/87822660_2578716258906282_4500918451086295040_n.jpg", "A childcare provider leads her small group in outlining their idea for a handbook for childcare providers" %}
-
-Brainstorming in small groups
-
+{% figure "/assets/media/87822660_2578716258906282_4500918451086295040_n.jpg", "A woman stands in front of a two other women, with a large piece of paper on a board next to her and a pen in her hand. The piece of paper has been titled “Handbook, our hub”. Two women who are sitting at a small round table covered in post-it notes look at her." %}
+A childcare provider leads her small group in outlining their idea for a handbook for childcare providers
 {% endfigure %}
 
 * Our team and our partners at CoRise wanted to use a community-led co-design approach from the very start. We asked our partners to find two childcare providers who would work with us to plan the activities, and take lead on facilitating the sessions.
@@ -82,29 +80,16 @@ Brainstorming in small groups
 
   * A "hub" that would centralize all of their digital tools in one place.
 
-{% figure "/assets/media/springfield-corise_flower-hub.jpg", "A childcare provider holds up a piece of paper, with her drawing of what her ideal "hub" would look like. On the paper is a flower with petals, and each petal is a button to a feature. Features include payroll, lesson plans, taxes, and more." %}
-
-Childcare provider with her idea for a "hub"
-
+{% figure "/assets/media/springfield-corise_flower-hub.jpg", "A woman holds up a piece of paper. On the piece of paper is a drawing of a flower with ten petals, each petal with a word on it." %}
+Childcare provider holds up her sketch of her ideal "hub" for centralizing digital tools she needs for her job.
 {% endfigure %}
 
-  * An expensing tool. We ended up with sketches and user flows for each of these tools.
+* An expensing tool. We ended up with sketches and user flows for each of these tools.
 
-{% figure "/assets/media/87539963_180873286549337_6135607579746762752_n.jpg", "A childcare provider stands in front of the group, presenting their ideal user flow for an expensing tool."  %}
-
-Childcare provider presenting her group's expense tool user flow
-
+{% figure "/assets/media/87539963_180873286549337_6135607579746762752_n.jpg", "A woman stands in front of a wall covered in large pieces of paper. Those papers have writing on them. She is presenting to a group of women sitting in front of her. " %}
+A childcare provider stands in front of the group, presenting her ideal user flow for an expensing tool.
 {% endfigure %}
-* Co-design is valuable not just in the outcomes that it produces, but also in the process itself - the conversations it sparks and the priorities it brings to the surface. Through the co-design sessions, providers:
 
-  * Learned about the issues that faced child care providers who were license-exempt - they made less than a dollar per hour, per child. The group was able to hear from these providers themselves, and come up with ideas and strategies to supplement their income. The providers identified the hub as a way for license-exempt providers to say that they’re open for jobs, and for licensed providers to share opportunities. Other collaborative opportunities include sharing computers and digital devices, going on field trips together, and more.
-  * Reinforced the strong desire to support each other. The need for a place to talk with other providers came up again and again. There is a strong desire from providers to be able to support and be supported by other providers. This support includes sharing recommendations for people to do your taxes, sharing complicated legal documents, or advising on how to communicate with parents in tricky situations.
-
-{% figure "/assets/media/87579876_234193207605606_1908220636371615744_n.jpg", "A small group of childcare providers listen to their fellow co-designer present their ideas." %}
-
-A group of childcare providers, listening to idea presentations
-
-{% endfigure %}
 ## Challenges and learnings
 
 ### Scope creep and uncertain timelines
