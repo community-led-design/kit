@@ -77,6 +77,31 @@ module.exports = function (config) {
         return `<div class="learning-block">\n<p class="h4">${title}</p>\n${renderedContent}\n</div>`;
     });
 
+    config.addPairedShortcode("pullquote", (content, author) => {
+        let citation;
+
+        if (author === "") {
+            citation = "";
+        } else {
+            citation = `<cite>${author}</cite>`;
+        }
+
+        let renderedContent;
+
+        if (content.trim()) {
+            const md = new MarkdownIt({
+                html: true,
+                breaks: true,
+                linkify: true
+            });
+
+            renderedContent = md.render(content).trim();
+        } else {
+            renderedContent = "";
+        }
+        return `<blockquote>\n${renderedContent}\n${citation}\n</blockquote>`;
+    });
+
     config.addNunjucksShortcode("resizeImage", imageShortcode);
 
     // Transforms

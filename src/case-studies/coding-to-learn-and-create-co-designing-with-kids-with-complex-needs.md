@@ -172,7 +172,11 @@ Through our co-design sessions, we were able to create and enable:
 * **A community with a shared cause:** Our team built a community of learners, educators, and activists interested in making coding accessible for kids with diverse needs.
 * **New skills for kids:** The kids who took part in our co-design process developed skills that can help them both in coding and in life in general. These skills included: Learning about directions, sorting and ordering items, recognizing repeated patterns, and planning and building a sequence of actions.
 
-> "Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression," said Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead
+{% pullquote "Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead" %}
+
+Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression.
+
+{% endpullquote %}
 
 ## Resources
 

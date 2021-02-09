@@ -166,7 +166,11 @@ Through this pilot, we were able to:
 * **Build new skills for advocacy:** Our skills building program taught members coping skills and public speaking skills. When members are seen, heard, and given the opportunities to use their skills, they can become powerful advocates for their community. This ultimately results in better designed services and for members to become more visible to service providers.
 * **Enable new friendships and bonds:** The Advisory Committee created a group that was a safe space for sharing concerns and ideas with each other, which led to a community that also supported each other.
 
-> “Every city should do something like this, and maybe even do it bigger than what Austin is doing. It’s important to work directly with the homeless, and hear our stories, rather than just try to figure out what we may need. Without this committee, Austin really wouldn’t know the diversity that’s there in the homeless situation, and how huge the need really is to come up with solutions that help people," --  Donna Ware, who lost her home due to a legal dispute, has been living out of her car and a storage unit, and one of the original members of the Advisory Committee
+{% pullquote "Donna Ware, who lost her home due to a legal dispute, has been living out of her car and a storage unit, and one of the original members of the Advisory Committee" %}
+
+Every city should do something like this, and maybe even do it bigger than what Austin is doing. It’s important to work directly with the homeless, and hear our stories, rather than just try to figure out what we may need. Without this committee, Austin really wouldn’t know the diversity that’s there in the homeless situation, and how huge the need really is to come up with solutions that help people.
+
+{% endpullquote %}
 
 ## References/Links
 
