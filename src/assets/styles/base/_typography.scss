@@ -102,16 +102,30 @@ h4,
 }
 
 blockquote {
-    background: var(--blue-100);
-    border-left: solid 3px var(--blue-500);
-    font-size: var(--scale-1);
-    font-style: italic;
-    line-height: 1.35;
-    padding: var(--scale-2);
+    background: var(--white);
+    border-left: 4px solid var(--blue-300);
+    padding: var(--scale-3) var(--scale-5);
+
+    svg {
+        color: var(--blue-300);
+        width: var(--scale-5);
+    }
+
+    svg + * {
+        margin-top: 0;
+    }
 }
 
 * + blockquote {
     margin-top: var(--scale--1);
+}
+
+cite {
+    font-size: var(--scale--1);
+}
+
+cite::before {
+    content: "–";
 }
 
 ul[role="list"],

@@ -123,23 +123,43 @@ Teacher guiding student on using the robot
 
 Many learners with complex learning needs prefer to have options to choose from. Being asked to think of an imaginary scenario may be difficult, trigger anxiety, and ultimately lead to not doing the activity. 
 
-> Learning: Use concrete examples It is helpful to show participants a simple prototype. This gives them a concrete starting point and makes it easier to observe their interactions and to begin a simplified co-creation process.
->
-> Learning: Avoid abstract activities These include brainstorming new ideas and open-ended questions. Instead, start with simple questions and concrete examples. Demonstrate the activities for students to help them understand the goals and the steps of an activity.
+{% learning "Learning: Use concrete examples" %}
+
+It is helpful to show participants a simple prototype. This gives them a concrete starting point and makes it easier to observe their interactions and to begin a simplified co-creation process.
+
+{% endlearning %}
+
+{% learning "Learning: Avoid abstract activities" %}
+
+These include brainstorming new ideas and open-ended questions. Instead, start with simple questions and concrete examples. Demonstrate the activities for students to help them understand the goals and the steps of an activity.
+
+{% endlearning %}
 
 ### Meeting many accessibility needs
 
 Each student may have varying levels of literacy and communication skills. Thus, grouping several students together can be challenging for both the facilitators and participants. 
 
-> Learning: Use one-on-one facilitation One-on-one facilitation gives participants more opportunities to express their ideas at their own pace. It also helps maintain the participant's focus and attention and reduces distraction by their peers. Facilitators can also better tailor their facilitation strategies to individual needs, and make sure learners feel comfortable and able to take part.
+{% learning "Learning: Use one-on-one facilitation" %}
+
+One-on-one facilitation gives participants more opportunities to express their ideas at their own pace. It also helps maintain the participant's focus and attention and reduces distraction by their peers. Facilitators can also better tailor their facilitation strategies to individual needs, and make sure learners feel comfortable and able to take part.
+
+{% endlearning %}
 
 ### Keeping focus and engagement
 
 Learners with complex learning needs are very sensitive to sensory stimulation and they can be easily distracted by a new object. 
 
-> Learning: Plan a focused and minimal agenda To keep participants focused, limit the sensory stimulation, the number of tasks, and the number of goals per session. Including their favourite topics in the activities as well as objects they like and are familiar with will help to maintain their attention and focus.
->
-> Learning: Create a routine Short sessions with clear agendas help students to remain engaged throughout the session. This is particularly important if you are doing a series of co-design sessions with the same group. Establishing a routine helps participants understand what to expect and gives them a sense of order. This can reduce anxiety related to doing new tasks. Giving each participant a chance to introduce themselves at the beginning of a session and going over the agenda of the planned activities help to orient young co-designers. Concluding a session with an overview of the completed activities helps give them a sense of accomplishment.  
+{% learning "Learning: Plan a focused and minimal agenda" %}
+
+To keep participants focused, limit the sensory stimulation, the number of tasks, and the number of goals per session. Including their favourite topics in the activities as well as objects they like and are familiar with will help to maintain their attention and focus.
+
+{% endlearning %}
+
+{% learning "Learning: Create a routine" %}
+
+Short sessions with clear agendas help students to remain engaged throughout the session. This is particularly important if you are doing a series of co-design sessions with the same group. Establishing a routine helps participants understand what to expect and gives them a sense of order. This can reduce anxiety related to doing new tasks. Giving each participant a chance to introduce themselves at the beginning of a session and going over the agenda of the planned activities help to orient young co-designers. Concluding a session with an overview of the completed activities helps give them a sense of accomplishment.  
+
+{% endlearning %}
 
 ## Impact
 
@@ -149,7 +169,11 @@ Through our co-design sessions, we were able to create and enable:
 * **A community with a shared cause:** Our team built a community of learners, educators, and activists interested in making coding accessible for kids with diverse needs.
 * **New skills for kids:** The kids who took part in our co-design process developed skills that can help them both in coding and in life in general. These skills included: Learning about directions, sorting and ordering items, recognizing repeated patterns, and planning and building a sequence of actions.
 
-> "Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression," said Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead
+{% pullquote "Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead" %}
+
+Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression.
+
+{% endpullquote %}
 
 ## Resources
 
