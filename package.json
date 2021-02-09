@@ -37,7 +37,7 @@
         "@11ty/eleventy-plugin-rss": "1.1.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",
         "eleventy-plugin-fluid": "0.1.0",
-        "infusion": "3.0.0-dev.20210120T204128Z.6e4be079f.FLUID-6580"
+        "infusion": "3.0.0-dev.20210204T181946Z.3ed160b36.FLUID-6580"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
@@ -54,10 +54,10 @@
         "modern-css-reset": "1.4.0",
         "move-file": "2.0.0",
         "npm-run-all": "4.1.5",
-        "postcss": "8.2.4",
+        "postcss": "8.2.5",
         "resolve-url-loader": "3.1.2",
         "rimraf": "3.0.2",
-        "sass": "1.32.5",
+        "sass": "1.32.6",
         "sass-loader": "10.1.1",
         "slugify": "1.4.6",
         "standard-version": "9.1.0",
