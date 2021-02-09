@@ -40,7 +40,7 @@
             </article>
         </main>
         {% include "partials/global/footer.njk" %}
-        {% if page.url === '' %}
+        {% if bodyClass == 'home' %}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
         {% endif %}
     </body>
