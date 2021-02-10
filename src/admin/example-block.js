@@ -18,7 +18,7 @@ CMS.registerEditorComponent({
             widget: "string"
         }
     ],
-    pattern: /^{% learning "([\s\S]*?)" %}([\s\S]*?){% endlearning %}/,
+    pattern: /^{% example "([\s\S]*?)" %}([\s\S]*?){% endexample %}/,
     fromBlock: function (match) {
         return {
             title: match[1],
@@ -26,11 +26,11 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function (obj) {
-        return `{% learning "${obj.title}" %}\n${obj.content}\n{% endlearning %}`;
+        return `{% example "${obj.title}" %}\n${obj.content}\n{% endexample %}`;
     },
     toPreview: function (obj) {
         var md = window.markdownit();
         var content = obj.content ? md.render(obj.content) : "";
-        return `<div class="block learning-block"><p class="h4">${obj.title || "Learning"}</p>${content}</div>`;
+        return `<div class="block example-block"><p class="h4">${obj.title || "Example"}</p>${content}</div>`;
     }
 });

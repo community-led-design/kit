@@ -86,12 +86,12 @@ labore et dolore magna aliquyam erat, sed diam voluptua.
 Here's a paragraph that immediately follows a learning block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-{% learning "Learning: One size fits one" %}
+{% example "Example" %}
 
-Here's a learning block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-labore et dolore magna aliquyam erat, sed diam voluptua.
+Here's an example block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-{% endlearning %}
+{% endexample %}
 
 ## Interactive Elements
 

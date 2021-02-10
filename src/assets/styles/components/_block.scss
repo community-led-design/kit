@@ -1,9 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the learning block component.
 // -----------------------------------------------------------------------------
-.learning-block {
+%block {
     background-color: var(--white);
-    border-left: 4px solid var(--yellow-500);
+    border-left: 4px solid;
     color: var(--blue-600);
     padding: var(--scale-3) var(--scale-5);
 
@@ -16,10 +16,22 @@
     }
 }
 
-.content * + .learning-block {
+.content * + .block {
     margin-top: var(--scale-2);
 }
 
-.content .learning-block + h3 {
+.content .block + h3 {
     margin-top: var(--scale-6);
+}
+
+.learning-block {
+    @extend %block;
+
+    border-left-color: var(--yellow-500);
+}
+
+.example-block {
+    @extend %block;
+
+    border-left-color: var(--green-300);
 }

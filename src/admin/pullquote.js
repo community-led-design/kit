@@ -18,7 +18,7 @@ CMS.registerEditorComponent({
             widget: "string"
         }
     ],
-    pattern: /^{% pullquote "([\s\S]*?)" %}([\s\S]*?){% pullquote %}/,
+    pattern: /^{% pullquote "([\s\S]*?)" %}([\s\S]*?){% endpullquote %}/,
     fromBlock: function (match) {
         return {
             author: match[1],
@@ -26,7 +26,7 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function (obj) {
-        return `{% pullquote "${obj.author}" %}\n${obj.quote}\n{% pullquote %}`;
+        return `{% pullquote "${obj.author}" %}\n${obj.quote}\n{% endpullquote %}`;
     },
     toPreview: function (obj) {
         var md = window.markdownit();
