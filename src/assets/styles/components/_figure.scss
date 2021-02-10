@@ -13,3 +13,7 @@ figcaption {
     line-height: 1.4;
     margin: var(--scale--4) 0;
 }
+
+.content * + figure {
+    margin-top: var(--scale-2);
+}
