@@ -16,6 +16,10 @@
     }
 }
 
-.content h3 + .learning-block {
-    margin-top: var(--scale-4);
+.content * + .learning-block {
+    margin-top: var(--scale-2);
+}
+
+.content .learning-block + h3 {
+    margin-top: var(--scale-6);
 }
