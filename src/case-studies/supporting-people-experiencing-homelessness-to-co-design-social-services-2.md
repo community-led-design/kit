@@ -19,6 +19,7 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 
 
 
+
 ### Background
 
 * In July 2017, Bloomberg Philanthropies granted the City of Austin $1,250,000 over three years. This enabled the City of Austin to address the Mayor and Council’s priority to improve coordination across the city to combat homelessness.
@@ -42,11 +43,13 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 
 
 
+
 {% endaccordion %}
 
 ## Co-design overview
 
 {% accordion %}
+
 
 
 
@@ -70,6 +73,7 @@ The goal of the Advisory Committee was to:
   * be able to attend the bimonthly meetings,
   * be sober during the meetings,
   * be willing to take part actively and provide feedback.
+
 
 
 
@@ -121,7 +125,9 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
   {% figure "/assets/media/zine-selection.jpg", "Four different drawings. Each one has a person's name written on it. Each drawing has a combination of sketches and words." %}
 
 
+
   A sample of pages from the Coping Skills booklet.
+
 
 
   {% endfigure %}
