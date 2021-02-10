@@ -64,6 +64,35 @@ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
 Here's a paragraph that immediately follows a blockquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
+{% pullquote "Unknown" %}
+
+Here's a pullquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam voluptua.
+
+{% endpullquote %}
+
+Here's a paragraph that immediately follows a pullquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+### Third Level-Three Heading
+
+{% learning "Learning: Measure twice, cut once" %}
+
+Here's a learning block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam voluptua.
+
+{% endlearning %}
+
+Here's a paragraph that immediately follows a learning block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+{% learning "Learning: One size fits one" %}
+
+Here's a learning block. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam voluptua.
+
+{% endlearning %}
+
 ## Interactive Elements
 
 <div class="wrapper">

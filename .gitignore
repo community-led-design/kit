@@ -4,3 +4,8 @@ src/_data/assets.json
 
 # Local Netlify folder
 .netlify
+
+# Backstop data
+backstop_data/bitmaps_test
+backstop_data/html_report
+backstop_data/json_report
