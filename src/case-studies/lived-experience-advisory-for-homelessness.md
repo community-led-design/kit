@@ -16,6 +16,11 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 
 {% accordion %}
 
+
+
+
+
+
 ### Background
 
 * In July 2017, Bloomberg Philanthropies granted the City of Austin $1,250,000 over three years. This enabled the City of Austin to address the Mayor and Council’s priority to improve coordination across the city to combat homelessness.
@@ -36,11 +41,21 @@ metaImageAlt: 'A group of people sit on a set of stairs, smiling at the camera.'
 
 [Learn more about the project](https://austininnovation.wixsite.com/solveforhomelessness/ahac)
 
+
+
+
+
+
 {% endaccordion %}
 
 ## Co-design overview
 
 {% accordion %}
+
+
+
+
+
 
 ### Goal
 
@@ -60,6 +75,11 @@ The goal of the Advisory Committee was to:
   * be able to attend the bimonthly meetings,
   * be sober during the meetings,
   * be willing to take part actively and provide feedback.
+
+
+
+
+
 
 
 {% endaccordion %}
@@ -108,7 +128,13 @@ To develop an in-field recruitment method, the Innovation Team worked with city 
 
 {% figure "/assets/media/zine-selection.jpg", "Four different drawings. Each one has a person's name written on it. Each drawing has a combination of sketches and words." %}
 
+
+
+
 A sample of pages from the Coping Skills booklet.
+
+
+
 
 {% endfigure %}
 
@@ -125,7 +151,17 @@ Integrating the members and creating a safe space for everyone was tricky at the
 
 {% learning "Learning: Encourage empathy and story sharing" %}
 
+
+
+
+
+
 A big group of people who do not know each other can be scary. A way to get to know each other is to get the members to work in small groups. This makes it easier for individuals to open up. Make sure to bring in different methods, activities, and prompts to provide structure and increase group bonding. Activities such as picture drawing or writing can help participants be more comfortable in sharing their experiences and offering their advice and insights. It's also important to maintain a balance of listening to participants' concerns while providing compassionate redirection to keep the group focused on tasks and topics.
+
+
+
+
+
 
 {% endlearning %}
 
@@ -135,7 +171,17 @@ By creating a safer space for members to voice their opinions, they opened up mo
 
 {% learning "Learning: Start with small, feasible solutions" %}
 
+
+
+
+
+
 Training facilitators in trauma informed care practices so that agendas and activities are sensitive to possible re-traumatization can take time. Start with activities that participants can do themselves, such as mindful awareness and breathing, to support themselves and build self resilience. Bring in a expert who can provide mental and emotional support during workshops. Another option is to train your team to develop these skills. 
+
+
+
+
+
 
 {% endlearning %}
 
@@ -150,7 +196,17 @@ Through this pilot, we were able to:
 
 {% pullquote "Donna Ware, who lost her home due to a legal dispute, has been living out of her car and a storage unit, and one of the original members of the Advisory Committee" %}
 
+
+
+
+
+
 Every city should do something like this, and maybe even do it bigger than what Austin is doing. It’s important to work directly with the homeless, and hear our stories, rather than just try to figure out what we may need. Without this committee, Austin really wouldn’t know the diversity that’s there in the homeless situation, and how huge the need really is to come up with solutions that help people.
+
+
+
+
+
 
 {% endpullquote %}
 
