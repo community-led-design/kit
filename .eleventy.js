@@ -14,7 +14,6 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 const fs = require("fs");
 const path = require("path");
-const MarkdownIt = require("markdown-it");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
