@@ -1,0 +1,18 @@
+{
+  "types": [
+    "Unplugged",
+    "On-Screen",
+    "Hybrid"
+  ],
+  "experience": [
+    "No Coding Experience",
+    "Unplugged Coding Experience",
+    "Blockly Coding Experience"
+  ],
+  "subjects": [
+    "Drawings",
+    "Music",
+    "Games",
+    "Stories"
+  ]
+}
