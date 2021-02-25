@@ -8,10 +8,9 @@ startDate: 2019
 endDate: false
 metaImage: /assets/media/design-activity-using-the-prototype.jpg
 metaImageAlt: >-
-  A group of students in wheelchairs and facilitators are sitting around large
-  panels of paper taped to the ground. Sitting on top of the paper are small
-  robots that have markers attached to them. At the edge of the paper are an
-  assortment of markers and paints.
+  Campers sitting on the floor and using C2LC prototype on their laptops to code
+  Dash and Sphero robots. Sphero is dipped in paint and markers are tapped to
+  Dash, so they can draw shapes as they execute campers’ programs.
 ---
 ## Project overview
 
@@ -20,6 +19,7 @@ metaImageAlt: >-
 * The project was awarded a grant of $1.7 million dollars by the Ministry of Innovation, Science and Economic Development, from the Accessible Technology Program.
 
 {% accordion %}
+
 
 ### Background
 
@@ -39,6 +39,7 @@ metaImageAlt: >-
 * To express themselves using code and art,
 * To apply these skills to other areas of learning and daily life.
 
+
 {% endaccordion %}
 
 [Learn more about the project](https://www.codelearncreate.org/)
@@ -46,6 +47,7 @@ metaImageAlt: >-
 ## Co-design overview
 
 {% accordion %}
+
 
 ### Goals
 
@@ -58,6 +60,7 @@ metaImageAlt: >-
 * The students' families
 * Special education teachers
 
+
 {% endaccordion %}
 
 ## Co-design approaches
@@ -68,12 +71,16 @@ As a result we worked with a broad range of learners and educators to develop di
 
 ### Approach: Summer coding camps
 
-{% figure "/assets/media/boys-group-design-activity.jpg", "A young student sits with a laptop on the floor, in front of panels of paper taped to the ground. The project prototype is on the laptop screen. There are robots sitting on top of the paper, with markers attached to it. On the opposite side of the room, a group of students are looking and pointing at the laptop in front of them." %}
+{% figure "/assets/media/boys-group-design-activity.jpg", "Facilitators and campers are working with the C2LC prototype on their laptops. They are creating programs for Dash and Sphero robots to draw shapes on large panels of paper taped on the floor. " %}
+
 Students test out our project prototype by coding a path for the robot to move in. The robots are attached to markers, so when they move, they also create drawings on the paper.
+
 {% endfigure %}
 
-{% figure "/assets/media/design-activity-using-the-prototype.jpg", "A group of students in wheelchairs and facilitators are sitting around large panels of paper taped to the ground. Sitting on top of the paper are small robots that have markers attached to them. At the edge of the paper are an assortment of markers and paints." %}
+{% figure "/assets/media/design-activity-using-the-prototype.jpg", "Campers sitting on the floor and using C2LC prototype on their laptops to code Dash and Sphero robots. Sphero is dipped in paint and markers are tapped to Dash, so they can draw shapes as they execute campers’ programs. " %}
+
 A larger group of students testing out the project prototype.
+
 {% endfigure %}
 
 We had five coding camps in the summer of 2019. For each camp, we worked with kids with different abilities and from different age groups over a period of five days.
@@ -85,8 +92,10 @@ We had five coding camps in the summer of 2019. For each camp, we worked with ki
 
 ### Approach: Facilitated co-design workshops
 
-{% figure "/assets/media/co-design-cole.jpg", "A student in a wheelchair is sitting with a sheet of paper with pre-printed boxes and text on it. " %}
+{% figure "/assets/media/co-design-cole.jpg", "A student in a wheelchair is interacting with a large paper prototype of the C2LC coding environment.  " %}
+
 Student sketching out the interface of the prototype.
+
 {% endfigure %}
 
 * At different phases of the project, our team held small to medium size co-design workshops. These brought together students, educators, and parents to work on specific topics related to the project. Topics included coding for storytelling, creative expression, or completing goal-oriented tasks.
@@ -95,10 +104,12 @@ Student sketching out the interface of the prototype.
 
 ### Approach: Community-led co-design workshops at schools
 
-{% figure "/assets/media/station-activities.jpg", "A teacher and student sit together at a table. The student is using the ipad. The teacher looks at the student. The robot sits between them." %}
+{% figure "/assets/media/station-activities.jpg", "In a classroom environment, each facilitator is paired with a student sitting at a table. Each student is using an iPad to program a robot placed on the same table." %}
+
 
 
 Teacher guiding student on using the robot
+
 
 
 {% endfigure %}
@@ -125,13 +136,17 @@ Many learners with complex learning needs prefer to have options to choose from.
 
 {% learning "Learning: Use concrete examples" %}
 
+
 It is helpful to show participants a simple prototype. This gives them a concrete starting point and makes it easier to observe their interactions and to begin a simplified co-creation process.
+
 
 {% endlearning %}
 
 {% learning "Learning: Avoid abstract activities" %}
 
+
 These include brainstorming new ideas and open-ended questions. Instead, start with simple questions and concrete examples. Demonstrate the activities for students to help them understand the goals and the steps of an activity.
+
 
 {% endlearning %}
 
@@ -141,7 +156,9 @@ Each student may have varying levels of literacy and communication skills. Thus,
 
 {% learning "Learning: Use one-on-one facilitation" %}
 
+
 One-on-one facilitation gives participants more opportunities to express their ideas at their own pace. It also helps maintain the participant's focus and attention and reduces distraction by their peers. Facilitators can also better tailor their facilitation strategies to individual needs, and make sure learners feel comfortable and able to take part.
+
 
 {% endlearning %}
 
@@ -151,13 +168,17 @@ Learners with complex learning needs are very sensitive to sensory stimulation a
 
 {% learning "Learning: Plan a focused and minimal agenda" %}
 
+
 To keep participants focused, limit the sensory stimulation, the number of tasks, and the number of goals per session. Including their favourite topics in the activities as well as objects they like and are familiar with will help to maintain their attention and focus.
+
 
 {% endlearning %}
 
 {% learning "Learning: Create a routine" %}
 
+
 Short sessions with clear agendas help students to remain engaged throughout the session. This is particularly important if you are doing a series of co-design sessions with the same group. Establishing a routine helps participants understand what to expect and gives them a sense of order. This can reduce anxiety related to doing new tasks. Giving each participant a chance to introduce themselves at the beginning of a session and going over the agenda of the planned activities help to orient young co-designers. Concluding a session with an overview of the completed activities helps give them a sense of accomplishment.  
+
 
 {% endlearning %}
 
@@ -171,7 +192,9 @@ Through our co-design sessions, we were able to create and enable:
 
 {% pullquote "Susie Blackstien-Adler, Bridges’ Professional Learning Manager and C2LC Project Lead" %}
 
+
 Learning to code empowers students to be active producers of their digital environments, not just consumers of apps and games. And through coding to learn they develop skills in planning, acquire perseverance in problem-solving, and discover new personal outlets for communication, participation, and creative expression.
+
 
 {% endpullquote %}
 
