@@ -5,6 +5,11 @@
         }
     },
     "lintspaces": {
+        "jsonindentation": {
+            "excludes": [
+                "./src/_data/*.json"
+            ]
+        },
         "newlines": {
             "excludes": [
                 "*.ico",
@@ -13,6 +18,7 @@
                 "*.webp",
                 "*.woff",
                 "*.woff2",
+                "./src/_data/*.json",
                 "./src/case-studies/*.md",
                 "./src/pages/*.md",
                 "./src/resources/*.md",
