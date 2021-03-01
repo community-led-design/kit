@@ -50,7 +50,7 @@
         "debug": "4.3.1",
         "fluid-lint-all": "1.0.4",
         "html-minifier": "4.0.0",
-        "husky": "5.1.2",
+        "husky": "4.3.8",
         "image-size": "0.9.4",
         "jsdom": "16.4.0",
         "laravel-mix": "6.0.11",
