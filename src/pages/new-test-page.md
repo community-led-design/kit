@@ -1,6 +1,6 @@
 ---
 editable: true
-title: New test page
+title: New page
 toc: true
 ---
 Add some content
