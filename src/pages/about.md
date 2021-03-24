@@ -1,6 +1,6 @@
 ---
 editable: true
-title: About
+title: About this website
 toc: true
 eleventyNavigation:
   order: 6
