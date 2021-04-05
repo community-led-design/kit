@@ -1,6 +1,6 @@
 ---
 editable: true
-title: About
+title: About this toolkit
 toc: true
 eleventyNavigation:
   order: 6
