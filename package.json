@@ -48,7 +48,7 @@
         "backstopjs": "5.3.4",
         "cross-env": "7.0.3",
         "debug": "4.3.1",
-        "fluid-lint-all": "1.0.4",
+        "fluid-lint-all": "1.1.4",
         "html-minifier": "4.0.0",
         "husky": "4.3.8",
         "image-size": "1.0.0",
