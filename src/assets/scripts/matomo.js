@@ -12,14 +12,13 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 "use strict";
 
-var _paq = window._paq || [];
-_paq.push(["trackPageView"]);
-_paq.push(["enableLinkTracking"]);
-(function () {
-    var siteId = "21"; // Set this to the ID of your site in Matomo. Value must be quoted.
-    var u = "https://analytics.inclusivedesign.ca/";
-    _paq.push(["setTrackerUrl", u + "matomo.php"]);
-    _paq.push(["setSiteId", siteId]);
-    var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
-    g.type = "text/javascript"; g.async = true; g.defer = true; g.src = u + "matomo.js"; s.parentNode.insertBefore(g,s);
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var u="https://analytics.inclusivedesign.ca/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '21']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 })();
