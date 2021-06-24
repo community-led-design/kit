@@ -63,7 +63,7 @@
         "sass": "1.35.1",
         "sass-loader": "12.1.0",
         "slugify": "1.5.0",
-        "standard-version": "9.1.1",
+        "standard-version": "9.3.0",
         "stylus": "0.54.8",
         "stylus-loader": "6.1.0"
     }
