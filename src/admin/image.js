@@ -32,15 +32,15 @@ CMS.registerEditorComponent({
             caption: match[3]
         },
     toBlock: function ({alt, image, caption}) {
-        alt = alt ? alt.replace(/"/g, "&quot;") : '';
+        alt = alt ? alt.replace(/"/g, "&quot;") : "";
         return `{% figure "${image || ""}", "${alt || ""}" %}\n${caption || ""}\n{% endfigure %}`;
     },
     toPreview: ({alt, image, caption}, getAsset, fields) => {
         const md = window.markdownit();
-        const imageField = fields?.find(f => f.get('widget') === 'image');
+        const imageField = fields.find(f => f.get("widget") === "image");
         const src = getAsset(image, imageField);
-        alt = alt ? alt.replace(/"/g, "&quot;") : '';
+        alt = alt ? alt.replace(/"/g, "&quot;") : "";
         const figcaption = caption ? `<figcaption>${md.render(caption)}</figcaption>` : "";
-        return `<figure><img src="${src || ''}" alt="${alt || ""}" />${figcaption}</figure>`;
+        return `<figure><img src="${src || ""}" alt="${alt || ""}" />${figcaption}</figure>`;
     }
 });

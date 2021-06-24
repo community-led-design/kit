@@ -1,4 +1,6 @@
-const MarkdownIt = require('markdown-it');
+"use strict";
+
+const MarkdownIt = require("markdown-it");
 
 module.exports = (content, title) => {
     if (title === "") {
