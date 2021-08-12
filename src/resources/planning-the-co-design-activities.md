@@ -5,7 +5,7 @@ buildingBlock: Co-design plan
 ---
 # What
 
-Once your team has a sense of the [goal and desired outcomes for your co-design engagement](https://co-design.inclusivedesign.ca/resources/Setting-terms-of-engagement/), you can begin to plan the activities.
+Once your team has a sense of the [goal and desired outcomes for your co-design engagement](https://co-design.inclusivedesign.ca/resources/Setting-Terms-of-Engagement/), you can begin to plan the activities.
 
 Activities can vary depending on where in the design process you are. For example:
 
