@@ -124,7 +124,6 @@ One of the most important parts of activity planning is testing it out!
 * Testing activities will provide invaluable information on format, accessibility, timing, appropriateness, and more.
 
 
-
 # Related activities
 
 [Co-design materials]()
