@@ -5,7 +5,7 @@ buildingBlock: Co-design plan
 ---
 # What
 
-Once your team has a sense of the [goal and desired outcomes for your co-design engagement](/Setting-terms-of-engagement/), you can begin to plan the activities.
+Once your team has a sense of the [goal and desired outcomes for your co-design engagement](https://co-design.inclusivedesign.ca/resources/Setting-terms-of-engagement/), you can begin to plan the activities.
 
 Activities can vary depending on where in the design process you are. For example:
 
@@ -127,12 +127,12 @@ One of the most important parts of activity planning is testing it out!
 
 # Related activities
 
-[Co-design materials](https://www.notion.so/Co-design-materials-ede07b2f32164d4d852ffaef8aad117a)
+[Co-design materials]()
 
-[Accessibility for co-designers](https://www.notion.so/Accessibility-for-co-designers-934d52551939463dab466a23ffda6a35)
+[Accessibility for co-designers]()
 
 # Related tools
 
-[Scheduling guidelines](https://www.notion.so/Scheduling-guidelines-938ff19ab5b9410e85739fcf89e37654)
+[Scheduling guidelines]()
 
-[Facilitation guide](https://www.notion.so/Facilitation-guide-e2d3044289d446beb61fb22933760167)
+[Facilitation guide]()
