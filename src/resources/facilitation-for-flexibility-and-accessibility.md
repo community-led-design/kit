@@ -5,9 +5,9 @@ buildingBlock: Facilitation
 ---
 ## About this guide
 
-When working with a group of diverse co-designers, whether in-person or remotely, facilitators may encounter barriers that can impact the flow of activities, the level of co-designers' participation, and final outcomes.
+When working with a group of diverse co-designers, whether in-person or remotely, facilitators may encounter barriers that can impact the flow of activities, the level of co-designers' participation, and outcomes.
 
-Planning for access needs and preferences, selecting accessible venues, and using inclusive communication tools can minimize these barriers, however unexpected issues can still arise during a session. It is helpful to stay flexible and ready to change activities, schedules, room setups, and more.
+Planning for access needs and preferences, selecting accessible venues, and using inclusive communication tools can minimize these barriers, but unexpected issues may arise. It is helpful to stay flexible and ready to change activities, schedules, room setups, and more.
 
 The following paragraphs describe some common areas in which last-minute or on-the-fly changes may be required and where flexibility can be a great help.
 
