@@ -28,8 +28,10 @@ In addition to these important foundational skills, creative facilitation skills
 * Helping participants to more deeply explore the question, needs or issue being addressed
 * Supporting collaboration between participants.
 
-{% figure "/assets/media/img_4101.jpg", "A photo of an image projected on a wall with an overhead projector, containing the large shadows of a leaf, a frog, a feather, a plastic container lid and a hand. Two people stand to the side pointing at the projected image." %}
+{% figure "/assets/media/img_4101.jpg", "A photo showing an image projected on a wall with an overhead projector, containing the large shadows of a leaf, a frog, a feather, a plastic container lid and a hand. Two people stand to the side pointing at the projected image." %}
+
 Using creative materials and processes in your co-design can inspire creative thinking.
+
 {% endfigure %}
 
 ## Practices
