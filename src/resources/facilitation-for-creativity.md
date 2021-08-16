@@ -1,5 +1,10 @@
 ---
 title: Facilitation for Creativity
+metaImage: /assets/media/img_2580.jpg
+metaImageAlt: >-
+  A photo looking down onto a desktop filled with paper, colourful sticky notes,
+  colourful stickers, pencils, pipe cleaners, a tablet, and showing the hands of
+  three people sitting side by side, two of whom are holding a pen or pencil.
 type: Guide
 buildingBlock: Facilitation
 ---
@@ -22,6 +27,10 @@ In addition to these important foundational skills, creative facilitation skills
 * Helping participants to take part even if they don’t consider themselves to be creative
 * Helping participants to more deeply explore the question, needs or issue being addressed
 * Supporting collaboration between participants.
+
+{% figure "/assets/media/img_4101.jpg", "A photo of an image projected on a wall with an overhead projector, containing the large shadows of a leaf, a frog, a feather, a plastic container lid and a hand. Two people stand to the side pointing at the projected image." %}
+Using creative materials and processes in your co-design can inspire creative thinking.
+{% endfigure %}
 
 ## Practices
 
