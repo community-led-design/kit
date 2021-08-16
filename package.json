@@ -43,7 +43,7 @@
         "infusion": "3.0.0-dev.20210120T204128Z.6e4be079f.FLUID-6580"
     },
     "devDependencies": {
-        "@commitlint/cli": "12.1.4",
+        "@commitlint/cli": "13.1.0",
         "@commitlint/config-conventional": "12.1.4",
         "backstopjs": "5.3.4",
         "cross-env": "7.0.3",
