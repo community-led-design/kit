@@ -43,6 +43,7 @@
         "infusion": "3.0.0-dev.20210120T204128Z.6e4be079f.FLUID-6580"
     },
     "devDependencies": {
+        "@babel/core": "7.15.0",
         "@commitlint/cli": "13.1.0",
         "@commitlint/config-conventional": "13.1.0",
         "backstopjs": "5.3.7",
