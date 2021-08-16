@@ -53,7 +53,7 @@ The following are some questions you can ask yourself and your team as you formu
 
 * What skills, experiences, and areas of interest does everyone want to develop?
 * How do these skills, experiences and areas of interest map to the needs of the project?
-* Examples of roles and responsibilities needed during a co-design engagement are described throughout the kit, and summarised in [this document](/resources/Co-design Session Roles and Responsibilities/)
+* Examples of roles and responsibilities needed during a co-design engagement are described throughout the kit, and summarised in \[this document](/resources/Co-design-Session-Roles-and-Responsibilities/)
 
 ## Capacity
 
