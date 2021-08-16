@@ -7,8 +7,6 @@ buildingBlock: Facilitation
 
 This guide aims to provide a basic overview of what creative facilitation is and some tips on how to do it.
 
-## What
-
 The goal of creative facilitation is to inspire creative thinking and idea generation, and to help make the co-design session more inclusive. It can compliment and build on foundational facilitation skills that are more commonly used in teaching a workshop or running a meeting, such as:
 
 * Following an agreed upon agenda
