@@ -23,10 +23,10 @@ It is important to involve members of the community and co-design participants w
 
 The following example emphasizes the importance of understanding a community’s culture and of taking the lead from community members:
 
-* Context:A workshop for participants who are hard of hearing or deaf.
-* What happened:Our team developed worksheets which included open-ended questions. The purpose was to guide the participants' conversations.
-* The problem:Community facilitators told us that open-ended questions may not be accessible for the participants. Open-ended questions require extensive reading and writing skills in English, which most deaf participants did not have. Reading and writing were not their main modes of communication.
-* The solution:The facilitators suggested turning the questions into a list of items with checkboxes. This would lessen the amount of reading and writing required by the participants. Visual diagrams and mind maps were also introduced to allow participants to document their conversations in a less text-dependent way.
+* Context: A workshop for participants who are hard of hearing or deaf.
+* What happened: Our team developed worksheets which included open-ended questions. The purpose was to guide the participants' conversations.
+* The problem: Community facilitators told us that open-ended questions may not be accessible for the participants. Open-ended questions require extensive reading and writing skills in English, which most deaf participants did not have. Reading and writing were not their main modes of communication.
+* The solution: The facilitators suggested turning the questions into a list of items with checkboxes. This would lessen the amount of reading and writing required by the participants. Visual diagrams and mind maps were also introduced to allow participants to document their conversations in a less text-dependent way.
 
 # How
 
@@ -61,12 +61,13 @@ There are several ways you can design the activities together:
 
   * E.g. interviewing friends and family in the neighbourhood, or doing auto-ethnographic diary studies on how people get around in the area.
 * What activities will work best in this community's context? Questions to consider:
-* Who are the participants? What daily activities are they the most interested and engaged in that you may be able to embed a co-design activity in?
-* Have they participated in design or creative activities like this in the past, or is this something new and unfamiliar?
-* What space or environment will you be co-designing in?
-* What are other things going on in the lives of your co-designers that might make attendance or participation challenging, and how can you take that into consideration?
-* What else is happening in the world that might be affecting your co-designers' capacity to participate?
-* Can any activities or questions be done before the co-design activity to[prime co-designers](https://www.notion.so/Co-design-priming-activity-d92c1c1cedf8439bad8a739fc0dddd7a)and get them thinking in this space ahead of time?
+
+  * Who are the participants? What daily activities are they the most interested and engaged in that you may be able to embed a co-design activity in?
+  * Have they participated in design or creative activities like this in the past, or is this something new and unfamiliar?
+  * What space or environment will you be co-designing in?
+  * What are other things going on in the lives of your co-designers that might make attendance or participation challenging, and how can you take that into consideration?
+  * What else is happening in the world that might be affecting your co-designers' capacity to participate?
+* Can any activities or questions be done before the co-design activity to [prime co-designers](/resources/Co-design-Priming-Activity/) and get them thinking in this space ahead of time?
 
 ### Facilitating the activities
 
@@ -74,15 +75,15 @@ There are several ways you can design the activities together:
 * Will people be sharing back their work with the larger group?
 * How might you ensure that everyone participates equally? (eg. by providing different ways of sharing with the group such as verbally or in written form or drawings etc).
 * How much time do you have in total? How much for each step?
-* [What are the accessibility needs of your participants, and how can you make sure your activities are accessible to everyone](https://www.notion.so/Accessibility-for-co-designers-934d52551939463dab466a23ffda6a35)?
+* [What are the accessibility needs of your participants, and how can you make sure your activities are accessible to everyone](/resources/Accessibility-for-Co-designers/)?
 
 ### Documenting the activities
 
-* How will you capture and communicate the ideas and outcomes?
+How will you capture and communicate the ideas and outcomes?
 
-  * Recording the session with audio or video, with participants’ permission
-  * Taking photos of all the artifacts created
-  * Keeping detailed notes, or notes of any decisions made
+* Recording the session with audio or video, with participants’ permission
+* Taking photos of all the artifacts created
+* Keeping detailed notes, or notes of any decisions made
 
 ## Pacing your activities
 
@@ -91,7 +92,7 @@ Factors that will impact what you can do in each session include:
 * How much time you have in total
 * How much time each activity will take
 
-Please consult our[scheduling guide](https://www.notion.so/Scheduling-guidelines-938ff19ab5b9410e85739fcf89e37654)for our recommended pacing of activities throughout the day.
+Please consult our [scheduling guide](/resources/Scheduling-Guidelines/) for our recommended pacing of activities throughout the day.
 
 ### Note of caution:
 
