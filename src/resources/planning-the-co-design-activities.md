@@ -42,19 +42,24 @@ There are several ways you can design the activities together:
 ### Establishing shared goals
 
 * What are the challenges, issues, or topic areas you wish to co-design around?
-* * Ideally these will emerge from the community and be selected together with community members
+
+  * Ideally these will emerge from the community and be selected together with community members
   * E.g. transit accessibility
 * How much do you already know about the challenge or topic area? From whom does this knowledge come from, and from what perspectives?
-* * E.g. we understand the high-level issues about transit accessibility based on a few government-funded reports. They are from the perspective of government agencies.
+
+  * E.g. we understand the high-level issues about transit accessibility based on a few government-funded reports. They are from the perspective of government agencies.
 * What outstanding questions or gaps in knowledge are there? Whose perspectives are missing?
-* * E.g. we’re missing the perspectives of people who live in areas that do not have convenient or good access to transit. What makes transit inaccessible to them?
+
+  * E.g. we’re missing the perspectives of people who live in areas that do not have convenient or good access to transit. What makes transit inaccessible to them?
 * Based on your outstanding questions or gaps, what is the goal of your co-design session? What outcomes do you want?
-* * E.g. the goal is to understand what the barriers to accessible transit are for people in poorly-served areas. Desired outcomes are that we want to create a shared understanding of these barriers, expressed in ways that emerge organically from the session. (eg. journey map, system map, sketches, etc).
+
+  * E.g. the goal is to understand what the barriers to accessible transit are for people in poorly-served areas. Desired outcomes are that we want to create a shared understanding of these barriers, expressed in ways that emerge organically from the session. (eg. journey map, system map, sketches, etc).
 
 ### Planning the activities
 
 * What are the activities that may achieve the desired goal and outcome?
-* * E.g. interviewing friends and family in the neighbourhood, or doing auto-ethnographic diary studies on how people get around in the area.
+
+  * E.g. interviewing friends and family in the neighbourhood, or doing auto-ethnographic diary studies on how people get around in the area.
 * What activities will work best in this community's context? Questions to consider:
 * Who are the participants? What daily activities are they the most interested and engaged in that you may be able to embed a co-design activity in?
 * Have they participated in design or creative activities like this in the past, or is this something new and unfamiliar?
@@ -74,7 +79,8 @@ There are several ways you can design the activities together:
 ### Documenting the activities
 
 * How will you capture and communicate the ideas and outcomes?
-* * Recording the session with audio or video, with participants’ permission
+
+  * Recording the session with audio or video, with participants’ permission
   * Taking photos of all the artifacts created
   * Keeping detailed notes, or notes of any decisions made
 
@@ -123,15 +129,14 @@ One of the most important parts of activity planning is testing it out!
 * Ideally, you can test the activity out with people who are a part of the same group or community as your co-designers, or even your co-designers themselves.
 * Testing activities will provide invaluable information on format, accessibility, timing, appropriateness, and more.
 
-
 # Related activities
 
-[Co-design materials]()
+[Co-design materials](<>)
 
-[Accessibility for co-designers]()
+[Accessibility for co-designers](<>)
 
 # Related tools
 
-[Scheduling guidelines]()
+[Scheduling guidelines](<>)
 
-[Facilitation guide]()
+[Facilitation guide](<>)
