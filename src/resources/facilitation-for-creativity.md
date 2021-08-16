@@ -25,7 +25,7 @@ In addition to these important foundational skills, creative facilitation skills
 * Helping participants to more deeply explore the question, needs or issue being addressed
 * Supporting collaboration between participants.
 
-## How
+## Practices
 
 ### Evoke and inspire creativity from within the group
 
@@ -104,4 +104,4 @@ Here are a few suggestions that can help participants feel freer to express them
   * Simply repeat the idea in other words (paraphrase)
 * Encourage participants to use \[the “Yes and” approach] ([https://en.wikipedia.org/wiki/Yes,_and](https://en.wikipedia.org/wiki/Yes,_and)...) which helps to build on each other’s ideas.
 
-## Resources
+## Further Resources
