@@ -66,11 +66,11 @@ What capacity does each team member have to invest into this project?
 
 ## Technology
 
-* What technologies will you use to…
+What technologies will you use to…
 
-  * Communicate with each other?
-  * Share files or create a digital workspace?
-  * Other?
+* Communicate with each other?
+* Share files or create a digital workspace?
+* Other?
 
 ## Revisit often
 
