@@ -3,18 +3,18 @@ title: Setting Terms of Engagment
 type: Activity
 buildingBlock: Partnership
 ---
-# What
+## What
 
 The terms of engagement helps everyone in the project understand:
 
 * What they're going to work on together
 * How they're going to work together
 
-# Why
+## Why
 
 People come from different backgrounds and experiences, so it's important to develop a shared understanding of how everyone will engage with the project. It allows project team members to understand each other's different goals, priorities, and ways of working. By revealing these differences, it provides an opportunity for everyone to figure out how best to work together.
 
-# How
+## How
 
 Here you will find some suggestions for what to include in the terms of engagement. You will likely develop additional agreements that are specific to your project.
 
@@ -22,14 +22,14 @@ Keeping track of the terms of engagement in an online document will help to ensu
 
 The following are some questions you can ask yourself and your team as you formulate your terms of engagement.
 
-## Project
+### Project
 
 * What goals does everyone have for this project?
 * What's in or out of scope for this project? In other words, what is this project about? What is this project not about?
 * What's the timeline for this project? How flexible is it?
 * What are the measures of success?
 
-## People
+### People
 
 * Who is most affected by this project, and should be included (who isn't here right now)? 
   * What is the best way to bring them in?
@@ -38,8 +38,7 @@ The following are some questions you can ask yourself and your team as you formu
   * How will the group make sure that the co-design process is as accessible as possible for everyone?
   * What may prevent future collaborators from participating?
 
-
-## Process
+### Process
 
 * How structured does the group want the process to be? For example...
   * Should your group define each step early on?
@@ -49,13 +48,13 @@ The following are some questions you can ask yourself and your team as you formu
 * How will the group make decisions? What happens when not everyone agrees?
 * How will the group handle conflicts, which are inevitable in any collaboration?
 
-## Skills and experiences
+### Skills and experiences
 
 * What skills, experiences, and areas of interest does everyone want to develop?
 * How do these skills, experiences and areas of interest map to the needs of the project?
 * Examples of roles and responsibilities needed during a co-design engagement are described throughout the kit, and summarised in [this document](/resources/Co-design-Session-Roles-and-Responsibilities/)
 
-## Capacity
+### Capacity
 
 What capacity does each team member have to invest into this project?
 
@@ -64,7 +63,7 @@ What capacity does each team member have to invest into this project?
 * Might some members take on more of a consulting role to provide a second opinion or perspective?
 * Might some members just need to stay informed about any project developments?
 
-## Technology
+### Technology
 
 What technologies will you use to…
 
