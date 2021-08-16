@@ -113,4 +113,8 @@ Here are a few suggestions that can help participants feel freer to express them
   * Simply repeat the idea in other words (paraphrase)
 * Encourage participants to use \[the “Yes and” approach] ([https://en.wikipedia.org/wiki/Yes,_and](https://en.wikipedia.org/wiki/Yes,_and)...) which helps to build on each other’s ideas.
 
+{% figure "/assets/media/img_2571.jpg", "A photo showing an image projected on a wall with an overhead projector, containing the large shadows of a leaf, a frog, a feather, a plastic container lid and a hand. Two people stand to the side pointing at the projected image." %}
+Using creative materials and processes in your co-design can inspire creative thinking.
+{% endfigure %}
+
 ## Further Resources
