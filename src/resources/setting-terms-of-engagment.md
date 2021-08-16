@@ -31,17 +31,17 @@ The following are some questions you can ask yourself and your team as you formu
 
 ## People
 
-* Who is most affected by this project, and should be included (who isn't here right now)? What is the best way to bring them in?
+* Who is most affected by this project, and should be included (who isn't here right now)? 
+  * What is the best way to bring them in?
 * What expertise can different people contribute to this project?
-* What are each person's accessibility needs and barriers?
-
+* What are each person's accessibility needs and potential barriers to participation?
+  * How will the group make sure that the co-design process is as accessible as possible for everyone?
   * What may prevent future collaborators from participating?
-  * How will the group make sure that things are as accessible as possible for everyone?
+
 
 ## Process
 
 * How structured does the group want the process to be? For example...
-
   * Should your group define each step early on?
   * Should your group define just one or two steps ahead?
   * Should the process be completely organic and undefined?
