@@ -1,5 +1,9 @@
 ---
 title: Documenting and Collecting Co-design Outcomes
+metaImage: /assets/media/documenting-outcomes-2.jpg
+metaImageAlt: >-
+  Photo of a desktop covered with sticky notes filled with text, hand-drawn
+  wireframes made of construction paper, pipe cleaners, scissors and tape. 
 type: Activity
 buildingBlock: Ideas and outcomes
 ---
@@ -33,13 +37,17 @@ During a co-design session, participants may come up with ideas that will be use
 
 ### Different ways to document the co-design process
 
-- Note-taking: for capturing in-session discussions, presentation of ideas, feedback, organizer debrief, etc.
-- Taking photos: these may be used to document sketches or design artifacts, or of the participants, with their permission.
-- Video or audio recording: to capture performances, role playing activities, or any of the above.
+* Note-taking: for capturing in-session discussions, presentation of ideas, feedback, organizer debrief, etc.
+* Taking photos: these may be used to document sketches or design artifacts, or of the participants, with their permission.
+* Video or audio recording: to capture performances, role playing activities, or any of the above.
 
 ### Collecting sketches and design artifacts
 
 When photos or videos cannot provide enough information about a design artifact, it can be beneficial for organizers to collect those items and keep them for the duration of a project. 
+
+{% figure "/assets/media/documenting-outcomes-1.jpg", "Photo of a desktop filled with various lego constructions. A hand can be seen on the right side holding up a note that says &quot;Stations of the Unstable Carnival&quot;" %}
+When documenting co-design artifacts, including notes can help you to recall the context later on.
+{% endfigure %}
 
 ### Writing summaries or synthesis
 
