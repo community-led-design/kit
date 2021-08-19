@@ -5,7 +5,7 @@ buildingBlock: Ideas and outcomes
 ---
 ## What
 
-Synthesis is the process of **making sense of the ideas and outcomes from co-design,** and **sharing** that \*\*\*\*in a way that's easy to understand and useful to the design process.
+Synthesis is the process of making sense of the ideas and outcomes from co-design, and sharing them in a way that's easy to understand and useful to the design process.
 
 ## Why
 
@@ -19,16 +19,16 @@ Synthesis helps you:
 
 It is best if all the facilitators who were present at the co-design session are involved in the synthesis process. If that's not possible, try to have them share their findings and observations with you beforehand.
 
-It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and the creation of meaning from those findings. This process will therefore be influenced by the perspectives of those doing the synthesis. To avoid imposing or projecting your perspective on the co-design outcomes it is best to include members of the community you are working with.
+It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and the creation of meaning from those findings. This process will therefore be influenced by the perspectives of those doing the synthesis. To avoid imposing or projecting your perspective onto the co-design outcomes, it is best to include members of the community you are working with.
 
-Read more about [thinking critically about synthesis](https://www.notion.so/Thinking-critically-about-Synthesis-00bbd3333fe04c628db6fd380b14726a).
+Read more in [Thinking Critically About Synthesis](https://www.notion.so/Thinking-critically-about-Synthesis-00bbd3333fe04c628db6fd380b14726a).
 
 ## When
 
 Synthesis can happen:
 
 * after a single co-design session
-* after a completing a series of related co-design sessions with the same learning goal
+* after completing a series of related co-design sessions with the same learning goal
 * whenever you're moving from [one design phase to the next](https://co-design.inclusivedesign.ca/design-process/) (from discovery to brainstorming, or brainstorming to refinement)
 
 ## How
@@ -64,7 +64,7 @@ The themes and insights method is useful when you are in the discovery phase of 
 
 [Design Kit](https://www.designkit.org/methods/find-themes)
 
-[\#TiSDD Method: Developing key insights](https://www.thisisservicedesigndoing.com/methods/developing-key-insights)
+[TiSDD Method: Developing key insights](https://www.thisisservicedesigndoing.com/methods/developing-key-insights)
 
 #### Journey mapping
 
@@ -75,12 +75,12 @@ Journey maps are similar to a timeline - they map out different aspects of a lin
 * Currently happening (eg. what is the current experience of getting onto disability benefits?)
 * What you want to happen in the future (eg. what would the ideal experience of getting onto disability benefits be?)
 
-The base layer of a journey map the action of what is happening at each step of the experience. You can add "layers" onto a journey map, like layers of a cake. For example - at each step of the experience, you can also describe:
+The base layer of a journey map describes the action of what is happening at each step of the experience. You can add "layers" onto a journey map, like layers of a cake. For example - at each step of the experience, you can also describe:
 
-* What are you thinking?
-* What are you feeling?
-* What is challenging?
-* What seems like an opportunity?
+* What you are thinking
+* What you are feeling
+* What you find challenging
+* What seems like an opportunity
 
 **When is it useful**
 
@@ -90,7 +90,7 @@ A journey map is most useful when you're trying to describe an experience with a
 
 [Design Kit](https://www.designkit.org/methods/journey-map)
 
-[\#TiSDD Method: Mapping journeys](https://www.thisisservicedesigndoing.com/methods/mapping-journeys)
+[TiSDD Method: Mapping journeys](https://www.thisisservicedesigndoing.com/methods/mapping-journeys)
 
 #### Jobs to be done
 
