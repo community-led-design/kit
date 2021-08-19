@@ -3,7 +3,7 @@ title: Debriefing
 type: Activity
 buildingBlock: Reflection
 ---
-# What
+## What
 
 A debrief is a check-in with the organizing team that takes place as soon as possible after the co-design session. The goal of a debrief is for team members to come together to:
 
@@ -25,21 +25,21 @@ It's recommended that everyone working on the project or helping with the sessio
 
 It's recommended that you do a debrief immediately, or as soon as possible, after the co-design session, since the longer you wait the less you and your team will remember. This may mean that important observations will be lost.
 
-# Why
+## Why
 
-## Share different perspectives
+### Share different perspectives
 
 In larger co-design sessions you may have several groups with different facilitators. As a result everyone will have seen and heard different things. It's important to come together to share observations and to begin to create a shared understanding of the outcomes of the session and to agree upon next steps.
 
-## Iterate on and improve the session
+### Iterate on and improve the session
 
 Things don't always turn out the way you plan them. You may experience unexpected challenges or have surprising and important issues raised during a session. A debrief is the time to share these challenges and issues and to figure out how to address them with the team or in any following sessions.
 
-# How
+## How
 
 There are many ways to do a debrief, from casual to more structured. Most importantly it is recommended that the group takes notes or be sure to document the session in some other way.
 
-## Points you may wish to address:
+### Points you may wish to address:
 
 - What were the outcomes of each of the activities?
     - What did you hear?
@@ -50,7 +50,7 @@ There are many ways to do a debrief, from casual to more structured. Most import
 - What were the barriers to participation?
     - What can we do to remove those barriers?
 
-## Potential formats:
+### Potential formats:
 
 - Casual conversation
 - Structured activity (e.g. quiet reflection time to answer these questions followed by a facilitated sharing time)
