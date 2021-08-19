@@ -189,24 +189,3 @@ You might decide how you want to communicate your findings based on:
   * Next phase of your project: Refinement
   * Framework: Feedback prioritization worksheet. This method will help you make a list of all your feedback, and rank it in order of what's most important to address first.
 
-Archive -
-
-* Finding themes: Based on your groupings of sticky notes, identify what makes them similar.
-
-  * For example, in a project trying to understand people's preferred mode of transportation for short distance trips, findings can include:
-
-    * "TTC always takes longer than expected"
-    * "I will walk instead of taking the streetcar even if it takes longer"
-    * "I don't take my bike because I don't always know for sure how long it will take"
-    * The theme based on these findings might be "time and efficiency"
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/780a78d2-58aa-45ef-9f4f-7d7ac4e135f0/Screen_Shot_2021-01-19_at_10.32.39_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/780a78d2-58aa-45ef-9f4f-7d7ac4e135f0/Screen_Shot_2021-01-19_at_10.32.39_AM.png)
-
-* Finding insights: Insights are one level up from themes. They are statements that expresses behaviour and its associated motivation. They are also:
-
-  * Relevant to the scope of your project
-  * Something you can take action on through your designs
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff8a3e24-5b3a-4812-87c9-ddc5ca41a2ea/Screen_Shot_2021-01-19_at_10.39.43_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff8a3e24-5b3a-4812-87c9-ddc5ca41a2ea/Screen_Shot_2021-01-19_at_10.39.43_AM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74ba5b4f-c13e-40f3-a0a5-f1d8bd85016b/Screen_Shot_2021-01-19_at_10.39.51_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74ba5b4f-c13e-40f3-a0a5-f1d8bd85016b/Screen_Shot_2021-01-19_at_10.39.51_AM.png)
