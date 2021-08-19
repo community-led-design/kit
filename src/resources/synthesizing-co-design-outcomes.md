@@ -115,7 +115,7 @@ Jobs to be done is a useful framework to use when you want to focus on the desir
 
 [What is Jobs to be Done (JTBD)?](https://jtbd.info/2-what-is-jobs-to-be-done-jtbd-796b82081cca)
 
-[\#TiSDD Method: Generating jobs-to-be-done](https://www.thisisservicedesigndoing.com/methods/generating-jobs-to-be-done)
+[TiSDD Method: Generating jobs-to-be-done](https://www.thisisservicedesigndoing.com/methods/generating-jobs-to-be-done)
 
 #### Design principles
 
@@ -158,7 +158,7 @@ A feedback prioritization sheet is useful when you're trying to sort through a l
 2. **Add in supporting information**. This can include:
 
    * Notes to explain why someone is requesting this specific change
-   * What aspect of the design it's referring to (eg. a specific page on a site, a specific point in the process of accessing a service, etc)
+   * What aspect of the design the change applies to (eg. a specific page on a site, a specific point in the process of accessing a service, etc)
    * What type of change it is (eg. new feature, usability, language, etc)
 3. **Decide how to prioritize your changes**. This can include value, effort, or something else. Make sure your team agrees on these things. Put each of these factors in its own column.
 4. **Prioritize together with your team**. Go through all of the feedback and changes, and prioritize them together. By the end of this process you should have a list of feedback and changes, prioritized and ready for your team to implement.
@@ -167,12 +167,12 @@ Here's an example of a prioritization sheet used in a previous project:
 
 [Airtable | Everyone's app platform](https://airtable.com/invite/l?inviteId=invJLXIM)
 
-### But wait - how do I decide what framework to use?
+### How do I decide what framework to use?
 
 You might decide how you want to communicate your findings based on:
 
-* The types of outcomes you have (eg. focus on a particular process, or feedback on a design)
-* What the next phase of your project is
+* The types of outcomes you have (eg. focus on a particular process, or feedback on a design), or
+* What the next phase of your project is.
 
 #### Examples
 
