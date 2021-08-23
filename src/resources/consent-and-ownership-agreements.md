@@ -11,8 +11,6 @@ This document includes information about when and how to use the following forms
 * Media release form
 * Contributor license agreement
 
-
-
 These forms can be used as tools to give participants:
 
 * More control over how they choose to take part in the co-design sessions,
@@ -25,19 +23,15 @@ These forms can be used as tools to give participants:
 
 Participants taking part in user research or co-design may be legally required to sign consent forms. This is true in many settings, such as research institutions or corporations. However, these forms can play much more than a legal role; they are key to making sure everyone is informed about how they'll be expected to take part in the process, and how the outputs of a session will be used.
 
-
-
 These forms also help to ensure that participants are in full agreement with the process. Having clear agreements can support the creation of a space where participants can feel freer to share their ideas.
-
-
 
 ### Allow participants to change their own terms
 
 When appropriate, give participants the opportunity to co-create and modify the consent, media release, and licensing forms. This gives them the power to define how they want to take part, and helps to ensure their full understanding and agreement to the process. If you can do this early on and together with community leaders and participants, it will give participants a way to to change the terms to meet their needs or to offer partial consent.
 
-### Revisit your agreement
+### Revisit your agreements
 
-You may need to revisit these agreements at various stages of the project. For example, when there are any changes to your co-design plan or if participants have concerns or disagreements about the process along the way. Remaining flexible and allowing for some changes to the agreements can help to resolve potential conflicts.
+You may need to revisit these agreements at various stages of the project. For example when there are any changes to your co-design plan, or if participants have concerns or disagreements about the process along the way. Remaining flexible and allowing for some changes to the agreements can help to resolve potential conflicts.
 
 ## How
 
