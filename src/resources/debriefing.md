@@ -7,15 +7,15 @@ buildingBlock: Reflection
 
 A debrief is a check-in with the organizing team that takes place as soon as possible after the co-design session. The goal of a debrief is for team members to come together to:
 
-- Share and capture any general observations from the session,
-- Reflect on how well the activities, facilitation practice, and logistics worked,
-- Reflect and problem solve on any issues or challenges that may have come up,
-- Decide when, how, and with whom the synthesis will be done.
+* Share and capture any general observations from the session,
+* Reflect on how well the activities, facilitation practice, and logistics worked,
+* Reflect and problem solve on any issues or challenges that may have come up,
+* Decide when, how, and with whom the synthesis will be done.
 
 **What a debrief is not:**
 
-- A synthesis session
-- A brainstorming session to come up with solutions
+* A synthesis session
+* A brainstorming session to come up with solutions
 
 ## Who
 
@@ -43,17 +43,17 @@ There are many ways to do a debrief, from casual to more structured. Most import
 
 ### Points you may wish to address:
 
-- What were the outcomes of each of the activities?
-    - What did you hear?
-    - What did you see?
-    - What did participants make, do or say?
-- What surprised you, challenged your assumptions, or changed your perspective?
-- How well did the activities work? What were some challenges?
-- What were the barriers to participation?
-    - What can we do to remove those barriers?
+* What were the outcomes of each of the activities?
+  * What did you hear?
+  * What did you see?
+  * What did participants make, do or say?
+* What surprised you, challenged your assumptions, or changed your perspective?
+* How well did the activities work? What were some challenges?
+* What were the barriers to participation?
+  * What can we do to remove those barriers?
 
 ### Potential formats:
 
-- Casual conversation
-- Structured activity (e.g. quiet reflection time to answer these questions followed by a facilitated sharing time)
-- Chatting on an online platform, with specific questions posed for people to answer when they are able to get to it (but keeping within a reasonable time frame after the session).
+* Casual conversation
+* Structured activity (e.g. quiet reflection time to answer these questions followed by a facilitated sharing time)
+* Chatting on an online platform, with specific questions posed for people to answer when they are able to get to it (but keeping within a reasonable time frame after the session).
