@@ -45,7 +45,7 @@ Check out the [sample recruitment letter](/resources/Recruitment-Letter/)for inf
 Collaborators (designers or others) can support community organizations and leaders in recruiting by providing:
 
 * Recruitment letters, graphics, or social media call-outs
-* Detailed recruitment information (ex. [sample recruitment letter](/resources/Recruitment-Letter))
+* Detailed recruitment information (e.g. [sample recruitment letter](/resources/Recruitment-Letter))
 * Any [consent forms required](/resources/Consent-Forms-and-Policies/)
 
 ## Related activities
