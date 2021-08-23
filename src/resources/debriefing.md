@@ -1,5 +1,5 @@
 ---
-title: Debriefing
+title: Debriefing with your Team
 type: Activity
 buildingBlock: Reflection
 ---
