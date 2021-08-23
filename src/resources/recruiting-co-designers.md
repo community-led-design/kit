@@ -38,29 +38,29 @@ If people raise any issues about accessibility or other concerns when you are sp
 
 ### Suggested content to include in recruitment communication
 
-Check out the [sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
+Check out the [sample recruitment letter](/resources/Recruitment-Letter/)for information to put in the recruitment communication. You can also put out a simple recruitment invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can provide more details.
 
 ### To support recruitment
 
 Collaborators (designers or others) can support community organizations and leaders in recruiting by providing:
 
 * Recruitment letters, graphics, or social media call-outs
-* Detailed recruitment information (ex. [sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a))
-* Any [consent forms required](https://www.notion.so/Consent-forms-and-policies-48f311f302dc484db429cb92fa151bbe)
+* Detailed recruitment information (ex. [sample recruitment letter](/resources/Recruitment-Letter))
+* Any [consent forms required](/resources/Consent-Forms-and-Policies/)
 
 ## Related activities
 
-[Plan logistics](https://www.notion.so/Plan-logistics-aea309cd06a844a9a9a9e16d6eea6dcc)
+[Plan logistics](/resources/Plan-Logistics/)
 
-[Accessibility for co-designers](https://www.notion.so/Accessibility-for-co-designers-934d52551939463dab466a23ffda6a35)
+[Accessibility for co-designers](/resources/Accessibility-for-Co-designers/)
 
-[Access guide](https://www.notion.so/Access-guide-c5fe97d352f84d699275230d34f3fdac)
+[Access guide](/resources/Access-Guide/)
 
 ## Related tools
 
-[Sample recruitment letter](https://www.notion.so/Sample-recruitment-letter-40303810d3ff4658b0e56e1983eae83a)
+[Sample recruitment letter](/resources/Recruitment-Letter/)
 
-[Consent forms and policies](https://www.notion.so/Consent-forms-and-policies-48f311f302dc484db429cb92fa151bbe)
+[Consent forms and policies](/resources/Consent-Forms-and-Policies)
 
 ## Further resources
 
