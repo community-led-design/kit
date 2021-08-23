@@ -109,7 +109,7 @@ The author of any creative work is automatically assigned an “all rights reser
 
 Example:
 
-At the IDRC, we use a CLA to ask co-design participants to license their work under an open,[Creative Commons (CC) license](https://creativecommons.org/licenses/)that allows us (and others) to reuse and modify their work. We license our own work in the same way. This includes several requirements, such as attribution, that allow us to acknowledge a participant's contributions. A Creative Commons license means that participants maintain control over how the work is used and ensures that their contributions are properly acknowledged.
+At the IDRC, we use a CLA to ask co-design participants to license their work under an open, [Creative Commons (CC) license](https://creativecommons.org/licenses/) that allows us (and others) to reuse and modify their work. We license our own work in the same way. This includes several requirements, such as attribution, that allow us to acknowledge a participant's contributions. A Creative Commons license means that participants maintain control over how the work is used and ensures that their contributions are properly acknowledged.
 
 In contrast, an exclusive license is often the default in conventional workshops. In these cases, participants are asked to assign to the organizers an exclusive, royalty-free, perpetual, irrevocable license to use, modify, and redistribute the work. This approach is at odds with the collaborative and mutually-beneficial values of co-design.
 
