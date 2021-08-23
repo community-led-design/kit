@@ -94,7 +94,7 @@ everyone feels comfortable and safe to contribute to discussions and participate
   ](https://cities.inclusivedesign.ca/resources/access-guide/)including information and images of the venue, public
   transit access to the venue, details about the facilities, food, and activities and send it to participants at least 3
   days ahead of the session ([See sample access
-  guide](https://docs.google.com/document/d/1wkB87u0Y_kAsFeilsYwLGOq-z5NOnLsM7W0cTd1rdnU/edit)). This will give
+  guide](https://cities.inclusivedesign.ca/resources/access-guide/Access%20Guide%20Example.docx)). This will give
   participants enough time to become familiar with the space and to know what to expect.
 * The most accessible path to the event should be included in the access guide or sent to the participants via email
   ahead of time.
@@ -110,7 +110,7 @@ everyone feels comfortable and safe to contribute to discussions and participate
 
 ### Co-designing remotely
 
-Check out our [Remote Co-design Guide](#) for tips on ensuring accessibility during remote design sessions.
+Check out our [Remote Co-design Guide](/resources/Remote-Co-design-Guide) for tips on ensuring accessibility during remote design sessions.
 
 ### Important required forms
 
@@ -154,7 +154,7 @@ the activities:
 
 [Creating an Access Guide](/resources/Creating-an-Access-Guide/)
 
-[Accessible Communication Practices](#)
+[Accessible Communication Practices](/resources/Accessible-Communication-Practices/)
 
 ## Further resources
 
