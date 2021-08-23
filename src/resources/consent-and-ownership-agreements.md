@@ -46,25 +46,25 @@ The goal of a consent form is to inform participants about the nature and detail
 A consent form usually includes:
 
 * Details of the activities they are consenting to participate in
-* Any risk and benefits
-* What information they agree that you can collect
+* Any risks and benefits
+* What information they agree to have collected
 * Their right to withdraw at any time
 * How you will protect their privacy
-* Who they can contact if they have questions and concerns about the co-design session
+* Who they can contact if they have questions and concerns about the co-design session.
 
 #### When to use it
 
-The use of a consent form may be requested by project partner organisations, such as schools or health organisations. Use of a consent form is not always necessary however; consent can be given in different ways depending on the context of the project and the needs of participants and partner organisations.
+The use of a consent form may be requested by project partner organisations, such as schools or health organisations. Use of a consent form is not always necessary. Consent can be given in different ways depending on the context of the project and the needs of participants and partner organisations.
+
+#### Alternatives to a consent form
 
 It might be that participant consent is sufficiently covered by a contributor license agreement. In other cases consent may be covered by agreements that the organisation or community already has in place with its members.
-
-##### Alternatives to consent forms
 
 When working with participants who may have difficulty understanding the content of a consent form, but who are legally able to give their consent, you can use an assent form instead. This form includes the same information as your consent form but is written in plain language.
 
 When working with children or others who cannot legally give their consent, a parent, guardian or caregiver may need to give consent on their behalf. However, encourage all participants to voice their own consent or disagreement and respect their wishes even when someone has legally consented on their behalf.
 
-Where appropriate consent can also be documented through formats other than a form, such as verbally or through a video or audio recording. Facilitators should also be aware of different ways non-verbal participants may give or revoke consent during the co-design process, such as through gestures or facial expressions etc.
+Where appropriate consent can also be documented through formats other than a form, such as verbally, or through a video or audio recording. Facilitators should also be aware of different ways non-verbal participants may give or revoke consent during the co-design process, such as through gestures or facial expressions.
 
 #### How to use it
 
@@ -72,9 +72,9 @@ Discuss the need for consent forms with your project team and partners in the ea
 
 #### Templates and examples
 
-[Consent Form Example.docx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a7fc7ee-d6fe-423e-bf4d-2ac1ff86ddce/Consent_Form_Example.docx)
+[Consent Form Example.docx](?)
 
-[Minors Consent Form.docx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5da87ee4-1d6a-4af1-9bd6-64f996155421/Minors_Consent_Form.docx)
+[Minors Consent Form.docx](?)
 
 ### Media release form
 
@@ -99,7 +99,7 @@ In some cases, you may ask participants to record the sessions themselves; be su
 
 #### Templates and examples
 
-[Media Release Form Example.docx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e41033b5-a3ad-414b-8b62-4e758e4a1469/Media_Release_Form_Example.docx)
+[Media Release Form - Co-designing Inclusive Cities](?)
 
 ### Contributor license agreement (CLA)
 
@@ -127,10 +127,10 @@ If you are asking participants to sign an open license agreement, take some time
 
 #### Templates and examples
 
-[Co-design-CLA-Simplified Example.docx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b77c5d27-e891-4f6c-b406-4d82176fb061/Co-design-CLA-Simplified_Example.docx)
+[Contributor License Agreement -Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/contributor-license-agreement/)
 
 ## A note on accessible forms
 
 The language of these forms should be easily understandable and avoid technical or legal terms. It should be provided in alternative formats in advance of a co-design session to allow all participants enough time and resources to access and understand the content.
 
-[Consent Form - Case Study](https://www.notion.so/Consent-Form-Case-Study-6173809a409d4feca69e4b4e11d1825f)
+[Consent Form - Case Study](/case-studies/Consent-Form-Case-Study/)
