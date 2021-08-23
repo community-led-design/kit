@@ -33,4 +33,4 @@ Co-design welcomes contributions to planning and facilitation by anyone who wish
 
 You can use this template as a starting point to creating your facilitation guide.
 
-[Facilitation Guide Template (Google doc)](https://docs.google.com/spreadsheets/d/10QwpYOrpEPruQrjjXVluaCGsLM-sJ_YxNo1zqAw-oNc/edit?usp=sharing)
+[Facilitation Guide Template (Google sheet)](https://docs.google.com/spreadsheets/d/10QwpYOrpEPruQrjjXVluaCGsLM-sJ_YxNo1zqAw-oNc/edit?usp=sharing)
