@@ -9,7 +9,7 @@ A team retrospective (or "retro") is a chance for your team to get together to r
 
 ## Why
 
-Retrospectives give your team a chance to check in and communicate what is working well on the project and what could use some improvement or changes. Regular check ins help to ensure that any issues are addressed as they come up, and reinforce the things that are working well. Retrospectives can help a team to gel and to develop strong and effective working relationships.
+Retrospectives give your team a chance to check in and communicate about what is working well on the project and what could use some improvement. Regular check-ins help to ensure that any issues are addressed as they come up, and reinforce the things that are working well. Retrospectives can help a team to develop strong and effective working relationships.
 
 ## How
 
