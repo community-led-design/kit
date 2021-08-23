@@ -19,9 +19,9 @@ Synthesis helps you:
 
 It is best if all the facilitators who were present at the co-design session are involved in the synthesis process. If that's not possible, try to have them share their findings and observations with you beforehand.
 
-It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and the creation of meaning from those findings. This process will therefore be influenced by the perspectives of those doing the synthesis. To avoid imposing or projecting your perspective onto the co-design outcomes, it is best to include members of the community you are working with.
+It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and the creation of meaning from those findings. This process will therefore be influenced by the perspectives of those doing the synthesis. To ensure that your synthesis is informed by the perspectives of the community you are working with it is important to include them in the process.
 
-Read more in [Thinking Critically About Synthesis](https://www.notion.so/Thinking-critically-about-Synthesis-00bbd3333fe04c628db6fd380b14726a).
+Read more in [Thinking Critically About Synthesis](/resources/Thinking-Critically-About-Synthesis).
 
 ## When
 
@@ -29,19 +29,19 @@ Synthesis can happen:
 
 * after a single co-design session
 * after completing a series of related co-design sessions with the same learning goal
-* whenever you're moving from [one design phase to the next](https://co-design.inclusivedesign.ca/design-process/) (from discovery to brainstorming, or brainstorming to refinement)
+* whenever you're moving from [one design phase to the next](/design-process/) (from discovery to brainstorming, or brainstorming to refinement).
 
 ## How
 
 ### Share your findings
 
-* Get as many people as possible together who attended the co-design sessions and have them go through their notes and share what they learned.
+* Get as many co-design attendees together as possible and have them go through their notes and share what they learned.
 * As a group, review the materials that were generated during the co-design session (sketches, feature lists, etc). You can put these up on a wall, or in a shared folder.
-* You might have one person write down all the findings of the group and post them somewhere where everyone can access them (like a wall or a board). Alternatively, each person can record their own findings and post them.
+* You might have one person write down all the findings of the group and post them somewhere where everyone can access them (for example on a wall or an online board). Alternatively, each person can record their own findings and post them.
 
 ### Begin to make sense of your findings
 
-* Start by grouping your findings according to common themes or in another way that is meaningful to your project. This helps you begin to identify key points and any emerging patterns or relationships.
+* Start by grouping your findings according to common themes, or in another way that is meaningful to your project. This can help you begin to identify key points and any emerging patterns or relationships.
 * Give each grouping a name that best describes the content. This helps to identify and communicate your themes.
 
 ### Present your findings
@@ -185,7 +185,5 @@ You might decide how you want to communicate your findings based on:
 **Scenario 2:**
 
 * Ideas and outcomes: Feedback on how usable your latest prototype is
-
-  * Next phase of your project: Refinement
-  * Framework: Feedback prioritization worksheet. This method will help you make a list of all your feedback, and rank it in order of what's most important to address first.
-
+* Next phase of your project: Refinement
+* Framework: Feedback prioritization worksheet. This method will help you make a list of all your feedback, and rank it in order of what's most important to address first.
