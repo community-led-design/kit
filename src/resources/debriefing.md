@@ -31,13 +31,15 @@ It's recommended that you do a debrief immediately, or as soon as possible, afte
 
 In larger co-design sessions you may have several groups with different facilitators. As a result everyone will have seen and heard different things. It's important to come together to share observations and to begin to create a shared understanding of the outcomes of the session and to agree upon next steps.
 
+Facilitators may also be coming from different organisations with different perspectives. Community member facilitators will have valuable insights into the co-design process that facilitators from outside of the community will not have.
+
 ### Iterate on and improve the session
 
 Things don't always turn out the way you plan them. You may experience unexpected challenges or have surprising and important issues raised during a session. A debrief is the time to share these challenges and issues and to figure out how to address them with the team or in any following sessions.
 
 ## How
 
-There are many ways to do a debrief, from casual to more structured. Most importantly it is recommended that the group takes notes or be sure to document the session in some other way.
+There are many ways to do a debrief, from casual to more structured. Most importantly it is recommended that the group takes notes or documents the session in some other way.
 
 ### Points you may wish to address:
 
