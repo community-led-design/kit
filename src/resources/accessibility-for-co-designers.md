@@ -1,5 +1,5 @@
 ---
-title: Accessibility for co-designers
+title: Accessibility for Co-designers
 type: Guide
 buildingBlock: Community involvement
 ---
@@ -152,14 +152,16 @@ the activities:
 
 ## Related tools
 
-[Access guide](#)
+[Creating an Access Guide](/resources/Creating-an-Access-Guide/)
 
-[Accessible communication practices](#)
+[Accessible Communication Practices](#)
 
 ## Further resources
 
 [AORTA | Anti-Oppressive Facilitation Guide](https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
 
-  * Trauma-informed facilitation practices?
+### To be added:
+
+  * Trauma-informed facilitation practices
   * Captioning services
   * Transcript tools
