@@ -1,11 +1,11 @@
 ---
-title: Facilitation Guide
+title: Facilitation Template
 type: Tool
 buildingBlock: Facilitation
 ---
 ## What
 
-A facilitation guide outlines the details and order of the co-design activities for facilitators’ reference during the session. It can contain the following information for each activity:
+A facilitation template outlines the details and order of the co-design activities for facilitators’ reference during the session. It can contain the following information for each activity:
 
 * Name
 * Goal
@@ -29,8 +29,8 @@ Co-design welcomes contributions to planning and facilitation by anyone who wish
 
 ## How
 
-### Facilitation Guide Template
+### Facilitation Template
 
-You can use this template as a starting point to creating your facilitation guide.
+You can use the following template as a starting point to creating your facilitation plan.
 
 [Facilitation Guide Template (Google sheet)](https://docs.google.com/spreadsheets/d/10QwpYOrpEPruQrjjXVluaCGsLM-sJ_YxNo1zqAw-oNc/edit?usp=sharing)
