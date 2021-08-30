@@ -94,15 +94,17 @@ cite::before {
 }
 
 ul {
-    list-style-position: outside;
     list-style-type: disc;
-    padding-left: 0;
+    padding-left: var(--scale-1);
+}
+
+ul ul {
+    list-style: circle;
 }
 
 ol {
-    list-style-position: outside;
     list-style-type: decimal;
-    padding-left: 0;
+    padding-left: var(--scale-1);
 }
 
 ul[role="list"],
@@ -138,6 +140,7 @@ ol[role="list"] {
         margin-top: var(--scale-2);
     }
 
+    ul * + ul,
     li + li {
         margin-top: 0;
     }

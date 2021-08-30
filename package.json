@@ -1,6 +1,7 @@
 {
-    "name": "co-design.inclusivedesign.ca",
+    "name": "@inclusive-design/co-design.inclusivedesign.ca",
     "version": "1.0.0",
+    "private": true,
     "description": "Website for the Community-Led Co-design Kit.",
     "scripts": {
         "backstop:reference": "backstop reference --docker --config=backstop.config.js",
@@ -14,7 +15,6 @@
         "debug": "DEBUG=Eleventy* npm start",
         "dev": "cross-env NODE_ENV=development eleventy --serve",
         "lint": "fluid-lint-all",
-        "release": "standard-version -t ''",
         "start": "npm-run-all -l clean -p start:*",
         "start:webpack": "mix watch",
         "start:eleventy": "run-p dev cms"
@@ -67,7 +67,6 @@
         "sass": "1.37.5",
         "sass-loader": "12.1.0",
         "slugify": "1.6.0",
-        "standard-version": "9.3.1",
         "stylus": "0.54.8",
         "stylus-loader": "6.1.0"
     }
