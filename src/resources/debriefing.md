@@ -19,7 +19,7 @@ A debrief is a check-in with the organizing team that takes place as soon as pos
 
 ## Who
 
-It's recommended that everyone working on the project or helping with the session attend the debrief if possible. If you already have people from the community on your working team, include them in the debrief as well. If not, invite community members to join the debrief to help fill in the context and interpret the observations.
+It's recommended that everyone working on the project or helping with the session attend the debrief if possible. If you already have people from the community on your working team, include them in the debrief as well. If not, invite community members to join the debrief to help fill in the context and interpret the observations. 
 
 ## When
 
