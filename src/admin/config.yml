@@ -1,6 +1,12 @@
 backend:
   name: git-gateway
   branch: main
+  commit_messages:
+    create: 'chore: create "{{path}}"'
+    update: 'chore: update "{{path}}"'
+    delete: 'chore: delete "{{path}}"'
+    uploadMedia: 'chore: upload "{{path}}"'
+    deleteMedia: 'chore: delete "{{path}}"'  
 publish_mode: editorial_workflow
 site_url: "https://co-design.netlify.app"
 media_folder: "src/assets/media"
