@@ -14,6 +14,7 @@ It can be helpful to use a template as a starting point in order to customize yo
 ## Sample consent form
 
 
+
 ## Related resources
 
 [Consent and Ownership Agreements](/resources/Consent-and-Ownership-Agreements/)
