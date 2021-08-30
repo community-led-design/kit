@@ -1,10 +1,9 @@
 ---
 title: Facilitation for Creativity
 metaImage: /assets/media/img_2571.jpg
-metaImageAlt: >-
-  A photo looking down onto a desktop filled with paper, colourful sticky notes,
-  colourful stickers, pencils, pipe cleaners, and the arms and hands of severl
-  participants who are writing or playing with the materials.
+metaImageAlt: A photo looking down onto a desktop filled with paper, colourful
+  sticky notes, colourful stickers, pencils, pipe cleaners, and the arms and
+  hands of severl participants who are writing or playing with the materials.
 type: Guide
 buildingBlock: Facilitation
 ---
