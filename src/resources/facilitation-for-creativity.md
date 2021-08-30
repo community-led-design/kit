@@ -3,7 +3,7 @@ title: Facilitation for Creativity
 metaImage: /assets/media/img_2571.jpg
 metaImageAlt: A photo looking down onto a desktop filled with paper, colourful
   sticky notes, colourful stickers, pencils, pipe cleaners, and the arms and
-  hands of severl participants who are writing or playing with the materials.
+  hands of several participants who are writing or playing with the materials.
 type: Guide
 buildingBlock: Facilitation
 ---
@@ -31,7 +31,11 @@ In addition to these important foundational skills, creative facilitation skills
 
 
 
+
+
 Using creative materials and processes in your co-design can inspire creative thinking.
+
+
 
 
 
@@ -116,10 +120,14 @@ Here are a few suggestions that can help participants feel freer to express them
   * Simply repeat the idea in other words (paraphrase)
 * Encourage participants to use [the “Yes and” approach](https://en.wikipedia.org/wiki/Yes,_and...) which helps to build on each other’s ideas.
 
-{% figure "/assets/media/img_2571.jpg", "A photo showing " %}
+{% figure "/assets/media/img_2571.jpg", "A photo looking down onto a desktop filled with paper, colourful sticky notes, colourful stickers, pencils, pipe cleaners, and the arms and hands of several participants who are writing or playing with the materials." %}
+
+
 
 
 Using creative materials and processes in your co-design can inspire creative thinking.
+
+
 
 
 {% endfigure %}
