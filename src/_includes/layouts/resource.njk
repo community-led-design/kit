@@ -31,7 +31,43 @@
             </nav>
         </div>
         <div class="inner-content">
-        {{ content | safe }}
+            {{ content | safe }}
+            {% if relatedActivities.length %}
+            <h2>Related activities</h2>
+            {% for activity in relatedActivities %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === activity %}
+                <p><a href="{{ resource.data.url }}">{{ activity }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if relatedGuides.length %}
+            <h2>Related guides</h2>
+            {% for guide in relatedGuides %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === guide %}
+                <p><a href="{{ resource.data.url }}">{{ guide }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if relatedTools.length %}
+            <h2>Related tools</h2>
+            {% for tool in relatedTools %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === tool %}
+                <p><a href="{{ resource.data.url }}">{{ tool }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if furtherResources.length %}
+            <h2>Further resources</h2>
+            {% for resource in furtherResources %}
+                <p><a href="{{ resource.link }}">{{ resource.title }}</a></p>
+            {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>

@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main
+local_backend: true
 publish_mode: editorial_workflow
 site_url: "https://co-design.netlify.app"
 media_folder: "src/assets/media"
@@ -47,6 +48,38 @@ collections:
         name: "buildingBlock"
         widget: "select"
         options: ["Partnership", "Community involvement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
+      - label: "Related activities"
+        name: "relatedActivities"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        required: false
+      - label: "Related guides"
+        name: "relatedGuides"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: "Related tools"
+        name: "relatedTools"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: "Further resources"
+        name: "furtherResources"
+        widget: "list"
+        fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Link", name: "link", widget: "string" }
       - {label: "Body", name: "body", widget: "markdown"}
   - name: case-studies
     label: Case Studies
