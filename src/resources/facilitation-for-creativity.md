@@ -31,7 +31,9 @@ In addition to these important foundational skills, creative facilitation skills
 
 
 
+
 Using creative materials and processes in your co-design can inspire creative thinking.
+
 
 
 
@@ -116,10 +118,12 @@ Here are a few suggestions that can help participants feel freer to express them
   * Simply repeat the idea in other words (paraphrase)
 * Encourage participants to use [the “Yes and” approach](https://en.wikipedia.org/wiki/Yes,_and...) which helps to build on each other’s ideas.
 
-{% figure "/assets/media/img_2571.jpg", "A photo showing " %}
+{% figure "/assets/media/img_2571.jpg", "A photo showing a top-down view of a desktop with four people sitting around it, covered in materials such as pipe cleaners, colourful sticky notes, paper, tape, markers and pens." %}
+
 
 
 Using creative materials and processes in your co-design can inspire creative thinking.
+
 
 
 {% endfigure %}
