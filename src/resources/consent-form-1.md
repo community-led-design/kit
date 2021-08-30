@@ -33,34 +33,34 @@ Research team contact:
 * [Phone Number] 
 
 
-#### What's involved
+### What's involved
 This is a co-design workshop, which will take about [Duration] to complete. You can take a break at any time and we will proceed once you are ready to continue. Please read through the information and if you agree to participate in the [Activity Name], accept the consent statement at the end. If you decide to decline the consent form, we will not be able to conduct the [Activity Name].
 
-#### Potential benefits and risks 
+### Potential benefits and risks 
 There are no associated risks to participate in this [Activity Name] greater than those you might encounter in everyday life. Your participation in the [Activity Name] will be considered as part of your contribution to [Primary Goal of The Project]. Your feedback also contributes to [Secondary Goal of The Project].  
 
-CONFIDENTIALITY
+### Confidentiality 
 [Organization] will keep your responses confidential. 
 
-Quotes and ideas
+#### Quotes and ideas
 You will not be identified individually in any way in written reports of this research unless you consent to your quotes and ideas being attributed to you using the boxes below. If you chose for your response to be quoted, we will send you a link to the summary report prior to publishing it on the project website for your final review and approval. 
 
-Data files
+#### Data files
 During the research and analysis period, access to data files will be restricted to the research team. All files will be stored in the [Organization] secure database until [Date], after which all data related to this study will be erased from the [Organization] database. 
 
 [If there is a possibility your research could include disclosure of information that may require the researcher to break confidentiality and report details to a third party, include this: “In exceptional and compelling circumstances, we may be subject to obligations to report information to authorities to protect the health, life or safety of a participant or a third party, a community, or the general population.”]
 
-VOLUNTARY PARTICIPATION
+### Voluntary participation 
 Participation in this study is voluntary. If you wish, you may decline to answer any questions. The research results will be disseminated after [Date]. Thus, if you wish to withdraw from this study, or request withdrawal of your data, please send your request by email to [project contact name] prior to [Date]; and you may do so without any penalty or loss of benefits to which you are entitled. 
 
-PUBLICATION OF RESULTS
+### Publication of results 
 Results from this study will be published on the project public website. During any such dissemination, data will be presented in aggregate forms. We will not quote any statements made by you without your permission. Also, quotes will not be attributed to you without your permission. Please provide your consent below if your response may be quoted and if you wish your name to be stated along with any quotes from your responses. A link to the summary report will be sent to you via email after it has been published on the project website.
 
-CONTACT INFORMATION AND ETHICS CLEARANCE
+### Contact information and ethics clearance
 If you have any questions about this study or require further information, please contact the Principal Investigator, [Name] or the research team contact [Contact Name] using the contact information provided above. This study has been reviewed and received ethics clearance through the Research Ethics Board at Organization [No. xxx]. If you have any comments or concerns, please email the Research Ethics Office through [Contact info].
 
 
-CONSENT STATEMENT
+#### CONSENT STATEMENT
 
 I agree to participate in this study described above. I have made this decision based on the information I have read in this Information-Consent Letter.  I have had the opportunity to receive any additional details I wanted about the study and understand that I may ask questions in the future. I understand that I may withdraw this consent at any time. I am checking the relevant boxes below to show my consent for those activities.
 
@@ -72,12 +72,15 @@ If you wish to participate in the interview, please check the consent box below 
 Please select one of the following options for your quotes:
 
 ❏	I do not want my responses quoted directly.
+
 ❏	My responses may be quoted anonymously.
+
 ❏	My responses may be quoted and should be attributed to me (your name will appear with the quoted material).
 
 Please select one of the following options for your ideas:
 
 ❏	I do not want my ideas attributed to my name.
+
 ❏	My ideas may be attributed and should be attributed to me (your name will appear with the idea description and image).
 
 
