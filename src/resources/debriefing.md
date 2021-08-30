@@ -39,7 +39,7 @@ Things don't always turn out the way you plan them. You may experience unexpecte
 
 ## How
 
-There are many ways to do a debrief, from casual to more structured. Most importantly it is recommended that the group takes notes or documents the session in some other way.
+There are many ways to do a debrief, from casual to more structured. Most importantly it is recommended that the group takes notes or documents the session in some way.
 
 ### Points you may wish to address:
 
