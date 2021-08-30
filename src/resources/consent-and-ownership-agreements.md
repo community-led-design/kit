@@ -72,9 +72,9 @@ Discuss the need for consent forms with your project team and partners in the ea
 
 #### Templates and examples
 
-[Consent Form Example.docx](?)
+[Consent Form Example (Word document)](#)
 
-[Minors Consent Form.docx](?)
+[Minors Consent Form (Word document)](#)
 
 ### Media release form
 
