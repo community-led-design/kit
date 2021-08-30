@@ -11,9 +11,8 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 */
 
 "use strict";
-const jsdom = require("jsdom");
+const {parseHTML} = require("linkedom");
 const slugify = require("slugify");
-const {JSDOM} = jsdom;
 
 const slugifyOptions = {
     replacement: "-",
@@ -22,12 +21,9 @@ const slugifyOptions = {
 };
 
 module.exports = function (value, outputPath) {
-    if (outputPath && outputPath.includes(".html")) {
-        const DOM = new JSDOM(value, {
-            resources: "usable"
-        });
+    if (outputPath && outputPath.endsWith(".html")) {
+        let {document} = parseHTML(value);
 
-        const document = DOM.window.document;
         const articleImages = [...document.querySelectorAll("main article img")];
         const headings = [...document.querySelectorAll("main article h2, main article h3, main article h4")];
         const tocHeadings = [...document.querySelectorAll(".inner-content h2")];
