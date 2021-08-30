@@ -65,8 +65,6 @@ Sincerely,
 
 \[Your Name]
 
-[Sample recruitment letter](https://docs.google.com/document/d/1NaFoKYQsiMsU4iJvVGUT3H5OhNdZfevau_at8wUO1oY/edit?usp=sharing)
-
 ## Related activities
 
 [Recruiting co-designers](/resources/Recruiting-Co-designers/)
