@@ -62,4 +62,4 @@ Date: 
 {% endlearning %}
 
 ## Related resources
-[Consent](/resources/Consent 
+[Consent](/resources/Consent and Ownership Agreements/) 
