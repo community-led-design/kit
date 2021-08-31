@@ -3,7 +3,16 @@ title: Media Release Form
 type: Tool
 buildingBlock: Community involvement
 ---
+## What
+
+A template that you can use to create a media release form for your project. This template provides sample text and can be adapted depending on your potential co-designers' preferred communication style and method (email, letter, phone, whatsapp message, instagram, etc).
+
+## Why
+
+It can be helpful to use a template as a starting point in order to customize your own consent form.
+
 {% learning "Use this template as a starting point to create a media release form for your project." %}
+
 # Media Release Form
 
 ☐   I hereby give permission for \[Full Name] to participate in \[Activity Title] as part of the \[Project Name].
@@ -49,4 +58,5 @@ Parent/Guardian’s Signature (signing confirms all parents/guardians agree):
 Date: 
 
 - - -
+
 {% endlearning %}
