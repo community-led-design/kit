@@ -68,21 +68,21 @@ I agree to participate in the study described above. I have made this decision b
 
 If you wish to participate in the [Activity Name], please check the appropriate consent boxes below and return this form to [Contact Email].
 
-❏	I have read and understood the above information. I certify that I am 18 years or older. I consent to participate in this study.
+❏  I have read and understood the above information. I certify that I am 18 years or older. I consent to participate in this study.
 
 Please select one of the following options for your quotes:
 
-❏	I do not want my responses quoted directly.
+❏  I do not want my responses quoted directly.
 
-❏	My responses may be quoted anonymously.
+❏  My responses may be quoted anonymously.
 
-❏	My responses may be quoted and should be attributed to me (your name will appear with the quoted material).
+❏  My responses may be quoted and should be attributed to me (your name will appear with the quoted material).
 
 Please select one of the following options for your ideas:
 
-❏	I do not want my ideas attributed to my name.
+❏  I do not want my ideas attributed to me.
 
-❏	My ideas may be attributed and should be attributed to me (your name will appear with the idea description and image).
+❏  My ideas should be attributed to me (your name will appear with the idea description and any associated images).
 
 
 Thank you for your assistance in this project. 
