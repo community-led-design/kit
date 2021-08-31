@@ -35,7 +35,7 @@ Research team contact:
 
 
 ### What's involved
-You are agreeing to participate in a co-design workshop that will take about [duration] to complete. You can take a break at any time and we will proceed once you are ready to continue. Please read through the following information and if you agree to participate in the [Activity Name], accept the consent statement below. If you decide to decline the consent form, we will not be able to conduct the [Activity Name].
+You are agreeing to participate in a co-design workshop that will take approximately [duration] to complete. You can take a break at any time and we will proceed once you are ready to continue. Please read through the following information and if you agree to participate in the [Activity Name] accept the consent statement at the end of this document. If you decide to decline the consent form, we will not be able to conduct the [Activity Name].
 
 ### Potential benefits and risks 
 There are no associated risks to participate in this [Activity Name] greater than those you might encounter in everyday life. Your participation in the [Activity Name] will be considered as part of your contribution to [primary goal of the project]. Your feedback also contributes to [secondary goal of the project].  
