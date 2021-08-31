@@ -15,7 +15,8 @@ It can be helpful to use a template as a starting point in order to customize yo
 
 ### [Project Name] Consent Form
  
-Date: [Date] 	
+Date: [Date]
+
 Project Title: [Project Title]
  
 Principal Investigator: 
@@ -51,10 +52,10 @@ During the research and analysis period, access to data files will be restricted
 [If there is a possibility your research could include disclosure of information that may require the researcher to break confidentiality and report details to a third party, include this: “In exceptional and compelling circumstances, we may be subject to obligations to report information to authorities to protect the health, life or safety of a participant or a third party, a community, or the general population.”]
 
 ### Voluntary participation 
-Participation in this study is voluntary. If you wish, you may decline to answer any questions. The research results will be disseminated after [Date]. Thus, if you wish to withdraw from this study, or request withdrawal of your data, please send your request by email to [project contact name] prior to [Date]; and you may do so without any penalty or loss of benefits to which you are entitled. 
+Participation in this study is voluntary. If you wish, you may decline to answer any questions. The research results will be disseminated after [Date]. Thus, if you wish to withdraw from this study, or request withdrawal of your data, please send your request by email to [Project contact name] prior to [Date]; and you may do so without any penalty or loss of benefits to which you are entitled. 
 
 ### Publication of results 
-Results from this study will be published on the project public website. During any such dissemination, data will be presented in aggregate forms. We will not quote any statements made by you without your permission. Also, quotes will not be attributed to you without your permission. Please provide your consent below if your response may be quoted and if you wish your name to be stated along with any quotes from your responses. A link to the summary report will be sent to you via email after it has been published on the project website.
+Results from this study will be published on the [e.g. project public website]. During any such dissemination, data will be presented in aggregate forms. We will not quote any statements made by you without your permission. Also, quotes will not be attributed to you without your permission. Please provide your consent below if your response may be quoted and if you wish your name to be stated along with any quotes. A link to the summary report will be sent to you via email after it has been published on the [e.g. project website].
 
 ### Contact information and ethics clearance
 If you have any questions about this study or require further information, please contact the Principal Investigator, [Name] or the research team contact [Contact Name] using the contact information provided above. This study has been reviewed and received ethics clearance through the Research Ethics Board at Organization [No. xxx]. If you have any comments or concerns, please email the Research Ethics Office through [Contact info].
@@ -62,7 +63,7 @@ If you have any questions about this study or require further information, pleas
 
 #### CONSENT STATEMENT
 
-I agree to participate in this study described above. I have made this decision based on the information I have read in this Information-Consent Letter.  I have had the opportunity to receive any additional details I wanted about the study and understand that I may ask questions in the future. I understand that I may withdraw this consent at any time. I am checking the relevant boxes below to show my consent for those activities.
+I agree to participate in this study described above. I have made this decision based on the information I have read in this Consent Letter.  I have had the opportunity to request and receive any additional information and understand that I may ask questions in the future. I understand that I may withdraw this consent at any time. I am checking the relevant boxes below to show my consent for those activities.
 
 
 If you wish to participate in the interview, please check the consent box below and return this form to me at [Interviewer Email].
