@@ -19,7 +19,7 @@ To be able to participate in a collaborative activity, each contributor needs to
 
 ### [](<>)Contributor License Agreement (CLA)
 
- Thank you for working with us on the \[project name] project. During this workshop, you will join a group of people to participate in an act of collective creativity. In this process, you may collaboratively create new and original material, such as verbal and written notes, audio or video recordings, drawings, images, etc.
+Thank you for working with us on the \[Project name] project. During this workshop, you will join a group of people to participate in an act of collective creativity. In this process, you may collaboratively create new and original material, such as verbal and written notes, audio or video recordings, drawings, images, etc.
 
 [](<>)You can leave the activity at any time; however, your contributions cannot be removed from the results as they are considered part of a collective work.
 
