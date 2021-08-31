@@ -8,7 +8,7 @@ buildingBlock: Community involvement
 
 ☐   I hereby give permission for \[Full Name] to participate in \[Activity Title] as part of the \[Project Name].
 
-I hereby give permission for images of \[Person’s Name], captured during regular and special \[Project Name] activities through video and digital camera, to be used solely for the purposes of \[Project Name]:
+I hereby give permission for images of \[Full Name], captured during regular and special \[Project Name] activities through video and digital camera, to be used solely for the purposes of \[Project Name]:
 
 ☐   educational workshops
 
