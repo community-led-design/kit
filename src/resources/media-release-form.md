@@ -6,7 +6,7 @@ buildingBlock: Community involvement
 {% learning "Use this template as a starting point to create a media release form for your project." %}
 # Media Release Form
 
-☐   I hereby give permission for \[Person’s Name] to participate in \[Activity Title] as part of the \[Project’s Name].
+☐   I hereby give permission for \[Full Name] to participate in \[Activity Title] as part of the \[Project Name].
 
 I hereby give permission for images of \[Person’s Name], captured during regular and special \[Project Name] activities through video and digital camera, to be used solely for the purposes of \[Project Name]:
 
