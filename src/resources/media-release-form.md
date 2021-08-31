@@ -9,7 +9,7 @@ A template that you can use to create a media release form for your project. Thi
 
 ## Why
 
-It can be helpful to use a template as a starting point in order to customize your own consent form.
+It can be helpful to use a template as a starting point in order to customize your own media release form.
 
 {% learning "Use this template as a starting point to create a media release form for your project." %}
 
