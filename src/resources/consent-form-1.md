@@ -5,7 +5,7 @@ buildingBlock: Community involvement
 ---
 ## What
 
-A template that you can use to create a consent form for your project. This template provides sample text and can be adapted depending on your potential co-designers' preferred communication style and method (email, letter, phone, whatsapp message, instagram, etc).
+A template that you can use to create a consent form for your project. This template provides sample text and can be adapted for use based on the context of your project and participant needs. You may wish to communicate the content verbally or in another form that works best for your participants.
 
 ## Why
 
@@ -13,7 +13,8 @@ It can be helpful to use a template as a starting point in order to customize yo
 
 ## Consent form template
 
-{% learning "Use this as a starting point to create a consent form for your project." %}
+{% learning "Use this template as a starting point to create a consent form for your project." %}
+
 
 ### \[Project Name] Consent Form
 
@@ -94,6 +95,7 @@ Please select one of the following options for your ideas:
 ❏  My ideas should be attributed to me (your name will appear with the idea description and any associated images).
 
 Thank you for your assistance in this project.
+
 
 {% endlearning %}
 
