@@ -13,7 +13,8 @@ To be able to participate in a collaborative activity, each contributor needs to
 
 ## Contributor license agreement template
 
-{% learning "undefined" %}
+{% learning "Use this template as a starting point to create a contributor license agreement for your project." %}
+
 
 
 ### [](<>)Contributor License Agreement (CLA)
@@ -45,4 +46,9 @@ If you have any questions or concerns regarding this agreement, please contact \
 *Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
 
 *Signature *: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
+
 {% endlearning %}
+
+## Related resources
+
+[Consent and Ownership Agreements](/resources/Consent-and-Ownership-Agreements)
