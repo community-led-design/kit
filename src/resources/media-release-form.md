@@ -28,33 +28,23 @@ I hereby give permission for images of \[Full Name], captured during regular and
 
 and waive any rights of compensation or ownership thereto.
 
-[](<>)Name of \[Organization i.e. School] (please print):
-
-                                    
+[](<>)Name of \[Organization i.e. School] (please print):                                    
 
 - - -
 
 Name of Person (please print):
 
-
-
 - - -
 
 Name of Parent/Guardian (please print):
-
-
 
 - - -
 
 Parent/Guardian’s Signature (signing confirms all parents/guardians agree):
 
-
-
 - - -
 
 Date: 
-
-
 
 - - -
 {% endlearning %}
