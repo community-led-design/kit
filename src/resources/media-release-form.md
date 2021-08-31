@@ -3,7 +3,7 @@ title: Media Release Form
 type: Tool
 buildingBlock: Community involvement
 ---
-{% learning "undefined" %}
+{% learning "Use this template as a starting point to create a media release form for your project." %}
 # Media Release Form
 
 ☐   I hereby give permission for \[Person’s Name] to participate in \[Activity Title] as part of the \[Project’s Name].
