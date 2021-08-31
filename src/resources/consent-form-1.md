@@ -63,7 +63,7 @@ If you have any questions about this study or require further information, pleas
 
 #### CONSENT STATEMENT
 
-I agree to participate in the study described above. I have made this decision based on the information in this Consent Letter.  I have had the opportunity to request and receive any additional information and understand that I may ask questions in the future. I understand that I may withdraw my consent at any time. Checking the relevant boxes below indicates my consent for those activities.
+I agree to participate in the study described above. I have made this decision based on the information provided in this Consent Letter.  I have had the opportunity to request and receive any additional information and understand that I may ask questions in the future. I understand that I may withdraw my consent at any time. Checking the relevant boxes below indicates my consent for those activities.
 
 
 If you wish to participate in the [Activity Name], please check the appropriate consent boxes below and return this form to [Contact Email].
