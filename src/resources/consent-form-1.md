@@ -58,7 +58,7 @@ Participation in this study is voluntary. If you wish, you may decline to answer
 Results from this study will be published on the [e.g. project public website]. During any such dissemination, data will be presented in aggregate forms. We will not quote any statements made by you without your permission. Also, quotes will not be attributed to you without your permission. Please provide your consent below if your response may be quoted and if you wish your name to be stated along with any quotes. A link to the summary report will be sent to you via email after it has been published on the [e.g. project website].
 
 ### Contact information and ethics clearance
-If you have any questions about this study or require further information, please contact the Principal Investigator, [Name] or the research team contact [Contact Name] using the contact information provided above. This study has been reviewed and received ethics clearance through the Research Ethics Board at Organization [No. xxx]. If you have any comments or concerns, please email the Research Ethics Office through [Contact info].
+If you have any questions about this study or require further information, please contact the Principal Investigator, [Name] or the research team contact, [Contact Name] using the contact information provided above. This study has been received ethics clearance through the Research Ethics Board at Organization [No. xxx]. If you have any comments or concerns, please email the Research Ethics Office through [Contact email].
 
 
 #### CONSENT STATEMENT
