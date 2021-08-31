@@ -13,7 +13,8 @@ It can be helpful to use a template as a starting point in order to customize yo
 
 ## Consent form template
 
-{% learning "Sample consent form" %}
+{% learning "Use this as a starting point to create a consent form for your project." %}
+
 ### \[Project Name] Consent Form
 
 Date: \[Date]
@@ -93,6 +94,7 @@ Please select one of the following options for your ideas:
 ❏  My ideas should be attributed to me (your name will appear with the idea description and any associated images).
 
 Thank you for your assistance in this project.
+
 {% endlearning %}
 
 ## Related resources
