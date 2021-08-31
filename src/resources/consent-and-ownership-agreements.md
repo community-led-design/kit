@@ -72,9 +72,9 @@ Discuss the need for consent forms with your project team and partners in the ea
 
 #### Templates and examples
 
-[Consent Form Example (Word document)](#)
+[Consent Form Template](/resources/Consent-Form)
 
-[Minors Consent Form (Word document)](#)
+[Minors Consent Form Template](/resources/Minors-Consent-Form)
 
 ### Media release form
 
@@ -99,7 +99,7 @@ In some cases, you may ask participants to record the sessions themselves; be su
 
 #### Templates and examples
 
-[Media Release Form - Co-designing Inclusive Cities](?)
+[Media Release Form Template](/resources/Media-Release-Form/)
 
 ### Contributor license agreement (CLA)
 
