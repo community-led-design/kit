@@ -11,8 +11,9 @@ A template that you can use to create a recruitment letter inviting co-designers
 
 It can be helpful to use a template as a starting point in order to customize your own invitation.
 
-## Sample letter content
+## Recruitment letter template
 
+{% learning "Use this as a starting point to create a recruitment letter for your project." %}
 Dear \[Name]:
 
 We are looking for people who would be interested in participating in a (in-person/remote) working session to help design the \[outcome] that will be a part of the \[project name]. The co-design session(s) will include taking part in collaborative design activities with other participants. 
@@ -59,11 +60,12 @@ Please note the following.
 
 * If you are interested in participating please provide your contact details and we will register you for the session. If you require more information contact \[contact person and/or contact info].
 
-
-
 Sincerely,
 
 \[Your Name]
+{% endlearning %}
+
+
 
 ## Related activities
 
