@@ -62,4 +62,4 @@ Date: 
 {% endlearning %}
 
 ## Related resources
-[Consent](/resources/Consent and Ownership Agreements/) 
+[Consent and Ownership Agreements](/resources/Consent-and-Ownership-Agreements/) 
