@@ -65,7 +65,7 @@ If you have any questions about this study or require further information, pleas
 I agree to participate in this study described above. I have made this decision based on the information I have read in this Information-Consent Letter.  I have had the opportunity to receive any additional details I wanted about the study and understand that I may ask questions in the future. I understand that I may withdraw this consent at any time. I am checking the relevant boxes below to show my consent for those activities.
 
 
-If you wish to participate in the interview, please check the consent box below and return this form to me at [Interviewer Email].
+If you wish to participate in the [Activity Name], please check the consent boxes below and return this form to me at [Contact Email].
 
 ❏	I have read and understood the above information. I certify that I am 18 years or older. I consent to participate in this study.
 
@@ -81,7 +81,7 @@ Please select one of the following options for your ideas:
 
 ❏	I do not want my ideas attributed to my name.
 
-❏	My ideas may be attributed and should be attributed to me (your name will appear with the idea description and image).
+❏	My ideas should be attributed to me (your name will appear with the idea description and image).
 
 
 Thank you for your assistance in this project. 
