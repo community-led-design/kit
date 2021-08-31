@@ -35,16 +35,16 @@ Research team contact:
 
 
 ### What's involved
-This is a co-design workshop, which will take about [Duration] to complete. You can take a break at any time and we will proceed once you are ready to continue. Please read through the information and if you agree to participate in the [Activity Name], accept the consent statement at the end. If you decide to decline the consent form, we will not be able to conduct the [Activity Name].
+You are agreeing to participate in a co-design workshop that will take about [duration] to complete. You can take a break at any time and we will proceed once you are ready to continue. Please read through the following information and if you agree to participate in the [Activity Name], accept the consent statement below. If you decide to decline the consent form, we will not be able to conduct the [Activity Name].
 
 ### Potential benefits and risks 
-There are no associated risks to participate in this [Activity Name] greater than those you might encounter in everyday life. Your participation in the [Activity Name] will be considered as part of your contribution to [Primary Goal of The Project]. Your feedback also contributes to [Secondary Goal of The Project].  
+There are no associated risks to participate in this [Activity Name] greater than those you might encounter in everyday life. Your participation in the [Activity Name] will be considered as part of your contribution to [primary goal of the project]. Your feedback also contributes to [secondary goal of the project].  
 
 ### Confidentiality 
 [Organization] will keep your responses confidential. 
 
 #### Quotes and ideas
-You will not be identified individually in any way in written reports of this research unless you consent to your quotes and ideas being attributed to you using the boxes below. If you chose for your response to be quoted, we will send you a link to the summary report prior to publishing it on the project website for your final review and approval. 
+You will not be identified individually in any way in written reports of this research unless you consent to your quotes and ideas being attributed to you by selecting the appropriate checkboxes below. If you agree to being quoted, we will send you a link to the summary report prior to publishing for your final review and approval. 
 
 #### Data files
 During the research and analysis period, access to data files will be restricted to the research team. All files will be stored in the [Organization] secure database until [Date], after which all data related to this study will be erased from the [Organization] database. 
