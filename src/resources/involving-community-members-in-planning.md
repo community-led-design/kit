@@ -11,7 +11,7 @@ It is helpful to involve members of the community or organization in the early s
 
 Since community members are most familiar with the context and culture of their community, they can help to plan appropriate activities, ensure that the sessions are accessible for their community, and encourage other community members to get involved.
 
-The more stake participants have in the process from the beginning can lead to more successful recruitment for the co-design sessions, more engagement in planning the co-design sessions, and outcomes that are more likely to address the community's needs and desires. 
+When participants have a stake in the process from the beginning it can make it easier to find participants, increase community engagement in planning the co-design sessions, and support outcomes that are more likely to address the community's needs and desires. 
 
 ## How
 
