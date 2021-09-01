@@ -71,4 +71,4 @@ Sincerely,
 
 ## Related activities
 
-[Recruiting co-designers](/resources/Recruiting-Co-designers/)
+[Finding Participants](/resources/Finding-Participants/)
