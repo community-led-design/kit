@@ -28,3 +28,7 @@ I have read the information on this form and understand it. NO, I do not want to
 
 Name                                                                                                                                       Date
 {% endlearning %}
+
+## Related Resources
+
+[Consent and Ownership Agreements](/resources/Consent-and-Ownership-Agreements/)
