@@ -127,7 +127,7 @@ If you are asking participants to sign an open license agreement, take some time
 
 #### Templates and examples
 
-[Contributor License Agreement -Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/contributor-license-agreement/)
+[Contributor License Agreement Template](/resources/Contributor-License-Agreement)
 
 ## A note on accessible forms
 
