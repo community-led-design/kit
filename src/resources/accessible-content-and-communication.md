@@ -9,7 +9,7 @@ So much of our communication happens through technology. It's important to make 
 
 This guide includes a list of resources that describe how to make various media accessible, ranging from PowerPoint slide decks to videos.
 
-Detailed accessibility information about the event, the space, the agenda, the location and any specific arrangements can be documented in an [Access Guide](/resources/Access-Guide).  
+Detailed accessibility information about the event, the space, the agenda, the location and any specific arrangements can be documented in an [Access Guide](/resources/Creating-an-Access-Guide).  
 
 ## How-to
 
