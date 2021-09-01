@@ -20,11 +20,11 @@ Hello, my name is \[Researcher’s Name]. I am working on a research project abo
 
 We are asking if you agree to participate. We will need your parent or guardian to give permission, too. If you participate in the project, there is no risk to you, and your \[grades or relationship with Organization Name] will not be affected. You do not have to participate, but if you do agree to participate you can change your mind at any time by letting your parent, \[organization staff], or someone on the research team know that you want to stop participating. If you decide to stop your participation that is OK with us and we won’t ask you any questions about your decision. If you have questions about the co-design session you can ask them at any time before, during or after the session.
 
-I have read the information on this form and understand it. YES, I would like to participate in the co-design session with the permission of my parent/guardian.
+☐  I have read the information on this form and understand it. YES, I would like to participate in the co-design session with the permission of my parent/guardian.
 
 OR
 
-I have read the information on this form and understand it. NO, I do not want to participate in the co-design session even with the permission of my parent/guardian.
+☐  I have read the information on this form and understand it. NO, I do not want to participate in the co-design session even with the permission of my parent/guardian.
 
 Name                                                                                                                                       Date
 {% endlearning %}
