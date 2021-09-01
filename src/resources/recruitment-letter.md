@@ -1,22 +1,22 @@
 ---
-title: Recruitment Letter
+title: Invitation Letter
 type: Tool
 buildingBlock: Community involvement
 ---
 ## What
 
-A template that you can use to create a recruitment letter inviting co-designers to participate in your project. This template provides sample text and can be adapted depending on your potential co-designers' preferred communication style and method (email, letter, phone, whatsapp message, instagram, etc).
+A template that you can use to create a letter inviting co-designers to participate in your project. This template provides sample text and can be adapted for use based on the context of your project and participant needs. You may wish to communicate the content verbally or in another form that works best for your participants.
 
 ## Why
-
 It can be helpful to use a template as a starting point in order to customize your own invitation.
 
-## Recruitment letter template
+## Invitation letter template
 
-{% learning "Use this as a starting point to create a recruitment letter for your project." %}
+{% learning "Use this template as a starting point to create an invitation letter for your project." %}
+
 Dear \[Name]:
 
-We are looking for people who would be interested in participating in a (in-person/remote) working session to help design the \[outcome] that will be a part of the \[project name]. The co-design session(s) will include taking part in collaborative design activities with other participants. 
+We are looking for people who would be interested in participating in a \[in-person or remote] working session to help design the \[outcome] that will be a part of the \[project name]. The co-design session(s) will include taking part in collaborative design activities with other participants. 
 
 This project aims to \[describe the aim of the project]. Using a co-design process, we want to help gather and understand participants’ needs, and to develop and refine design ideas towards the creation of \[project outcome].
 
@@ -63,10 +63,9 @@ Please note the following.
 Sincerely,
 
 \[Your Name]
+
 {% endlearning %}
-
-
 
 ## Related activities
 
-[Recruiting co-designers](/resources/Recruiting-Co-designers/)
+[Finding Participants](/resources/Finding-Participants/)
