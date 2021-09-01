@@ -9,11 +9,14 @@ A template that you can use to create a letter inviting co-designers to particip
 
 ## Why
 
+*Something about why an invitation letter*
+
 It can be helpful to use a template as a starting point in order to customize your own invitation.
 
 ## Invitation letter template
 
 {% learning "Use this template as a starting point to create an invitation letter for your project." %}
+
 Dear \[Name]:
 
 We are looking for people who would be interested in participating in a \[in-person or remote] working session to help design the \[outcome] that will be a part of the \[project name]. The co-design session(s) will include taking part in collaborative design activities with other participants. 
@@ -63,6 +66,7 @@ Please note the following.
 Sincerely,
 
 \[Your Name]
+
 {% endlearning %}
 
 ## Related activities
