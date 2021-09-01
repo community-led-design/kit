@@ -5,7 +5,7 @@ buildingBlock: Community involvement
 ---
 ## What
 
-A template that you can use to create an invitation letter inviting co-designers to participate in your project. This template provides sample text and can be adapted for use based on the context of your project and participant needs. You may wish to communicate the content verbally or in another form that works best for your participants.
+A template that you can use to create a letter inviting co-designers to participate in your project. This template provides sample text and can be adapted for use based on the context of your project and participant needs. You may wish to communicate the content verbally or in another form that works best for your participants.
 
 ## Why
 
