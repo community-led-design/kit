@@ -15,6 +15,11 @@ Detailed accessibility information about the event, the space, the agenda, the l
 
 ### Practices
 
+#### Using multiple formats
+Ideas can be communicated in many different formats, and providing any co-design related content in multiple formats helps to ensure that everyone can access it. 
+
+Creating a prompt for you co-design session to introduce participants to the activities you will be doing, or to present any preparatory work you would like them to do, is a great way to engage your co-designers. For many however, large amounts of text can be difficult to digest, so creating an audio and/or a captioned video prompt in addition to any text content can be a great way to ensure that everyone can engage with your content.
+
 #### Making office documents accessible
 
 [Create accessible Office documents](https://support.microsoft.com/en-us/office/create-accessible-office-documents-868ecfcd-4f00-4224-b881-a65537a7c155?correlationid=4eb8bff1-96b2-4ae5-ac2a-ad4cbdb85172&ui=en-us&rs=en-us&ad=us)
