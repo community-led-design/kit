@@ -15,10 +15,29 @@ Detailed accessibility information about the event, the space, the agenda, the l
 
 ### Practices
 
-#### Using multiple formats
-Ideas can be communicated in many different formats, and providing any co-design related content in multiple formats helps to ensure that everyone can access it. 
+#### Providing content in multiple formats
 
-Creating a prompt for you co-design session to introduce participants to the activities you will be doing, or to present any preparatory work you would like them to do, is a great way to engage your co-designers. For many however, large amounts of text can be difficult to digest, so creating an audio and/or a captioned video prompt in addition to any text content can be a great way to ensure that everyone can engage with your content.
+Ideas can be communicated in many different formats. Providing co-design related content in alternative formats helps to ensure that everyone can access it. 
+
+**Audio or Video Prompts**
+
+For example, creating a prompt for you co-design session to introduce participants to the activities you will be doing, or to present any preparatory work you would like them to do, is a great way to engage your co-designers. For many however, large amounts of text can be difficult to digest, so creating an audio and/or a captioned video prompt in addition to any text content can be a great way to ensure that everyone can engage with your content and come prepared.
+
+**Leverage technology in remote sessions**
+
+In remote co-design sessions there are many options for participant communication, whether video is used or not. For example, the chat channel can be used by both co-designers and facilitators to ask questions, to empahsize a point, or to prompt or conduct a discussion. The chat can be particularly useful for non-verbal or shy participants. Where available, reactions emojis can also be used to communicate feelings or other responses to the discussion.
+
+Where video is used, participants can hold up written text that can be read out by other participants or by facilitators. Objects, artwork or images can also be held up to the camera to share with the group. Facial expressions and gestures can also be used to communicate agreement, dissent, or a desire to share with the group. 
+
+It is good practice to establish these preferred ways of communicating early in your process so that your group can develop some agreements about how they will be used. In addition, when multiple channels of communication are being used, facilitators must be prepared to monitor and manage them to ensure they are being used to their full advantage.
+
+#### Captioning videos
+
+[Media Accessibility: Getting Familiar with Online Captioning - OCAD Outside-IN - TIGed](https://outside-in.tiged.org/captioning/)
+
+#### Writing alternative text for images
+
+[Alternative Text - Accessible Campus](https://accessiblecampus.ca/reference-library/accessible-digital-documents-websites/alternative-text/)
 
 #### Making office documents accessible
 
@@ -34,13 +53,6 @@ Creating a prompt for you co-design session to introduce participants to the act
 
 [PDF Remediation - OCAD Outside-IN - TIGed](https://outside-in.tiged.org/pdf)
 
-#### Captioning videos
-
-[Media Accessibility: Getting Familiar with Online Captioning - OCAD Outside-IN - TIGed](https://outside-in.tiged.org/captioning/)
-
-#### Writing alternative text for images
-
-[Alternative Text - Accessible Campus](https://accessiblecampus.ca/reference-library/accessible-digital-documents-websites/alternative-text/)
 
 #### Accessible communication software
 
