@@ -1,5 +1,5 @@
 ---
-title: Recruiting Co-Designers
+title: Finding Participants
 metaImage: ""
 metaImageAlt: ""
 type: Activity
@@ -38,7 +38,7 @@ If people raise any issues about accessibility or other concerns when you are sp
 
 ### Suggested content to include in invitation communication
 
-Check out the [sample invitation letter](/resources/Invitation-Letter/)for suggested letter content. You can also post a simpler invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can then provide more details.
+Check out the [sample invitation letter](/resources/Invitation-Letter/) for suggested letter content. You can also post a simpler invite, graphic, or social media call-out to inform people of your plans. Once community members express interest, you can then provide more details.
 
 ### Finding support
 
@@ -60,7 +60,7 @@ Collaborators (designers or others) can support community organizations and lead
 
 [Sample invitation letter](/resources/Invitation-Letter/)
 
-[Consent forms and policies](/resources/Consent-Forms-and-Policies)
+[Consent forms and agreements](/resources/Consent-and-Ownership-Agreements)
 
 ## Further resources
 
