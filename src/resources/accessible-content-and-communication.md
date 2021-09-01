@@ -25,11 +25,11 @@ For example, creating a prompt for you co-design session to introduce participan
 
 **Leverage technology in remote sessions**
 
-In remote co-design sessions there are many options for participant communication, whether video is used or not. For example, the chat channel can be used by both co-designers and facilitators to ask questions, to empahsize a point, or to prompt or conduct a discussion. The chat can be particularly useful for non-verbal or shy participants. Where available, reactions emojis can also be used to communicate feelings or other responses to the discussion.
+In remote co-design sessions there are many options for participant communication, whether video is used or not. For example, the chat channel can be used by both co-designers and facilitators to ask questions, to emphasize a point, or to prompt or conduct a discussion. The chat can be particularly useful for non-verbal or shy participants. Where available, reactions emojis can also be used to communicate feelings or other responses to discussion points.
 
 Where video is used, participants can hold up written text that can be read out by other participants or by facilitators. Objects, artwork or images can also be held up to the camera to share with the group. Facial expressions and gestures can also be used to communicate agreement, dissent, or a desire to share with the group. 
 
-It is good practice to establish these preferred ways of communicating early in your process so that your group can develop some agreements about how they will be used. In addition, when multiple channels of communication are being used, facilitators must be prepared to monitor and manage them to ensure they are being used to their full advantage.
+It is good practice to establish preferred ways of communicating early in your process so that your group can develop a shared understanding and agreements about how they will be used. In addition, when multiple channels of communication are engaged facilitators must be prepared to monitor and manage them to ensure that nothing is being missed.
 
 #### Captioning videos
 
