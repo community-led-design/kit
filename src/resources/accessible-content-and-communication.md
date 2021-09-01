@@ -21,7 +21,7 @@ Ideas can be communicated in many different formats. Providing co-design related
 
 **Audio or Video Prompts**
 
-For example, creating a prompt for you co-design session to introduce participants to the activities you will be doing, or to present any preparatory work you would like them to do, is a great way to engage your co-designers. For many however, large amounts of text can be difficult to digest, so creating an audio and/or a captioned video prompt in addition to any text content can be a great way to ensure that everyone can engage with your content and come prepared.
+Creating a prompt for you co-design session to introduce participants to the activities you will be doing, or to present any preparatory work you would like them to do, is a great way to engage your co-designers. For many however, large amounts of text can be difficult to digest, so creating an audio and/or a captioned video prompt in addition to any text content can be a great way to ensure that everyone can engage with your content and come prepared.
 
 **Leverage technology in remote sessions**
 
