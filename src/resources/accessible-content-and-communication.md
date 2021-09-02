@@ -15,9 +15,9 @@ Detailed accessibility information about the event, the space, the agenda, the l
 
 ### Practices
 
-#### Providing content in multiple formats
+#### Sharing content in multiple formats
 
-Ideas can be communicated in many different formats. Providing co-design related content in alternative formats helps to ensure that everyone can access it. 
+Ideas can be communicated in many different formats. Sharing co-design related content in alternative formats helps to ensure that everyone can access it. 
 
 **Audio or Video Prompts**
 
