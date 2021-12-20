@@ -40,11 +40,15 @@ Consider creative ways to engage participants during remote sessions. In one exa
 ### Considerations
 
 * In general, workshops with remote participation are best kept somewhat shorter than in-person workshops. This is due to screen-time fatigue and the added challenges of staying focused when participating from a personal or home space.
-
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
+* Schedule breaks generously and as needed
 * Check ahead of time that all participants have the required technology to take part
 
   * Consider any device or bandwidth limitations when setting up a video conference
+* Be flexible with the agenda and timeline, making room for distractions, unexpected interruptions, and technical malfunctions
+
+  * Members of the participant’s family may be in the room including children or younger siblings; there may be a dog barking or noises from the street. Prioritize the co-designers' comforts and needs rather than expecting them to change locations or their behaviour.
+  * Technologies such as assistive devices may malfunction or stop working. Be prepared to make time to assist in troubleshooting, and to reschedule if the technology isn't cooperating.
 * Develop a list of guidelines for participation with the group, including:
 
   * Agreements about muting (or not muting) your microphone when not speaking
@@ -64,6 +68,7 @@ Consider creative ways to engage participants during remote sessions. In one exa
 
       * Some participants are more comfortable with private chatting (i.e. to a specific individual)
       * In other cases the host may wish to turn private chatting off
+* Let participants know whether they need to come prepared with any materials (e.g., pen and paper) or technologies (e.g., a smartphone) in order to participate in an activity.
 * If your participants are split between being on location and being remote, make sure everyone can communicate easily with each other, especially the remote participants
 
   * This can include texting or use of other messaging services
@@ -101,18 +106,13 @@ There are many possible technical approaches to asynchronous remote co-design. T
 
 ## Facilitation
 
-* Limit the session to a small number of co-designers, or use breakout groups to allow for small group discussion
-
+* Limit your co-design to a smaller number of participants, or use breakout groups to allow for small group discussion
   * Take into account each co-designer's unique needs and whether or not you will be able to meet these needs simultaneously
   * In some cases it may be necessary to have a one-on-one session with certain co-designers in order to meet their needs sufficiently
   * Grouping participants together in small groups who have similar accessibility needs can be helpful, but may not be conducive to your workshop goals (e.g., maintaining diverse groups)
-* Schedule breaks generously and as needed
-* Be flexible with the agenda and timeline, making room for distractions, unexpected interruptions, and technical malfunctions
 
-  * Members of the participant’s family may be in the room including children or younger siblings; there may be a dog barking or noises from the street. Prioritize the co-designers' comforts and needs rather than expecting them to change locations or their behaviour.
-  * Technologies such as assistive devices may malfunction or stop working. Be prepared to make time to assist in troubleshooting, and to reschedule if the technology isn't cooperating.
 * Where possible have a dedicated facilitator available by chat, phone or email to answer any questions during the course of the co-design work.
-* Let participants know whether they need to come prepared with any materials (e.g., pen and paper) or technologies (e.g., a smartphone) in order to participate in an activity.
+
 * Double-check differences in time zones and confirm the time of the session with any participant in a different time zone.
 
 ## Co-designers' privacy
