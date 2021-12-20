@@ -13,7 +13,9 @@ Remote participation in co-design sessions increases their accessibility by incl
 This guide describes different approaches to remote co-design, including suggestions for facilitation, activities, and technology.
 
 # How-to
+
 ## The need for new approaches   
+
 It might be tempting to use familiar workshop structures when planning and running remote co-design sessions. However new approaches may be needed when including remote participants or leading a fully remote session. People have different attention spans and limits when working at a computer, and can experience distractions in their physical environment when working remotely. Technical limitations due to the use of video conferencing or other tools can also present unique challenges.
 
 There are many creative possibilities when it comes to developing new approaches for remote co-design. These may include the following:
@@ -40,30 +42,38 @@ Consider creative ways to engage participants during remote sessions. In one exa
 ### Considerations for Synchronous Remote Co-design
 
 * Workshops with remote participation are often best kept shorter than in-person workshops to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
+
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
 * Schedule breaks generously and as needed
 * Check ahead of time that all participants have the required technology to take part
+
   * Consider any device or bandwidth limitations when setting up a video conference
 * Be flexible with the agenda and timeline, making room for distractions, unexpected interruptions, and technical malfunctions
+
   * Members of the participant’s family may be in the room including children or younger siblings; there may be a dog barking or noises from the street. Prioritize the co-designers' comforts and needs rather than expecting them to change locations or their behaviour.
   * Technologies such as assistive devices may malfunction or stop working. Be prepared to make time to assist in troubleshooting, and to reschedule if the technology isn't cooperating.
 * Develop a list of guidelines for participation with the group, including:
+
   * Agreements about muting (or not muting) your microphone when not speaking
   * Different ways the co-designers can participate in the discussion. Some examples include:
+
     * Using the "raise hand" feature in Zoom to create a speaker list
     * Raising your hand while visible on video
     * Putting questions in the chat window
     * Holding up a drawing or writing or other object
     * Going around the “room” to give each participant a chance to share
   * How and when to use a chat window for questions and discussion
+
     * Use of the chat can be a barrier to those relying on screen readers, since negotiating multiple channels of audio input at once (i.e., voice and screen reader) can be difficult. One solution is to take pauses to allow for all participants to read what is in the chat panel.
     * Copying ideas or questions from an oral conversation into the chat can be helpful for those who prefer to read them
     * Having a designated person watching for chat content is helpful in order to free the facilitator up to pay attention to the participants
     * Consider the use of private vs. public chatting
-      * Some participants are more comfortable with private chatting (i.e. to a specific individual)
+
+      * Some participants are more comfortable with private chatting (i.e., to a specific individual)
       * In other cases the host may wish to turn private chatting off
 * Let participants know whether they need to come prepared with any materials (e.g., pen and paper) or technologies (e.g., a smartphone) in order to participate in an activity.
 * If your participants are split between being on location and being remote, make sure everyone can communicate easily with each other, especially the remote participants
+
   * This can include texting or use of other messaging services
   * Agreements should be made and tested out beforehand as to how communication will happen during the session
 
@@ -100,15 +110,14 @@ There are many possible technical approaches to asynchronous remote co-design. T
 ## Logistics
 
 * Limit your co-design to a smaller number of participants, or use breakout groups to allow for small group discussion
+
   * Take into account each co-designer's unique needs and whether or not you will be able to meet these needs simultaneously
   * In some cases it may be necessary to have a one-on-one session with certain co-designers in order to meet their needs sufficiently
   * Grouping participants together in small groups who have similar accessibility needs can be helpful, but may not be conducive to your workshop goals (e.g., maintaining diverse groups)
-
 * Where possible have a dedicated facilitator available by chat, phone or email to answer any questions during the course of the co-design work.
-
 * Double-check differences in time zones and confirm the time of the session with any participant in a different time zone.
 
-## Co-designers' privacy
+## Privacy
 
 * When in a video conference, consider that you are entering the participant’s home and personal space and be respectful.
 * Provide or develop clear confidentiality agreements with participants.
@@ -126,7 +135,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Shared document folders can be created online for individual co-designers or groups where materials, worksheets, and consent forms can be shared, and sketches and drawings can be uploaded. This helps with organisation by keeping everything in one place.
 * Collaborative sketching platforms such as Miro, Google Draw, Figma, or Excalidraw can be useful for synchronous or asynchronous collaboration. 
 
-  * Note: the accessibility of these platforms is limited. It is always best to provide a variety of tool options for participants to use so they can find one that meets their needs and the needs of the group as a whole.   
+  * **Note**: the accessibility of these platforms is limited. It is always best to provide a variety of tool options for participants to use so they can find one that meets their needs and the needs of the group as a whole.   
   * Check to see if participants are already using any tools that may be more familiar and accessible to them.
 
 ## Technology
