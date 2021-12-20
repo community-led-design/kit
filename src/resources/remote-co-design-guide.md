@@ -154,7 +154,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Co-designers may wish to have a parent, teacher, friend, assistant, and/or caregiver present in the session with them.
 
   * Take the lead from the participant in terms of how or if their caregiver will participate in the session.
-* Create a remote [access guide](https://cities.inclusivedesign.ca/resources/access-guide/)
+* Create a remote [access guide](/resources/Creating-an-Access-Guide)
 
   * An access guide is an effective way to introduce people to an event they are invited to participate in. It can contain information about the event, the agenda, the facilitators, and any accommodations that have been arranged.
   * Access guides can include how to set up the technology (e.g., how to use the chosen conferencing platform), or a link to the folder of documents to review before the session.
