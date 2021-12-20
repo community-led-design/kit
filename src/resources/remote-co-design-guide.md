@@ -135,7 +135,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Shared document folders can be created online for individual co-designers or groups where materials, worksheets, and consent forms can be shared, and sketches and drawings can be uploaded. This helps with organisation by keeping everything in one place.
 * Collaborative sketching platforms such as Miro, Google Draw, Figma, or Excalidraw can be useful for synchronous or asynchronous collaboration. 
 
-  * **Note**: the accessibility of these platforms is limited. It is always best to provide a variety of tool options for participants to use so they can find one that meets their needs and the needs of the group as a whole.   
+  * **Note**: the accessibility of these platforms is currently limited. It is always best to provide a variety of tool options for participants to use so they can find one that meets their needs and the needs of the group as a whole.   
   * Check to see if participants are already using any tools that may be more familiar and accessible to them.
 
 ## Technology
@@ -156,5 +156,5 @@ There are many possible technical approaches to asynchronous remote co-design. T
 
   * An access guide is an effective way to introduce people to an event they are invited to participate in. It can contain information about the event, the agenda, the facilitators, and any accommodations that have been arranged.
   * Access guides can include how to set up the technology (e.g., how to use the chosen conferencing platform), or a link to the folder of documents to review before the session.
-  * Sharing an introductory video can be helpful for participants This may include footage of the co-design facilitators introducing themselves, of the venue and/or details of the event. 
-  * This is especially useful for asynchronous co-design sessions, since participants may not meet directly with the facilitators before beginning the co-design work.
+  * Sharing an introductory video can be helpful for participants. This may include footage of the co-design facilitators introducing themselves, images of the venue and/or details of the event. 
+  * An access guide is especially useful for asynchronous co-design sessions, since participants may not meet directly with the facilitators before beginning the co-design work.
