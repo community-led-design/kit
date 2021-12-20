@@ -41,7 +41,7 @@ Consider creative ways to engage participants during remote sessions. In one exa
 
 ### Considerations for Synchronous Remote Co-design
 
-* Workshops with remote participation are often best kept shorter than in-person workshops to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
+* It is usually best to keep workshops with remote participation shorter than in-person workshops. This helps to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
 
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
 * Schedule breaks generously and as needed
@@ -88,7 +88,7 @@ Asynchronous work can be more inclusive because participants can respond in thei
 Asynchronous remote co-design can happen in many ways. The following are a few examples, although there are many creative approaches to doing this.
 
 * Structured activities can be done individually or in smaller groups prior to a co-design session, or in-between sessions. 
-* Co-designers can share their ideas and/or design artifacts online in some way in a place where all participants can access them.
+* Co-designers can share their ideas and/or design artifacts online in a place where all participants can access them.
 
   * This could be through a chat platform or by using shared folders and documents, or posting documents, videos or other media to a shared platform.
 * Materials can be sent to co-designers with a request to respond to them via a chat platform within a given timeframe
@@ -113,13 +113,13 @@ There are many possible technical approaches to asynchronous remote co-design. T
 
   * Take into account each co-designer's unique needs and whether or not you will be able to meet these needs simultaneously
   * In some cases it may be necessary to have a one-on-one session with certain co-designers in order to meet their needs sufficiently
-  * Grouping participants together in small groups who have similar accessibility needs can be helpful, but may not be conducive to your workshop goals (e.g., maintaining diverse groups)
+  * Grouping participants together in small groups who have similar accessibility needs can be helpful, but may not be conducive to your workshop goals (e.g., if you wish to maintain diverse groups)
 * Where possible have a dedicated facilitator available by chat, phone or email to answer any questions during the course of the co-design work.
 * Double-check differences in time zones and confirm the time of the session with any participant in a different time zone.
 
 ## Privacy
 
-* When in a video conference, consider that you are entering the participant’s home and personal space and be respectful.
+* When in a video conference, respect that you are entering the participant’s home and personal space.
 * Provide or develop clear confidentiality agreements with participants.
 * Allow participants to keep their video feed off when necessary.
 
