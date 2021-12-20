@@ -25,7 +25,7 @@ There are many creative possibilities when it comes to developing new approaches
 * **Partially remote**: some participants join remotely while others are together at a physical venue
 * **Fully remote**: all participants join remotely
 
-### Synchronous Remote Co-design
+### Synchronous remote co-design
 
 #### Benefits
 
@@ -39,7 +39,7 @@ The sessions can take place via phone conferencing, video conferencing, or a com
 
 Consider creative ways to engage participants during remote sessions. In one example, a facilitator documented the co-designer’s ideas live on a chalkboard in a way that was visible to the participants. The use of a typically in-person documentation technique in this way proved to be very engaging and successful for this remote co-design session.
 
-#### Considerations for Synchronous Remote Co-design
+#### Considerations for synchronous remote co-design
 
 * It is usually best to keep workshops with remote participation shorter than in-person workshops. This helps to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
 
@@ -77,7 +77,7 @@ Consider creative ways to engage participants during remote sessions. In one exa
   * This can include texting or use of other messaging services
   * Agreements should be made and tested out beforehand as to how communication will happen during the session
 
-### Asynchronous Remote Co-design
+### Asynchronous remote co-design
 
 #### Benefits
 
@@ -105,7 +105,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Using "snail mail" to have facilitators and/or participants mail things back and forth to each other
 * Providing workshop kits via mail, pickup or home delivery, in order to share creative materials for co-design activities (e.g., templates, markers, plasticine, coloured paper).
 
-## General considerations for Remote Co-design
+## General considerations for remote co-design
 
 ### Logistics
 
@@ -123,7 +123,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Provide or develop clear confidentiality agreements with participants.
 * Allow participants to keep their video feed off when necessary.
 
-#### Case Study: 
+#### Case study: 
 
 * **Context**: Facilitators shared a prototype with a participant who had recently become blind and was new to screen reader technology.
 * **What happened**: In this remote co-design session we planned on asking the participant to share his screen and describe his navigation techniques for us. 
