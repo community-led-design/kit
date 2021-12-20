@@ -22,10 +22,10 @@ It might be tempting to use familiar workshop structures when planning and runni
 
 There are many creative possibilities when it comes to developing new approaches for remote co-design. These may include the following:
 
-* Synchronous: participants working on something together at the same time/in the same “space”
-* Asynchronous: participants working on something together but at different times/on their own
-* Partially remote: some participants join remotely while others are together at a physical venue
-* Fully remote: all participants join remotely
+* **Synchronous**: participants working on something together at the same time/in the same “space”
+* **Asynchronous**: participants working on something together but at different times/on their own
+* **Partially remote**: some participants join remotely while others are together at a physical venue
+* **Fully remote**: all participants join remotely
 
 ### Synchronous Remote Co-design
 
