@@ -43,34 +43,27 @@ Consider creative ways to engage participants during remote sessions. In one exa
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
 * Schedule breaks generously and as needed
 * Check ahead of time that all participants have the required technology to take part
-
   * Consider any device or bandwidth limitations when setting up a video conference
 * Be flexible with the agenda and timeline, making room for distractions, unexpected interruptions, and technical malfunctions
-
   * Members of the participant’s family may be in the room including children or younger siblings; there may be a dog barking or noises from the street. Prioritize the co-designers' comforts and needs rather than expecting them to change locations or their behaviour.
   * Technologies such as assistive devices may malfunction or stop working. Be prepared to make time to assist in troubleshooting, and to reschedule if the technology isn't cooperating.
 * Develop a list of guidelines for participation with the group, including:
-
   * Agreements about muting (or not muting) your microphone when not speaking
   * Different ways the co-designers can participate in the discussion. Some examples include:
-
     * Using the "raise hand" feature in Zoom to create a speaker list
     * Raising your hand while visible on video
     * Putting questions in the chat window
     * Holding up a drawing or writing or other object
     * Going around the “room” to give each participant a chance to share
   * How and when to use a chat window for questions and discussion
-
     * Use of the chat can be a barrier to those relying on screen readers, since negotiating multiple channels of audio input at once (i.e., voice and screen reader) can be difficult. One solution is to take pauses to allow for all participants to read what is in the chat panel.
     * Copying ideas or questions from an oral conversation into the chat can be helpful for those who prefer to read them
     * Having a designated person watching for chat content is helpful in order to free the facilitator up to pay attention to the participants
     * Consider the use of private vs. public chatting
-
       * Some participants are more comfortable with private chatting (i.e. to a specific individual)
       * In other cases the host may wish to turn private chatting off
 * Let participants know whether they need to come prepared with any materials (e.g., pen and paper) or technologies (e.g., a smartphone) in order to participate in an activity.
 * If your participants are split between being on location and being remote, make sure everyone can communicate easily with each other, especially the remote participants
-
   * This can include texting or use of other messaging services
   * Agreements should be made and tested out beforehand as to how communication will happen during the session
 
