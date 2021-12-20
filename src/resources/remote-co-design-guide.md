@@ -39,7 +39,7 @@ Consider creative ways to engage participants during remote sessions. In one exa
 
 ### Considerations
 
-* In general, workshops with remote participation are best kept somewhat shorter than in-person workshops. This is due to screen-time fatigue and the added challenges of staying focused when participating from a personal or home space.
+* Workshops with remote participation are often best kept shorter than in-person workshops to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
 * Schedule breaks generously and as needed
 * Check ahead of time that all participants have the required technology to take part
