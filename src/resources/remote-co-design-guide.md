@@ -18,8 +18,6 @@ It might be tempting to use familiar workshop structures when planning and runni
 
 # How-to
 
-## Approaches
-
 There are many creative possibilities when it comes to developing new approaches for remote co-design. These may include the following:
 
 * **Synchronous**: participants working on something together at the same time/in the same “space”
@@ -27,21 +25,21 @@ There are many creative possibilities when it comes to developing new approaches
 * **Partially remote**: some participants join remotely while others are together at a physical venue
 * **Fully remote**: all participants join remotely
 
-### Synchronous Remote Co-design
+## Synchronous Remote Co-design
 
-#### Benefits
+### Benefits
 
 Synchronous work allows the whole group to meet and discuss ideas together. This can make it easier to develop relationships in a team. It can also make it easier to clarify and align goals within the group, and allows the group to build more spontaneously on each other’s ideas. 
 
-#### Technologies
+### Technologies
 
 The sessions can take place via phone conferencing, video conferencing, or a combination of both.
 
-#### Activities
+### Activities
 
 Consider creative ways to engage participants during remote sessions. In one example, a facilitator documented the co-designer’s ideas live on a chalkboard in a way that was visible to the participants. The use of a typically in-person documentation technique in this way proved to be very engaging and successful for this remote co-design session.
 
-#### Considerations
+### Considerations
 
 * In general, workshops with remote participation are best kept somewhat shorter than in-person workshops. This is due to screen-time fatigue and the added challenges of staying focused when participating from a personal or home space.
 
@@ -73,13 +71,13 @@ Consider creative ways to engage participants during remote sessions. In one exa
   * This can include texting or use of other messaging services
   * Agreements should be made and tested out beforehand as to how communication will happen during the session
 
-### Asynchronous Remote Co-design
+## Asynchronous Remote Co-design
 
-#### Benefits
+### Benefits
 
 Asynchronous work can be more inclusive because participants can respond in their own time, instead of having to complete activities within a specific time frame. It also gives those who might be too shy to speak in a large group a chance to participate more fully. It reduces the amount of time needed to be together in a workshop which helps with screen-time fatigue for remote participants.
 
-#### Examples
+### Examples
 
 Asynchronous remote co-design can happen in many ways. The following are a few examples, although there are many creative approaches to doing this.
 
@@ -92,7 +90,7 @@ Asynchronous remote co-design can happen in many ways. The following are a few e
   * This can help to start a discussion amongst the group
   * This can spark an ongoing ideas generating and feedback cycle within the group.
 
-#### Technologies
+### Technologies
 
 There are many possible technical approaches to asynchronous remote co-design. Think creatively about how you can use existing tools and platforms or develop your own unique approach. Some suggestions include:
 
@@ -101,9 +99,9 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Using "snail mail" to have facilitators and/or participants mail things back and forth to each other
 * Providing workshop kits via mail, pickup or home delivery, in order to share creative materials for co-design activities (e.g., templates, markers, plasticine, coloured paper).
 
-## General considerations
+# General considerations
 
-### Facilitation
+## Facilitation
 
 * Limit the session to a small number of co-designers, or use breakout groups to allow for small group discussion
 
@@ -119,20 +117,20 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Let participants know whether they need to come prepared with any materials (e.g., pen and paper) or technologies (e.g., a smartphone) in order to participate in an activity.
 * Double-check differences in time zones and confirm the time of the session with any participant in a different time zone.
 
-### Co-designers' privacy
+## Co-designers' privacy
 
 * When in a video conference, consider that you are entering the participant’s home and personal space and be respectful.
 * Provide or develop clear confidentiality agreements with participants.
 * Allow participants to keep their video feed off when necessary.
 
-#### Case Study: 
+### Case Study: 
 
 * **Context**: Facilitators shared a prototype with a participant who had recently become blind and was new to screen reader technology.
 * **What happened**: In this remote co-design session we planned on asking the participant to share his screen and describe his navigation techniques for us. 
 * **The problem**: During planning we realized that we may put his privacy at risk since he was not familiar with screen access features and may not have been aware of what he was sharing on screen. 
 * **The solution**: The facilitators communicated this concern to him and instructed all participants to turn off certain notifications before sharing their screen during the session.
 
-### Sharing and collaborating
+## Sharing and collaborating
 
 * Shared document folders can be created online for individual co-designers or groups where materials, worksheets, and consent forms can be shared, and sketches and drawings can be uploaded. This helps with organisation by keeping everything in one place.
 * Collaborative sketching platforms such as Miro, Google Draw, Figma, or Excalidraw can be useful for synchronous or asynchronous collaboration. 
@@ -140,7 +138,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
   * Note: the accessibility of these platforms is limited. It is always best to provide a variety of tool options for participants to use so they can find one that meets their needs and the needs of the group as a whole.   
   * Check to see if participants are already using any tools that may be more familiar and accessible to them.
 
-### Technology
+## Technology
 
 * Where possible use tools and platforms that participants are familiar with or are already using.
 * Consider the accessibility needs of participants when choosing any tool or platform, whether it be for video conferencing, collaborative sketching, chatting, etc.
@@ -149,7 +147,7 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Try to do a test run with participants before the session.
 * Make sure both remote and in-person participants know how to use their microphones to avoid any disturbance.
 
-### Accessibility
+## Accessibility
 
 * Co-designers may wish to have a parent, teacher, friend, assistant, and/or caregiver present in the session with them.
 
