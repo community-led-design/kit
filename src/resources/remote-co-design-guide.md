@@ -8,7 +8,7 @@ buildingBlock: Co-design plan
 ---
 # About this guide
 
-Remote participation in co-design sessions increases their accessibility by including those who cannot attend in-person for any reason. This may include individuals who cannot travel due to illness or mobility limitations, or because the location is too far or travel costs are too expensive. The pandemic has increased both the need and the possibilities for remote participation, whether it be through fully remote workshops or hybrid in-person and remote approaches. 
+Remote participation in co-design sessions increases their accessibility by including those who cannot attend in-person for any reason. This may include individuals who cannot travel due to illness or mobility limitations, or because the location is too far or travel costs are too high. The pandemic has increased both the need and the possibilities for remote participation, whether it be through fully remote workshops or hybrid in-person and remote approaches. 
 
 This guide describes different approaches to remote co-design, including suggestions for facilitation, activities, and technology.
 
