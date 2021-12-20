@@ -12,11 +12,9 @@ Remote participation in co-design sessions increases their accessibility by incl
 
 This guide describes different approaches to remote co-design, including suggestions for facilitation, activities, and technology.
 
-# The need for new approaches   
-
-It might be tempting to use familiar workshop structures when planning and running remote co-design sessions. However new approaches may be needed when including remote participants or leading a fully remote session. People have different attention spans and limits when working at a computer, and can experience distractions in their physical environment when working remotely. Technical limitations due to the use of video conferencing or other tools can also present unique challenges.
-
 # How-to
+## The need for new approaches   
+It might be tempting to use familiar workshop structures when planning and running remote co-design sessions. However new approaches may be needed when including remote participants or leading a fully remote session. People have different attention spans and limits when working at a computer, and can experience distractions in their physical environment when working remotely. Technical limitations due to the use of video conferencing or other tools can also present unique challenges.
 
 There are many creative possibilities when it comes to developing new approaches for remote co-design. These may include the following:
 
