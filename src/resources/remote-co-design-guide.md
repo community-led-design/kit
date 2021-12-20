@@ -37,7 +37,7 @@ The sessions can take place via phone conferencing, video conferencing, or a com
 
 Consider creative ways to engage participants during remote sessions. In one example, a facilitator documented the co-designer’s ideas live on a chalkboard in a way that was visible to the participants. The use of a typically in-person documentation technique in this way proved to be very engaging and successful for this remote co-design session.
 
-### Considerations
+### Considerations for Synchronous Remote Co-design
 
 * Workshops with remote participation are often best kept shorter than in-person workshops to avoid screen-time fatigue and meet the added challenges of staying focused when participating from a personal or home space.
   * Having co-designers complete preparatory activities before or between workshops can help to decrease the time needed to be together in the workshop. 
@@ -95,9 +95,9 @@ There are many possible technical approaches to asynchronous remote co-design. T
 * Using "snail mail" to have facilitators and/or participants mail things back and forth to each other
 * Providing workshop kits via mail, pickup or home delivery, in order to share creative materials for co-design activities (e.g., templates, markers, plasticine, coloured paper).
 
-# General considerations
+# General considerations for Remote Co-design
 
-## Facilitation
+## Logistics
 
 * Limit your co-design to a smaller number of participants, or use breakout groups to allow for small group discussion
   * Take into account each co-designer's unique needs and whether or not you will be able to meet these needs simultaneously
