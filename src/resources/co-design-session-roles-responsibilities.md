@@ -15,7 +15,7 @@ This guide lists and describes the various roles and responsibilities people can
 
 Facilitator responsibilities may include introducing the session and the activities to participants, ensuring everyone is able to participate, and supporting the group in the creative process and decision making.
 
-When undertaking community-led co-design, it is important to seek out facilitators or co-facilitators from the community, and to be aware of emerging leadership from the group. For more information, see \[Involving Community Members in Planning].
+When undertaking community-led co-design, it is important to seek out facilitators or co-facilitators from the community, and to be aware of emerging leadership from the group. For more information, see [Involving Community Members in Planning](/resources/Involving-Community-Members-in-Planning).
 
 #### Note taking
 
