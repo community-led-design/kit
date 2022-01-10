@@ -1,6 +1,6 @@
 ---
 title: Involving Community Members in Planning
-type: Activity
+type: Guide
 buildingBlock: Community involvement
 ---
 ## What
@@ -17,7 +17,7 @@ When participants have a stake in the process from the beginning it can make it 
 
 ### Invitation
 
-It is a good idea to invite or request the presence of a variety of community members at the initial planning meetings; explaining your process and intentions at the start can help.
+It is a good idea to invite or request the presence of a variety of community members at the initial planning meetings. Explaining your intentions at the start of the process (i.e. to encourage community involvement) can help the team come to a shared understanding of the goals of the process.
 
 ### Who to reach out to
 
@@ -46,11 +46,11 @@ It may be the case that community members have their own ideas about how they wi
 
 #### Planning the logistics of a session
 
-Community members can take on logistics of planning the co-design, and are often well-suited to do so because they're more familiar with potential venues, the best dates and times for members, and local services.
+Community members can take on the logistics of planning the co-design, and are often well-suited to do so because they're more familiar with potential venues, the best dates and times for members, and local services.
 
-#### Recruiting other community members
+#### Inviting other community members
 
-Community members have their own ties within the community, so they are well-suited to help recruit additional members for the co-design sessions and planning effort. 
+Community members have their own ties within the community, so they are well-suited to help find additional participants for the co-design sessions and planning effort. 
 
 ### Barriers to participation
 
