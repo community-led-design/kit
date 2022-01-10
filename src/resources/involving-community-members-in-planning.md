@@ -72,7 +72,7 @@ Letting members know that this support is available from your first meeting will
 
 Ensure that the required accessibility services or technology are provided at your meetings whenever possible, such as ASL, captioning, translation, remote participation, wheelchair accessible spaces, etc. 
 
-Refer to our [Accessibility for co-designers guide](https://www.notion.so/Accessibility-for-co-designers-934d52551939463dab466a23ffda6a35) for more details.
+Refer to our [Accessibility for Co-designers guide](/resources/Accessibility-for-Co-designers) for more details.
 
 ### Planning
 
