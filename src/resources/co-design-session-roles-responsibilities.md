@@ -1,7 +1,7 @@
 ---
 title: Co-design session roles & responsibilities
 type: Guide
-buildingBlock: Facilitation
+buildingBlock: Co-design plan
 ---
 ## About this guide
 
