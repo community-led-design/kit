@@ -1,5 +1,5 @@
 ---
-title: Co-design session roles & responsibilities
+title: Co-design Session Roles & Responsibilities
 type: Guide
 buildingBlock: Co-design plan
 ---
