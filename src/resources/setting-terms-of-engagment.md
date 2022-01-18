@@ -1,5 +1,5 @@
 ---
-title: Setting Terms of Engagment
+title: Setting Terms of Engagement
 type: Activity
 buildingBlock: Partnership
 ---
