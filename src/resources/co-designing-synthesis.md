@@ -5,7 +5,7 @@ buildingBlock: Ideas and outcomes
 relatedGuides:
   - Documenting and Collecting Co-design Outcomes
 ---
-## <https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e>About this guide
+## About this guide
 
 This guide discusses the ethical considerations of the design synthesis process including how to do it in a more collaborative way.
 
@@ -56,7 +56,7 @@ Synthesis can be approached as an iterative process in which co-design participa
 
 An example of this is provided by Sara Florence Davidson when she took the following approach in working with her father Robert Davidson:
 
-"I recorded each interview, transcribed it, and returned the transcript to my father for his review before doing the next interview. I began the final three interviews by asking questions and clarifying my understandings from the previous interview. When I felt that I understood what my father was sharing with me, I wrote up my interpretations of his stories. I then shared my writing with him, and he clarified his ideas and suggested changes when he felt I had misunderstood his intent.” ([reference](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf))
+"I recorded each interview, transcribed it, and returned the transcript to my father for his review before doing the next interview. I began the final three interviews by asking questions and clarifying my understandings from the previous interview. When I felt that I understood what my father was sharing with me, I wrote up my interpretations of his stories. I then shared my writing with him, and he clarified his ideas and suggested changes when he felt I had misunderstood his intent.” [<sup>3</sup>](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf))
 
 ### Synthesis as co-design
 
@@ -96,9 +96,10 @@ As part of a collaborative project with the City of Toronto and the Inclusive De
 For more details about this project and to read the stories, please visit this link: [](https://wecount.inclusivedesign.ca/views/project-we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/) <https://wecount.inclusivedesign.ca/views/we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/>
 
 ## References
+
 1 [Design Synthesis - A Step by Step Guide](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e) 
 
 2 [All About Us - Indigenous Data Analysis Workshop](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
-3
+3 [Make Your Mind Strong My Father](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf)
 4
 5
