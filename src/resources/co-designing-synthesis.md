@@ -22,7 +22,7 @@ Some examples of synthesis include:
 * Identifying actionable design ideas within personal narratives
 * Creating a prioritized list of needs, preferences or design features
 
-Traditional design research approaches define synthesis as the process of translating research data into actionable knowledge or design features ([reference](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e)). In these approaches synthesis is done by the research or design team once the research stage is complete. This means that participants, who are often put in the position of research subjects, do not have a say in how their ideas are being interpreted. 
+Traditional design research approaches define synthesis as the process of translating research data into actionable knowledge or design features[<sup>1</sup>](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e). In these approaches synthesis is done by the research or design team once the research stage is complete. This means that participants, who are often put in the position of research subjects, do not have a say in how their ideas are being interpreted. 
 
 In a co-design approach participants are included in the synthesis process wherever possible. This guide describes some common synthesis pitfalls as well as co-design approaches that can help to avoid them. 
 
@@ -94,3 +94,10 @@ Your co-design activity can be designed in a way that elicits and documents the 
 As part of a collaborative project with the City of Toronto and the Inclusive Design Research Centre, an urban development proposal was evaluated in order to assess its accessibility and inclusiveness. Several individuals with diverse needs and backgrounds joined the project as co-designers. Each individual was tasked with journaling their experiences around the city over a period of two weeks. In a subsequent workshop, participants joined other members of the community to form small groups and share their experiences. Each group worked together to create a story that captured and represented individual co-designers’ experiences in the city. The research team used these stories to develop a set of evaluation guidelines, which were then applied to the development proposal in order to flag risks, identify gaps, and point out missing information.
 
 For more details about this project and to read the stories, please visit this link: [](https://wecount.inclusivedesign.ca/views/project-we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/) <https://wecount.inclusivedesign.ca/views/we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/>
+
+##References
+1
+2
+3
+4
+5
