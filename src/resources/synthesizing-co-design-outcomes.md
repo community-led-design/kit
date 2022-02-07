@@ -5,7 +5,7 @@ buildingBlock: Ideas and outcomes
 ---
 ## What
 
-Synthesis is the process of making sense of the ideas and outcomes from co-design, and sharing them in a way that's easy to understand and useful to the design process.
+Synthesis is the process of transforming the outcomes of a group design activity into a cohesive format, and sharing them in a way that's easy to understand and useful to the design process.
 
 ## Why
 
@@ -19,9 +19,9 @@ Synthesis helps you:
 
 It is best if all the facilitators who were present at the co-design session are involved in the synthesis process. If that's not possible, try to have them share their findings and observations with you beforehand.
 
-It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and the creation of meaning from those findings. This process will therefore be influenced by the perspectives of those doing the synthesis. To ensure that your synthesis is informed by the perspectives of the community you are working with it is important to include them in the process.
+It is also good to invite co-design participants to synthesize with you. The act of synthesis requires interpretation of the findings and will be influenced by the perspectives of those doing the synthesis. To ensure that your synthesis is informed by the perspectives of the community you are working with it is important to include them in the process.
 
-Read more in [Thinking Critically About Synthesis](/resources/Thinking-Critically-About-Synthesis).
+Read more in [Co-designing Synthesis](/resources/Co-designing-Synthesis).
 
 ## When
 
