@@ -97,9 +97,8 @@ For more details about this project and to read the stories, please visit this l
 
 ## References
 
-1 [Design Synthesis - A Step by Step Guide](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e) 
-
-2 [All About Us - Indigenous Data Analysis Workshop](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
-3 [Make Your Mind Strong My Father](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf)
-4
-5
+1. [Design Synthesis - A Step by Step Guide](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e) 
+2. [All About Us - Indigenous Data Analysis Worksho](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
+3. [Make Your Mind Strong my Father](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205947Z&X-Amz-Expires=86400&X-Amz-Signature=9b8ff9cffb1b6f63812cfc0e340a4bea8d30805564457355f40a70cbfbd2b18e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Make_Your_Mind_Strong_My_Fath.pdf%22&x-id=GetObject)
+4.
+5.
