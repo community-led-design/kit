@@ -26,7 +26,7 @@ Traditional design research approaches define synthesis as the process of transl
 
 In a co-design approach participants are included in the synthesis process wherever possible. This guide describes some common synthesis pitfalls as well as co-design approaches that can help to avoid them. 
 
-For more information about synthesis and suggested activities see [Synthesizing co-design outcomes](https://co-design.inclusivedesign.ca/resources/synthesizing-co-design-outcomes/).
+For more information about synthesis and suggested activities see [Synthesizing co-design outcomes](/resources/synthesizing-co-design-outcomes/).
 
 ## Things to Consider
 
