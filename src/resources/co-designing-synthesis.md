@@ -5,7 +5,7 @@ buildingBlock: Ideas and outcomes
 relatedGuides:
   - Documenting and Collecting Co-design Outcomes
 ---
-## About this guide
+## <https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e>About this guide
 
 This guide discusses the ethical considerations of the design synthesis process including how to do it in a more collaborative way.
 
@@ -36,7 +36,7 @@ Synthesis is a process of interpretation rather than a revelation of the truth. 
 
 Awareness of bias is a good start to reducing its impact on synthesis, but awareness alone is not enough. We can’t know someone else’s lived experience or assume their perspective; for this reason it is important that co-design participants are involved in the process of synthesis as much as possible.
 
-One example of synthesis bias comes from the academic research done by settlers on Indigenous peoples in colonized states, resulting in harm to First Nations communities. These research outcomes are "commonly presented in a manner that emphasizes Indigenous peoples' 'difference, disparity, disadvantage, dysfunction, and deprivation' in relation to the non-Indigenous colonizer. These sorts of descriptions create narratives that serve to propagate negative stereotypes regarding indigenous communities, and define - in the colonizer's terms - who an indigenous person is, who they should be, and who they cannot be in the dominant society." ([reference](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T202559Z&X-Amz-Expires=86400&X-Amz-Signature=35f341bf3571641bbb5c25dab411b367ad7e32a1f29d39047bb299c5ae6e424b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject))
+One example of synthesis bias comes from the academic research done by settlers on Indigenous peoples in colonized states, resulting in harm to First Nations communities. These research outcomes are "commonly presented in a manner that emphasizes Indigenous peoples' 'difference, disparity, disadvantage, dysfunction, and deprivation' in relation to the non-Indigenous colonizer. These sorts of descriptions create narratives that serve to propagate negative stereotypes regarding indigenous communities, and define - in the colonizer's terms - who an indigenous person is, who they should be, and who they cannot be in the dominant society."[<sup>2</sup>](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
 
 #### Maintaining diverse voices
 
@@ -95,9 +95,10 @@ As part of a collaborative project with the City of Toronto and the Inclusive De
 
 For more details about this project and to read the stories, please visit this link: [](https://wecount.inclusivedesign.ca/views/project-we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/) <https://wecount.inclusivedesign.ca/views/we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/>
 
-##References
-1
-2
+\##References
+1 [Design Synthesis - A Step by Step Guide](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e) 
+
+2 [All About Us - Indigenous Data Analysis Workshop](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
 3
 4
 5
