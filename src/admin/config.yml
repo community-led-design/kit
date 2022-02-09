@@ -7,7 +7,7 @@ backend:
     update: 'chore(cms): update "{{path}}"'
     delete: 'chore(cms): delete "{{path}}"'
     uploadMedia: 'chore(cms): upload "{{path}}"'
-    deleteMedia: 'chore(cms): delete "{{path}}"'  
+    deleteMedia: 'chore(cms): delete "{{path}}"'
 local_backend: true
 publish_mode: editorial_workflow
 site_url: "https://co-design.netlify.app"
@@ -62,6 +62,7 @@ collections:
         valueField: "title"
         searchFields: ["title"]
         displayFields: ["title"]
+        multiple: true
         required: false
       - label: "Related guides"
         name: "relatedGuides"
