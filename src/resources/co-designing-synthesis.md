@@ -2,6 +2,7 @@
 title: Co-designing Synthesis
 type: Guide
 buildingBlock: Ideas and outcomes
+relatedActivities: Synthesizing Co-design Outcomes
 relatedGuides:
   - Documenting and Collecting Co-design Outcomes
 ---
