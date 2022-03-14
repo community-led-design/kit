@@ -124,7 +124,7 @@ Come to a mutual understanding of what everyone's capacities are, and what they 
 
 ### Unlearning who's an expert and who's not
 
-* Our community facilitators were often hesitant to give us feedback on the co-design plan. They provided valuable feedback when they felt like the activities we were discussing was their domain - ex. the context of childcare providers' lives. However, we also wanted to hear their feedback on whether the activities would be easy to do or would resonate with the providers.
+* Our community facilitators were often hesitant to give us feedback on the co-design plan. They provided valuable feedback when they felt like the activities we were discussing was in their domain, for example, understanding the context of childcare providers' lives. However, we also wanted to hear their feedback on whether the activities would be easy to do or would resonate with the providers.
 
 {% learning "Learning: Demonstrate lived experience as expertise" %}
 
