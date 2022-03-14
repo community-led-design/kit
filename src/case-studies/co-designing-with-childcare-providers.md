@@ -4,12 +4,11 @@ authors:
   - Cheryl Li
   - Dana Ayotte
 organization: Inclusive Design Research Centre
-startDate: '2020'
-endDate: '2020'
+startDate: "2020"
+endDate: "2020"
 metaImage: /assets/media/corise-preview.jpg
-metaImageAlt: >-
-  A childcare provider presenting her idea in front of a room of other childcare
-  provider co-design participants
+metaImageAlt: A childcare provider presenting her idea in front of a room of
+  other childcare provider co-design participants
 ---
 ## Project overview
 
@@ -117,7 +116,7 @@ When a project has limited resources and/or a short timeline, limit the number o
 
 {% learning "Learning: Name and remove accessibility barriers" %}
 
-Come to a mutual understanding of what everyone's capacities were, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible?
+Come to a mutual understanding of what everyone's capacities are, and what they would need to fully take part in the process. What may prevent people from participating fully? What are people's accessibility needs and barriers? How will the group function to ensure that things are accessible as possible?
 
 **Related activity:** Compensating co-designers, setting terms of engagement
 
@@ -137,7 +136,7 @@ Try out the activities with community facilitators. This will provide an opportu
 
 {% learning "Learning: Talk about what everyone brings to the table" %}
 
-Before planning, have conversations together about what expertise does everyone brings to the table, and how does each party want to contribute to this project.
+Before planning, have conversations together about what expertise everyone brings to the table, and how each party wants to contribute to this project.
 
 **Related activity:** Identify & discuss roles and responsibilities
 
