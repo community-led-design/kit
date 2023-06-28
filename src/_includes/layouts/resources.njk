@@ -14,15 +14,15 @@
             <label class="[ weight-bold ]" for="type">Resource Type:</label>
             <select class="[ inline ]" id="type">
                 <option value="">Any type</option>
-                {% for type in [{slug: "activity", name: "Activities"}, {slug: "guide", name: "Guides"}, {slug: "tool", name: "Tools"}] %}
-                <option value="{{ type.slug }}">{{ type.name }}</option>
+                {% for type in [{slugify: "activity", name: "Activities"}, {slugify: "guide", name: "Guides"}, {slugify: "tool", name: "Tools"}] %}
+                <option value="{{ type.slugify }}">{{ type.name }}</option>
                 {% endfor %}
             </select><br>
             <label class="[ weight-bold ]" for="building-block">Building Block:</label>
             <select class="[ inline ]" id="building-block">
                 <option value="">Any building block</option>
                 {% for buildingBlock in buildingBlocks %}
-                <option value="{{ buildingBlock.name | slug }}">{{ buildingBlock.name }}</option>
+                <option value="{{ buildingBlock.name | slugify }}">{{ buildingBlock.name }}</option>
                 {% endfor %}
             </select>
         </div>
