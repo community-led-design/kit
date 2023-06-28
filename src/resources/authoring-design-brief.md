@@ -4,93 +4,100 @@ type: Activity
 buildingBlock: Ideas and outcomes
 ---
 ## What
-A design brief is a report that helps bring clarity and scope to a project and
-its goals by drawing upon ideas and concepts from collaborative design
-activities and other inclusive design practices.
+A design brief is a report that helps bring clarity, direction, and scope to a
+project and its goals by presenting ideas and concepts that emerge from
+collaborative design activities and other inclusive design practices.
 
 A design brief can contain:
 * explanations of methodologies
 * design and development recommendations
-* considerations for future short term and long term directions
+* considerations for further short term and long term explorations
 
 Design briefs can be used as a communication tool to help stakeholders and other
-interested parties understand issues and needs, and possible approaches to
-address them.
+interested parties understand the issues and needs of the community they are
+working with, and possible approaches to address them.
 
 ## Why
 The purpose of a design brief is to help enhance clarity and define scope by
 summarizing the outcomes synthesized from co-design activities so far, and by
-providing specific actionable recommendations, suggestions, and ideas.
+providing specific actionable recommendations, suggestions, and ideas. Over the
+course of a project, multiple design briefs can be created.
 
 Read more in 
 [Synthesizing Co-design Outcomes](/resources/synthesizing-co-design-outcomes)
 and [Co-designing Synthesis](/resources/co-designing-synthesis).
 
 ## When
-A design brief can be created when co-design outcomes have been synthesized
-and interesting concepts are coalescing into more formed ideas and designs. A design
-brief can be created whenever a meaningful milestone has been reached and there is
-a desire to share the design journey up to that point.
+A design brief can be created when co-design activities have been synthesized
+and interesting concepts are coalescing into more formed ideas and designs (read
+more in [Design Process](/design-process)). A design brief can be created
+whenever a meaningful milestone has been reached and there is a desire to share
+the design journey up to that point.
 
 ## Things to consider
 
 ### Aid understanding
-The design brief should contain enough contextual information for the intended
-audience. This may require providing additional detail about the issues,
-process, or methodology so the presented ideas and possible approaches are more
-fully understood.
+The design brief can include contextual information to support the intended
+audience in better understanding the co-design outcomes and suggested
+approaches. This may require providing detail about the issues being addressed,
+the co-design process, and/or methods used to synthesize or prioritize design
+ideas.
 
-For example, if a particular collaborative design process was used, it may be
-useful to detail that design process to better understand the co-designed
-solutions that came from it.
+For example, if a particular collaborative design process or activity was used,
+it may be useful to describe that process or activity in detail in order to
+support a better understanding of the co-designed outcomes that came from it.
 
 ### Preserve and respect diversity
 The process of creating a design brief likely requires combining and summarizing
 diverse findings to allow others to understand, at a high level, the work that
-has been done. This process may result in generalized or abstracted details
-which can lead to a loss of unique voices and perspectives that can lead to a
-loss of innovation.
+has been done. This process may result in generalized or abstracted ideas which
+can lead to a loss of unique voices and perspectives, which in turn can lead to
+a lost opportunity for innovation.
 
-Read more about diversity and innovation in [The Three Dimensions of Inclusive Design, Part
+Read more about diversity and innovation in [The Three Dimensions of Inclusive
+Design, Part
 One](https://idrc.ocadu.ca/ideas/the-three-dimensions-of-inclusive-design-part-one/).
 
-Some strategies to help maintain the diverse voices and contributions:
-* When generalizations or abstractions are made, acknowledge that it does not
-  capture all contributions by participants.
-* Balance generalizations with specific examples of contributions or findings
-  throughout the content of the design brief.
-* Give examples of contributions that do not fit neatly under a generalization
+
+The following are some strategies to help maintain diverse voices and
+contributions:
+* When generalizations or abstractions are made, acknowledge that these may not
+  capture all contributions by all participants.
+* Balance generalizations with examples of individual contributions throughout
+  the design brief.
+* Give examples of contributions that do not fit neatly into a generalization
   and explain why those contributions may be interesting or significant.
-* Include in an appendix or include reference to a source to access all
-  contributions.
+* Include an appendix or refer to a source where all individual contributions
+  can be accessed.
 
 ### Embrace Lack of Completeness
-Maintain an expectation that a design brief represents a culmination of what is
-understood _so far_ and that there is more exploration and refinement to be
-done.
+Emphasize that the design brief represents a culmination of what is understood
+_so far_ and that there is more exploration and refinement to be done.
 
 This can be done by:
-* Documenting the lack of completeness where necessary. For example, synthesis
-  findings may highlight a particular response by participants, but it may not
-  be fully understood why they responded that way.
-* Including a section about possible future directions and promising untapped
-  ideas from co-design.
-* Using indefinite language such as "good practices" instead of "best
-  practices", and "approaches" instead of "solutions" which helps reinforce the
-  idea that understanding of the topic will continue to grow and change.
+* Documenting the lack of completeness where necessary. For example, synthesized
+  findings may highlight a particular response by participants that may not be
+  fully understood and may be worth further exploration. 
+* Including a section about possible future directions for further co-design and
+  promising untapped ideas.
+* Using indefinite language such as “good practices” instead of “best
+  practices”, and “approaches” instead of “solutions”. This helps to reinforce
+  the idea that understanding of the topic will continue to grow and change.
 
 ## Contents of a design brief
 The contents of a design brief can vary depending on the audience, project
 stage, and other factors. A design brief can include:
 
-* Summary of the design process taken so far which can include how co-designers
-  were gathered, details about workshops, and co-design tools and processes used
-  at these events.
-* Findings that have been emerging from the design process. This can include any
-  synthesis and interesting themes.
-* Discussion of concepts and ideas including design mockups, prototypes, or
-  other artifacts.
-* Direction and suggestions for design and development based on co-design
-  findings and artifacts.
-* Possible plans for the future exploration and discovery drawn from findings
-  and synthesis.
+* A summary of the design process taken so far which can include how
+  co-designers were selected, details about workshop structure, and co-design
+  tools and processes used at these events.
+* Findings that have emerged from the design process. This can include any
+  synthesis and interesting themes. 
+* Presentation and discussion of concepts and ideas including design mockups,
+  prototypes, or other artifacts. 
+* Direction and suggestions for future design and development based on co-design
+findings and artifacts. Possible plans for future exploration.
+
+A project may have multiple design briefs created at different milestones and
+can show the evolution and refinement of ideas, concepts, and artifacts over
+time - giving further clarity, direction, and scope.
