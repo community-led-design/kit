@@ -2,9 +2,6 @@
 title: Authoring a Design Brief
 type: Activity
 buildingBlock: Ideas and outcomes
-relatedActivities: Synthesizing Co-design Outcomes
-relatedGuides:
-  - Documenting and Collecting Co-design Outcomes
 ---
 ## What
 A design brief is a report that helps bring clarity and scope to a project and
