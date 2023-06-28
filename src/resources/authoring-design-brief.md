@@ -22,15 +22,18 @@ address them.
 
 ## Why
 The purpose of a design brief is to help enhance clarity and define scope by
-summarizing the outcomes synthesized from co-design activities so far (see
-[Synthesizing Co-design Outcomes](/resources/synthesizing-co-design-outcomes)
-and [Co-designing Synthesis](/resources/co-designing-synthesis)), and by
+summarizing the outcomes synthesized from co-design activities so far, and by
 providing specific actionable recommendations, suggestions, and ideas.
 
+Read more in 
+[Synthesizing Co-design Outcomes](/resources/synthesizing-co-design-outcomes)
+and [Co-designing Synthesis](/resources/co-designing-synthesis).
+
 ## When
-A design brief can be created when co-design activities have been synthesized
-and interesting concepts are coalescing into more formed ideas and designs (see:
-[The design process: Map and walking guide](/design-process)).
+A design brief can be created when co-design outcomes have been synthesized
+and interesting concepts are coalescing into more formed ideas and designs. A design
+brief can be created whenever a meaningful milestone has been reached and there is
+a desire to share the design journey up to that point.
 
 ## Things to consider
 
@@ -49,7 +52,10 @@ The process of creating a design brief likely requires combining and summarizing
 diverse findings to allow others to understand, at a high level, the work that
 has been done. This process may result in generalized or abstracted details
 which can lead to a loss of unique voices and perspectives that can lead to a
-loss of innovation (see: [The Three Dimensions of Inclusive Design, Part One](https://idrc.ocadu.ca/ideas/the-three-dimensions-of-inclusive-design-part-one/)).
+loss of innovation.
+
+Read more about diversity and innovation in [The Three Dimensions of Inclusive Design, Part
+One](https://idrc.ocadu.ca/ideas/the-three-dimensions-of-inclusive-design-part-one/).
 
 Some strategies to help maintain the diverse voices and contributions:
 * When generalizations or abstractions are made, acknowledge that it does not
@@ -72,8 +78,8 @@ This can be done by:
   be fully understood why they responded that way.
 * Including a section about possible future directions and promising untapped
   ideas from co-design.
-* Using indefinite language such as “good practices” instead of “best
-  practices”, and “approaches” instead of “solutions” which helps reinforce the
+* Using indefinite language such as "good practices" instead of "best
+  practices", and "approaches" instead of "solutions" which helps reinforce the
   idea that understanding of the topic will continue to grow and change.
 
 ## Contents of a design brief
@@ -84,8 +90,7 @@ stage, and other factors. A design brief can include:
   were gathered, details about workshops, and co-design tools and processes used
   at these events.
 * Findings that have been emerging from the design process. This can include any
-  synthesis (see: [Synthesizing Co-design Outcomes](/resources/synthesizing-co-design-outcomes)) and interesting
-  themes.
+  synthesis and interesting themes.
 * Discussion of concepts and ideas including design mockups, prototypes, or
   other artifacts.
 * Direction and suggestions for design and development based on co-design
