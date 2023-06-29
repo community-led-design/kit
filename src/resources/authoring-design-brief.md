@@ -31,11 +31,9 @@ Read more in
 and [Co-designing Synthesis](/resources/co-designing-synthesis).
 
 ## When
-A design brief can be created when co-design activities have been synthesized
-and interesting concepts are coalescing into more formed ideas and designs (read
-more in [Design Process](/design-process)). A design brief can be created
-whenever a meaningful milestone has been reached and there is a desire to share
-the design journey up to that point.
+A design brief can be created whenever a meaningful milestone has been reached
+and there is a desire to share the design journey up to that point  (read more
+in [Design Process](/design-process)).
 
 ## Things to consider
 
