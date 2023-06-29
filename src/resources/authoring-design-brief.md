@@ -18,10 +18,13 @@ interested parties understand the issues and needs of the community they are
 working with, and possible approaches to address them.
 
 ## Why
-The purpose of a design brief is to help enhance clarity and define scope by
-summarizing the outcomes synthesized from co-design activities so far, and by
-providing specific actionable recommendations, suggestions, and ideas. Over the
-course of a project, multiple design briefs can be created.
+The purpose of the design brief is to provide direction for continued co-design
+work at any stage in the project when the design may not yet be fully realized,
+but some co-design activities have been completed. It can also help  enhance
+clarity and define scope by summarizing the outcomes synthesized from co-design
+activities so far, and by providing specific actionable recommendations,
+suggestions, and ideas. Over the course of a project, multiple design briefs can
+be created.
 
 Read more in 
 [Synthesizing Co-design Outcomes](/resources/synthesizing-co-design-outcomes)
