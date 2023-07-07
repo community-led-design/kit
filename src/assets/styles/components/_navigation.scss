@@ -313,13 +313,18 @@
         left: 0;
         position: absolute;
         top: rem(64);
-        width: rem(256);
+
+        li {
+            min-width: min-content;
+            white-space: nowrap;
+        }
 
         li a {
             background: var(--nav-submenu-background);
             color: var(--nav-submenu-color);
             justify-content: flex-start;
             padding-left: var(--scale-4);
+            width: 100%;
 
             &:hover {
                 background: var(--nav-submenu-hover-background);
