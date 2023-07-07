@@ -313,7 +313,11 @@
         left: 0;
         position: absolute;
         top: rem(64);
-        width: rem(256);
+
+        li {
+            min-width: min-content;
+            white-space: nowrap;
+        }
 
         li a {
             background: var(--nav-submenu-background);
