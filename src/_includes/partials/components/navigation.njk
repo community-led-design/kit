@@ -58,7 +58,7 @@
             {% if entry.title === "Resources" %}
               {% for buildingBlock in buildingBlocks %}
                 {% set currentAttribute = '' %}
-                {% set childSlug = buildingBlock.name | slug %}
+                {% set childSlug = buildingBlock.name | slugify %}
                 {% set childUrl = "/building-blocks/" + childSlug + "/" %}
                 {% set childTitle = buildingBlock.name %}
                 {% set currentPage = page.url === childUrl %}

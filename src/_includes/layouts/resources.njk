@@ -22,7 +22,7 @@
             <select class="[ inline ]" id="building-block">
                 <option value="">Any building block</option>
                 {% for buildingBlock in buildingBlocks %}
-                <option value="{{ buildingBlock.name | slug }}">{{ buildingBlock.name }}</option>
+                <option value="{{ buildingBlock.name | slugify }}">{{ buildingBlock.name }}</option>
                 {% endfor %}
             </select>
         </div>

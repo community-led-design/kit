@@ -1,4 +1,4 @@
 {
     "layout": "layouts/case-study",
-    "permalink": "/case-studies/{{ title | slug }}/"
+    "permalink": "/case-studies/{{ title | slugify }}/"
 }

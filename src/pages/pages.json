@@ -1,6 +1,6 @@
 {
     "layout": "layouts/page",
-    "permalink": "/{{ title | slug }}/",
+    "permalink": "/{{ title | slugify }}/",
     "bannerBg": "blue-100",
     "banner": "light"
 }
