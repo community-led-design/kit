@@ -29,12 +29,6 @@
         "url": "https://github.com/inclusive-design/codesign.inclusivedesign.ca/issues"
     },
     "homepage": "https://github.com/inclusive-design/codesign.inclusivedesign.ca#readme",
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run lint",
-            "commit-msg": "commitlint -E $1"
-        }
-    },
     "dependencies": {
         "@11ty/eleventy": "2.0.1",
         "@11ty/eleventy-img": "3.1.0",
