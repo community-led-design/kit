@@ -12,7 +12,7 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 "use strict";
 const {parseHTML} = require("linkedom");
-const slugify = require("slugify");
+const slugify = require("@sindresorhus/slugify");
 
 const slugifyOptions = {
     replacement: "-",
