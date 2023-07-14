@@ -32,7 +32,7 @@
     "husky": {
         "hooks": {
             "pre-commit": "npm run lint",
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+            "commit-msg": "commitlint -E $1"
         }
     },
     "dependencies": {
