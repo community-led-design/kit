@@ -45,7 +45,6 @@
         "backstopjs": "6.2.2",
         "cross-env": "7.0.3",
         "fluid-lint-all": "1.2.9",
-        "html-minifier": "4.0.0",
         "husky": "8.0.3",
         "image-size": "1.0.0",
         "laravel-mix": "6.0.49",

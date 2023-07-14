@@ -49,7 +49,6 @@ function imageShortcode(src, alt, sizes, widths) {
 }
 
 // Import transforms
-const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
@@ -66,7 +65,6 @@ module.exports = function (config) {
     config.addNunjucksShortcode("resizeImage", imageShortcode);
 
     // Transforms
-    config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
 
     // Passthrough copy
