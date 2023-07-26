@@ -78,13 +78,13 @@ module.exports = function (config) {
 
     // Plugins
     config.addPlugin(fluidPlugin, {
-		css: {
-			enabled: false
-		},
-		sass: {
-			enabled: true
-		}
-	});
+        css: {
+            enabled: false
+        },
+        sass: {
+            enabled: true
+        }
+    });
     config.addPlugin(rssPlugin);
     config.addPlugin(navigationPlugin);
 
