@@ -77,7 +77,14 @@ module.exports = function (config) {
     config.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
 
     // Plugins
-    config.addPlugin(fluidPlugin);
+    config.addPlugin(fluidPlugin, {
+        css: {
+            enabled: false
+        },
+        sass: {
+            enabled: true
+        }
+    });
     config.addPlugin(rssPlugin);
     config.addPlugin(navigationPlugin);
 
