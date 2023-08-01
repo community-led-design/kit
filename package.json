@@ -39,7 +39,7 @@
     "devDependencies": {
         "@babel/core": "7.15.0",
         "@commitlint/cli": "17.6.7",
-        "@commitlint/config-conventional": "17.6.6",
+        "@commitlint/config-conventional": "17.6.7",
         "backstopjs": "6.2.2",
         "cross-env": "7.0.3",
         "fluid-lint-all": "1.2.9",
