@@ -27,7 +27,7 @@ const collapseMenu = () => {
 
 /**
  * Collapse the submenu corresponding to the toggle button `btn`.
- * @param {HTMLElement} btn The toggle button whose submenu should be collapsed.
+ * @param {HTMLElement} btn - The toggle button whose submenu should be collapsed.
  */
 const collapseSubmenu = btn => {
     btn.setAttribute("aria-expanded", false);

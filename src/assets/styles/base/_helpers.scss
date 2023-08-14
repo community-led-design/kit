@@ -81,7 +81,7 @@
 .bg--full {
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 100vw;
+    width: calc(100vw - var(--scrollbar-width, 0));
 
     .wrapper {
         padding: var(--scale-8) var(--scale-4);

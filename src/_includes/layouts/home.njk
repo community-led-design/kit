@@ -41,7 +41,7 @@
                 <li>
                     <p class="[ blob ] [ blob--yellow-500 ]">{% include "svg/blob-2.svg" %}</p>
                     <p class="h3 mt-scale--1">How to use this kit</p>
-                    <p>Familiarize yourself on on <a href="/how-to/">How to use this Kit</a></p>
+                    <p>Familiarize yourself on <a href="/how-to/">How to use this Kit</a></p>
                 </li>
                 <li>
                     <p class="[ blob ] [ blob--yellow-500 ]">{% include "svg/blob-3.svg" %}</p>
@@ -61,11 +61,11 @@
             <div class="grid grid--md-2 grid--lg-3 mt-scale-5">
             {% for block in buildingBlocks %}
             <div>
-                {% set blockIllustration = "block-" + block.name | slug + ".svg" %}
+                {% set blockIllustration = "block-" + block.name | slugify + ".svg" %}
                 <p class="block-icon">{% include "svg/" + blockIllustration %}</p>
                 <h4>{{ block.name | safe }}</h4>
                 <p>{{ block.description | safe }}</p>
-                <p><a href="/building-blocks/{{ block.name | slug }}/">Browse methods in {{ block.name | lower | safe }}</a></p>
+                <p><a href="/building-blocks/{{ block.name | slugify }}/">Browse methods in {{ block.name | lower | safe }}</a></p>
             </div>
             {% endfor %}
             </div>

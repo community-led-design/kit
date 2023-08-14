@@ -49,11 +49,6 @@ h2,
     }
 }
 
-* + h2,
-* + .h2 {
-    margin-top: var(--scale-7);
-}
-
 h3,
 .h3 {
     font-size: var(--scale-2);
@@ -62,18 +57,6 @@ h3,
     @media (min-width: 768px) {
         font-size: var(--scale-3);
     }
-}
-
-* + h3,
-* + .h3 {
-    margin-top: var(--scale-5);
-}
-
-h2 + h3,
-h2 + .h3,
-.h2 + h3,
-.h2 + .h3 {
-    margin-top: var(--scale-4);
 }
 
 h4,
@@ -87,48 +70,80 @@ h4,
     }
 }
 
-* + h4,
-* + .h4 {
-    margin-top: var(--scale-2);
-}
-
-* + p {
-    margin-top: var(--scale--1);
-}
-
-* + ul,
-* + ol {
-    margin-top: var(--scale--1);
-}
-
 blockquote {
-    background: var(--blue-100);
-    border-left: solid 3px var(--blue-500);
-    font-size: var(--scale-1);
-    font-style: italic;
-    line-height: 1.35;
-    padding: var(--scale-2);
+    background: var(--white);
+    border-left: 4px solid var(--blue-300);
+    padding: var(--scale-3) var(--scale-5);
+
+    svg {
+        color: var(--blue-300);
+        width: var(--scale-5);
+    }
+
+    svg + * {
+        margin-top: 0;
+    }
 }
 
-* + blockquote {
-    margin-top: var(--scale--1);
+cite {
+    font-size: var(--scale--1);
+}
+
+cite::before {
+    content: "–";
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: var(--scale-1);
+}
+
+ul ul {
+    list-style: circle;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: var(--scale-1);
 }
 
 ul[role="list"],
 ol[role="list"] {
+    list-style-type: none;
     padding-left: 0;
 }
 
-.inner-content ul:not([class]) {
-    list-style-position: outside;
-    list-style-type: disc;
-    padding-left: 0;
-}
+.content {
+    * + * {
+        margin-top: var(--scale-0);
+    }
 
-.inner-content ol:not([class]) {
-    list-style-position: outside;
-    list-style-type: decimal;
-    padding-left: 0;
+    * + h2,
+    * + .h2 {
+        margin-top: var(--scale-7);
+    }
+
+    * + h3,
+    * + .h3 {
+        margin-top: var(--scale-5);
+    }
+
+    h2 + h3,
+    h2 + .h3,
+    .h2 + h3,
+    .h2 + .h3 {
+        margin-top: var(--scale-4);
+    }
+
+    * + h4,
+    * + .h4 {
+        margin-top: var(--scale-2);
+    }
+
+    ul * + ul,
+    li + li {
+        margin-top: 0;
+    }
 }
 
 .text-scale--1 {

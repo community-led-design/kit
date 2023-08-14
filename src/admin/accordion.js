@@ -10,7 +10,7 @@ CMS.registerEditorComponent({
         label: "Content",
         widget: "markdown"
     }],
-    pattern: /{% accordion %}([\s\S]*?){% endaccordion %}/,
+    pattern: /^{% accordion %}([\s\S]*?){% endaccordion %}/,
     fromBlock: function (match) {
         return {
             content: match[1]

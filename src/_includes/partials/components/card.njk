@@ -1,7 +1,6 @@
-<article itemscope itemtype="https://schema.org/Guide" class="card resource" data-filter="{{ resource.data.type | slug }} {{ resource.data.buildingBlock | slug }}">
+<article itemscope itemtype="https://schema.org/Guide" class="card resource" data-filter="{{ resource.data.type | slugify }} {{ resource.data.buildingBlock | slugify }}">
     <h2 itemprop="name" class="h4"><a href="{{ resource.url }}">{{ resource.data.title }}</a></h2>
-    {% set typeIcon = resource.data.type | slug + ".svg" %}
-    {% set blockIcon = resource.data.buildingBlock | slug + ".svg" %}
+    {% set typeIcon = resource.data.type | slugify + ".svg" %}
+    {% set blockIcon = resource.data.buildingBlock | slugify + ".svg" %}
     <p class="">{% include "svg/" + typeIcon %} <strong>{{ resource.data.type }}</strong> for&nbsp;<br />{% include "svg/" + blockIcon %}  <strong>{{ resource.data.buildingBlock }}</strong></p>
 </article>
-    

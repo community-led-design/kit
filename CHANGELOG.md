@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## 1.0.0 (2020-12-22)
 
-
 ### Features
 
 * accordion (resolves [#27](https://github.com/inclusive-design/codesign.inclusivedesign.ca/issues/27)) ([#30](https://github.com/inclusive-design/codesign.inclusivedesign.ca/issues/30)) ([25b32a8](https://github.com/inclusive-design/codesign.inclusivedesign.ca/commit/25b32a883301c69fe9a1252dc13581191472cf3c))

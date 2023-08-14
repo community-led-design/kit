@@ -1,0 +1,37 @@
+{
+    "eslint": {
+        "js": {
+            "includes": ["./.eleventy.js"]
+        }
+    },
+    "lintspaces": {
+        "jsonindentation": {
+            "excludes": [
+                "./src/_data/*.json"
+            ]
+        },
+        "newlines": {
+            "excludes": [
+                "*.ico",
+                "*.jpg",
+                "*.png",
+                "*.webp",
+                "*.woff",
+                "*.woff2",
+                "./src/_data/*.json",
+                "./src/case-studies/*.md",
+                "./src/pages/*.md",
+                "./src/resources/*.md",
+                "./CHANGELOG.md"
+            ]
+        }
+    },
+    "markdownlint": {
+        "excludes": [
+            "./src/case-studies/*.md",
+            "./src/pages/*.md",
+            "./src/resources/*.md",
+            "./CHANGELOG.md"
+        ]
+    }
+}

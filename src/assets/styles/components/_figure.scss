@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the card component.
+// -----------------------------------------------------------------------------
+
+figure {
+    // TODO
+}
+
+figcaption {
+    color: var(--blue-600);
+    font-size: var(--scale-0);
+    font-style: italic;
+    line-height: 1.4;
+    margin: var(--scale--4) 0;
+}
+
+.content * + figure {
+    margin-top: var(--scale-2);
+}
