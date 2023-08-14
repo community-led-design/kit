@@ -1,17 +1,21 @@
 {
-    "name": "co-design.inclusivedesign.ca",
+    "name": "@inclusive-design/co-design.inclusivedesign.ca",
     "version": "1.0.0",
+    "private": true,
     "description": "Website for the Community-Led Co-design Kit.",
     "scripts": {
-        "build": "npm-run-all -l clean build:*",
-        "build:webpack": "mix --production",
-        "build:eleventy": "cross-env NODE_ENV=production eleventy",
+        "backstop:reference": "backstop reference --docker --config=backstop.config.js",
+        "backstop:test": "backstop test --docker --config=backstop.config.js",
+        "backstop:approve": "backstop approve --config=backstop.config.js",
+        "build": "npm-run-all -l clean build:eleventy",
+        "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
         "clean": "rimraf dist",
-        "lint": "grunt lint",
-        "release": "standard-version -t ''",
-        "start": "npm-run-all -l clean -p start:*",
-        "start:webpack": "mix watch",
-        "start:eleventy": "cross-env NODE_ENV=development eleventy --serve"
+        "cms": "netlify-cms-proxy-server",
+        "debug": "DEBUG=Eleventy* npm start",
+        "dev": "cross-env NODE_ENV=development eleventy --serve",
+        "lint": "fluid-lint-all",
+        "start": "npm-run-all -l clean -p start:eleventy",
+        "start:eleventy": "run-p dev cms"
     },
     "repository": {
         "type": "git",
@@ -23,43 +27,27 @@
         "url": "https://github.com/inclusive-design/codesign.inclusivedesign.ca/issues"
     },
     "homepage": "https://github.com/inclusive-design/codesign.inclusivedesign.ca#readme",
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run lint",
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-        }
-    },
     "dependencies": {
-        "@11ty/eleventy": "0.11.1",
-        "@11ty/eleventy-navigation": "0.1.6",
-        "@11ty/eleventy-plugin-rss": "1.0.9",
-        "@11ty/eleventy-plugin-syntaxhighlight": "3.0.4",
-        "eleventy-plugin-fluid": "0.1.0",
-        "infusion": "3.0.0-dev.20201007T193943Z.440be20ec.FLUID-6145"
+        "@11ty/eleventy": "2.0.1",
+        "@11ty/eleventy-img": "3.1.0",
+        "@11ty/eleventy-navigation": "0.3.5",
+        "@11ty/eleventy-plugin-rss": "1.2.0",
+        "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
+        "eleventy-plugin-fluid": "fluid-project/eleventy-plugin-fluid#main",
+        "infusion": "4.6.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "11.0.0",
-        "@commitlint/config-conventional": "11.0.0",
+        "@babel/core": "7.15.0",
+        "@commitlint/cli": "17.6.7",
+        "@commitlint/config-conventional": "17.6.6",
+        "backstopjs": "6.2.2",
         "cross-env": "7.0.3",
-        "debug": "4.3.1",
-        "fluid-grunt-lint-all": "2.0.0",
-        "grunt": "1.3.0",
-        "html-minifier": "4.0.0",
-        "husky": "4.3.6",
-        "image-size": "0.9.3",
-        "jsdom": "16.4.0",
-        "laravel-mix": "6.0.6",
-        "modern-css-reset": "1.3.0",
-        "move-file": "2.0.0",
+        "fluid-lint-all": "1.2.9",
+        "husky": "8.0.3",
+        "linkedom": "0.15.1",
+        "modern-css-reset": "1.4.0",
+        "netlify-cms-proxy-server": "^1.3.24",
         "npm-run-all": "4.1.5",
-        "postcss": "8.2.2",
-        "resolve-url-loader": "3.1.2",
-        "rimraf": "3.0.2",
-        "sass": "1.32.0",
-        "sass-loader": "10.1.0",
-        "slugify": "1.4.6",
-        "standard-version": "9.1.0",
-        "stylus": "0.54.8",
-        "stylus-loader": "4.3.1"
+        "rimraf": "5.0.1"
     }
 }

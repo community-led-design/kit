@@ -1,17 +1,24 @@
 backend:
   name: git-gateway
   branch: main
+  squash_merges: true
+  commit_messages:
+    create: 'chore(cms): create "{{path}}"'
+    update: 'chore(cms): update "{{path}}"'
+    delete: 'chore(cms): delete "{{path}}"'
+    uploadMedia: 'chore(cms): upload "{{path}}"'
+    deleteMedia: 'chore(cms): delete "{{path}}"'
+local_backend: true
 publish_mode: editorial_workflow
 site_url: "https://co-design.netlify.app"
-media_folder: "src/assets/images"
-public_folder: "/assets/images"
+media_folder: "src/assets/media"
+public_folder: "/assets/media"
 collections:
   - name: pages
     label: Pages
     label_singular: Page
     folder: "src/pages"
-    slug: "{{slug}}"
-    preview_path: "{{slug}}"
+    slug: "{{title}}"
     create: true
     filter: {field: "editable", value: true}
     fields:
@@ -31,8 +38,8 @@ collections:
     label: Resources
     label_singular: Resource
     folder: "src/resources"
-    slug: "{{slug}}"
-    preview_path: "resources/{{slug}}"
+    slug: "{{title}}"
+    preview_path: "/resources/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -48,13 +55,46 @@ collections:
         name: "buildingBlock"
         widget: "select"
         options: ["Partnership", "Community involvement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
+      - label: "Related activities"
+        name: "relatedActivities"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: "Related guides"
+        name: "relatedGuides"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: "Related tools"
+        name: "relatedTools"
+        widget: "relation"
+        collection: "resources"
+        valueField: "title"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        multiple: true
+        required: false
+      - label: "Further resources"
+        name: "furtherResources"
+        widget: "list"
+        fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Link", name: "link", widget: "string" }
       - {label: "Body", name: "body", widget: "markdown"}
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
     folder: "src/case-studies"
-    slug: "{{slug}}"
-    preview_path: "/case-studies/{{slug}}"
+    slug: "{{title}}"
+    preview_path: "/case-studies/"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -65,6 +105,6 @@ collections:
       - {label: "End Year", name: "endDate", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
-      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image"}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

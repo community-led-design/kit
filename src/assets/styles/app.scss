@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 // 0. Reset
-@import '~modern-css-reset';
+@import '../../../node_modules/modern-css-reset/dist/reset';
 
 // 1. Configuration and helpers
 @import
@@ -32,9 +32,11 @@
 @import
     'components/accordion',
     'components/blob',
+    'components/block',
     'components/brand',
     'components/button',
     'components/card',
+    'components/figure',
     'components/hr',
     'components/image-text',
     'components/navigation',

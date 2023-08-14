@@ -10,9 +10,9 @@
 <header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
     <div class="wrapper">
         <h1 itemprop="name">{{ title | safe}}</h1>
-        {% set typeIcon = type | slug + ".svg" %}
-        {% set blockIcon = buildingBlock | slug + ".svg" %}
-        <p class="subtitle text-scale-2 weight-normal">{% include "svg/" + typeIcon %} <strong>{{ type }}</strong> for {% include "svg/" + blockIcon %} <a href="/building-blocks/{{ buildingBlock | slug }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
+        {% set typeIcon = type | slugify + ".svg" %}
+        {% set blockIcon = buildingBlock | slugify + ".svg" %}
+        <p class="subtitle text-scale-2 weight-normal">{% include "svg/" + typeIcon %} <strong>{{ type }}</strong> for {% include "svg/" + blockIcon %} <a href="/building-blocks/{{ buildingBlock | slugify }}/"><strong>{{ buildingBlock | title }}</strong></a></p>
     </div>
 </header>
 {% endblock %}
@@ -31,7 +31,43 @@
             </nav>
         </div>
         <div class="inner-content">
-        {{ content | safe }}
+            {{ content | safe }}
+            {% if relatedActivities.length %}
+            <h2>Related activities</h2>
+            {% for activity in relatedActivities %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === activity %}
+                <p><a href="{{ resource.data.url }}">{{ activity }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if relatedGuides.length %}
+            <h2>Related guides</h2>
+            {% for guide in relatedGuides %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === guide %}
+                <p><a href="{{ resource.data.url }}">{{ guide }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if relatedTools.length %}
+            <h2>Related tools</h2>
+            {% for tool in relatedTools %}
+                {% for resource in collections.resources %}
+                {% if resource.data.title === tool %}
+                <p><a href="{{ resource.data.url }}">{{ tool }}</a></p>
+                {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+            {% if furtherResources.length %}
+            <h2>Further resources</h2>
+            {% for resource in furtherResources %}
+                <p><a href="{{ resource.link }}">{{ resource.title }}</a></p>
+            {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>

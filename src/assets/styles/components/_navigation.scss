@@ -63,7 +63,7 @@
     margin-top: calc(-1 * (var(--scale-4) + var(--scale-0)));
     padding-top: calc(var(--scale-4) + var(--scale-0));
     position: relative;
-    width: 100vw;
+    width: calc(100vw - var(--scrollbar-width, 0));
     z-index: 10;
 }
 
@@ -313,7 +313,11 @@
         left: 0;
         position: absolute;
         top: rem(64);
-        width: rem(256);
+
+        li {
+            min-width: min-content;
+            white-space: nowrap;
+        }
 
         li a {
             background: var(--nav-submenu-background);
