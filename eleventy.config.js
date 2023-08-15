@@ -51,59 +51,60 @@ function imageShortcode(src, alt, sizes, widths) {
 // Import transforms
 const parseTransform = require("./src/transforms/parse-transform.js");
 
-module.exports = function (config) {
-    config.setUseGitIgnore(false);
+module.exports = function (eleventyConfig) {
+    eleventyConfig.setUseGitIgnore(false);
 
     // Shortcodes
-    config.addPairedShortcode("accordion", content => {
+    eleventyConfig.addPairedShortcode("accordion", content => {
         return `<div class="accordion flow">\n${content}\n</div>`;
     });
-    config.addPairedShortcode("example", exampleBlockShortcode);
-    config.addPairedShortcode("learning", learningBlockShortcode);
-    config.addPairedShortcode("pullquote", pullquoteShortcode);
+    eleventyConfig.addPairedShortcode("example", exampleBlockShortcode);
+    eleventyConfig.addPairedShortcode("learning", learningBlockShortcode);
+    eleventyConfig.addPairedShortcode("pullquote", pullquoteShortcode);
 
-    config.addNunjucksShortcode("resizeImage", imageShortcode);
+    eleventyConfig.addNunjucksShortcode("resizeImage", imageShortcode);
 
     // Transforms
-    config.addTransform("parse", parseTransform);
+    eleventyConfig.addTransform("parse", parseTransform);
 
     // Passthrough copy
-    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-    config.addPassthroughCopy({"src/assets/icons/": "/"});
-    config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/assets/media": "assets/media"});
-    config.addPassthroughCopy("src/admin/config.yml");
-    config.addPassthroughCopy("src/admin/*.js");
-    config.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
+    eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
+    eleventyConfig.addPassthroughCopy({"src/assets/icons/": "/"});
+    eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
+    eleventyConfig.addPassthroughCopy({"src/assets/media": "assets/media"});
+    eleventyConfig.addPassthroughCopy("src/admin/config.yml");
+    eleventyConfig.addPassthroughCopy("src/admin/*.js");
+    eleventyConfig.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
 
     // Plugins
-    config.addPlugin(fluidPlugin, {
+    eleventyConfig.addPlugin(fluidPlugin, {
         css: {
             enabled: false
         },
         sass: {
             enabled: true
-        }
+        },
+        i18n: false
     });
-    config.addPlugin(rssPlugin);
-    config.addPlugin(navigationPlugin);
+    eleventyConfig.addPlugin(rssPlugin);
+    eleventyConfig.addPlugin(navigationPlugin);
 
     // Collections
 
-    config.addCollection("resources", collection => {
+    eleventyConfig.addCollection("resources", collection => {
         return [
-            ...collection.getFilteredByGlob("src/resources/*.md").sort((a, b) => b.data.order - a.data.order)
+            ...collection.getFilteredByGlob("src/collections/resources/*.md").sort((a, b) => b.data.order - a.data.order)
         ].reverse();
     });
 
-    config.addCollection("caseStudies", collection => {
+    eleventyConfig.addCollection("caseStudies", collection => {
         return [
-            ...collection.getFilteredByGlob("src/case-studies/*.md").sort((a, b) => b.data.order - a.data.order)
+            ...collection.getFilteredByGlob("src/collections/case-studies/*.md").sort((a, b) => b.data.order - a.data.order)
         ].reverse();
     });
 
     // 404
-    config.setBrowserSyncConfig({
+    eleventyConfig.setBrowserSyncConfig({
         callbacks: {
             ready: function (err, bs) {
 
