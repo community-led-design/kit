@@ -10,14 +10,14 @@ backend:
     deleteMedia: 'chore(cms): delete "{{path}}"'
 local_backend: true
 publish_mode: editorial_workflow
-site_url: "https://co-design.netlify.app"
+site_url: "https://co-design.inclusivedesign.ca"
 media_folder: "src/assets/media"
 public_folder: "/assets/media"
 collections:
   - name: pages
     label: Pages
     label_singular: Page
-    folder: "src/pages"
+    folder: "src/collections/pages"
     slug: "{{title}}"
     create: true
     filter: {field: "editable", value: true}
@@ -37,7 +37,7 @@ collections:
   - name: resources
     label: Resources
     label_singular: Resource
-    folder: "src/resources"
+    folder: "src/collections/resources"
     slug: "{{title}}"
     preview_path: "/resources/"
     create: true
@@ -92,7 +92,7 @@ collections:
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
-    folder: "src/case-studies"
+    folder: "src/collections/case-studies"
     slug: "{{title}}"
     preview_path: "/case-studies/"
     create: true
