@@ -1,5 +1,5 @@
 node_modules
-dist
+_site
 src/_data/assets.json
 
 # Local Netlify folder

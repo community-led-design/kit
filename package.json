@@ -9,7 +9,7 @@
         "backstop:approve": "backstop approve --config=backstop.config.js",
         "build": "npm-run-all -l clean build:eleventy",
         "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
-        "clean": "rimraf dist",
+        "clean": "rimraf _site",
         "cms": "netlify-cms-proxy-server",
         "debug": "DEBUG=Eleventy* npm start",
         "dev": "cross-env NODE_ENV=development eleventy --serve",

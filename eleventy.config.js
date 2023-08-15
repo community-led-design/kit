@@ -28,7 +28,7 @@ function imageShortcode(src, alt, sizes, widths) {
     let options = {
         widths: widths,
         formats: ["jpeg"],
-        outputDir: "./dist/assets/media/generated",
+        outputDir: "./_site/assets/media/generated",
         urlPath: "/assets/media/generated/",
         sharpJpegOptions: {
             quality: 99,
@@ -103,28 +103,11 @@ module.exports = function (eleventyConfig) {
         ].reverse();
     });
 
-    // 404
-    eleventyConfig.setBrowserSyncConfig({
-        callbacks: {
-            ready: function (err, bs) {
-
-                bs.addMiddleware("*", (req, res) => {
-                    const content_404 = fs.readFileSync("dist/404.html");
-                    // Provides the 404 content without redirect.
-                    res.write(content_404);
-                    res.writeHead(404);
-                    res.end();
-                });
-            }
-        }
-    });
-
     return {
         dir: {
-            input: "src",
-            output: "dist",
-            includes: "_includes"
+            input: "src"
         },
-        passthroughFileCopy: true
+        passthroughFileCopy: true,
+        markdownTemplateEngine: "njk"
     };
 };

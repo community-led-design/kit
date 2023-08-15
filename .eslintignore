@@ -1,2 +1,1 @@
-dist/**
-!.eleventy.js
+_site/**
