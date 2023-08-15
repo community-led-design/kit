@@ -10,9 +10,9 @@ You may obtain a copy of the New BSD License at
 https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/master/LICENSE.md.
 */
 
-require("./components/nav.js");
+require("./components/_nav.js");
 
-import Accordion from "./components/Accordion.js";
+import Accordion from "./components/_accordion.js";
 
 window.accordions = new Accordion(".accordion", {
     header: "h3",
