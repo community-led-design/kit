@@ -33,7 +33,8 @@
         "@11ty/eleventy-navigation": "0.3.5",
         "@11ty/eleventy-plugin-rss": "1.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
-        "eleventy-plugin-fluid": "fluid-project/eleventy-plugin-fluid#main",
+        "@babel/standalone": "7.22.10",
+        "eleventy-plugin-fluid": "2.3.2",
         "infusion": "4.6.0"
     },
     "devDependencies": {

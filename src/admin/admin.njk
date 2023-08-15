@@ -10,12 +10,16 @@ permalink: '/admin/index.html'
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2/dist/netlify-cms.js"></script>
-  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.2/markdown-it.min.js" integrity="sha512-7VN0JcGJWL+i8LXzTvbROqUSPzZIu8Fp6GWpkVwtHwrgWwY8CrbZgyHA2YpNhAASQNrYqGYoI2HusCqV+S2xnQ==" crossorigin="anonymous"></script>
+  <!-- Include the script that builds the page and powers Decap CMS -->
+  <script src="/lib/cms/netlify-cms.js"></script>
+  {% if env.context === "dev" %}
+  <script src="/lib/cms/react.development.js"></script>
+  {% else %}
+  <script src="/lib/cms/react.production.min.js"></script>
+  {% endif %}
+  <script src="/lib/cms/prop-types.min.js"></script>
+  <script src="/lib/cms/babel.min.js"></script>
+  <script src="/lib/cms/markdown-it.min.js"></script>
   <script src="/admin/previews.js" type="text/babel"></script>
   <script src="/admin/accordion.js" type="text/babel"></script>
   <script src="/admin/image.js" type="text/babel"></script>
