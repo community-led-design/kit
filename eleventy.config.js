@@ -12,7 +12,6 @@ https://github.com/inclusive-design/codesign.inclusivedesign.ca/raw/main/LICENSE
 
 "use strict";
 
-const fs = require("fs");
 const path = require("path");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
@@ -20,9 +19,9 @@ const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const eleventyImage = require("@11ty/eleventy-img");
 
-const exampleBlockShortcode = require("./src/shortcodes/example-block.js");
-const learningBlockShortcode = require("./src/shortcodes/learning-block.js");
-const pullquoteShortcode = require("./src/shortcodes/pullquote.js");
+const exampleBlockShortcode = require("./src/_shortcodes/example-block.js");
+const learningBlockShortcode = require("./src/_shortcodes/learning-block.js");
+const pullquoteShortcode = require("./src/_shortcodes/pullquote.js");
 
 function imageShortcode(src, alt, sizes, widths) {
     let options = {
@@ -49,7 +48,7 @@ function imageShortcode(src, alt, sizes, widths) {
 }
 
 // Import transforms
-const parseTransform = require("./src/transforms/parse-transform.js");
+const parseTransform = require("./src/_transforms/parse-transform.js");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
