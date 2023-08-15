@@ -3,10 +3,10 @@
  */
 
 body {
-    color: var(--blue-600);
-    font-family: var(--font-base);
-    font-size: var(--scale-0);
-    line-height: 1.5;
+  color: var(--blue-600);
+  font-family: var(--font-base);
+  font-size: var(--scale-0);
+  line-height: 1.5;
 }
 
 h1,
@@ -17,7 +17,7 @@ h4,
 .h2,
 .h3,
 .h4 {
-    font-weight: var(--weight-bold);
+  font-weight: var(--weight-bold);
 }
 
 h1,
@@ -26,167 +26,168 @@ h3,
 .h1,
 .h2,
 .h3 {
-    font-family: var(--font-display);
+  font-family: var(--font-display);
 }
 
 h1,
 .h1 {
-    font-size: var(--scale-5);
-    line-height: 1.2;
+  font-size: var(--scale-5);
+  line-height: 1.2;
 
-    @media (min-width: 768px) {
-        font-size: var(--scale-8);
-    }
+  @media (min-width: 768px) {
+    font-size: var(--scale-8);
+  }
 }
 
 h2,
 .h2 {
-    font-size: var(--scale-4);
-    line-height: 1.25;
+  font-size: var(--scale-4);
+  line-height: 1.25;
 
-    @media (min-width: 768px) {
-        font-size: var(--scale-6);
-    }
+  @media (min-width: 768px) {
+    font-size: var(--scale-6);
+  }
 }
 
 h3,
 .h3 {
-    font-size: var(--scale-2);
-    line-height: 1.35;
+  font-size: var(--scale-2);
+  line-height: 1.35;
 
-    @media (min-width: 768px) {
-        font-size: var(--scale-3);
-    }
+  @media (min-width: 768px) {
+    font-size: var(--scale-3);
+  }
 }
 
 h4,
 .h4 {
-    font-family: var(--font-base);
-    font-size: var(--scale-1);
-    line-height: 1.35;
+  font-family: var(--font-base);
+  font-size: var(--scale-1);
+  line-height: 1.35;
 
-    @media (min-width: 768px) {
-        font-size: var(--scale-2);
-    }
+  @media (min-width: 768px) {
+    font-size: var(--scale-2);
+  }
 }
 
 blockquote {
-    background: var(--white);
-    border-left: 4px solid var(--blue-300);
-    padding: var(--scale-3) var(--scale-5);
+  background: var(--white);
+  border-inline-start: 4px solid var(--blue-300);
+  padding-block: var(--scale-3);
+  padding-inline: var(--scale-5);
 
-    svg {
-        color: var(--blue-300);
-        width: var(--scale-5);
-    }
+  svg {
+    color: var(--blue-300);
+    inline-size: var(--scale-5);
+  }
 
-    svg + * {
-        margin-top: 0;
-    }
+  svg + * {
+    margin-block-start: 0;
+  }
 }
 
 cite {
-    font-size: var(--scale--1);
+  font-size: var(--scale--1);
 }
 
 cite::before {
-    content: "–";
+  content: "–";
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: var(--scale-1);
+  list-style-type: disc;
+  padding-inline-start: var(--scale-1);
 }
 
 ul ul {
-    list-style: circle;
+  list-style: circle;
 }
 
 ol {
-    list-style-type: decimal;
-    padding-left: var(--scale-1);
+  list-style-type: decimal;
+  padding-inline-start: var(--scale-1);
 }
 
 ul[role="list"],
 ol[role="list"] {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
 }
 
 .content {
-    * + * {
-        margin-top: var(--scale-0);
-    }
+  * + * {
+    margin-block-start: var(--scale-0);
+  }
 
-    * + h2,
-    * + .h2 {
-        margin-top: var(--scale-7);
-    }
+  * + h2,
+  * + .h2 {
+    margin-block-start: var(--scale-7);
+  }
 
-    * + h3,
-    * + .h3 {
-        margin-top: var(--scale-5);
-    }
+  * + h3,
+  * + .h3 {
+    margin-block-start: var(--scale-5);
+  }
 
-    h2 + h3,
-    h2 + .h3,
-    .h2 + h3,
-    .h2 + .h3 {
-        margin-top: var(--scale-4);
-    }
+  h2 + h3,
+  h2 + .h3,
+  .h2 + h3,
+  .h2 + .h3 {
+    margin-block-start: var(--scale-4);
+  }
 
-    * + h4,
-    * + .h4 {
-        margin-top: var(--scale-2);
-    }
+  * + h4,
+  * + .h4 {
+    margin-block-start: var(--scale-2);
+  }
 
-    ul * + ul,
-    li + li {
-        margin-top: 0;
-    }
+  ul * + ul,
+  li + li {
+    margin-block-start: 0;
+  }
 }
 
 .text-scale--1 {
-    font-size: var(--scale--1);
-    line-height: 1.5;
+  font-size: var(--scale--1);
+  line-height: 1.5;
 }
 
 .text-scale-0 {
-    font-size: var(--scale-0);
-    line-height: 1.5;
+  font-size: var(--scale-0);
+  line-height: 1.5;
 }
 
 .text-scale-1 {
-    font-size: var(--scale-1);
-    line-height: 1.35;
+  font-size: var(--scale-1);
+  line-height: 1.35;
 }
 
 .text-scale-2 {
-    font-size: var(--scale-2);
-    line-height: 1.35;
+  font-size: var(--scale-2);
+  line-height: 1.35;
 }
 
 .text-scale-3 {
-    font-size: var(--scale-3);
-    line-height: 1.35;
+  font-size: var(--scale-3);
+  line-height: 1.35;
 }
 
 .text-scale-4 {
-    font-size: var(--scale-4);
-    line-height: 1.25;
+  font-size: var(--scale-4);
+  line-height: 1.25;
 }
 
 .text-scale-5 {
-    font-size: var(--scale-5);
-    line-height: 1.2;
+  font-size: var(--scale-5);
+  line-height: 1.2;
 }
 
 .text-scale-6 {
-    font-size: var(--scale-6);
-    line-height: 1.25;
+  font-size: var(--scale-6);
+  line-height: 1.25;
 }
 
 .text-scale-8 {
-    font-size: var(--scale-8);
-    line-height: 1.2;
+  font-size: var(--scale-8);
+  line-height: 1.2;
 }

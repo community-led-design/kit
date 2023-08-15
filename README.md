@@ -19,8 +19,8 @@ You can build and serve the website from a [Docker](https://docs.docker.com/get-
 
 Once you have Docker installed, run the following commands to build a Docker image and start a container:
 
-* Build the image: `docker build -t codesign.inclusivedesign.ca .`
-* Run the container: `docker run --name codesign.inclusivedesign.ca -p 8000:80 codesign.inclusivedesign.ca`
+* Build the image: `docker build -t co-design.inclusivedesign.ca .`
+* Run the container: `docker run --name co-design.inclusivedesign.ca -p 8000:80 co-design.inclusivedesign.ca`
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
@@ -43,7 +43,7 @@ and  files in `_site` are overwritten at build time.
 
 ## License
 
-The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/codesign.inclusivedesign.ca/master/LICENSE.md).
+The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/co-design.inclusivedesign.ca/master/LICENSE.md).
 
 The website's content is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 

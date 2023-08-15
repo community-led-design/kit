@@ -1,16 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the banner of the site.
 // -----------------------------------------------------------------------------
-
 .banner .wrapper {
-    padding: 0 var(--scale-4);
+  padding-block: 0;
+  padding-inline: var(--scale-4);
 }
 
 @media (min-width: 1024px) {
-    .banner .wrapper {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .banner .wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

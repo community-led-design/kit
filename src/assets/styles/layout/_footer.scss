@@ -1,32 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site.
 // -----------------------------------------------------------------------------
-
 .footer {
-    margin-top: auto;
-    width: 100%;
+  inline-size: 100%;
+  margin-block-start: auto;
 
-    .wrapper {
-        padding-left: var(--scale-4);
-        padding-right: var(--scale-4);
-    }
+  .wrapper {
+    padding-inline: var(--scale-4);
+  }
 }
 
 .footer [href="https://idrc.ocadu.ca"] {
-    display: inline-block;
-    height: rem(66);
+  block-size: rem(66);
+  display: inline-block;
 
-    svg {
-        fill: currentColor;
-        height: rem(66);
-        width: rem(256);
-    }
+  svg {
+    block-size: rem(66);
+    fill: currentcolor;
+    inline-size: rem(256);
+  }
 
-    &:active svg {
-        fill: var(--bg-parent);
-    }
+  &:active svg {
+    fill: var(--bg-parent);
+  }
 }
 
 .footer .grid {
-    margin-top: var(--scale-2);
+  margin-block-start: var(--scale-2);
 }

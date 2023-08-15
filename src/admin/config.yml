@@ -11,100 +11,100 @@ backend:
 local_backend: true
 publish_mode: editorial_workflow
 site_url: "https://co-design.inclusivedesign.ca"
-media_folder: "src/assets/media"
-public_folder: "/assets/media"
+media_folder: src/assets/media
+public_folder: /assets/media
 collections:
   - name: pages
     label: Pages
     label_singular: Page
-    folder: "src/collections/pages"
+    folder: src/collections/pages
     slug: "{{title}}"
     create: true
-    filter: {field: "editable", value: true}
+    filter: {field: editable, value: true}
     fields:
-      - {label: "Editable", name: "editable", widget: hidden, default: true}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
-      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
-      - {label: "Banner Type", name: "banner", widget: "hidden"}
-      - {label: "Banner Background", name: "bannerBg", widget: "hidden"}
-      - {label: "Banner Text", name: "bannerText", widget: "hidden"}
-      - {label: "Table of Contents", name: "toc", widget: "hidden", default: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: Editable, name: editable, widget: hidden, default: true}
+      - {label: Title, name: title, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string, required: false}
+      - {label: Description, name: description, widget: text, required: false}
+      - {label: Permalink, name: permalink, widget: string, required: false}
+      - {label: Preview Image, name: metaImage, widget: image, required: false}
+      - {label: Preview Image Alt Text, name: metaImageAlt, widget: string, required: false}
+      - {label: Banner Type, name: banner, widget: hidden}
+      - {label: Banner Background, name: bannerBg, widget: hidden}
+      - {label: Banner Text, name: bannerText, widget: hidden}
+      - {label: Table of Contents, name: toc, widget: hidden, default: true}
+      - {label: Body, name: body, widget: markdown}
   - name: resources
     label: Resources
     label_singular: Resource
-    folder: "src/collections/resources"
+    folder: src/collections/resources
     slug: "{{title}}"
-    preview_path: "/resources/"
+    preview_path: /resources/
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
-      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
-      - label: "Resource Type"
-        name: "type"
-        widget: "select"
-        options: ["Guide", "Activity", "Tool"]
-      - label: "Building Block"
-        name: "buildingBlock"
-        widget: "select"
-        options: ["Partnership", "Community involvement", "Co-design plan", "Facilitation", "Ideas and outcomes", "Reflection"]
-      - label: "Related activities"
-        name: "relatedActivities"
-        widget: "relation"
-        collection: "resources"
-        valueField: "title"
-        searchFields: ["title"]
-        displayFields: ["title"]
+      - {label: Title, name: title, widget: string}
+      - {label: Description, name: description, widget: text, required: false}
+      - {label: Permalink, name: permalink, widget: string, required: false}
+      - {label: Preview Image, name: metaImage, widget: image, required: false}
+      - {label: Preview Image Alt Text, name: metaImageAlt, widget: string, required: false}
+      - label: Resource Type
+        name: type
+        widget: select
+        options: [Guide, Activity, Tool]
+      - label: Building Block
+        name: buildingBlock
+        widget: select
+        options: [Partnership, Community involvement, Co-design plan, Facilitation, Ideas and outcomes, Reflection]
+      - label: Related activities
+        name: relatedActivities
+        widget: relation
+        collection: resources
+        valueField: title
+        searchFields: [title]
+        displayFields: [title]
         multiple: true
         required: false
-      - label: "Related guides"
-        name: "relatedGuides"
-        widget: "relation"
-        collection: "resources"
-        valueField: "title"
-        searchFields: ["title"]
-        displayFields: ["title"]
+      - label: Related guides
+        name: relatedGuides
+        widget: relation
+        collection: resources
+        valueField: title
+        searchFields: [title]
+        displayFields: [title]
         multiple: true
         required: false
-      - label: "Related tools"
-        name: "relatedTools"
-        widget: "relation"
-        collection: "resources"
-        valueField: "title"
-        searchFields: ["title"]
-        displayFields: ["title"]
+      - label: Related tools
+        name: relatedTools
+        widget: relation
+        collection: resources
+        valueField: title
+        searchFields: [title]
+        displayFields: [title]
         multiple: true
         required: false
-      - label: "Further resources"
-        name: "furtherResources"
-        widget: "list"
+      - label: Further resources
+        name: furtherResources
+        widget: list
         fields:
-        - { label: "Title", name: "title", widget: "string" }
-        - { label: "Link", name: "link", widget: "string" }
-      - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Title, name: title, widget: string}
+          - {label: Link, name: link, widget: string}
+      - {label: Body, name: body, widget: markdown}
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
-    folder: "src/collections/case-studies"
+    folder: src/collections/case-studies
     slug: "{{title}}"
-    preview_path: "/case-studies/"
+    preview_path: /case-studies/
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Authors", name: "authors", widget: "list"}
-      - {label: "Organization", name: "organization", widget: "string", required: false}
-      - {label: "Start Year", name: "startDate", widget: "string", required: true}
-      - {label: "End Year", name: "endDate", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      - {label: "Preview Image", name: "metaImage", widget: "image"}
-      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: Title, name: title, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string, required: false}
+      - {label: Authors, name: authors, widget: list}
+      - {label: Organization, name: organization, widget: string, required: false}
+      - {label: Start Year, name: startDate, widget: string, required: true}
+      - {label: End Year, name: endDate, widget: string, required: false}
+      - {label: Description, name: description, widget: text, required: false}
+      - {label: Permalink, name: permalink, widget: string, required: false}
+      - {label: Preview Image, name: metaImage, widget: image}
+      - {label: Preview Image Alt Text, name: metaImageAlt, widget: string}
+      - {label: Body, name: body, widget: markdown}
