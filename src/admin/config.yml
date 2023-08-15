@@ -59,27 +59,27 @@ collections:
         name: relatedActivities
         widget: relation
         collection: resources
-        valueField: title
-        searchFields: [title]
-        displayFields: [title]
+        value_field: title
+        search_fields: [title]
+        display_fields: [title]
         multiple: true
         required: false
       - label: Related guides
         name: relatedGuides
         widget: relation
         collection: resources
-        valueField: title
-        searchFields: [title]
-        displayFields: [title]
+        value_field: title
+        search_fields: [title]
+        display_fields: [title]
         multiple: true
         required: false
       - label: Related tools
         name: relatedTools
         widget: relation
         collection: resources
-        valueField: title
-        searchFields: [title]
-        displayFields: [title]
+        value_field: title
+        search_fields: [title]
+        display_fields: [title]
         multiple: true
         required: false
       - label: Further resources
