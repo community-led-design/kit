@@ -1,6 +1,13 @@
 ---
 permalink: /robots.txt
+eleventyExcludeFromCollections: true
 ---
-user-agent: *
-disallow: /admin/
-disallow: /repertoire/
+Sitemap: {{ deploy.url }}/sitemap.xml
+
+User-Agent: *
+Disallow: /404.html
+Disallow: /admin/
+Disallow: /repertoire/
+
+User-agent: GPTBot
+Disallow: /
