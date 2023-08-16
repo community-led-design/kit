@@ -2,36 +2,37 @@
 // This file contains all styles related to the learning block component.
 // -----------------------------------------------------------------------------
 %block {
-    background-color: var(--white);
-    border-left: 4px solid;
-    color: var(--blue-600);
-    padding: var(--scale-3) var(--scale-5);
+  background-color: var(--white);
+  border-inline-start: 4px solid;
+  color: var(--blue-600);
+  padding-block: var(--scale-3);
+  padding-inline: var(--scale-5);
 
-    svg {
-        width: var(--scale-5);
-    }
+  svg {
+    inline-size: var(--scale-5);
+  }
 
-    svg + .h4 {
-        margin-top: 0;
-    }
+  svg + .h4 {
+    margin-block-start: 0;
+  }
 }
 
 .content * + .block {
-    margin-top: var(--scale-2);
+  margin-block-start: var(--scale-2);
 }
 
 .content .block + h3 {
-    margin-top: var(--scale-6);
+  margin-block-start: var(--scale-6);
 }
 
 .learning-block {
-    @extend %block;
+  @extend %block;
 
-    border-left-color: var(--yellow-500);
+  border-inline-start-color: var(--yellow-500);
 }
 
 .example-block {
-    @extend %block;
+  @extend %block;
 
-    border-left-color: var(--green-300);
+  border-inline-start-color: var(--green-300);
 }

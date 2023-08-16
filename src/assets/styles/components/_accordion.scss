@@ -1,63 +1,62 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the accordion component.
 // -----------------------------------------------------------------------------
-
 .accordion {
-    margin-top: var(--scale-2);
+  margin-block-start: var(--scale-2);
 
-    button {
-        align-items: center;
-        border: 2px solid transparent;
-        display: flex;
-        flex-direction: row;
-        font-family: var(--font-base);
-        font-size: var(--scale-1);
-        font-weight: var(--weight-medium);
-        height: rem(44);
-        justify-content: flex-start;
-        margin-left: calc(-1 * var(--scale--4));
-        margin-top: -2px;
-        padding-left: var(--scale--4);
-        padding-right: var(--scale--4);
-        position: relative;
-        width: calc(100% + var(--scale--4) * 2);
+  button {
+    align-items: center;
+    block-size: rem(44);
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-base);
+    font-size: var(--scale-1);
+    font-weight: var(--weight-medium);
+    inline-size: calc(100% + var(--scale--4) * 2);
+    justify-content: flex-start;
+    margin-block-start: -2px;
+    margin-inline-start: calc(-1 * var(--scale--4));
+    padding-inline: var(--scale--4);
+    position: relative;
 
-        svg {
-            margin-left: auto;
-        }
-
-        &::after {
-            background: currentColor;
-            bottom: -2px;
-            content: "";
-            display: block;
-            height: 2px;
-            position: absolute;
-            width: calc(100% - var(--scale--4) * 2);
-        }
-
-        &:hover,
-        &:focus,
-        &:active {
-            border-color: currentColor;
-            border-radius: 4px;
-            outline: none;
-        }
-
-        &[aria-expanded="true"] .vertical {
-            display: none;
-        }
+    svg {
+      margin-inline-start: auto;
     }
 
-    .panel {
-        padding: 0 0 var(--scale--2);
+    &::after {
+      background: currentcolor;
+      block-size: 2px;
+      bottom: -2px;
+      content: "";
+      display: block;
+      inline-size: calc(100% - var(--scale--4) * 2);
+      position: absolute;
     }
 
-    .panel + * {
-        margin-top: 0;
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: currentcolor;
+      border-radius: 4px;
+      outline: none;
     }
+
+    &[aria-expanded="true"] .vertical {
+      display: none;
+    }
+  }
+
+  .panel {
+    padding-block: 0 var(--scale--2);
+    padding-inline: 0;
+  }
+
+  .panel + * {
+    margin-block-start: 0;
+  }
 }
 
 .accordion + * {
-    margin-top: var(--scale-4);
+  margin-block-start: var(--scale-4);
 }

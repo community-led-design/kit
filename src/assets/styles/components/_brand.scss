@@ -1,32 +1,31 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the brand component.
 // -----------------------------------------------------------------------------
-
 .brand {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .brand a {
-    color: var(--nav-color);
-    display: inline-block;
-    height: rem(56);
+  block-size: rem(56);
+  color: var(--nav-color);
+  display: inline-block;
 
-    &:hover {
-        background: var(--nav-hover-background);
-        box-shadow: 0 0 0 2px var(--nav-hover-background);
-        color: var(--nav-hover-color);
-    }
+  &:hover {
+    background: var(--nav-hover-background);
+    box-shadow: 0 0 0 2px var(--nav-hover-background);
+    color: var(--nav-hover-color);
+  }
 
-    &:focus,
-    &:active {
-        background: var(--nav-focus-background);
-        box-shadow: 0 0 0 2px var(--nav-focus-background);
-        color: var(--nav-focus-color);
-    }
+  &:focus,
+  &:active {
+    background: var(--nav-focus-background);
+    box-shadow: 0 0 0 2px var(--nav-focus-background);
+    color: var(--nav-focus-color);
+  }
 }
 
 .brand svg {
-    height: rem(56);
-    width: auto;
+  block-size: rem(56);
+  inline-size: auto;
 }

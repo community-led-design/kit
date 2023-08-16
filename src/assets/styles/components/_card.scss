@@ -3,88 +3,89 @@
 // -----------------------------------------------------------------------------
 
 .card {
-    background: var(--blue-100);
-    border-top: solid 3px; // TODO: Create variable.
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    height: rem(200);
-    justify-content: space-between;
-    padding: var(--scale-2) rem(27) rem(27); // TODO: Create variable.
-    position: relative;
+  background: var(--blue-100);
+  block-size: rem(200);
+  border-block-start: solid 3px; // TODO: Create variable.
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: var(--scale-2) rem(27);
+  padding-inline: rem(27); // TODO: Create variable.
+  position: relative;
 
-    &[hidden] {
-        display: none;
+  &[hidden] {
+    display: none;
+  }
+
+  &:hover {
+    box-shadow: 0 0 16px rgb(27 64 102 / 30%); // TODO: Create variable.
+  }
+
+  &:focus-within {
+    border: solid 3px; // TODO: Create variable.
+    border-radius: 0.5rem; // TODO: Create variable.
+    box-shadow: 0 0 16px rgb(27 64 102 / 30%); // TODO: Create variable.
+    padding: var(--scale-2);
+  }
+
+  &[data-filter*="activity"] {
+    border-color: var(--green-300);
+  }
+
+  &[data-filter*="guide"] {
+    border-color: var(--blue-300);
+  }
+
+  &[data-filter*="tool"] {
+    border-color: var(--yellow-300);
+  }
+
+  a {
+    color: var(--blue-600);
+    text-decoration: none;
+
+    &::before {
+      block-size: 100%;
+      content: "";
+      display: block;
+      inline-size: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
     }
 
-    &:hover {
-        box-shadow: 0 0 16px rgba(27, 64, 102, 0.3); // TODO: Create variable.
+    &:focus {
+      background: none;
+      box-shadow: none;
     }
 
-    &:focus-within {
-        border: solid 3px; // TODO: Create variable.
+    &:active {
+      background-color: var(--white);
+      box-shadow: none;
+      color: var(--blue-600);
+
+      &::before {
+        background-color: var(--white);
         border-radius: 0.5rem; // TODO: Create variable.
-        box-shadow: 0 0 16px rgba(27, 64, 102, 0.3); // TODO: Create variable.
-        padding: var(--scale-2);
+        z-index: -1;
+      }
     }
+  }
 
-    &[data-filter*="activity"] {
-        border-color: var(--green-300);
+  br {
+    @media (min-width: 768px) {
+      display: none;
     }
+  }
 
-    &[data-filter*="guide"] {
-        border-color: var(--blue-300);
-    }
+  *:not(a) {
+    z-index: 10;
+  }
 
-    &[data-filter*="tool"] {
-        border-color: var(--yellow-300);
-    }
-
-    a {
-        color: var(--blue-600);
-        text-decoration: none;
-
-        &::before {
-            content: "";
-            display: block;
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%;
-        }
-
-        &:focus {
-            background: none;
-            box-shadow: none;
-        }
-
-        &:active {
-            background-color: var(--white);
-            box-shadow: none;
-            color: var(--blue-600);
-
-            &::before {
-                background-color: var(--white);
-                border-radius: 0.5rem; // TODO: Create variable.
-                z-index: -1;
-            }
-        }
-    }
-
-    br {
-        @media (min-width: 768px) {
-            display: none;
-        }
-    }
-
-    *:not(a) {
-        z-index: 10;
-    }
-
-    svg {
-        height: 1.4em;
-        margin-bottom: -0.4em;
-        width: 1.4em;
-    }
+  svg {
+    block-size: 1.4em;
+    inline-size: 1.4em;
+    margin-block-end: -0.4em;
+  }
 }
