@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/inclusive-design/co-design.inclusivedesign.ca/compare/v1.1.0...v1.2.0) (2023-08-16)
+
+
+### Features
+
+* disallow indexing of /lib ([#336](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/336)) ([1e35580](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1e35580635b609f0f3e17ca7cbe34d7052e9aa60))
+
+
+### Bug Fixes
+
+* remove fluid-lint-all config ([#333](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/333)) ([52de744](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/52de7442e8e2e28cb529c78fc4ef085a04f6f2fb))
+* use correct Dependabot ignore syntax ([#335](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/335)) ([1cc208e](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1cc208ed7c75875ee7ba8cecedb3407604eaf9df))
+
 ## [1.1.0](https://github.com/inclusive-design/co-design.inclusivedesign.ca/compare/v1.0.0...v1.1.0) (2023-08-16)
 
 
