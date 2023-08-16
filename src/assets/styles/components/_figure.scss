@@ -3,17 +3,18 @@
 // -----------------------------------------------------------------------------
 
 figure {
-    // TODO
+  // TODO
 }
 
 figcaption {
-    color: var(--blue-600);
-    font-size: var(--scale-0);
-    font-style: italic;
-    line-height: 1.4;
-    margin: var(--scale--4) 0;
+  color: var(--blue-600);
+  font-size: var(--scale-0);
+  font-style: italic;
+  line-height: 1.4;
+  margin-block: var(--scale--4);
+  margin-inline: 0;
 }
 
 .content * + figure {
-    margin-top: var(--scale-2);
+  margin-block-start: var(--scale-2);
 }

@@ -1,56 +1,55 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the resources page.
 // -----------------------------------------------------------------------------
-
 .filters {
-    border-bottom: 1px solid var(--black);
-    padding-bottom: var(--scale-2);
+  border-block-end: 1px solid var(--black);
+  padding-block-end: var(--scale-2);
 
-    .button {
-        display: block;
-        margin-top: var(--scale-0);
-        width: 100%;
-    }
+  .button {
+    display: block;
+    inline-size: 100%;
+    margin-block-start: var(--scale-0);
+  }
 }
 
 .results:empty {
-    margin-top: var(--scale-8);
+  margin-block-start: var(--scale-8);
 }
 
 .no-js {
-    .filters,
-    .results {
-        display: none;
-    }
+  .filters,
+  .results {
+    display: none;
+  }
 
-    .resources {
-        margin-top: var(--scale-8);
-    }
+  .resources {
+    margin-block-start: var(--scale-8);
+  }
 }
 
 @media (min-width: 1024px) {
-    .filters {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  .filters {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-        select {
-            margin-right: var(--scale-2);
-        }
-
-        #clear-filters {
-            margin-left: auto;
-        }
-
-        .button {
-            display: inline;
-            margin-top: 0;
-            width: auto;
-        }
+    select {
+      margin-inline-end: var(--scale-2);
     }
 
-    .filters br {
-        display: none;
+    #clear-filters {
+      margin-inline-start: auto;
     }
+
+    .button {
+      display: inline;
+      inline-size: auto;
+      margin-block-start: 0;
+    }
+  }
+
+  .filters br {
+    display: none;
+  }
 }

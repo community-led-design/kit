@@ -19,8 +19,8 @@ You can build and serve the website from a [Docker](https://docs.docker.com/get-
 
 Once you have Docker installed, run the following commands to build a Docker image and start a container:
 
-* Build the image: `docker build -t codesign.inclusivedesign.ca .`
-* Run the container: `docker run --name codesign.inclusivedesign.ca -p 8000:80 codesign.inclusivedesign.ca`
+* Build the image: `docker build -t co-design.inclusivedesign.ca .`
+* Run the container: `docker run --name co-design.inclusivedesign.ca -p 8000:80 co-design.inclusivedesign.ca`
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
@@ -30,20 +30,20 @@ If you make changes to the website, repeat the steps to build the image and star
 
 1. Install the required NPM packages: `npm install`
 2. Run the build script: `npm run build`
-3. Upload the contents of the `./dist/` directory to the web root of your server.
+3. Upload the contents of the `./_site/` directory to the web root of your server.
 
-If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./dist/`
+If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./_site/`
 directory to the web root of your server.
 
 ## Notes
 
-Modifications can be made to any source file or directory except for the contents of the `./dist/` directory. The
-`./dist/` directory is not versioned since it contains the built website that Eleventy generates from the source files,
-and  files in `dist` are overwritten at build time.
+Modifications can be made to any source file or directory except for the contents of the `./_site/` directory. The
+`./_site/` directory is not versioned since it contains the built website that Eleventy generates from the source files,
+and  files in `_site` are overwritten at build time.
 
 ## License
 
-The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/codesign.inclusivedesign.ca/master/LICENSE.md).
+The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/co-design.inclusivedesign.ca/master/LICENSE.md).
 
 The website's content is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 

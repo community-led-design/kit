@@ -1,55 +1,55 @@
 @charset "UTF-8";
 
 // 0. Reset
-@import '../../../node_modules/modern-css-reset/dist/reset';
+@import "../../../node_modules/modern-css-reset/dist/reset";
 
 // 1. Configuration and helpers
 @import
-    'abstracts/functions',
-    'abstracts/mixins',
-    'abstracts/variables';
+  "abstracts/functions",
+  "abstracts/mixins",
+  "abstracts/variables";
 
 // 2. Vendors
 @import
-    'vendors/uio';
+  "vendors/uio";
 
 // 3. Base stuff
 @import
-    'base/base',
-    'base/fonts',
-    'base/typography',
-    'base/grid',
-    'base/helpers';
+  "base/base",
+  "base/fonts",
+  "base/typography",
+  "base/grid",
+  "base/helpers";
 
 // 4. Layout-related sections
 @import
-    'layout/banner',
-    'layout/header',
-    'layout/content',
-    'layout/footer';
+  "layout/banner",
+  "layout/header",
+  "layout/content",
+  "layout/footer";
 
 // 5. Components
 @import
-    'components/accordion',
-    'components/blob',
-    'components/block',
-    'components/brand',
-    'components/button',
-    'components/card',
-    'components/figure',
-    'components/hr',
-    'components/image-text',
-    'components/navigation',
-    'components/select',
-    'components/table-of-contents';
+  "components/accordion",
+  "components/blob",
+  "components/block",
+  "components/brand",
+  "components/button",
+  "components/card",
+  "components/figure",
+  "components/hr",
+  "components/image-text",
+  "components/navigation",
+  "components/select",
+  "components/table-of-contents";
 
 // 6. Page-specific styles
 @import
-    'pages/design-process',
-    'pages/home',
-    'pages/resource',
-    'pages/resources';
+  "pages/design-process",
+  "pages/home",
+  "pages/resource",
+  "pages/resources";
 
 // 7. Themes
 @import
-    'themes/default';
+  "themes/default";
