@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/inclusive-design/co-design.inclusivedesign.ca/compare/v1.0.0...v1.1.0) (2023-08-16)
+
+
+### Features
+
+* add and implement pullquote shortcode ([ee1b802](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/ee1b802293f0baaa0208b5095b1b1f3f45359fee))
+* add CMS fields for related activities, guides, and tools (resolves [#176](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/176)) ([#200](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/200)) ([1ae63c5](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1ae63c5dae3a0ec43ba807b54f62d3790ace6b90))
+* add example block (resolves [#104](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/104)) ([02f0bca](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/02f0bcaf7cdfaf9db9c99e4b1ba6257e1f3b3b70))
+* add icon to example block, add preview icons ([bf46e53](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/bf46e53f79b1c0fafa67c3c25f2748f2af84c10c))
+* add image shortcode for case study cards ([#84](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/84)) ([84fbdea](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/84fbdea0242a8e77c332f410b073b3d7e3f77bfa))
+* add learning block editor component ([d2dc2ff](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/d2dc2ffccd8684ddaedfdd64f2b7f7c059af736e))
+* add learning block shortcode ([f543fec](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/f543fecf4d9f384ea3b9b74167de2dc57792e7f2))
+* add pullquote editor component ([5e4445b](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/5e4445b84b793ad8f689a529744aaa9321dbee86))
+* add resource for creating a co-design outcome summary ([#308](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/308)) ([1f510ae](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1f510ae1d9f318bfc9ee4d183b6d1b6b8e403b98))
+* adjust pullquotes (resolves [#82](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/82)) ([c6e7b80](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/c6e7b804ed3935156dba844e2fd42dbde3c5a978))
+* disable editorial workflow ([c79309a](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/c79309acee4e27b808976464a173532136b921c8))
+* remove unique preview paths ([669841e](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/669841e5b0ac2313e85497311aac5c035b2f9365))
+* replace standard images with figures, use accordion shortcode throughout ([dbb52b4](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/dbb52b44d7be66a5634afa7f7a4b8ccc5677cacc))
+* separate CMS-managed media into its own folder ([b29b42b](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/b29b42b6cd4c98419141498d4d15df120b8f0e0f))
+* show draft images in editor ([51ef789](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/51ef789ae21b47bf32d62b71c0ae7cf127d0b2c8))
+* simplify icon setup ([97cb553](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/97cb5535c85a08ade37b5af2e86bc0bbdc8ed215))
+* style image captions (resolves [#98](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/98)) ([f00ffda](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/f00ffdab389ff16e4e1e4529f4d1d4dba76193b9))
+* style image captions (resolves [#98](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/98)) ([f07590c](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/f07590c41f9d2319fde9634bbc1da1ae59fb4aed))
+* update based on trivet-monolingual@1.x ([#328](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/328)) ([2ed6fe0](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/2ed6fe01c9c51d291020ef7c385e675450da7d74))
+
+
+### Bug Fixes
+
+* adjust learning block spacing ([1a13c84](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1a13c84d132f8ea69ef9c807e5d78d5d9d11994f))
+* adjust Matomo config ([2d3a9b2](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/2d3a9b2b82807b9cc9778b1166a37d410ce9aae0))
+* adjust regex in editor components to remove console errors about remark ([f606cd3](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/f606cd301a261055e93558566bc51d58978eaf11))
+* adjust typography (resolves [#100](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/100)) ([657b896](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/657b896af7e2e4a892ebadabee9dfe5272d61bd8))
+* give figures more space ([442a01b](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/442a01b62c0ee17a7a89d95e144a22f5fbbfe040))
+* improve nav menu styling (resolves [#305](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/305)) ([#306](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/306)) ([6cb2667](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/6cb266745a18a86a8e965689b41b9cc7da43586d))
+* improve styling of bulleted lists (resolves [#175](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/175)) ([#199](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/199)) ([1e5da77](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1e5da77b6d6d6968af93e83fcfb2131a07cc140c))
+* lint scripts ([9363b4d](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/9363b4d7d214acc7da9839ce0f7db9d798670313))
+* make sure that image preview can be generated before alt text is set ([1cc8ecb](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/1cc8ecb80e55633d737637ea0eae44dfef24ec6f))
+* mandatory preview images for case studies ([223b802](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/223b802ada949aa0273cbb0ca4a390b9cdb68511))
+* migrate sass to new syntax ([4392f69](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/4392f698dafd178b4070160e4eed692964736e7a))
+* related activities should be a multiselect (Resolves [#263](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/263)) ([#264](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/264)) ([8ebbccb](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/8ebbccb7b0c6918b771965fdb95447278fb717ea))
+* remove duplicate HTML minification transform ([#315](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/315)) ([bd89e6f](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/bd89e6fe1340fedad2d074393f416ec3eec39f2e))
+* remove unnecessary dependency from .eleventy.js ([3faef84](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/3faef8468ab74c01c3b383584b79f3f42ba0118a))
+* rename file ([ee27501](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/ee275018f3b99516d9dec6a575ebd42bcb7ddcb0))
+* rename file ([2cac343](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/2cac343992d1e89c191ecbf0486c22145bf57470))
+* resolve grid alignment issue ([7a95603](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/7a95603fd6c4bccdc2051fcb778ee395b21ed835))
+* restore Netlify identity to home page ([8384cca](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/8384cca07892aa9231500844fa53c39e4c4d38d5))
+* restore Netlify identity to home page ([b53eec9](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/b53eec9b98f04c9668111af0ab632b3ac27956b1))
+* subtract scrollbar width from full-width elements (resolves [#57](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/57)) ([#58](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/58)) ([2539484](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/2539484fd5270d6d713c80aab45415efd44ab2fc))
+* try changing slug value ([#76](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/76)) ([3ca8123](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/3ca8123f5f161c9570f7ecb0bab99d6eb172d06b))
+* update eleventy plugin fluid and remove unused dependencies ([#317](https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues/317)) ([518dd73](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/518dd73a60586835302f9e5fbf9a30e34e6af5d2))
+* update robots.txt to exclude repertoire ([d5efd15](https://github.com/inclusive-design/co-design.inclusivedesign.ca/commit/d5efd152e014cdbe7777d7284e18d90c97272adc))
+
 ## 1.0.0 (2020-12-22)
 
 ### Features
