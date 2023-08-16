@@ -3,7 +3,8 @@
 module.exports = {
     extends: [
         "fluid",
-        "plugin:yml/standard"
+        "plugin:yml/standard",
+        "plugin:markdown/recommended"
     ],
     ignorePatterns: ["_site/", "backstop_data/", "!.*.cjs", "!.*.js", "!.github"],
     env: {
@@ -15,10 +16,16 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2020
     },
-    overrides: [{
-        files: ["src/assets/scripts/components/_accordion.js", "src/assets/scripts/app.js"],
-        parserOptions: {
-            sourceType: "module"
+    overrides: [
+        {
+            files: ["src/assets/scripts/components/_accordion.js", "src/assets/scripts/app.js"],
+            parserOptions: {
+                sourceType: "module"
+            }
+        },
+        {
+            files: ["**/*.md"],
+            processor: "markdown/markdown"
         }
-    }]
+    ]
 };
