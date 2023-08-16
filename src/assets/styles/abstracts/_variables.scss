@@ -1,161 +1,168 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
+@use "sass:color";
 
 // Colors
 $colors: (
-    "black": #000,
-    black-opacity-30: transparentize(#000, 0.7),
-    "white": #fff,
-    white-opacity-70: transparentize(#fff, 0.3),
-    grey-300: #777,
-    blue-100: #eef3f9,
-    blue-200: #d1e6ff,
-    blue-300: #41cdfa,
-    blue-500: #1362b4,
-    blue-600: #1b4066,
-    green-100: #e8f3f2,
-    green-200: #c6e0dc,
-    green-300: #98d1cd,
-    green-500: #375c59,
-    green-600: #233938,
-    yellow-100: #fefef4,
-    yellow-300: #ecd481,
-    yellow-500: #eec01f,
-    yellow-600: #322908,
-    red-100: #f2c4d4,
-    red-300: #e66572,
-    red-500: #bf303a
+  "black": #000,
+  black-opacity-30: color.adjust(#000, $alpha: -0.7),
+  "white": #fff,
+  white-opacity-70: color.adjust(#fff, $alpha: -0.3),
+  grey-300: #777,
+  blue-100: #eef3f9,
+  blue-200: #d1e6ff,
+  blue-300: #41cdfa,
+  blue-500: #1362b4,
+  blue-600: #1b4066,
+  green-100: #e8f3f2,
+  green-200: #c6e0dc,
+  green-300: #98d1cd,
+  green-500: #375c59,
+  green-600: #233938,
+  yellow-100: #fefef4,
+  yellow-300: #ecd481,
+  yellow-500: #eec01f,
+  yellow-600: #322908,
+  red-100: #f2c4d4,
+  red-300: #e66572,
+  red-500: #bf303a
 );
 
 // Font Faces
 $fonts: (
-    font-base: '"Alegreya Sans", sans-serif',
-    font-display: '"Open Sans", sans-serif'
+  font-base: '"Alegreya Sans", sans-serif',
+  font-display: '"Open Sans", sans-serif'
 );
 
 // Font Weights
 $weights: (
-    weight-normal: 400,
-    weight-medium: 500,
-    weight-bold: 700
+  weight-normal: 400,
+  weight-medium: 500,
+  weight-bold: 700
 );
 
 // Scale
 $scale: (
-    scale--4: rem(8),
-    scale--3: rem(12),
-    scale--2: rem(14),
-    scale--1: rem(16),
-    scale-0: rem(18),
-    scale-1: rem(20),
-    scale-2: rem(24),
-    scale-3: rem(28),
-    scale-4: rem(32),
-    scale-5: rem(40),
-    scale-6: rem(48),
-    scale-7: rem(64),
-    scale-8: rem(72)
+  scale--4: rem(8),
+  scale--3: rem(12),
+  scale--2: rem(14),
+  scale--1: rem(16),
+  scale-0: rem(18),
+  scale-1: rem(20),
+  scale-2: rem(24),
+  scale-3: rem(28),
+  scale-4: rem(32),
+  scale-5: rem(40),
+  scale-6: rem(48),
+  scale-7: rem(64),
+  scale-8: rem(72)
 );
 
 :root {
-    // Colors
-    @each $name, $value in $colors {
-        --#{$name}: #{$value};
-    }
+  // Colors
+  @each $name, $value in $colors {
+    --#{$name}: #{$value};
+  }
 
-    // Font Faces
-    @each $name, $value in $fonts {
-        --#{$name}: #{$value};
-    }
+  // Font Faces
+  @each $name, $value in $fonts {
+    --#{$name}: #{$value};
+  }
 
-    // Font Weights
-    @each $name, $value in $weights {
-        --#{$name}: #{$value};
-    }
+  // Font Weights
+  @each $name, $value in $weights {
+    --#{$name}: #{$value};
+  }
 
-    // Scale
-    @each $name, $value in $scale {
-        --#{$name}: #{$value};
-    }
+  // Scale
+  @each $name, $value in $scale {
+    --#{$name}: #{$value};
+  }
 
-    --max-content: #{(rem(1234))};
+  --max-content: #{(rem(1234))};
 
-    // Links
-    --link-color: var(--blue-500);
-    --link-hover-color: var(--blue-600);
-    --link-focus-background: var(--blue-600);
-    --link-focus-color: var(--white);
-    --link-focus-box-shadow: 0 0 0 2px var(--blue-600);
-    --link-active-background: var(--blue-500);
-    --link-active-color: var(--white);
-    --link-active-box-shadow: 0 0 0 2px var(--blue-500);
+  // Links
+  --link-color: var(--blue-500);
+  --link-hover-color: var(--blue-600);
+  --link-focus-background: var(--blue-600);
+  --link-focus-color: var(--white);
+  --link-focus-box-shadow: 0 0 0 2px var(--blue-600);
+  --link-active-background: var(--blue-500);
+  --link-active-color: var(--white);
+  --link-active-box-shadow: 0 0 0 2px var(--blue-500);
 
-    // Primary Buttons
-    --btn-primary-background: var(--blue-600);
-    --btn-primary-color: var(--white);
-    --btn-primary-border-color: transparent;
-    --btn-primary-hover-background: var(--black);
-    --btn-primary-hover-color: var(--btn-primary-color);
-    --btn-primary-focus-background: var(--btn-primary-background);
-    --btn-primary-focus-color: var(--btn-primary-color);
-    --btn-primary-focus-border-color: var(--white);
-    --btn-primary-focus-box-shadow: 0 0 0 2px var(--btn-primary-focus-background);
-    --btn-primary-active-background: var(--white);
-    --btn-primary-active-color: var(--blue-600);
-    --btn-primary-active-border-color: var(--white);
-    --btn-primary-active-box-shadow: 0 0 0 2px var(--btn-primary-active-color), 0 0 0 2px var(--btn-primary-active-color) inset;
+  // Primary Buttons
+  --btn-primary-background: var(--blue-600);
+  --btn-primary-color: var(--white);
+  --btn-primary-border-color: transparent;
+  --btn-primary-hover-background: var(--black);
+  --btn-primary-hover-color: var(--btn-primary-color);
+  --btn-primary-focus-background: var(--btn-primary-background);
+  --btn-primary-focus-color: var(--btn-primary-color);
+  --btn-primary-focus-border-color: var(--white);
+  --btn-primary-focus-box-shadow: 0 0 0 2px var(--btn-primary-focus-background);
+  --btn-primary-active-background: var(--white);
+  --btn-primary-active-color: var(--blue-600);
+  --btn-primary-active-border-color: var(--white);
+  --btn-primary-active-box-shadow:
+    0 0 0 2px var(--btn-primary-active-color),
+    0 0 0 2px var(--btn-primary-active-color) inset;
 
-    // Secondary Buttons
-    --btn-secondary-background: var(--white);
-    --btn-secondary-color: var(--blue-600);
-    --btn-secondary-border-color: var(--blue-600);
-    --btn-secondary-hover-background: var(--blue-100);
-    --btn-secondary-hover-color: var(--btn-secondary-color);
-    --btn-secondary-focus-background: var(--btn-secondary-background);
-    --btn-secondary-focus-color: var(--btn-secondary-color);
-    --btn-secondary-focus-border-color: var(--white);
-    --btn-secondary-focus-box-shadow: 0 0 0 2px var(--btn-secondary-focus-color), 0 0 0 2px var(--btn-secondary-focus-color) inset;
-    --btn-secondary-active-background: var(--blue-600);
-    --btn-secondary-active-color: var(--white);
-    --btn-secondary-active-border-color: var(--white);
-    --btn-secondary-active-box-shadow: 0 0 0 2px var(--btn-secondary-active-background), 0 0 0 3px var(--btn-secondary-active-background) inset;
+  // Secondary Buttons
+  --btn-secondary-background: var(--white);
+  --btn-secondary-color: var(--blue-600);
+  --btn-secondary-border-color: var(--blue-600);
+  --btn-secondary-hover-background: var(--blue-100);
+  --btn-secondary-hover-color: var(--btn-secondary-color);
+  --btn-secondary-focus-background: var(--btn-secondary-background);
+  --btn-secondary-focus-color: var(--btn-secondary-color);
+  --btn-secondary-focus-border-color: var(--white);
+  --btn-secondary-focus-box-shadow:
+    0 0 0 2px var(--btn-secondary-focus-color),
+    0 0 0 2px var(--btn-secondary-focus-color) inset;
+  --btn-secondary-active-background: var(--blue-600);
+  --btn-secondary-active-color: var(--white);
+  --btn-secondary-active-border-color: var(--white);
+  --btn-secondary-active-box-shadow:
+    0 0 0 2px var(--btn-secondary-active-background),
+    0 0 0 3px var(--btn-secondary-active-background) inset;
 
-    // Borderless Buttons
-    --btn-borderless-color: var(--blue-500);
-    --btn-borderless-hover-color: var(--blue-600);
-    --btn-borderless-focus-color: var(--blue-600);
-    --btn-borderless-focus-border-color: var(--blue-600);
-    --btn-borderless-active-color: var(--white);
-    --btn-borderless-active-background: var(--blue-600);
-    --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
-    --btn-borderless-active-border-color: var(--blue-600);
+  // Borderless Buttons
+  --btn-borderless-color: var(--blue-500);
+  --btn-borderless-hover-color: var(--blue-600);
+  --btn-borderless-focus-color: var(--blue-600);
+  --btn-borderless-focus-border-color: var(--blue-600);
+  --btn-borderless-active-color: var(--white);
+  --btn-borderless-active-background: var(--blue-600);
+  --btn-borderless-active-box-shadow: 0 0 0 2px var(--white) inset;
+  --btn-borderless-active-border-color: var(--blue-600);
 
-    // Selects
-    --select-color: var(--blue-500);
-    --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231362b4' stroke-width='2'/%3E%3C/svg%3E");
-    --select-hover-color: var(--blue-600);
-    --select-hover-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
-    --select-focus-color: var(--blue-600);
-    --select-focus-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
-    --select-focus-border-color: var(--blue-600);
-    --select-active-color: var(--white);
-    --select-active-background: var(--blue-600);
-    --select-active-box-shadow: 0 0 0 2px var(--white) inset;
-    --select-active-border-color: var(--blue-600);
+  // Selects
+  --select-color: var(--blue-500);
+  --select-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231362b4' stroke-width='2'/%3E%3C/svg%3E");
+  --select-hover-color: var(--blue-600);
+  --select-hover-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
+  --select-focus-color: var(--blue-600);
+  --select-focus-icon: url("data:image/svg+xml,%3Csvg class='inline' width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.912109 0.990478L5.91211 5.99048L10.9121 0.990477' stroke='%231b4066' stroke-width='2'/%3E%3C/svg%3E");
+  --select-focus-border-color: var(--blue-600);
+  --select-active-color: var(--white);
+  --select-active-background: var(--blue-600);
+  --select-active-box-shadow: 0 0 0 2px var(--white) inset;
+  --select-active-border-color: var(--blue-600);
 
-    // Navigation
-    --nav-background: inherit;
-    --nav-color: currentColor;
-    --nav-current-background: transparent;
-    --nav-hover-background: var(--blue-100);
-    --nav-hover-color: currentColor;
-    --nav-focus-background: var(--blue-600);
-    --nav-focus-color: var(--white);
-    --nav-submenu-background: var(--blue-600);
-    --nav-submenu-color: var(--white);
-    --nav-submenu-hover-background: var(--black-opacity-30);
-    --nav-submenu-hover-color: var(--white);
-    --nav-submenu-focus-background: var(--blue-100);
-    --nav-submenu-focus-color: var(--blue-600);
+  // Navigation
+  --nav-background: inherit;
+  --nav-color: currentcolor;
+  --nav-current-background: transparent;
+  --nav-hover-background: var(--blue-100);
+  --nav-hover-color: currentcolor;
+  --nav-focus-background: var(--blue-600);
+  --nav-focus-color: var(--white);
+  --nav-submenu-background: var(--blue-600);
+  --nav-submenu-color: var(--white);
+  --nav-submenu-hover-background: var(--black-opacity-30);
+  --nav-submenu-hover-color: var(--white);
+  --nav-submenu-focus-background: var(--blue-100);
+  --nav-submenu-focus-color: var(--blue-600);
 }

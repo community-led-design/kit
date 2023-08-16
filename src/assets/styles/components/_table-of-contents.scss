@@ -1,97 +1,96 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the table of contents component.
 // -----------------------------------------------------------------------------
-
 .toc [aria-expanded] {
-    align-items: center;
-    border-bottom: 2px solid var(--blue-100);
-    border-top: 2px solid var(--blue-100);
-    display: flex;
-    flex-direction: row;
-    font-size: var(--scale-1);
-    font-weight: var(--weight-bold);
-    height: rem(60);
-    justify-content: space-between;
-    margin-left: calc(-1 * var(--scale-4));
-    padding-left: var(--scale-4);
-    padding-right: var(--scale-4);
-    width: calc(100vw - var(--scrollbar-width, 0));
+  align-items: center;
+  block-size: rem(60);
+  border-block-end: 2px solid var(--blue-100);
+  border-block-start: 2px solid var(--blue-100);
+  display: flex;
+  flex-direction: row;
+  font-size: var(--scale-1);
+  font-weight: var(--weight-bold);
+  inline-size: calc(100vw - var(--scrollbar-width, 0));
+  justify-content: space-between;
+  margin-inline-start: calc(-1 * var(--scale-4));
+  padding-inline: var(--scale-4);
 
-    &:focus {
-        background: var(--blue-600);
-        border-color: var(--blue-600);
-        color: var(--white);
-        outline: none;
-    }
+  &:focus {
+    background: var(--blue-600);
+    border-color: var(--blue-600);
+    color: var(--white);
+    outline: none;
+  }
 
-    &:active {
-        background: var(--blue-500);
-        border-color: var(--blue-500);
-        color: var(--white);
-        outline: none;
-    }
+  &:active {
+    background: var(--blue-500);
+    border-color: var(--blue-500);
+    color: var(--white);
+    outline: none;
+  }
 
-    svg {
-        transition: 0.5s transform;
-    }
+  svg {
+    transition: 0.5s transform;
+  }
 }
 
 .toc [aria-expanded="true"] svg {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .toc [aria-expanded="false"] + * {
-    display: none;
+  display: none;
 }
 
 .toc [aria-expanded="true"] + * {
-    display: block;
-    padding-bottom: var(--scale-6);
+  display: block;
+  padding-block-end: var(--scale-6);
 
-    h2 {
-        display: none;
-    }
+  h2 {
+    display: none;
+  }
 }
 
 .toc ul li {
-    font-size: var(--scale-1);
+  font-size: var(--scale-1);
 }
 
 .toc ul li + li {
-    margin-top: var(--scale--4);
+  margin-block-start: var(--scale--4);
 }
 
 @media (max-width: 1023px) {
-    .toc a {
-        align-items: center;
-        border-radius: 0;
-        display: block;
-        display: flex;
-        height: rem(45);
-        margin-left: calc(-1 * var(--scale-4));
-        padding: 0 var(--scale-4);
-        width: calc(100vw - var(--scrollbar-width, 0));
-    }
+  .toc a {
+    align-items: center;
+    block-size: rem(45);
+    border-radius: 0;
+    display: block;
+    display: flex;
+    inline-size: calc(100vw - var(--scrollbar-width, 0));
+    margin-inline-start: calc(-1 * var(--scale-4));
+    padding-block: 0;
+    padding-inline: var(--scale-4);
+  }
 }
 
 @media (min-width: 1024px) {
-    .toc [aria-expanded] {
-        display: none;
-    }
+  .toc [aria-expanded] {
+    display: none;
+  }
 
-    .toc [aria-expanded="false"] + * {
-        display: block;
-    }
+  .toc [aria-expanded="false"] + * {
+    display: block;
+  }
 
-    .toc [aria-expanded="true"] + * {
-        padding-bottom: 0;
+  .toc [aria-expanded="true"] + * {
+    padding-block-end: 0;
 
-        h2 {
-            display: block;
-        }
+    h2 {
+      display: block;
     }
+  }
 
-    .back-to-top {
-        display: none;
-    }
+  .back-to-top {
+    display: none;
+  }
 }

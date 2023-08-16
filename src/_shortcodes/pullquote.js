@@ -16,8 +16,8 @@ module.exports = (content, author) => {
     if (content.trim()) {
         const md = new MarkdownIt({
             html: true,
-            breaks: true,
-            linkify: true
+            linkify: true,
+            typographer: true
         });
 
         renderedContent = md.render(content).trim();

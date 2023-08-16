@@ -1,48 +1,52 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the content area of the site.
 // -----------------------------------------------------------------------------
-
 .content {
-    margin: 0 auto;
-    max-width: var(--max-content);
-    padding: var(--scale-8) var(--scale-4);
-    width: 100%;
+  inline-size: 100%;
+  margin-block: 0;
+  margin-inline: auto;
+  max-inline-size: var(--max-content);
+  padding-block: var(--scale-8);
+  padding-inline: var(--scale-4);
 }
 
 .content-with-sidebar {
-    padding-top: 0;
+  padding-block-start: 0;
 
-    .sidebar {
-        background: white;
-        margin-left: calc(-1 * var(--scale-4));
-        padding: 0 var(--scale-4);
-        width: calc(100vw - var(--scrollbar-width, 0));
-    }
+  .sidebar {
+    background: white;
+    inline-size: calc(100vw - var(--scrollbar-width, 0));
+    margin-inline-start: calc(-1 * var(--scale-4));
+    padding-block: 0;
+    padding-inline: var(--scale-4);
+  }
 
-    .inner-content {
-        padding-top: var(--scale-8);
-    }
+  .inner-content {
+    padding-block-start: var(--scale-8);
+  }
 }
 
 @media (min-width: 1024px) {
-    .content-with-sidebar {
-        align-items: flex-start;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  .content-with-sidebar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-        .sidebar {
-            background: transparent;
-            margin: 0;
-            padding: var(--scale-8) 0 0;
-            position: sticky;
-            top: 0;
-            width: calc(3 / 12 * 100%);
-        }
-
-        .inner-content {
-            padding: var(--scale-8) 0 0;
-            width: calc(8 / 12 * 100%);
-        }
+    .sidebar {
+      background: transparent;
+      inline-size: calc(3 / 12 * 100%);
+      margin: 0;
+      padding-block: var(--scale-8) 0;
+      padding-inline: 0;
+      position: sticky;
+      top: 0;
     }
+
+    .inner-content {
+      inline-size: calc(8 / 12 * 100%);
+      padding-block: var(--scale-8) 0;
+      padding-inline: 0;
+    }
+  }
 }
