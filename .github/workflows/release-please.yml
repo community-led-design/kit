@@ -14,4 +14,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: "@inclusive-design/co-design.inclusivedesign.ca"
-          pull-request-title-pattern: "chore(release): release${component} ${version}"
+          pull-request-title-pattern: "chore(release): release ${component} ${version}"
