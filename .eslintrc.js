@@ -5,7 +5,7 @@ module.exports = {
         "fluid",
         "plugin:yml/standard"
     ],
-    ignorePatterns: ["_site/", "backstop_data/", "!.*.cjs", "!.*.js"],
+    ignorePatterns: ["_site/", "backstop_data/", "!.*.cjs", "!.*.js", "!.github"],
     env: {
         amd: true,
         browser: true,
