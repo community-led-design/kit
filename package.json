@@ -1,5 +1,5 @@
 {
-    "name": "@inclusive-design/co-design.inclusivedesign.ca",
+    "name": "@community-led-design/kit",
     "version": "1.1.0",
     "private": true,
     "description": "Website for the Community-Led Co-design Kit.",
@@ -24,14 +24,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/inclusive-design/co-design.inclusivedesign.ca.git"
+        "url": "git+https://github.com/community-led-design/kit.git"
     },
     "author": "OCAD University",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/inclusive-design/co-design.inclusivedesign.ca/issues"
+        "url": "https://github.com/community-led-design/kit/issues"
     },
-    "homepage": "https://github.com/inclusive-design/co-design.inclusivedesign.ca#readme",
+    "homepage": "https://github.com/community-led-design/kit#readme",
     "dependencies": {
         "@11ty/eleventy": "2.0.1",
         "@11ty/eleventy-img": "3.1.0",
