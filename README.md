@@ -43,7 +43,7 @@ and  files in `_site` are overwritten at build time.
 
 ## License
 
-The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/inclusive-design/co-design.inclusivedesign.ca/master/LICENSE.md).
+The Community-Led Co-Design Toolkit website is available under the [New BSD License](https://raw.githubusercontent.com/community-led-design/kit/master/LICENSE.md).
 
 The website's content is available under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
