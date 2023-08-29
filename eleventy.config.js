@@ -70,8 +70,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/admin/config.yml");
     eleventyConfig.addPassthroughCopy("src/admin/*.js");
     eleventyConfig.addPassthroughCopy({
-        "node_modules/netlify-cms/dist/netlify-cms.js": "lib/cms/netlify-cms.js",
-        "node_modules/netlify-cms/dist/netlify-cms.js.map": "lib/cms/netlify-cms.js.map",
+        "node_modules/decap-cms/dist/decap-cms.js": "lib/cms/decap-cms.js",
+        "node_modules/decap-cms/dist/decap-cms.js.map": "lib/cms/decap-cms.js.map",
         "node_modules/@babel/standalone/babel.min.js": "lib/cms/babel.min.js",
         "node_modules/@babel/standalone/babel.min.js.map": "lib/cms/babel.min.js.map",
         "node_modules/markdown-it/dist/markdown-it.min.js": "lib/cms/markdown-it.min.js",
