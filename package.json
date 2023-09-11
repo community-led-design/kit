@@ -58,7 +58,7 @@
         "eslint-plugin-markdown": "3.0.1",
         "eslint-plugin-yml": "1.8.0",
         "husky": "8.0.3",
-        "linkedom": "0.15.1",
+        "linkedom": "0.15.2",
         "lint-staged": "14.0.0",
         "markdownlint-cli2": "0.8.1",
         "markdownlint-config-fluid": "0.1.5",
