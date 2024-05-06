@@ -20,7 +20,7 @@
         "lint:yml": "eslint \"**/*.yml\"",
         "start": "npm-run-all -l clean -p start:*",
         "start:eleventy": "run-p dev cms",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "repository": {
         "type": "git",
@@ -46,7 +46,7 @@
         "react": "16.14.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "19.0.3",
+        "@commitlint/cli": "19.3.0",
         "@commitlint/config-conventional": "19.0.3",
         "backstopjs": "6.3.22",
         "cross-env": "7.0.3",
@@ -57,7 +57,7 @@
         "eslint-plugin-jsdoc": "48.2.3",
         "eslint-plugin-markdown": "4.0.1",
         "eslint-plugin-yml": "1.12.2",
-        "husky": "8.0.3",
+        "husky": "9.0.11",
         "linkedom": "0.15.2",
         "lint-staged": "15.2.2",
         "markdownlint-cli2": "0.11.0",
