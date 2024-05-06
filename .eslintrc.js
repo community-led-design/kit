@@ -18,7 +18,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ["src/assets/scripts/components/_accordion.js", "src/assets/scripts/app.js"],
+            files: ["src/assets/scripts/components/_accordion.js", "src/assets/scripts/app.js", "**/*.mjs"],
             parserOptions: {
                 sourceType: "module"
             }
