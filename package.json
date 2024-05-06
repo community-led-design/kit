@@ -72,7 +72,7 @@
     },
     "lint-staged": {
         "*.scss": "stylelint --fix",
-        "*.{js,yml}": "eslint --fix",
+        "*.{js,mjs,yml}": "eslint --fix",
         "*.md": [
             "markdownlint-cli2 --fix",
             "eslint --fix"
