@@ -4,7 +4,7 @@ module.exports = {
     extends: [
         "fluid",
         "plugin:yml/standard",
-        "plugin:markdown/recommended"
+        "plugin:markdown/recommended-legacy"
     ],
     ignorePatterns: ["_site/", "backstop_data/", "!.*.cjs", "!.*.js", "!.github/"],
     env: {
