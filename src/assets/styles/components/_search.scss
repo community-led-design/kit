@@ -1,0 +1,37 @@
+// Pagefind overrides
+
+#pagefind-search {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-text: var(--fl-fgColor, var(--blue-600));
+  --pagefind-ui-border: var(--black);
+  --pagefind-ui-border-width: 1px;
+
+  .pagefind-ui__result-title {
+    font-size: calc(var(--scale-2) * var(--pagefind-ui-scale));
+  }
+
+  .pagefind-ui__result-nested {
+    padding-block-start: var(--scale-4);
+    padding-inline: 0;
+
+    .pagefind-ui__result-title {
+      font-size: calc(var(--scale-1) * var(--pagefind-ui-scale));
+    }
+  }
+
+  .pagefind-ui__result-link {
+    &::before {
+      content: none;
+    }
+
+    &:focus {
+      background: var(--link-focus-background);
+      box-shadow: var(--link-focus-box-shadow);
+      color: var(--link-focus-color);
+    }
+  }
+
+  .pagefind-ui__result-excerpt mark {
+    background-color: var(--yellow-300);
+  }
+}

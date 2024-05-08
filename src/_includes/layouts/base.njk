@@ -27,6 +27,8 @@
                 {% set itemType = "Article" %}
             {% elif page.url === "/about/" %}
                 {% set itemType = "AboutPage" %}
+            {% elif page.url === "/search/" %}
+                {% set itemType = "Search" %}
             {% endif %}
             <article itemscope itemtype="https://schema.org/{{ itemType }}">
                 {% block pageHeader %}

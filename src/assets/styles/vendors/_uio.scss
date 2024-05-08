@@ -141,6 +141,12 @@
       }
     }
   }
+
+  // Highlight
+  mark {
+    background-color: var(--fl-fgColor) !important;
+    color: var(--fl-bgColor) !important;
+  }
 }
 
 .fl-prefsEditor-separatedPanel {
@@ -161,6 +167,10 @@
 
   .case-studies & {
     background: var(--green-300);
+  }
+
+  .search & {
+    background: var(--green-500);
   }
 }
 

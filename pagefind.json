@@ -1,0 +1,7 @@
+{
+    "site": "_site",
+    "excludeSelectors": [
+        "footer",
+        ".toc-menu"
+    ]
+}

@@ -191,3 +191,7 @@ ol[role="list"] {
   font-size: var(--scale-8);
   line-height: 1.2;
 }
+
+.word-break-keep-all {
+  word-break: keep-all;
+}

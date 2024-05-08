@@ -51,3 +51,10 @@ a {
   --link-active-color: var(--blue-600);
   --link-active-box-shadow: 0 0 0 2px var(--white);
 }
+
+/**
+ * Basic styles for highlighted text
+ */
+mark {
+  background-color: var(--yellow-300);
+}
