@@ -38,11 +38,11 @@
             <p {{ parentAttribute | safe }}>{{ entry.title }}</p>
             {% else %}
             <a{{ relAttribute | safe }}{{ parentAttribute | safe }}{{ currentAttribute | safe }} href="{{ entry.url | url }}">
-              {{ entry.title }}
               {% if entry.icon %}
                 {% set navIcon = entry.icon | slugify + ".svg" %}
                 {% include "svg/" + navIcon %}
               {% endif %}
+              {{ entry.title }}
             </a>
             {% endif %}
             {%- if entry.children.length > 0 %}
