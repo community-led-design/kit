@@ -155,6 +155,8 @@
 }
 
 .fl-prefsEditor-separatedPanel {
+  background-color: transparent;
+  border: none;
   padding-block-end: var(--scale-0);
 
   .home & {
