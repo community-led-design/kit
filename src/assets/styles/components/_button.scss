@@ -120,12 +120,12 @@ a.button--secondary {
 
 [data-background="dark"] {
   // Primary Buttons
-  --btn-primary-background: var(--green-100);
+  --btn-primary-background: var(--green-300);
   --btn-primary-color: var(--blue-600);
   --btn-primary-border-color: transparent;
-  --btn-primary-hover-background: var(--green-300);
+  --btn-primary-hover-background: var(--green-100);
   --btn-primary-hover-color: var(--btn-primary-color);
-  --btn-primary-focus-background: var(--btn-primary-background);
+  --btn-primary-focus-background: var(--btn-primary-hover-background);
   --btn-primary-focus-color: var(--btn-primary-color);
   --btn-primary-focus-border-color: var(--blue-600);
   --btn-primary-focus-box-shadow: 0 0 0 2px var(--btn-primary-focus-background);

@@ -47,6 +47,11 @@
     background-color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
     color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
 
+    * {
+      background-color: inherit !important;
+      color: inherit !important;
+    }
+
     &:focus {
       border-color: var(--btn-primary-focus-border-color) !important;
     }

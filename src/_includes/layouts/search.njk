@@ -3,37 +3,58 @@
 {% set bodyClass = "page search" %}
 
 {% block headerScripts %}
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
+<script src="/assets/scripts/search.js"></script>
 {% endblock %}
 
 {% block pageHeader %}
-<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]">
+<header class="[ header ] [ {% if bannerBg %}bg-{{ bannerBg }} {% endif %} {% if bannerText %}text-{{ bannerText }} {% endif %}]" data-background="dark">
     <div class="wrapper">
         <h1 itemprop="name" class="wider">
-            {{ title | safe}}<br />
-            <span class="weight-normal word-break-keep-all">The Community-led Co-design Kit</span>
+            {{ title | safe}}
         </h1>
+        <form action="">
+            <label for="search" class="visually-hidden">Search the Community-led Co-design Kit</label>
+            <div class="search-container">
+                {% include "svg/search.svg" %}
+                <input id="search" type="search" name="q" autofocus>
+            </div>
+            <button type="submit" class="button"><span>Search</span></button>
+        </form>
     </div>
 </header>
 
 {% endblock %}
 
 {% block content %}
-<div class="[ content ]">
+<div id="results-container" class="[ content ] cloak">
     <div class="inner-content">
-        <div id="pagefind-search" class="pagefind-search"></div>
+        <div id="search-results"></div>
+        <script type="module">
+            const params = new URLSearchParams(window.location.search);
+            const term = params.get("q");
 
-        <script>
-            window.addEventListener('DOMContentLoaded', (event) => {
-                new PagefindUI({
-                    element: "#pagefind-search",
-                    showSubResults: true,
-                    showImages: false,
-                    highlightParam: "highlight",
-                    autofocus: true
-                });
+            const searchInput = document.querySelector("#search");
+            searchInput.value = term;
+
+            const pagefind = await import("/pagefind/pagefind.js");
+            await pagefind.options({
+                highlightParam: "highlight"
             });
+            pagefind.init();
+
+            let page = params.get("page");
+            page = isNaN(page) ? 1 : Number(page ?? 1);
+
+            let results = await search(pagefind, "#search-results", term, page, {
+                svgs: {
+                    previous: `{% include "svg/previous.svg" %}`,
+                    next: `{% include "svg/next.svg" %}`,
+                }
+            });
+
+            if (results.length) {
+                document.querySelector("#results-container").classList.remove("cloak");
+            }
         </script>
     </div>
 </div>

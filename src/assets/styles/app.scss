@@ -40,8 +40,8 @@
   "components/hr",
   "components/image-text",
   "components/navigation",
+  "components/pagination",
   "components/select",
-  "components/search",
   "components/table-of-contents";
 
 // 6. Page-specific styles
@@ -49,7 +49,8 @@
   "pages/design-process",
   "pages/home",
   "pages/resource",
-  "pages/resources";
+  "pages/resources",
+  "pages/search";
 
 // 7. Themes
 @import

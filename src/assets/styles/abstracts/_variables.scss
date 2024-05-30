@@ -165,4 +165,14 @@ $scale: (
   --nav-submenu-hover-color: var(--white);
   --nav-submenu-focus-background: var(--blue-100);
   --nav-submenu-focus-color: var(--blue-600);
+
+  // Pagination
+  --pagination-color: var(--blue-500);
+  --pagination-current-background: var(--blue-100);
+  --pagination-hover-background: var(--blue-100);
+  --pagination-hover-color: var(--blue-600);
+  --pagination-focus-background: var(--blue-600);
+  --pagination-focus-color: var(--white);
+  --pagination-active-background: var(--blue-500);
+  --pagination-active-color: var(--white);
 }

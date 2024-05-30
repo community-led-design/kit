@@ -1,0 +1,66 @@
+.pagination {
+  svg {
+    block-size: 1.25em;
+    inline-size: 1.25em;
+    margin-block-start: 0;
+  }
+
+  ul {
+    align-items: center;
+    column-gap: var(--scale--4);
+    display: flex;
+    justify-content: center;
+  }
+
+  li a {
+    align-items: center;
+    block-size: rem(40);
+    border-radius: 0;
+    color: var(--pagination-color);
+    display: flex;
+    inline-size: rem(36);
+    justify-content: center;
+  }
+
+  li a:focus {
+    background-color: var(--pagination-focus-background);
+    box-shadow: unset;
+    color: var(--pagination-focus-color);
+  }
+
+  li a:hover {
+    background-color: var(--pagination-hover-background);
+    color: var(--pagination-hover-color);
+  }
+
+  li a:active {
+    background-color: var(--pagination-active-background);
+    color: var(--pagination-active-color);
+  }
+
+  li a[aria-current="page"]:not(:active, :focus, :hover) {
+    background-color: var(--pagination-current-background);
+    box-shadow: inset 0 -3px 0 0 var(--fl-linkColor, var(--pagination-color));
+    color: var(--pagination-color);
+    text-decoration: none;
+  }
+}
+
+[data-background="dark"] {
+  --pagination-color: var(--white);
+  --pagination-current-background: var(--black);
+  --pagination-hover-background: var(--black);
+  --pagination-hover-color: var(--yellow-300);
+  --pagination-focus-background: var(--blue-100);
+  --pagination-focus-color: var(--blue-500);
+  --pagination-active-background: var(--blue-100);
+  --pagination-active-color: var(--blue-500);
+}
+
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+  .pagination {
+    li a:hover {
+      border: solid 3px var(--fl-linkColor) !important;
+    }
+  }
+}
