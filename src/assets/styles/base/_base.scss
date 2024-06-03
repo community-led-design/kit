@@ -57,4 +57,8 @@ a {
  */
 mark {
   background-color: var(--yellow-300);
+  border-block-end: rem(1) dashed currentcolor;
+  color: var(--blue-600);
+  font-weight: var(--weight-bold);
+  padding-inline: rem(2);
 }

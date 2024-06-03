@@ -150,6 +150,8 @@
   // Highlight
   mark {
     background-color: var(--fl-fgColor) !important;
+    border: none !important;
+    border-block-end: 1px dashed currentcolor !important;
     color: var(--fl-bgColor) !important;
   }
 }
