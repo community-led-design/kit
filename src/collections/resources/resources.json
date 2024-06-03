@@ -1,4 +1,5 @@
 {
     "layout": "layouts/resource",
-    "permalink": "/resources/{{ title | slugify }}/"
+    "permalink": "/resources/{{ title | slugify }}/",
+    "searchable": true
 }
