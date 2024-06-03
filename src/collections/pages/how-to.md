@@ -4,6 +4,7 @@ title: How to use this kit
 permalink: /how-to/
 searchable: true
 toc: true
+type: "Introductory article"
 eleventyNavigation:
   parent: Getting Started
   order: 2

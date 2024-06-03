@@ -4,6 +4,7 @@ title: Introduction to community-led co-design
 permalink: /introduction/
 searchable: true
 toc: true
+type: "Introductory article"
 eleventyNavigation:
   parent: Getting Started
   order: 1

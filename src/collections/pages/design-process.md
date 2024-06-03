@@ -5,6 +5,7 @@ subtitle: We use the metaphor of going for a walk in the park to explain the des
 permalink: /design-process/
 searchable: true
 toc: false
+type: "Introductory article"
 eleventyNavigation:
   parent: Getting Started
   order: 3

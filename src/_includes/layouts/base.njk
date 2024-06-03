@@ -16,7 +16,7 @@
         {% block headerScripts %}
         {% endblock %}
     </head>
-    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %} {% if searchable %} data-pagefind-body{% endif %}>
+    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %} {% if searchable %} data-pagefind-body{% endif %} {% if type %} data-pagefind-meta="type:{{ type }}"{% endif %}>
         {% uioTemplate %}
         {% include "partials/global/header.njk" %}
         <main>
