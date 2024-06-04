@@ -3,8 +3,8 @@ editable: true
 title: How to use this kit
 permalink: /how-to/
 searchable: true
+category: "Introductory article"
 toc: true
-type: "Introductory article"
 eleventyNavigation:
   parent: Getting Started
   order: 2

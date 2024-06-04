@@ -2,5 +2,5 @@
     "layout": "layouts/case-study",
     "permalink": "/case-studies/{{ title | slugify }}/",
     "searchable": true,
-    "type": "Case study"
+    "category": "Case study"
 }

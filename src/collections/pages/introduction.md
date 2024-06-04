@@ -3,8 +3,8 @@ layout: layouts/page
 title: Introduction to community-led co-design
 permalink: /introduction/
 searchable: true
+category: "Introductory article"
 toc: true
-type: "Introductory article"
 eleventyNavigation:
   parent: Getting Started
   order: 1

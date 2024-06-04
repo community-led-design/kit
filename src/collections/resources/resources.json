@@ -2,5 +2,5 @@
     "layout": "layouts/resource",
     "permalink": "/resources/{{ title | slugify }}/",
     "searchable": true,
-    "type": "Resource"
+    "category": "Resource"
 }

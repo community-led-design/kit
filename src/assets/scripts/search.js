@@ -20,7 +20,7 @@ const constructResults = function (results) {
             <li>
                 <div class="search-results__title">
                     <a href="${result.url}">${result.meta.title}</a>
-                    <em>${result.meta.type}</em>
+                    <em>${result.meta.category ?? ""}</em>
                 </div>
                 <p class="search-results__excerpt">${result.excerpt}</p>
             </li>
