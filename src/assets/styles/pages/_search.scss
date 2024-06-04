@@ -82,10 +82,13 @@
   }
 
   .search-results__title--type {
-    display: flex;
-    flex-direction: column;
+    a {
+      font-size: var(--scale-1);
+      font-weight: var(--weight-medium);
+    }
 
     > :last-child {
+      display: block;
       font-size: var(--scale--1);
       margin-block: 0 var(--scale-0);
     }
