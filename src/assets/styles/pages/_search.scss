@@ -1,25 +1,29 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the search page.
 // -----------------------------------------------------------------------------
+.cloak {
+  display: none;
+}
+
 .search {
   &:has(.cloak) {
     background-color: var(--green-500);
   }
 
   header form {
-    column-gap: rem(29);
+    column-gap: var(--scale-3);
     display: flex;
     font-size: var(--scale-0);
-    margin-block-start: rem(64);
+    margin-block-start: var(--scale-7);
 
     button[type="submit"] span {
       align-self: center;
       font-size: var(--scale-0);
       font-weight: var(--weight-medium);
-      padding-inline: rem(8);
+      padding-inline: var(--scale--4);
 
       @media (min-width: 768px) {
-        padding-inline: rem(48);
+        padding-inline: var(--scale-6);
       }
     }
   }
@@ -50,7 +54,7 @@
       block-size: 1.25em;
       color: var(--black);
       inline-size: 1.25em;
-      margin-inline: 0 0.5rem;
+      margin-inline: 0 var(--scale--4);
     }
 
     input[type="search"] {
@@ -63,54 +67,58 @@
     }
   }
 
+  &[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+    .search-container {
+      &:hover {
+        border-style: double;
+      }
+
+      &:focus-within {
+        box-shadow: 0 0 0 rem(2) var(--fl-fgColor);
+      }
+    }
+  }
+
   .search-results {
-    margin-block-start: rem(53);
+    margin-block-start: var(--scale-6);
+
+    &__title {
+      margin-block-end: var(--scale--4);
+
+      a {
+        color: var(--blue-600);
+        font-size: var(--scale-1);
+        font-weight: var(--weight-medium);
+      }
+
+      a:active,
+      a:focus {
+        color: var(--white);
+      }
+
+      em {
+        display: block;
+        font-size: var(--scale--1);
+        margin-block: 0;
+      }
+    }
 
     &__excerpt {
       font-size: var(--scale--1);
-      margin-block: 0 rem(31);
+      margin-block: 0 var(--scale-2);
     }
 
     &__excerpt--last {
       margin-block: 0;
     }
 
-    > li {
+    > li:first-of-type {
       border-block-start: solid 1px var(--blue-600);
-      padding-block: rem(36);
-    }
-  }
-
-  .search-results__title--type {
-    a {
-      font-size: var(--scale-1);
-      font-weight: var(--weight-medium);
-    }
-
-    > :last-child {
-      display: block;
-      font-size: var(--scale--1);
-      margin-block: 0 var(--scale-0);
+      padding-block-start: var(--scale-6);
     }
   }
 
   .pagination {
     margin-block-start: var(--scale-7);
   }
-}
-
-.search[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
-  .search-container {
-    &:hover {
-      border-style: double;
-    }
-
-    &:focus-within {
-      box-shadow: 0 0 0 2px var(--fl-fgColor);
-    }
-  }
-}
-
-.cloak {
-  display: none;
 }

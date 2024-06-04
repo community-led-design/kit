@@ -12,35 +12,20 @@ const constructSummary = function (term, count) {
     return `<strong>${count} results for “${term}”</strong>`;
 };
 
-const constructResults = function (results, showSubResults) {
+const constructResults = function (results) {
     let searchResults = "";
 
-    if (showSubResults) {
-        results.forEach((result) => {
-            let subResults = "";
-            result.sub_results.forEach((sub_result, index, sub_results) => {
-                subResults += `
-                    <li>
-                        <a href="${sub_result.url}">${sub_result.title}</a>
-                        <p class="search-results__excerpt ${index === (sub_results.length - 1) ? "search-results__excerpt--last" : ""}">${sub_result.excerpt}</p>
-                    </li>
-                `;
-            });
-            searchResults += `<li><span class="h4">${result.meta.title}</span><ol role="list">${subResults}</ol></li>`;
-        });
-    } else {
-        results.forEach((result) => {
-            searchResults += `
-                <li>
-                    <div class="search-results__title--type">
-                        <a href="${result.url}">${result.meta.title}</a>
-                        <em>${result.meta.type}</em>
-                    </div>
-                    <p class="search-results__excerpt">${result.excerpt}</p>
-                </li>
-            `;
-        });
-    }
+    results.forEach((result) => {
+        searchResults += `
+            <li>
+                <div class="search-results__title">
+                    <a href="${result.url}">${result.meta.title}</a>
+                    <em>${result.meta.type}</em>
+                </div>
+                <p class="search-results__excerpt">${result.excerpt}</p>
+            </li>
+        `;
+    });
 
     return `<ol class="search-results" role="list">${searchResults}</ol>`;
 };
@@ -99,7 +84,7 @@ const render = async function (container, search, term, page = 1, options) {
     containerElm.innerHTML = `
         ${constructHeading()}
         ${constructSummary(term, search.results.length)}
-        ${constructResults(pagedResults, opts.showSubResults)}
+        ${constructResults(pagedResults)}
         ${constructPageLinks(window.location, pages, page, opts.svgs)}
     `;
 
@@ -120,7 +105,6 @@ const search = async function (pagefind, container, term, page = 1, options) {
 
     let opts = {
         "itemsPerPage": 5,
-        "showSubResults": false,
         ...options
     };
 
