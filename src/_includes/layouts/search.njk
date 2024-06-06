@@ -30,31 +30,19 @@
     <div class="inner-content">
         <div id="search-results"></div>
         <script type="module">
-            const params = new URLSearchParams(window.location.search);
-            const term = params.get("q");
-
-            const searchInput = document.querySelector("#search");
-            searchInput.value = term;
-
+            // Pagefind scripts are added at build time
             const pagefind = await import("/pagefind/pagefind.js");
             await pagefind.options({
                 highlightParam: "highlight"
             });
             pagefind.init();
 
-            let page = params.get("page");
-            page = isNaN(page) ? 1 : Number(page ?? 1);
-
-            let results = await search(pagefind, "#search-results", term, page, {
+            let results = await search(pagefind, {
                 svgs: {
                     previous: `{% include "svg/previous.svg" %}`,
                     next: `{% include "svg/next.svg" %}`,
                 }
             });
-
-            if (results.length) {
-                document.querySelector("#results-container").classList.remove("cloak");
-            }
         </script>
     </div>
 </div>

@@ -96,20 +96,41 @@ const render = async function (container, search, term, page = 1, options) {
     However, Pagefind can support more functionality like sorting, filtering,
     debounced search and etc.
 */
-const search = async function (pagefind, container, term, page = 1, options) {
+const search = async function (pagefind, options) {
+    const opts = {
+        "itemsPerPage": 5,
+        "inputSelector": "#search",
+        "resultsContainer": "#results-container",
+        "resultsSelector": "#search-results",
+        "cloak": "cloak",
+        "queryParam": "q",
+        "pageParam": "page",
+        ...options
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    let term = params.get(opts.queryParam);
+
+    const searchInput = document.querySelector(opts.inputSelector);
+    searchInput.value = term;
+
+    let page = params.get(opts.pageParam);
+    page = isNaN(page) ? 1 : Number(page ?? 1);
+
     term = typeof term === "string" ? term.trim() : "";
 
     if (!term) {
         return [];
     }
 
-    let opts = {
-        "itemsPerPage": 5,
-        ...options
-    };
-
     const search = await pagefind.search(term);
-    return await render(container, search, term, page, opts);
+    let results = await render(opts.resultsSelector, search, term, page, opts);
+
+    if (results.length && opts.cloak) {
+        document.querySelector(opts.resultsContainer).classList.remove(opts.cloak);
+    }
+
+    return results;
 };
 
 window.search = search;
