@@ -126,7 +126,7 @@ const search = async function (pagefind, options) {
     const search = await pagefind.search(term);
     let results = await render(opts.resultsSelector, search, term, page, opts);
 
-    if (results.length && opts.cloak) {
+    if (opts.cloak) {
         document.querySelector(opts.resultsContainer).classList.remove(opts.cloak);
     }
 
