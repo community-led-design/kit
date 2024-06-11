@@ -1,8 +1,10 @@
 ---
 editable: false
 title: "The design process"
-subtitle: We use the metaphor of going for a walk in the park to explain the design process. This map also shows you how co-design can be used to make your design process more inclusive. 
+subtitle: We use the metaphor of going for a walk in the park to explain the design process. This map also shows you how co-design can be used to make your design process more inclusive.
 permalink: /design-process/
+searchable: true
+category: "Introductory article"
 toc: false
 eleventyNavigation:
   parent: Getting Started

@@ -21,7 +21,7 @@
 	        {% if entry.rel %}
 	          {% set relAttribute = ' rel="' + entry.rel + '"' %}
 	        {% endif %}
-	
+
 	        {% if currentPage %}
 	          {% set currentAttribute = ' aria-current="page"' %}
 	        {% endif %}
@@ -37,7 +37,13 @@
             {% if entry.url == "#" %}
             <p {{ parentAttribute | safe }}>{{ entry.title }}</p>
             {% else %}
-            <a{{ relAttribute | safe }}{{ parentAttribute | safe }}{{ currentAttribute | safe }} href="{{ entry.url | url }}">{{ entry.title }}</a>
+            <a{{ relAttribute | safe }}{{ parentAttribute | safe }}{{ currentAttribute | safe }} href="{{ entry.url | url }}">
+              {% if entry.icon %}
+                {% set navIcon = entry.icon | slugify + ".svg" %}
+                {% include "svg/" + navIcon %}
+              {% endif %}
+              {{ entry.title }}
+            </a>
             {% endif %}
             {%- if entry.children.length > 0 %}
             <ul role="list">
@@ -47,7 +53,7 @@
               {% if child.rel %}
                 {% set relAttribute = ' rel="' + child.rel + '"' %}
               {% endif %}
-      
+
               {% if currentPage %}
                 {% set currentAttribute = ' aria-current="page"' %}
               {% endif %}

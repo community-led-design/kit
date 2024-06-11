@@ -1,3 +1,8 @@
 <script type="text/javascript" src="/assets/scripts/app.js" defer></script>
 {% uioScripts %}
 <script type="text/javascript" src="/assets/scripts/uio.js" defer></script>
+<script type="text/javascript" src="/pagefind/pagefind-highlight.js"></script>
+<script type="module">
+    await import('/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: "highlight" });
+</script>

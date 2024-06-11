@@ -125,6 +125,12 @@
   }
 }
 
+.menu ul > li a svg {
+  block-size: 1.25em;
+  inline-size: 1.25em;
+  margin-inline: 0 0.5rem;
+}
+
 .menu ul ul {
   margin-block-start: 0;
 }

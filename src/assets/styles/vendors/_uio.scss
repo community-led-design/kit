@@ -47,6 +47,11 @@
     background-color: var(--fl-buttonFgColor, var(--fl-fgColor)) !important;
     color: var(--fl-buttonBgColor, var(--fl-bgColor)) !important;
 
+    * {
+      background-color: inherit !important;
+      color: inherit !important;
+    }
+
     &:focus {
       border-color: var(--btn-primary-focus-border-color) !important;
     }
@@ -141,9 +146,19 @@
       }
     }
   }
+
+  // Highlight
+  mark {
+    background-color: var(--fl-fgColor) !important;
+    border: none !important;
+    border-block-end: 1px dashed currentcolor !important;
+    color: var(--fl-bgColor) !important;
+  }
 }
 
 .fl-prefsEditor-separatedPanel {
+  background-color: transparent;
+  border: none;
   padding-block-end: var(--scale-0);
 
   .home & {
@@ -161,6 +176,10 @@
 
   .case-studies & {
     background: var(--green-300);
+  }
+
+  .search & {
+    background: var(--green-500);
   }
 }
 

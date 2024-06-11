@@ -1,0 +1,124 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the search page.
+// -----------------------------------------------------------------------------
+.cloak {
+  display: none;
+}
+
+.search {
+  &:has(.cloak) {
+    background-color: var(--green-500);
+  }
+
+  header form {
+    column-gap: var(--scale-3);
+    display: flex;
+    font-size: var(--scale-0);
+    margin-block-start: var(--scale-7);
+
+    button[type="submit"] span {
+      align-self: center;
+      font-size: var(--scale-0);
+      font-weight: var(--weight-medium);
+      padding-inline: var(--scale--4);
+
+      @media (min-width: 768px) {
+        padding-inline: var(--scale-6);
+      }
+    }
+  }
+
+  h2 {
+    margin-block-end: var(--scale--4);
+  }
+
+  .search-container {
+    align-items: center;
+    background-color: var(--white);
+    border: 3px solid transparent;
+    border-radius: 3px;
+    display: flex;
+    flex-grow: 1;
+    padding: rem(16);
+
+    &:hover {
+      border-color: var(--green-300);
+    }
+
+    &:focus-within {
+      border-color: var(--green-500);
+      box-shadow: 0 0 0 2px var(--green-100);
+    }
+
+    > svg {
+      block-size: 1.25em;
+      color: var(--black);
+      inline-size: 1.25em;
+      margin-inline: 0 var(--scale--4);
+    }
+
+    input[type="search"] {
+      border: none;
+      inline-size: 100%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  &[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+    .search-container {
+      &:hover {
+        border-style: double;
+      }
+
+      &:focus-within {
+        box-shadow: 0 0 0 rem(2) var(--fl-fgColor);
+      }
+    }
+  }
+
+  .search-results {
+    margin-block-start: var(--scale-6);
+
+    &__title {
+      margin-block-end: var(--scale--4);
+
+      a {
+        color: var(--blue-600);
+        font-size: var(--scale-1);
+        font-weight: var(--weight-medium);
+      }
+
+      a:active,
+      a:focus {
+        color: var(--white);
+      }
+
+      em {
+        display: block;
+        font-size: var(--scale--1);
+        margin-block: 0;
+      }
+    }
+
+    &__excerpt {
+      font-size: var(--scale--1);
+      margin-block: 0 var(--scale-2);
+    }
+
+    &__excerpt--last {
+      margin-block: 0;
+    }
+
+    > li:first-of-type {
+      border-block-start: solid 1px var(--blue-600);
+      padding-block-start: var(--scale-6);
+    }
+  }
+
+  .pagination {
+    margin-block-start: var(--scale-7);
+  }
+}

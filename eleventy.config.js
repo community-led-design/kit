@@ -17,6 +17,7 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const eleventyImage = require("@11ty/eleventy-img");
+const {exec} = require("child_process");
 
 const exampleBlockShortcode = require("./src/_shortcodes/example-block.js");
 const learningBlockShortcode = require("./src/_shortcodes/learning-block.js");
@@ -106,6 +107,13 @@ module.exports = function (eleventyConfig) {
         return [
             ...collection.getFilteredByGlob("src/collections/case-studies/*.md").sort((a, b) => b.data.order - a.data.order)
         ].reverse();
+    });
+
+    eleventyConfig.on("afterBuild", async () => {
+        // TODO: Once 11ty v3 is stable and the project updated to use it, it will be possible to use Pagefind's
+        // NodeJS API instead of calling `npx` with `exec`. This is because 11ty currently doesn't support ES6 modules.
+        // https://pagefind.app/docs/node-api/
+        await exec("npx pagefind");
     });
 
     return {

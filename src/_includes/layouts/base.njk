@@ -16,7 +16,7 @@
         {% block headerScripts %}
         {% endblock %}
     </head>
-    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+    <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %} {% if searchable %} data-pagefind-body{% endif %} {% if category %} data-pagefind-meta="category:{{ category }}"{% endif %}>
         {% uioTemplate %}
         {% include "partials/global/header.njk" %}
         <main>
@@ -27,6 +27,8 @@
                 {% set itemType = "Article" %}
             {% elif page.url === "/about/" %}
                 {% set itemType = "AboutPage" %}
+            {% elif page.url === "/search/" %}
+                {% set itemType = "Search" %}
             {% endif %}
             <article itemscope itemtype="https://schema.org/{{ itemType }}">
                 {% block pageHeader %}

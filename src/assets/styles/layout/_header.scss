@@ -12,6 +12,13 @@
   }
 }
 
+.header h1.wider,
+.header .subtitle.wider {
+  @media (min-width: 1024px) {
+    inline-size: 60%;
+  }
+}
+
 .header .subtitle {
   margin-block-start: var(--scale-1);
 }
