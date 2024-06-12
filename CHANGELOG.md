@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/community-led-design/kit/compare/v1.1.0...v1.2.0) (2024-06-11)
+
+
+### Features
+
+* add site wide search (resolves [#393](https://github.com/community-led-design/kit/issues/393), [#316](https://github.com/community-led-design/kit/issues/316)) ([#394](https://github.com/community-led-design/kit/issues/394)) ([9ed821d](https://github.com/community-led-design/kit/commit/9ed821d806b1a65a67da78c01a3c322f12e3161f))
+* disallow indexing of /lib ([#336](https://github.com/community-led-design/kit/issues/336)) ([1e35580](https://github.com/community-led-design/kit/commit/1e35580635b609f0f3e17ca7cbe34d7052e9aa60))
+* remove analytics code (resolves [#358](https://github.com/community-led-design/kit/issues/358)) ([#359](https://github.com/community-led-design/kit/issues/359)) ([9c2a21a](https://github.com/community-led-design/kit/commit/9c2a21a363df8d586bfee43195b3a6e16cb4fdee))
+* replace Netlify CMS with Decap CMS ([#340](https://github.com/community-led-design/kit/issues/340)) ([83a823a](https://github.com/community-led-design/kit/commit/83a823a99c9f1c31c647e93df4094a8c68a05d2b))
+
+
+### Bug Fixes
+
+* remove fluid-lint-all config ([#333](https://github.com/community-led-design/kit/issues/333)) ([52de744](https://github.com/community-led-design/kit/commit/52de7442e8e2e28cb529c78fc4ef085a04f6f2fb))
+* resolve issue with filters (fixes [#364](https://github.com/community-led-design/kit/issues/364)) ([#365](https://github.com/community-led-design/kit/issues/365)) ([1bb8a7d](https://github.com/community-led-design/kit/commit/1bb8a7df7f541d6e21da10da8f32115923657569))
+* update commitlint ([2da1f10](https://github.com/community-led-design/kit/commit/2da1f103654ab7522589298223224d48de2fd103))
+* update commitlint ([6f58e7a](https://github.com/community-led-design/kit/commit/6f58e7a913bb0973cd248b67dd36f72330e29ac1))
+* use appropriate title in CMS ([3bd7430](https://github.com/community-led-design/kit/commit/3bd743001dcd499d0140408408f25eaa92018264))
+* use correct Dependabot ignore syntax ([#335](https://github.com/community-led-design/kit/issues/335)) ([1cc208e](https://github.com/community-led-design/kit/commit/1cc208ed7c75875ee7ba8cecedb3407604eaf9df))
+
 ## [1.1.0](https://github.com/community-led-design/kit/compare/v1.0.0...v1.1.0) (2023-08-16)
 
 
