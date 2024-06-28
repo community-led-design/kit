@@ -50,7 +50,7 @@
         "@commitlint/config-conventional": "19.2.2",
         "backstopjs": "6.3.23",
         "cross-env": "7.0.3",
-        "debug": "4.3.4",
+        "debug": "4.3.5",
         "decap-server": "3.0.4",
         "eslint": "8.57.0",
         "eslint-config-fluid": "2.1.2",
