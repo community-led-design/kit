@@ -113,17 +113,21 @@ Connecting directly with the artists was not possible between sessions, other th
 Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process.
 {% endlearning %}
 
-Structuring and planning the co-design activities
+### Structuring and planning the co-design activities
 
 Some of the feedback we received from BEING facilitators was that our video prompts did not go into enough detail about the goal and use of the templates provided. 
 
-Learning:
-
+{% learning "Learning: Keep instructions simple and concise" %}
 Keep instructions simple and concise. Use some of the time in a co-design session to introduce preparatory materials and activities or to plan for the next session together — this allows participants to be invested in the process and to inform the facilitators of the best way to present and frame the ideas. 
 
 This requires balancing the time needed for the co-design session activities with planning activities and may not always be appropriate, and depends upon the interest of participants in helping to plan the activities.
 
 This would work well when paired with post-session debrief sessions with community facilitators, to allow for further refinement of the plan with their input.
+{% endlearning %}
+
+
+
+
 
 Documenting and communicating ideas
 
