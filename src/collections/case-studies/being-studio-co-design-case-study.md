@@ -109,7 +109,7 @@ Find ways to engage participants from the start of the co-design process in orde
 
 Connecting directly with the artists was not possible between sessions, other than asynchronously through email or video prompts. It may have been more effective to find ways of communicating directly with the artists throughout the co-design process. 
 
-{% learning "Learning: Stay connected between sessions" %}
+{% learning "Learning: Solicit feedback" %}
 Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process.
 {% endlearning %}
 
@@ -125,29 +125,25 @@ This requires balancing the time needed for the co-design session activities wit
 This would work well when paired with post-session debrief sessions with community facilitators, to allow for further refinement of the plan with their input.
 {% endlearning %}
 
-
-
-
-
-Documenting and communicating ideas
+### Documenting and communicating ideas
 
 While it was more challenging to share physical artifacts in an online setting, BEING artists were able to successfully show their art maps during the sessions. 
 
-Learning:
+{% learning "Learning: Stay connected between sessions" %}
+Provide a way for artists to share documentation of their work with artist participants and facilitators between the co-design sessions (e.g. photos, videos, text descriptions) in formats and through communication channels that work best for them. This would give everyone a chance to experience each others' work in more detail and spark thoughts and ideas for the next session.
+{% endlearning %}
 
-Provide a way for artists to share documentation of their work with artist participants and facilitators between the co-design sessions (e.g. photos, videos, text descriptions) in formats and through communication channels that work best for them. This would give everyone a chance to experience each others' work in more detail and spark thoughts and ideas for the next session. 
 
-Impact
+
+## Impact
 
 Co-design with BEING Studio artists provided an opportunity for them to playfully explore and lead the discussion around their vision for the hybrid online/in-person future of BEING. A significant impact of the co-design was having artists realise and communicate that they were interested in teaching workshops, both online and in-person. It was also pointed out by BEING facilitators that some of the artists who were typically more quiet were able to share more than usual during the sessions. 
 
 Some other significant impacts include:
 
-An exploration of new ideas about how artists can maximize the potential of online spaces such as the Artist pages, SHOP, podcast and other web content, as well as social media (Instagram, Facebook), for sharing and selling work, and staying connected to other artists. 
-
-Recognition of the importance of a continued exploration of how online learning rooms might be designed to allow for diverse needs
-
-The initiation of an artist-led discussion around how to decide if and when to sell their work 
+* An exploration of new ideas about how artists can maximize the potential of online spaces such as the Artist pages, SHOP, podcast and other web content, as well as social media (Instagram, Facebook), for sharing and selling work, and staying connected to other artists. 
+* Recognition of the importance of a continued exploration of how online learning rooms might be designed to allow for diverse needs
+* The initiation of an artist-led discussion around how to decide if and when to sell their work 
 
 ## Resources
 
