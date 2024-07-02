@@ -52,9 +52,9 @@ The introductory “Think Tank” event was an online event open to all BEING ar
 
 Figure 2. Example of a slide used to guide the third co-design session on the topic of BEING online.
 
-### Co-design Process Highlights
+## Co-design Process Highlights
 
-#### Relationship and Trust Building
+### Relationship and Trust Building
 
 Before beginning the co-design planning, IDRC facilitators joined multiple sessions of an online event organised by BEING Studio called Artist Connect. Attending these sessions was helpful in getting to know the BEING artists and getting a sense of the community, culture and context of BEING and of this disability arts community more generally.
 
@@ -62,11 +62,11 @@ Through an introductory event that was similar in name and structure to previous
 
 View the Think Tank slide presentation (pdf file). 
 
-Figure 2. Screen capture of the BEING Futures Think Tank session.
+Figure 3. Screen capture of the BEING Futures Think Tank session.
 
-Figure 3. Outcome of the Think Tank collaborative art activity
+Figure 4. Outcome of the Think Tank collaborative art activity
 
-Community Leadership
+### Community Leadership
 
 Collaborating with BEING facilitators from the beginning of the process helped to create a successful co-design plan, since the BEING facilitators were most familiar with the artists and with the culture and context of BEING. 
 
@@ -78,19 +78,19 @@ Debrief sessions were held together with BEING facilitators after each workshop 
 
 Figures 4-6: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
 
-Co-design Outcomes
+## Co-design Outcomes
 
 A complete list of outcomes and suggested next steps can be found in an Excel spreadsheet here. Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
 
-Documentation
+### Documentation
 
 The following creative design map is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on YouTube here.
 
-Challenges and Learnings
+## Challenges and Learnings
 
 For more details please see our project reflections. 
 
-Remote co-design
+### Remote co-design
 
 The challenges of working remotely required significant re-thinking of how to connect and collaborate. It was challenging to find creative and engaging ways of documenting and sharing the artists’ input during the co-design workshops and to maintain continuity from session to session without physical artifacts that could be kept up on the walls of a classroom or studio space. 
 
@@ -146,7 +146,7 @@ Recognition of the importance of a continued exploration of how online learning 
 
 The initiation of an artist-led discussion around how to decide if and when to sell their work 
 
-Resources
+## Resources
 
 Project Overview
 
