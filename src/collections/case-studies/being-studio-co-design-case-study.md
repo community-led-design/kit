@@ -109,13 +109,9 @@ Find ways to engage participants from the start of the co-design process in orde
 
 Connecting directly with the artists was not possible between sessions, other than asynchronously through email or video prompts. It may have been more effective to find ways of communicating directly with the artists throughout the co-design process. 
 
-{% learning "undefined" %}
-undefined
+{% learning "Learning: Stay connected between sessions" %}
+Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process.
 {% endlearning %}
-
-Learning:
-
-Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process. 
 
 Structuring and planning the co-design activities
 
