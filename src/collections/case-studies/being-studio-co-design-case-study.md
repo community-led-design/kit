@@ -15,9 +15,7 @@ description: "The BEING Futures project was a collaboration between the
 metaImage: /assets/media/frame-14.png
 metaImageAlt: An illustration of
 ---
-BEING Futures Co-design Case Study
-
-Project overview 
+## Project overview 
 
 The BEING Futures project was a collaboration between the Inclusive Design Research Centre (IDRC) and BEING Studio that took place between April and November 2021. The goal of this project was to support BEING Studio in brainstorming and conceptualizing an emerging digital/in-person hybrid operating model. Like many organisations, BEING Studio had to quickly adjust to the pandemic by moving their programming online. This meant holding all of their meetings, workshops and other events on Zoom, as well as introducing new practices such as the delivery of art supply kits to artists in their homes. 
 
@@ -25,45 +23,38 @@ Looking toward the future, BEING Studio wished to explore the hybrid space of on
 
 The IDRC supported the co-design process including:
 
-Collaborating with BEING members to plan community-led co-design sessions,
+* Collaborating with BEING members to plan community-led co-design sessions,
+* Co-organizing and facilitating co-design workshops,
+* Building a Creative Design Map to synthesize the results of the co-design.
 
-Co-organizing and facilitating co-design workshops,
-
-Building a Creative Design Map to synthesize the results of the co-design.
-
-Partner
+### Partner
 
 BEING Studio is a diverse community of artists with developmental disabilities. At BEING, artists have access to the space, the tools, and the representation to create and share their visual art and creative writing. BEING’s motto is “ART FIRST. SELFHOOD ALSO FIRST.” In the words of BEING, “it is about truly valuing the work – by valuing the artist who created it”.
 
-Desired co-design outcomes
+### Desired co-design outcomes
 
-Relationship and trust building with artist members
-
-Needs-gathering with artist members
-
-A creative mapping of the hybrid space of BEING in-person and BEING online, including events, activities, tools and website features.
-
-Learn more about the project on the project wiki page.  
-
-
+* Relationship and trust building with artist members
+* Needs-gathering with artist members
+* A creative mapping of the hybrid space of BEING in-person and BEING online, including events, activities, tools and website features.
+* Learn more about the project on the project wiki page.  
 
 Figure 1. A screen capture of an online co-design workshop.
 
-Co-design Overview
+## Co-design Overview
 
-Structure and scope
+### Structure and scope
 
 The BEING Futures project included an introductory event followed by 3 co-design sessions. The co-design exploration encompassed the spaces of BEING in-person, BEING on Zoom, and BEING online (including the BEING Studio and BEING Home websites, Instagram and Facebook). Live captioning was provided during all sessions.
 
-Who was there
+### Who was there
 
 The introductory “Think Tank” event was an online event open to all BEING artists, with 16 artists attending along with facilitators from BEING and the IDRC. Ten BEING artists participated in three subsequent online co-design workshops, along with facilitators from BEING and from the IDRC. 
 
 Figure 2. Example of a slide used to guide the third co-design session on the topic of BEING online.
 
-Co-design Process Highlights
+### Co-design Process Highlights
 
-Relationship and Trust Building
+#### Relationship and Trust Building
 
 Before beginning the co-design planning, IDRC facilitators joined multiple sessions of an online event organised by BEING Studio called Artist Connect. Attending these sessions was helpful in getting to know the BEING artists and getting a sense of the community, culture and context of BEING and of this disability arts community more generally.
 
@@ -71,15 +62,7 @@ Through an introductory event that was similar in name and structure to previous
 
 View the Think Tank slide presentation (pdf file). 
 
-
-
-
-
 Figure 2. Screen capture of the BEING Futures Think Tank session.
-
-
-
-
 
 Figure 3. Outcome of the Think Tank collaborative art activity
 
@@ -93,15 +76,7 @@ Prior to each co-design workshop the IDRC facilitators met together with BEING f
 
 Debrief sessions were held together with BEING facilitators after each workshop which allowed the IDRC team to adjust and refine the co-design plan to better meet the needs of participants. 
 
-
-
-
-
 Figures 4-6: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
-
-
-
-
 
 Co-design Outcomes
 
@@ -110,10 +85,6 @@ A complete list of outcomes and suggested next steps can be found in an Excel sp
 Documentation
 
 The following creative design map is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on YouTube here.
-
-
-
-
 
 Challenges and Learnings
 
@@ -126,8 +97,6 @@ The challenges of working remotely required significant re-thinking of how to co
 Learning: 
 
 When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share printed templates and other art materials for use before and during co-design workshops. 
-
-
 
 Getting to know the community
 
@@ -169,11 +138,7 @@ Impact
 
 Co-design with BEING Studio artists provided an opportunity for them to playfully explore and lead the discussion around their vision for the hybrid online/in-person future of BEING. A significant impact of the co-design was having artists realise and communicate that they were interested in teaching workshops, both online and in-person. It was also pointed out by BEING facilitators that some of the artists who were typically more quiet were able to share more than usual during the sessions. 
 
-
-
 Some other significant impacts include:
-
-
 
 An exploration of new ideas about how artists can maximize the potential of online spaces such as the Artist pages, SHOP, podcast and other web content, as well as social media (Instagram, Facebook), for sharing and selling work, and staying connected to other artists. 
 
