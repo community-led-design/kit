@@ -1,6 +1,6 @@
 ---
 title: BEING Studio Co-design Case Study
-subtitle: Co-designing an emerging digital/in-person hybrid operating model
+subtitle: "Co-designing an emerging digital/in-person hybrid operating model "
 authors:
   - Dana Ayotte and Caren Watkins
 organization: Inclusive Design Research Centre
@@ -72,9 +72,8 @@ Collaborating with BEING facilitators from the beginning of the process helped t
 
 All co-design activities were developed together with BEING facilitators: 
 
-Prior to each co-design workshop the IDRC facilitators met together with BEING facilitators to review a draft activity plan, re-work the plan as needed, and hear feedback from the artist-participants that might have been passed on to the BEING facilitators from previous sessions.
-
-Debrief sessions were held together with BEING facilitators after each workshop which allowed the IDRC team to adjust and refine the co-design plan to better meet the needs of participants. 
+* Prior to each co-design workshop the IDRC facilitators met together with BEING facilitators to review a draft activity plan, re-work the plan as needed, and hear feedback from the artist-participants that might have been passed on to the BEING facilitators from previous sessions.
+* Debrief sessions were held together with BEING facilitators after each workshop which allowed the IDRC team to adjust and refine the co-design plan to better meet the needs of participants. 
 
 Figures 4-6: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
 
@@ -94,21 +93,25 @@ For more details please see our project reflections.
 
 The challenges of working remotely required significant re-thinking of how to connect and collaborate. It was challenging to find creative and engaging ways of documenting and sharing the artists’ input during the co-design workshops and to maintain continuity from session to session without physical artifacts that could be kept up on the walls of a classroom or studio space. 
 
-Learning: 
+{% learning "Learning: Creative approaches to remote co-design" %}
+When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share printed templates and other art materials for use before and during co-design workshops.
+{% endlearning %}
 
-When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share printed templates and other art materials for use before and during co-design workshops. 
-
-Getting to know the community
+### Getting to know the community
 
 This project took place over a relatively short period of time and its scope covered a limited number of co-design sessions, making it challenging to develop relationships with the community.
 
-Learning:
+{% learning "Learning: Find ways to engage participants from the start " %}
+Find ways to engage participants from the start of the co-design process in order to develop trust, preferably in ways that they are already engaging in their community.
+{% endlearning %}
 
-Find more ways to engage participants from the start of the co-design process in order to develop trust, preferably in ways that they are already engaging in their community. 
-
-Engaging participants between sessions
+### Engaging participants between sessions
 
 Connecting directly with the artists was not possible between sessions, other than asynchronously through email or video prompts. It may have been more effective to find ways of communicating directly with the artists throughout the co-design process. 
+
+{% learning "undefined" %}
+undefined
+{% endlearning %}
 
 Learning:
 
