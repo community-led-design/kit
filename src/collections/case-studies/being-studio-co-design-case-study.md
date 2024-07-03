@@ -40,7 +40,9 @@ The IDRC supported the co-design process including:
 Learn more about the project on the [project wiki page](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project).  
 
 {% figure "/assets/media/being-co-design-screen-cap-1.png", "A screen-capture of a zoom meeting showing 9 individual participants in rectangles, some with their faces showing and with various backgrounds, all with their names blocked out except for Dana and Michelle.  One rectangle shows framed artwork on the wall and another reveals a closeup of a collaged artwork that shows balloons, part of a spaceship, and the text &quot;PLANET BEING FUTURES&quot;. The Zoom caption reads&quot;Connected? Yep. Great.&quot;." %}
+
 Figure 1. Screen capture of an online co-design workshop.
+
 {% endfigure %}
 
 ## Co-design Overview
@@ -54,7 +56,9 @@ The BEING Futures project included an introductory event followed by 3 co-design
 The introductory “Think Tank” event was an online event open to all BEING artists, with 16 artists attending along with facilitators from BEING and the IDRC. Ten BEING artists participated in three subsequent online co-design workshops, along with facilitators from BEING and from the IDRC. 
 
 {% figure "/assets/media/being-case-study-figure-2-slide.png", "A slide with title &quot;BEING online&quot; and a list of bullet points with the following items: SHOP, Instagram and Facebook, ARTIST Pages, SPEAK and CLICK, EVENTS page, Websites that you like that aren't BEING sites. On the right of the slide are some small layered images showing screen captures from the BEING website and Instagram feed, along with a small illustration of a desktop computer screen with a heart on it." %}
+
 Figure 2. Sample of a slide used to guide the third co-design session on the topic of BEING online.
+
 {% endfigure %}
 
 ## Co-design Process Highlights
@@ -69,13 +73,17 @@ View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki
 
 {% figure "/assets/media/being-co-design-screen-cap-2.png", "A screen-capture of a zoom meeting showing 22 individual participants in rectangles, some with their faces showing and with various backgrounds, most with their names blocked out. A participant named Dana appears to be speaking and the Zoom caption reads &quot;and then created this final pattern together so that's what we this is an example of co-designer we're going to talk a little bit more about that. And this is what we want a version of something like this, we want to do.&quot;. A participant named Caren is standing in front of a blackboard on which are drawn various shapes with colours written inside." %}
 
+
 Figure 3. Screen capture of the BEING Futures Think Tank session.
+
 
 {% endfigure %}
 
 {% figure "/assets/media/being-shapes-activity-resize.png", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
 
+
 Figure 4. Outcome of the Think Tank collaborative art activity.
+
 
 {% endfigure %}
 
@@ -92,9 +100,13 @@ All co-design activities were developed together with BEING facilitators:
 
 
 
+
+
 {% endfigure %}
 
 {% figure "/assets/media/being-video-still-2.png", "A person holds up a cut-out drawing of an astronaut with ZOOM-O-NAUT written on its chest, along with a thought bubble that reads &quot;ONE THING I ENJOY DOING IS...&quot;. The person's face is blocked by the thought bubble and in the background a round yellow circle can be seen with the works PLANET BEING FUTURES on it." %}
+
+
 
 
 
@@ -102,13 +114,15 @@ All co-design activities were developed together with BEING facilitators:
 
 {% figure "/assets/media/being-video-still-3.png", "A person with short wavy hair and glasses holds up two cutout drawings of stars, one with the word EXCITED written inside and the other with the word CALM written inside. A yellow circle can be seen in the background with partially blocked text reading PLANET BEING FUTURES." %}
 
+
 Figures 5-7: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
+
 
 {% endfigure %}
 
 ## Co-design Outcomes
 
-A complete list of outcomes and suggested next steps can be found in an [Excel spreadsheet here](https://wiki.fluidproject.org/display/fluid/BEING+Futures+Co-design+Outcomes). Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
+A complete list of outcomes and suggested next steps can be found in an [Excel spreadsheet here](https://wiki.fluidproject.org/display/fluid/BEING+Futures+Co-design+Outcomeshttps://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592081/BEING+Futures+Co-design+Outcomes). Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
 
 ### Documentation
 
@@ -116,7 +130,9 @@ The following creative design map (Figure 8) is the outcome of a synthesis of al
 
 {% figure "/assets/media/project-being-futures-co-design.png", "A pale green circle labelled Planet BEING Futures sits in the middle of a dark blue background with 2 concentric rings of stars surrounding the circle. The title reads Project BEING Futures Co-design. A legend of 3 checkboxes is in the upper right hand corner and a red rocket appears to be flying by in the upper left hand corner. In the middle of the green circle are cutout drawings of various space ships and vehicles as well as an astronaut with thought bubbles coming from their head." %}
 
+
 Figure 8. Co-design outcomes creative map
+
 
 {% endfigure %}
 
@@ -130,7 +146,9 @@ The challenges of working remotely required significant re-thinking of how to co
 
 {% learning "Learning: Find creative approaches to remote co-design" %}
 
+
 When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share [printed templates and other art materials](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11590614/Printable+Artist+Templates) for use before and during co-design workshops.
+
 
 {% endlearning %}
 
@@ -140,7 +158,9 @@ This project took place over a relatively short period of time and its scope cov
 
 {% learning "Learning: Find ways to engage participants from the start " %}
 
+
 Find ways to engage participants from the start of the co-design process in order to develop trust, preferably in ways that they are already engaging in their community.
+
 
 {% endlearning %}
 
@@ -150,7 +170,9 @@ Connecting directly with the artists was not possible between sessions, other th
 
 {% learning "Learning: Solicit feedback" %}
 
+
 Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process.
+
 
 {% endlearning %}
 
@@ -160,11 +182,13 @@ Some of the feedback we received from BEING facilitators was that our video prom
 
 {% learning "Learning: Keep instructions simple and concise" %}
 
+
 Keep instructions simple and concise. Use some of the time in a co-design session to introduce preparatory materials and activities or to plan for the next session together — this allows participants to be invested in the process and to inform the facilitators of the best way to present and frame the ideas. 
 
 This requires balancing the time needed for the co-design session activities with planning activities and may not always be appropriate, and depends upon the interest of participants in helping to plan the activities.
 
 This would work well when paired with post-session debrief sessions with community facilitators, to allow for further refinement of the plan with their input.
+
 
 {% endlearning %}
 
@@ -174,7 +198,9 @@ While it was more challenging to share physical artifacts in an online setting, 
 
 {% learning "Learning: Stay connected between sessions" %}
 
+
 Provide a way for artists to share documentation of their work with artist participants and facilitators between the co-design sessions (e.g. photos, videos, text descriptions) in formats and through communication channels that work best for them. This would give everyone a chance to experience each others' work in more detail and spark thoughts and ideas for the next session.
+
 
 {% endlearning %}
 
