@@ -39,6 +39,10 @@ The IDRC supported the co-design process including:
 
 Learn more about the project on the [project wiki page](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project).  
 
+{% figure "/assets/media/being-co-design-screen-cap-1.png", "A screen-capture of a zoom meeting showing 9 individual participants in rectangles, some with their faces showing and with various backgrounds, all with their names blocked out except for Dana and Michelle.  One rectangle shows framed artwork on the wall and another reveals a closeup of a collaged artwork that shows balloons, part of a spaceship, and the text &quot;PLANET BEING FUTURES&quot;. The Zoom caption reads&quot;Connected? Yep. Great.&quot;." %}
+Figure 1. A screen capture of an online co-design workshop.
+{% endfigure %}
+
 Figure 1. A screen capture of an online co-design workshop.
 
 ## Co-design Overview
