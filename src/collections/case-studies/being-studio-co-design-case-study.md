@@ -55,7 +55,11 @@ The BEING Futures project included an introductory event followed by 3 co-design
 
 The introductory “Think Tank” event was an online event open to all BEING artists, with 16 artists attending along with facilitators from BEING and the IDRC. Ten BEING artists participated in three subsequent online co-design workshops, along with facilitators from BEING and from the IDRC. 
 
+{% figure "/assets/media/being-case-study-figure-2-slide.png", "A slide with title &quot;BEING online&quot; and a list of bullet points with the following items: SHOP, Instagram and Facebook, ARTIST Pages, SPEAK and CLICK, EVENTS page, Websites that you like that aren't BEING sites. On the right of the slide are some small layered images showing screen captures from the BEING website and Instagram feed, along with a small illustration of a desktop computer screen with a heart on it." %}
 Figure 2. Example of a slide used to guide the third co-design session on the topic of BEING online.
+{% endfigure %}
+
+
 
 ## Co-design Process Highlights
 
