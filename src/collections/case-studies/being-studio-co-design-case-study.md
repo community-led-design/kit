@@ -44,7 +44,9 @@ Learn more about the project on the [project wiki page](https://fluidproject.atl
 
 
 
+
 Figure 1. Screen capture of an online co-design workshop.
+
 
 
 
@@ -66,7 +68,9 @@ The introductory “Think Tank” event was an online event open to all BEING ar
 
 
 
+
 Figure 2. Sample of a slide used to guide the third co-design session on the topic of BEING online.
+
 
 
 
@@ -89,7 +93,9 @@ View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki
 
 
 
+
 Figure 3. Screen capture of the BEING Futures Think Tank session.
+
 
 
 
@@ -103,7 +109,9 @@ Figure 3. Screen capture of the BEING Futures Think Tank session.
 
 
 
+
 Figure 4. Outcome of the Think Tank collaborative art activity.
+
 
 
 
@@ -132,9 +140,13 @@ All co-design activities were developed together with BEING facilitators:
 
 
 
+
+
 {% endfigure %}
 
 {% figure "/assets/media/being-video-still-2.png", "A person holds up a cut-out drawing of an astronaut with ZOOM-O-NAUT written on its chest, along with a thought bubble that reads &quot;ONE THING I ENJOY DOING IS...&quot;. The person's face is blocked by the thought bubble and in the background a round yellow circle can be seen with the works PLANET BEING FUTURES on it." %}
+
+
 
 
 
@@ -154,7 +166,9 @@ All co-design activities were developed together with BEING facilitators:
 
 
 
+
 Figures 5-7: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
+
 
 
 
@@ -164,7 +178,7 @@ Figures 5-7: Video stills from prompts shared with participants prior to co-desi
 
 ## Co-design Outcomes
 
-A complete list of outcomes and suggested next steps can be found in an [Excel spreadsheet here](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592081/BEING+Futures+Co-design+Outcomes). Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
+A complete list of outcomes and suggested next steps can be found in a [spreadsheet here](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592081/BEING+Futures+Co-design+Outcomes). Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
 
 ### Documentation
 
@@ -176,7 +190,9 @@ The following creative design map (Figure 8) is the outcome of a synthesis of al
 
 
 
+
 Figure 8. Co-design outcomes creative map
+
 
 
 
@@ -198,7 +214,9 @@ The challenges of working remotely required significant re-thinking of how to co
 
 
 
+
 When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share [printed templates and other art materials](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11590614/Printable+Artist+Templates) for use before and during co-design workshops.
+
 
 
 
@@ -216,7 +234,9 @@ This project took place over a relatively short period of time and its scope cov
 
 
 
+
 Find ways to engage participants from the start of the co-design process in order to develop trust, preferably in ways that they are already engaging in their community.
+
 
 
 
@@ -234,7 +254,9 @@ Connecting directly with the artists was not possible between sessions, other th
 
 
 
+
 Find opportunities to join existing meetings or check-ins to provide brief updates on the co-design process as a way to stay connected between sessions and to solicit direct feedback from participants after each session. This help to inform the co-design activity planning from one session to the next to ensure the comfort and engagement of participants throughout the process.
+
 
 
 
@@ -252,11 +274,13 @@ Some of the feedback we received from BEING facilitators was that our video prom
 
 
 
+
 Keep instructions simple and concise. Use some of the time in a co-design session to introduce preparatory materials and activities or to plan for the next session together — this allows participants to be invested in the process and to inform the facilitators of the best way to present and frame the ideas. 
 
 This requires balancing the time needed for the co-design session activities with planning activities and may not always be appropriate, and depends upon the interest of participants in helping to plan the activities.
 
 This would work well when paired with post-session debrief sessions with community facilitators, to allow for further refinement of the plan with their input.
+
 
 
 
@@ -274,7 +298,9 @@ While it was more challenging to share physical artifacts in an online setting, 
 
 
 
+
 Provide a way for artists to share documentation of their work with artist participants and facilitators between the co-design sessions (e.g. photos, videos, text descriptions) in formats and through communication channels that work best for them. This would give everyone a chance to experience each others' work in more detail and spark thoughts and ideas for the next session.
+
 
 
 
