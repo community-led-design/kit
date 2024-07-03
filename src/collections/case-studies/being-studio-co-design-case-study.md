@@ -1,6 +1,6 @@
 ---
-title: BEING Studio Co-design Case Study
-subtitle: "Co-designing an emerging digital/in-person hybrid operating model "
+title: Co-designing with BEING Studio artists
+subtitle: "Creating an emerging digital/in-person hybrid operating model "
 authors:
   - Dana Ayotte and Caren Watkins
 organization: Inclusive Design Research Centre
