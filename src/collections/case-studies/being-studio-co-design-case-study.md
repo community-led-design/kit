@@ -29,7 +29,7 @@ The IDRC supported the co-design process including:
 
 ### Partner
 
-[BEING Studio](https://beingstudio.ca/) is a diverse community of artists with developmental disabilities. At BEING, artists have access to the space, the tools, and the representation to create and share their visual art and creative writing. BEING’s motto is “ART FIRST. SELFHOOD ALSO FIRST.” In the words of BEING, “it is about truly valuing the work – by valuing the artist who created it”.
+[BEING Studio](https://beingstudio.ca/) is a diverse community of artists with developmental disabilities. At BEING, artists have access to the space, the tools, and the representation to create and share their visual art and creative writing. BEING’s motto is “Art first. Selfhood also first. ART FIRST. SELFHOOD ALSO FIRST.”. In the words of BEING, “it is about truly valuing the work – by valuing the artist who created it”.
 
 ### Desired co-design outcomes
 
