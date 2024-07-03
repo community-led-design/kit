@@ -180,7 +180,7 @@ Provide a way for artists to share documentation of their work with artist parti
 
 ## Impact
 
-Co-design with BEING Studio artists provided an opportunity for them to playfully explore and lead the discussion around their vision for the hybrid online/in-person future of BEING. A significant impact of the co-design was having artists realise and communicate that they were interested in teaching workshops, both online and in-person. It was also pointed out by BEING facilitators that some of the artists who were typically more quiet were able to share more than usual during the sessions. 
+Co-design with BEING Studio artists provided an opportunity for them to playfully explore and lead the discussion around their vision for the hybrid online/in-person future of BEING. A significant impact of the co-design was having artists realise and communicate that they were interested in teaching workshops, both online and in-person. In addition, BEING facilitators noted that some artists who were usually tended to be quiet shared more than usual during the co-design sessions. 
 
 Some other significant impacts include:
 
