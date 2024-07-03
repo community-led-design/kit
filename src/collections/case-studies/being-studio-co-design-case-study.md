@@ -29,14 +29,15 @@ The IDRC supported the co-design process including:
 
 ### Partner
 
-BEING Studio is a diverse community of artists with developmental disabilities. At BEING, artists have access to the space, the tools, and the representation to create and share their visual art and creative writing. BEING’s motto is “ART FIRST. SELFHOOD ALSO FIRST.” In the words of BEING, “it is about truly valuing the work – by valuing the artist who created it”.
+[BEING Studio](https://beingstudio.ca/) is a diverse community of artists with developmental disabilities. At BEING, artists have access to the space, the tools, and the representation to create and share their visual art and creative writing. BEING’s motto is “ART FIRST. SELFHOOD ALSO FIRST.” In the words of BEING, “it is about truly valuing the work – by valuing the artist who created it”.
 
 ### Desired co-design outcomes
 
 * Relationship and trust building with artist members
 * Needs-gathering with artist members
 * A creative mapping of the hybrid space of BEING in-person and BEING online, including events, activities, tools and website features.
-* Learn more about the project on the project wiki page.  
+
+Learn more about the project on the [project wiki page](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project).  
 
 Figure 1. A screen capture of an online co-design workshop.
 
@@ -44,7 +45,7 @@ Figure 1. A screen capture of an online co-design workshop.
 
 ### Structure and scope
 
-The BEING Futures project included an introductory event followed by 3 co-design sessions. The co-design exploration encompassed the spaces of BEING in-person, BEING on Zoom, and BEING online (including the BEING Studio and BEING Home websites, Instagram and Facebook). Live captioning was provided during all sessions.
+The BEING Futures project included an introductory event followed by 3 co-design sessions. The co-design exploration encompassed the spaces of BEING in-person, BEING on Zoom, and BEING online (including the [BEING Studio](https://beingstudio.ca/) and [BEING Home](https://www.beinghome.ca/) websites, [Instagram](https://www.instagram.com/beingstudio_ott/) and [Facebook](https://www.facebook.com/BEINGArtStudio/)). Live captioning was provided during all sessions.
 
 ### Who was there
 
