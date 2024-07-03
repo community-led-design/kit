@@ -71,9 +71,11 @@ Through an introductory event that was similar in name and structure to previous
 
 View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project?preview=/11588836/11592196/BEING%20Thinktank%20Slides%20April%2020%202021.pdf) (pdf file). 
 
-
-
+{% figure "/assets/media/being-co-design-screen-cap-2.png", "A screen-capture of a zoom meeting showing 22 individual participants in rectangles, some with their faces showing and with various backgrounds, most with their names blocked out. A participant named Dana appears to be speaking and the Zoom caption reads &quot;and then created this final pattern together so that's what we this is an example of co-designer we're going to talk a little bit more about that. And this is what we want a version of something like this, we want to do.&quot;. A participant named Caren is standing in front of a blackboard on which are drawn various shapes with colours written inside." %}
 Figure 3. Screen capture of the BEING Futures Think Tank session.
+{% endfigure %}
+
+
 
 {% figure "/assets/media/being-shapes-activity.png", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
 Figure 4. Outcome of the Think Tank collaborative art activity.
