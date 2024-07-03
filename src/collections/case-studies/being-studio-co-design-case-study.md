@@ -65,7 +65,11 @@ View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki
 
 Figure 3. Screen capture of the BEING Futures Think Tank session.
 
-Figure 4. Outcome of the Think Tank collaborative art activity
+{% figure "/assets/media/being-shapes-activity.png", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
+Figure 4. Outcome of the Think Tank collaborative art activity.
+{% endfigure %}
+
+
 
 ### Community Leadership
 
@@ -76,7 +80,7 @@ All co-design activities were developed together with BEING facilitators:
 * Prior to each co-design workshop the IDRC facilitators met together with BEING facilitators to review a draft activity plan, re-work the plan as needed, and hear feedback from the artist-participants that might have been passed on to the BEING facilitators from previous sessions.
 * Debrief sessions were held together with BEING facilitators after each workshop which allowed the IDRC team to adjust and refine the co-design plan to better meet the needs of participants. 
 
-Figures 4-6: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
+Figures 5-7: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
 
 ## Co-design Outcomes
 
