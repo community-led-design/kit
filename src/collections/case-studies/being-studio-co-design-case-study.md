@@ -92,7 +92,19 @@ All co-design activities were developed together with BEING facilitators:
 * Prior to each co-design workshop the IDRC facilitators met together with BEING facilitators to review a draft activity plan, re-work the plan as needed, and hear feedback from the artist-participants that might have been passed on to the BEING facilitators from previous sessions.
 * Debrief sessions were held together with BEING facilitators after each workshop which allowed the IDRC team to adjust and refine the co-design plan to better meet the needs of participants. 
 
+{% figure "/assets/media/being-video-still-1.png", "A person in glasses with long hair in a top bun appears to be speaking and is holding up an illustrated cut-out of a red rocket on a stick with rainbow flames coming out of it as well as a cut-out drawing of a smiling astronaut with the word ZOOM-O-NAUT written on its chest." %}
+
+{% endfigure %}
+
+{% figure "/assets/media/being-video-still-2.png", "A person holds up a cut-out drawing of an astronaut with ZOOM-O-NAUT written on its chest, along with a thought bubble that reads &quot;ONE THING I ENJOY DOING IS...&quot;. The person's face is blocked by the thought bubble and in the background a round yellow circle can be seen with the works PLANET BEING FUTURES on it." %}
+
+{% endfigure %}
+
+{% figure "/assets/media/being-video-still-3.png", "A person with short wavy hair and glasses holds up two cutout drawings of stars, one with the word EXCITED written inside and the other with the word CALM written inside. A yellow circle can be seen in the background with partially blocked text reading PLANET BEING FUTURES." %}
 Figures 5-7: Video stills from prompts shared with participants prior to co-design sessions. BEING facilitators strongly encouraged us to create video prompts for our workshops, since the artists found this to be the best way to take in information and instruction.
+{% endfigure %}
+
+
 
 ## Co-design Outcomes
 
