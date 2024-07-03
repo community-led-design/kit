@@ -40,12 +40,8 @@ The IDRC supported the co-design process including:
 Learn more about the project on the [project wiki page](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project).  
 
 {% figure "/assets/media/being-co-design-screen-cap-1.png", "A screen-capture of a zoom meeting showing 9 individual participants in rectangles, some with their faces showing and with various backgrounds, all with their names blocked out except for Dana and Michelle.  One rectangle shows framed artwork on the wall and another reveals a closeup of a collaged artwork that shows balloons, part of a spaceship, and the text &quot;PLANET BEING FUTURES&quot;. The Zoom caption reads&quot;Connected? Yep. Great.&quot;." %}
-
-Figure 1. A screen capture of an online co-design workshop.
-
+Figure 1. Screen capture of an online co-design workshop.
 {% endfigure %}
-
-Figure 1. A screen capture of an online co-design workshop.
 
 ## Co-design Overview
 
@@ -58,9 +54,7 @@ The BEING Futures project included an introductory event followed by 3 co-design
 The introductory “Think Tank” event was an online event open to all BEING artists, with 16 artists attending along with facilitators from BEING and the IDRC. Ten BEING artists participated in three subsequent online co-design workshops, along with facilitators from BEING and from the IDRC. 
 
 {% figure "/assets/media/being-case-study-figure-2-slide.png", "A slide with title &quot;BEING online&quot; and a list of bullet points with the following items: SHOP, Instagram and Facebook, ARTIST Pages, SPEAK and CLICK, EVENTS page, Websites that you like that aren't BEING sites. On the right of the slide are some small layered images showing screen captures from the BEING website and Instagram feed, along with a small illustration of a desktop computer screen with a heart on it." %}
-
-Figure 2. Example of a slide used to guide the third co-design session on the topic of BEING online.
-
+Figure 2. Sample of a slide used to guide the third co-design session on the topic of BEING online.
 {% endfigure %}
 
 ## Co-design Process Highlights
@@ -134,7 +128,7 @@ For more details please see our [project reflections](https://fluidproject.atlas
 
 The challenges of working remotely required significant re-thinking of how to connect and collaborate. It was challenging to find creative and engaging ways of documenting and sharing the artists’ input during the co-design workshops and to maintain continuity from session to session without physical artifacts that could be kept up on the walls of a classroom or studio space. 
 
-{% learning "Learning: Creative approaches to remote co-design" %}
+{% learning "Learning: Find creative approaches to remote co-design" %}
 
 When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share [printed templates and other art materials](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11590614/Printable+Artist+Templates) for use before and during co-design workshops.
 
