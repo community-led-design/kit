@@ -79,7 +79,7 @@ Figure 3. Screen capture of the BEING Futures Think Tank session.
 
 {% endfigure %}
 
-{% figure "", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
+{% figure "/assets/media/being-shapes-activity-resize.png", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
 
 Figure 4. Outcome of the Think Tank collaborative art activity.
 
