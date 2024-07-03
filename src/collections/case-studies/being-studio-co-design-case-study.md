@@ -57,11 +57,11 @@ Figure 2. Example of a slide used to guide the third co-design session on the to
 
 ### Relationship and Trust Building
 
-Before beginning the co-design planning, IDRC facilitators joined multiple sessions of an online event organised by BEING Studio called Artist Connect. Attending these sessions was helpful in getting to know the BEING artists and getting a sense of the community, culture and context of BEING and of this disability arts community more generally.
+Before beginning the co-design planning, IDRC facilitators joined multiple sessions of an online event organised by BEING Studio called [Artist Connect](https://www.beinghome.ca/artist-connect-report). Attending these sessions was helpful in getting to know the BEING artists and getting a sense of the community, culture and context of BEING and of this disability arts community more generally.
 
 Through an introductory event that was similar in name and structure to previous BEING events, IDRC facilitators were able to meet the BEING artists, introduce the BEING Futures project to them, and introduce the concepts of inclusive design and co-design. Using a familiar event name (“Think Tank”) and structure was helpful in generating interest in the project since it gave the artists an idea of what to expect.
 
-View the Think Tank slide presentation (pdf file). 
+View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project?preview=/11588836/11592196/BEING%20Thinktank%20Slides%20April%2020%202021.pdf) (pdf file). 
 
 Figure 3. Screen capture of the BEING Futures Think Tank session.
 
@@ -80,22 +80,22 @@ Figures 4-6: Video stills from prompts shared with participants prior to co-desi
 
 ## Co-design Outcomes
 
-A complete list of outcomes and suggested next steps can be found in an Excel spreadsheet here. Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
+A complete list of outcomes and suggested next steps can be found in an [Excel spreadsheet here](https://wiki.fluidproject.org/display/fluid/BEING+Futures+Co-design+Outcomes). Overall, the artists expressed their excitement to be able to return to in-person activities, but some also expressed an interest in a hybrid of balancing Zoom activities with in-person activities going forward. 
 
 ### Documentation
 
-The following creative design map is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on YouTube here.
+The following creative design map is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on [YouTube here](https://www.youtube.com/watch?v=7sNCno8W6ZQ).
 
 ## Challenges and Learnings
 
-For more details please see our project reflections. 
+For more details please see our [project reflections](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592109/BEING+Futures+Co-design+Process+Reflections). 
 
 ### Remote co-design
 
 The challenges of working remotely required significant re-thinking of how to connect and collaborate. It was challenging to find creative and engaging ways of documenting and sharing the artists’ input during the co-design workshops and to maintain continuity from session to session without physical artifacts that could be kept up on the walls of a classroom or studio space. 
 
 {% learning "Learning: Creative approaches to remote co-design" %}
-When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share printed templates and other art materials for use before and during co-design workshops.
+When meeting remotely, find creative ways to work asynchronously and to share physical artifacts. Where possible, incorporate these activities into a process that participants are already using and are familiar with. For example, artist kits that were being delivered to the BEING artists in their homes provided a great opportunity to share [printed templates and other art materials](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11590614/Printable+Artist+Templates) for use before and during co-design workshops.
 {% endlearning %}
 
 ### Getting to know the community
@@ -148,12 +148,12 @@ Some other significant impacts include:
 
 ## Resources
 
-Project Overview
+### Project Overview
 
-Project Wiki Page
+[Project Wiki Page](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project)
 
-Final Report
+### Final Report
 
-Final Report
+[Final Report](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592106/BEING+Futures+Final+Report)
 
-Outcomes Spreadsheet
+[Outcomes Spreadsheet](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11592081/BEING+Futures+Co-design+Outcomes)
