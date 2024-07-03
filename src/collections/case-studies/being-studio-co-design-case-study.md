@@ -63,6 +63,8 @@ Through an introductory event that was similar in name and structure to previous
 
 View the [Think Tank slide presentation](https://fluidproject.atlassian.net/wiki/spaces/fluid/pages/11588836/BEING+Futures+Project?preview=/11588836/11592196/BEING%20Thinktank%20Slides%20April%2020%202021.pdf) (pdf file). 
 
+
+
 Figure 3. Screen capture of the BEING Futures Think Tank session.
 
 {% figure "/assets/media/being-shapes-activity.png", "A blackboard on which are drawn various shapes including circles, hearts, stars, squares, triangles, a pair of cherries, and a squiggle. Each shape has a different colour written inside. The shapes are tightly clustered together." %}
@@ -88,7 +90,7 @@ A complete list of outcomes and suggested next steps can be found in an [Excel s
 
 ### Documentation
 
-The following creative design map is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on [YouTube here](https://www.youtube.com/watch?v=7sNCno8W6ZQ).
+The following creative design map (Figure 8) is the outcome of a synthesis of all artists’ personal maps as well as the ideas that artists presented during the co-design session activities. A visual description of the map can be found on [YouTube here](https://www.youtube.com/watch?v=7sNCno8W6ZQ).
 
 {% figure "/assets/media/project-being-futures-co-design.png", "A pale green circle labelled Planet BEING Futures sits in the middle of a dark blue background with 2 concentric rings of stars surrounding the circle. The title reads Project BEING Futures Co-design. A legend of 3 checkboxes is in the upper right hand corner and a red rocket appears to be flying by in the upper left hand corner. In the middle of the green circle are cutout drawings of various space ships and vehicles as well as an astronaut with thought bubbles coming from their head." %}
 Figure 8. Co-design outcomes creative map
