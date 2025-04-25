@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/community-led-design/kit/compare/v1.2.0...v1.3.0) (2025-04-25)
+
+
+### Features
+
+* add license ([#475](https://github.com/community-led-design/kit/issues/475)) ([f8097fa](https://github.com/community-led-design/kit/commit/f8097fa5a7eb90f718c39e33f7303a8f672160bc))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-img to v6 [skip netlify] ([#489](https://github.com/community-led-design/kit/issues/489)) ([bd6eca1](https://github.com/community-led-design/kit/commit/bd6eca1b857cf92c43a1ecba68e5740609187c18))
+* **deps:** update dependency @11ty/eleventy-navigation to v1 [skip netlify] ([#490](https://github.com/community-led-design/kit/issues/490)) ([5cf2b26](https://github.com/community-led-design/kit/commit/5cf2b260a0921b669ca923f34bf4ad3eb964b819))
+* **deps:** update dependency infusion to v4.8.0 [skip netlify] ([#482](https://github.com/community-led-design/kit/issues/482)) ([50772a5](https://github.com/community-led-design/kit/commit/50772a5f1148b4adfbf1ab9460b916290d2cfa30))
+
 ## [1.2.0](https://github.com/community-led-design/kit/compare/v1.1.0...v1.2.0) (2024-06-11)
 
 
