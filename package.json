@@ -52,7 +52,7 @@
         "cross-env": "^7.0.3",
         "debug": "^4.3.5",
         "decap-server": "^3.0.4",
-        "eslint": "^8.57.0",
+        "eslint": "^9.0.0",
         "eslint-config-fluid": "^2.1.2",
         "eslint-plugin-jsdoc": "^50.3.0",
         "eslint-plugin-markdown": "^5.0.0",
