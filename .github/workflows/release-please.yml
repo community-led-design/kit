@@ -7,6 +7,10 @@ on:
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: release
