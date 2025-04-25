@@ -43,7 +43,7 @@
         "eleventy-plugin-fluid": "^2.7.1",
         "infusion": "^4.6.0",
         "prop-types": "^15.8.1",
-        "react": "^16.14.0"
+        "react": "^19.0.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.3.0",
