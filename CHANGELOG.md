@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.2](https://github.com/community-led-design/kit/compare/v1.3.1...v1.3.2) (2025-05-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-img to v6.0.3 [skip netlify] ([#522](https://github.com/community-led-design/kit/issues/522)) ([b3e1685](https://github.com/community-led-design/kit/commit/b3e1685682ca6e3feb55d544a7ce34d98e367b47))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.1 [skip netlify] ([#523](https://github.com/community-led-design/kit/issues/523)) ([3cccb25](https://github.com/community-led-design/kit/commit/3cccb25aba85e43fd444df0a1de74e8d65b61fb4))
+* **deps:** update dependency @babel/standalone to v7.27.1 [skip netlify] ([#515](https://github.com/community-led-design/kit/issues/515)) ([984a297](https://github.com/community-led-design/kit/commit/984a297e7223f584e6ebffb9b5e76f870d1eb421))
+* **deps:** update dependency @babel/standalone to v7.27.2 [skip netlify] ([#520](https://github.com/community-led-design/kit/issues/520)) ([1323358](https://github.com/community-led-design/kit/commit/1323358091a69b6e75a17c2e06ba19cd31d53f33))
+
 ## [1.3.1](https://github.com/community-led-design/kit/compare/v1.3.0...v1.3.1) (2025-04-25)
 
 
