@@ -59,7 +59,7 @@
         "eslint-plugin-yml": "^1.14.0",
         "husky": "^9.0.11",
         "linkedom": "^0.18.4",
-        "lint-staged": "^15.2.10",
+        "lint-staged": "^16.0.0",
         "markdownlint-cli2": "^0.17.0",
         "markdownlint-config-fluid": "^0.1.5",
         "modern-css-reset": "^1.4.0",
