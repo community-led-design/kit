@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/community-led-design/kit/compare/v1.3.1...v1.4.0) (2025-09-22)
+
+
+### Features
+
+* add redirects file ([#592](https://github.com/community-led-design/kit/issues/592)) ([f082664](https://github.com/community-led-design/kit/commit/f0826640203c811702bcc1c1d7d985a57cba29e1))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-img to v6.0.3 [skip netlify] ([#522](https://github.com/community-led-design/kit/issues/522)) ([b3e1685](https://github.com/community-led-design/kit/commit/b3e1685682ca6e3feb55d544a7ce34d98e367b47))
+* **deps:** update dependency @11ty/eleventy-img to v6.0.4 [skip netlify] ([#531](https://github.com/community-led-design/kit/issues/531)) ([fce692b](https://github.com/community-led-design/kit/commit/fce692b894c3c5e1c13d5518e5eb76eabb55fb34))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.1 [skip netlify] ([#523](https://github.com/community-led-design/kit/issues/523)) ([3cccb25](https://github.com/community-led-design/kit/commit/3cccb25aba85e43fd444df0a1de74e8d65b61fb4))
+* **deps:** update dependency @11ty/eleventy-plugin-syntaxhighlight to v5.0.2 [skip netlify] ([#575](https://github.com/community-led-design/kit/issues/575)) ([ec27464](https://github.com/community-led-design/kit/commit/ec274646043d99c31f5c1357ab6b6e9d384312d7))
+* **deps:** update dependency @babel/standalone to v7.27.1 [skip netlify] ([#515](https://github.com/community-led-design/kit/issues/515)) ([984a297](https://github.com/community-led-design/kit/commit/984a297e7223f584e6ebffb9b5e76f870d1eb421))
+* **deps:** update dependency @babel/standalone to v7.27.2 [skip netlify] ([#520](https://github.com/community-led-design/kit/issues/520)) ([1323358](https://github.com/community-led-design/kit/commit/1323358091a69b6e75a17c2e06ba19cd31d53f33))
+* **deps:** update dependency @babel/standalone to v7.27.3 [skip netlify] ([#539](https://github.com/community-led-design/kit/issues/539)) ([d8519ba](https://github.com/community-led-design/kit/commit/d8519badbc245fe4ae5ed189e1f96ea01eb88d93))
+* **deps:** update dependency @babel/standalone to v7.27.4 [skip netlify] ([#540](https://github.com/community-led-design/kit/issues/540)) ([18a0105](https://github.com/community-led-design/kit/commit/18a0105262915f232ee32d6503884819411d944c))
+* **deps:** update dependency @babel/standalone to v7.27.5 [skip netlify] ([#544](https://github.com/community-led-design/kit/issues/544)) ([716f580](https://github.com/community-led-design/kit/commit/716f5805ee67cf8f46fb47a975bc8f8534d8811e))
+* **deps:** update dependency @babel/standalone to v7.27.6 [skip netlify] ([#546](https://github.com/community-led-design/kit/issues/546)) ([63741e4](https://github.com/community-led-design/kit/commit/63741e41ea7fba54471a59b609716916f541b319))
+* **deps:** update dependency @babel/standalone to v7.27.7 [skip netlify] ([#556](https://github.com/community-led-design/kit/issues/556)) ([5f6219c](https://github.com/community-led-design/kit/commit/5f6219c59586e6dbf2796326925145fdd6048ded))
+* **deps:** update dependency @babel/standalone to v7.28.0 [skip netlify] ([#559](https://github.com/community-led-design/kit/issues/559)) ([9a407ff](https://github.com/community-led-design/kit/commit/9a407ff18dab3540909ab95c5830b67cde82058b))
+* **deps:** update dependency @babel/standalone to v7.28.1 [skip netlify] ([#562](https://github.com/community-led-design/kit/issues/562)) ([b24ac88](https://github.com/community-led-design/kit/commit/b24ac889be731c05beaa9bbe7b41596401687f32))
+* **deps:** update dependency @babel/standalone to v7.28.2 [skip netlify] ([#569](https://github.com/community-led-design/kit/issues/569)) ([5120fe0](https://github.com/community-led-design/kit/commit/5120fe06e98921c5f2632036a830df752271113d))
+* **deps:** update dependency @babel/standalone to v7.28.4 [skip netlify] ([#584](https://github.com/community-led-design/kit/issues/584)) ([5b67cb7](https://github.com/community-led-design/kit/commit/5b67cb78fc3be153a396589d7b963fb26b43bb87))
+* **deps:** update dependency decap-cms to v3.6.3 [skip netlify] ([#535](https://github.com/community-led-design/kit/issues/535)) ([8c31cf8](https://github.com/community-led-design/kit/commit/8c31cf87f46b714d59137ee1d6d6c501230ae7c7))
+* **deps:** update dependency decap-cms to v3.6.4 [skip netlify] ([#547](https://github.com/community-led-design/kit/issues/547)) ([bc9cfa3](https://github.com/community-led-design/kit/commit/bc9cfa3f12250e27c7eb19d6e99a64b3ade16fc5))
+* **deps:** update dependency decap-cms to v3.7.0 [skip netlify] ([#555](https://github.com/community-led-design/kit/issues/555)) ([382da57](https://github.com/community-led-design/kit/commit/382da57cc401c0c568922095b9b956b6bb76fb7d))
+* **deps:** update dependency decap-cms to v3.7.1 [skip netlify] ([#557](https://github.com/community-led-design/kit/issues/557)) ([f1ed9e2](https://github.com/community-led-design/kit/commit/f1ed9e27d1de5b88e59af7c70b00ea0979ec66b3))
+* **deps:** update dependency decap-cms to v3.7.2 [skip netlify] ([#561](https://github.com/community-led-design/kit/issues/561)) ([9a95137](https://github.com/community-led-design/kit/commit/9a951379906ac1f636b49178df1ab5910919b18f))
+* **deps:** update dependency decap-cms to v3.8.0 [skip netlify] ([#564](https://github.com/community-led-design/kit/issues/564)) ([1d129d0](https://github.com/community-led-design/kit/commit/1d129d01df1152bd28ed110468015e51c71361d1))
+* **deps:** update dependency decap-cms to v3.8.2 [skip netlify] ([#568](https://github.com/community-led-design/kit/issues/568)) ([731e346](https://github.com/community-led-design/kit/commit/731e346018961e8917987b8992e11e7fc266bfbe))
+* **deps:** update dependency decap-cms to v3.8.3 [skip netlify] ([#574](https://github.com/community-led-design/kit/issues/574)) ([40653da](https://github.com/community-led-design/kit/commit/40653dac7f31066a7012f029a1caace839b5edb3))
+
 ## [1.3.1](https://github.com/community-led-design/kit/compare/v1.3.0...v1.3.1) (2025-04-25)
 
 
