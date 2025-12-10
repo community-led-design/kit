@@ -1,6 +1,6 @@
 # BSD 3-Clause License
 
-Copyright (c) 2020, OCAD University.  
+Copyright (c) 2020-2025, The Community-Led Co-Design Toolkit Authors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
