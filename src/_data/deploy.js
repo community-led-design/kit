@@ -1,5 +1,5 @@
-"use strict";
+import { env } from 'node:process';
 
-module.exports = {
-    url: process.env.DEPLOY_PRIME_URL || "http://localhost:8080"
+export default {
+	url: env.DEPLOY_PRIME_URL || 'http://localhost:8080',
 };

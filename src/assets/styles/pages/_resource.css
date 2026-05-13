@@ -1,0 +1,8 @@
+/* This file contains styles that are specific to a single resource page. */
+.single-resource {
+    .subtitle svg {
+        block-size: 1.25em;
+        inline-size: 1.25em;
+        margin-block-end: -0.25em;
+    }
+}
