@@ -1,11 +1,16 @@
 ---
 title: Co-designing Synthesis
+description: ''
+permalink: ''
+metaImageAlt: ''
 type: Guide
 buildingBlock: Ideas and outcomes
-relatedActivities: Synthesizing Co-design Outcomes
+relatedActivities:
+  - Synthesizing Co-design Outcomes
 relatedGuides:
   - Documenting and Collecting Co-design Outcomes
 ---
+
 ## About this guide
 
 This guide discusses the ethical considerations of the design synthesis process including how to do it in a more collaborative way.
@@ -94,11 +99,11 @@ Your co-design activity can be designed in a way that elicits and documents the 
 
 As part of a collaborative project with the City of Toronto and the Inclusive Design Research Centre, an urban development proposal was evaluated in order to assess its accessibility and inclusiveness. Several individuals with diverse needs and backgrounds joined the project as co-designers. Each individual was tasked with journaling their experiences around the city over a period of two weeks. In a subsequent workshop, participants joined other members of the community to form small groups and share their experiences. Each group worked together to create a story that captured and represented individual co-designers’ experiences in the city. The research team used these stories to develop a set of evaluation guidelines, which were then applied to the development proposal in order to flag risks, identify gaps, and point out missing information.
 
-For more details about this project and to read the stories, please visit this link: [](https://wecount.inclusivedesign.ca/views/project-we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/) <https://wecount.inclusivedesign.ca/views/we-count-evaluates-torontos-quayside-master-innovation-and-development-plan/>
+For more details about this project and to read the stories, please visit this link: []([https://wecount.inclusivedesign.ca/initiatives/we-count-evaluates-toronto-s-quayside-master-innovation-and-development-plan/](https://wecount.inclusivedesign.ca/initiatives/we-count-evaluates-toronto-s-quayside-master-innovation-and-development-plan/)) <[https://wecount.inclusivedesign.ca/initiatives/we-count-evaluates-toronto-s-quayside-master-innovation-and-development-plan/](https://wecount.inclusivedesign.ca/initiatives/we-count-evaluates-toronto-s-quayside-master-innovation-and-development-plan/)>
 
 ## References
 
 1. [Design Synthesis - A Step by Step Guide](https://medium.com/design-thoughts-case-studies/design-synthesis-step-by-step-guide-1a46c73c503e) 
-2. [All About Us - Indigenous Data Analysis Workshop](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9535f56f-fb72-4bc3-afe9-97733c0b41e2/All_About_Us_-_Indigneous_Data_Analysis_Workshop.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205052Z&X-Amz-Expires=86400&X-Amz-Signature=d6e6e4fb0e09bd4a800a4fb31bd2c81425cfb127430a50ac2ed6c7d5ff6eeb2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22All%2520About%2520Us%2520-%2520Indigneous%2520Data%2520Analysis%2520Workshop.pdf%22&x-id=GetObject)
-3. [Make Your Mind Strong: My Father's Insights into Academic Success](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/263ba986-4789-4518-99a0-e5bb2dfc22f3/Make_Your_Mind_Strong_My_Fath.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T205947Z&X-Amz-Expires=86400&X-Amz-Signature=9b8ff9cffb1b6f63812cfc0e340a4bea8d30805564457355f40a70cbfbd2b18e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Make_Your_Mind_Strong_My_Fath.pdf%22&x-id=GetObject)
-4. [Photoyarn: Aboriginal and Maori girls' researching contemporary boarding school experiences](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7c3229f9-7ef4-4cd0-b79a-7d8199aa344a/Photoyarn_Aboriginal_and_Maori_%281%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220207T210157Z&X-Amz-Expires=86400&X-Amz-Signature=1c76bff557947581d90e9a53d3e4958fa8e11a2ec58314a56fb92e04bc9555fc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Photoyarn_Aboriginal_and_Maori%2520%281%29.PDF.pdf%22&x-id=GetObject)
+2. [All About Us - Indigenous Data Analysis Workshop](https://www.sciencedirect.com/science/article/pii/S2589790X19300605)
+3. [Make Your Mind Strong: My Father's Insights into Academic Success](https://cje-rce.ca/index.php/cje-rce/article/view/2139/1843)
+4. [Photoyarn: Aboriginal and Maori girls' researching contemporary boarding school experiences](https://www.researchgate.net/publication/319040885_Rogers_J_2017_Photoyarn_Aboriginal_and_Maori_Girls_Researching_Boarding_Experiences_Australian_Aboriginal_Studies_Journal_Vol_1_pp_4-14)
