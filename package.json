@@ -38,7 +38,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@babel/standalone": "^7.27.0",
-    "eleventy-plugin-fluid": "^2.7.1",
+    "eleventy-plugin-fluid": "^3.2.2",
     "infusion": "^4.6.0"
   },
   "devDependencies": {
