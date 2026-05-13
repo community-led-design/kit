@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/community-led-design/kit/compare/v1.4.0...v1.5.0) (2026-05-13)
+
+
+### Features
+
+* switch to Sveltia CMS ([#675](https://github.com/community-led-design/kit/issues/675)) ([0fd52a3](https://github.com/community-led-design/kit/commit/0fd52a3a4e2dfec60fa4e1bf0fb8b37737fd1423))
+
+
+### Bug Fixes
+
+* attributes authors ([#640](https://github.com/community-led-design/kit/issues/640)) and community leadership ([#642](https://github.com/community-led-design/kit/issues/642)) ([#644](https://github.com/community-led-design/kit/issues/644)) ([33dfeae](https://github.com/community-led-design/kit/commit/33dfeaed8b7f646822951071724f49bf08687440))
+
 ## [1.4.0](https://github.com/community-led-design/kit/compare/v1.3.1...v1.4.0) (2025-09-22)
 
 
