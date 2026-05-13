@@ -55,11 +55,15 @@
     "stylelint": "^17.0.0"
   },
   "lint-staged": {
-    "*.scss": "stylelint --fix",
-    "*.{js,mjs,yml}": "eslint --fix",
-    "*.md": [
-      "markdownlint-cli2 --fix",
+    "*.css": [
+      "stylelint --fix"
+    ],
+    "*.{cjs,js,json,mjs}": [
       "eslint --fix"
+    ],
+    "*.md": [
+      "eslint --fix",
+      "markdownlint-cli2 --fix"
     ]
   }
 }
