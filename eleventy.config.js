@@ -31,8 +31,6 @@ export default function eleventy(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 	eleventyConfig.addPassthroughCopy('src/admin/*.js');
 	eleventyConfig.addPassthroughCopy({
-		'node_modules/@babel/standalone/babel.min.js': 'lib/cms/babel.min.js',
-		'node_modules/@babel/standalone/babel.min.js.map': 'lib/cms/babel.min.js.map',
 		'node_modules/markdown-it/dist/markdown-it.min.js': 'lib/cms/markdown-it.min.js',
 	});
 	eleventyConfig.addPassthroughCopy({ 'node_modules/infusion/src/lib/hypher/patterns': 'lib/infusion/src/lib/hypher/patterns' });
