@@ -42,7 +42,7 @@
     "infusion": "^4.6.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
+    "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^19.2.2",
     "backstopjs": "^6.3.25",
     "cross-env": "^10.0.0",
