@@ -1,6 +1,6 @@
 {
   "name": "@community-led-design/kit",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Website for the Community-Led Co-design Kit.",
   "type": "module",

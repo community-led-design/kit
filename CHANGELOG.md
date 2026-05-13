@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/community-led-design/kit/compare/v1.5.0...v2.0.0) (2026-05-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Eleventy v3, switch to inclusive-design linters ([#687](https://github.com/community-led-design/kit/issues/687))
+
+### Features
+
+* upgrade to Eleventy v3, switch to inclusive-design linters ([#687](https://github.com/community-led-design/kit/issues/687)) ([aeb1eea](https://github.com/community-led-design/kit/commit/aeb1eeaa7042e006561e424b7782a8eed26c717f))
+
 ## [1.5.0](https://github.com/community-led-design/kit/compare/v1.4.0...v1.5.0) (2026-05-13)
 
 
