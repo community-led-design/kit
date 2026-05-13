@@ -12,3 +12,4 @@ backstop_data/json_report
 
 # IDE configs
 .nova
+.zed/

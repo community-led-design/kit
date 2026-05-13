@@ -1,0 +1,46 @@
+/* This file contains all styles related to the image and text component. */
+.image-text {
+    display: grid;
+    gap: var(--scale-4);
+
+    .image {
+        img {
+            inline-size: 100%;
+        }
+    }
+
+    .subtitle {
+        font-size: var(--scale-1);
+        font-weight: var(--weight-medium);
+    }
+
+    .byline {
+        margin-block-start: calc(8 / 16 * 1rem);
+    }
+
+    .date {
+        margin-block-start: calc(8 / 16 * 1rem);
+    }
+}
+
+@media (width >= 1024px) {
+    .image-text {
+        display: grid;
+        gap: var(--scale-4);
+        grid-template-columns: repeat(2, 1fr);
+
+        .image {
+            block-size: calc(360 / 16 * 1rem);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

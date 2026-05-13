@@ -1,0 +1,22 @@
+/* This file contains all styles related to the header of a specific page. */
+.header .wrapper {
+    padding-inline: var(--scale-4);
+}
+
+.header h1,
+.header .subtitle {
+    @media (width >= 1024px) {
+        inline-size: 50%;
+    }
+}
+
+.header h1.wider,
+.header .subtitle.wider {
+    @media (width >= 1024px) {
+        inline-size: 60%;
+    }
+}
+
+.header .subtitle {
+    margin-block-start: var(--scale-1);
+}

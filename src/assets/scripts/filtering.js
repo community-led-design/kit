@@ -10,57 +10,54 @@ You may obtain a copy of the New BSD License at
 https://github.com/community-led-design/kit/raw/master/LICENSE.md.
 */
 
-"use strict";
-
-const typeMenu = document.getElementById("type");
-const buildingBlockMenu = document.getElementById("building-block");
-const applyFilters = document.getElementById("apply-filters");
-const clearFilters = document.getElementById("clear-filters");
-const resources = document.getElementById("resources");
-const results = document.getElementById("results");
+const typeMenu = document.querySelector('#type');
+const buildingBlockMenu = document.querySelector('#building-block');
+const applyFilters = document.querySelector('#apply-filters');
+const clearFilters = document.querySelector('#clear-filters');
+const resources = document.querySelector('#resources');
+const results = document.querySelector('#results');
 
 const applyCurrentFilters = function () {
-    const type = typeMenu.value;
-    const buildingBlock = buildingBlockMenu.value;
+	const type = typeMenu.value;
+	const buildingBlock = buildingBlockMenu.value;
 
-    const typeLabel = (type !== "") ? typeMenu.querySelector(`[value="${type}"]`).innerText : false;
-    const buildingBlockLabel = (buildingBlock !== "") ? buildingBlockMenu.querySelector(`[value="${buildingBlock}"]`).innerText : false;
+	const typeLabel = (type === '') ? false : typeMenu.querySelector(`[value="${type}"]`).textContent;
+	const buildingBlockLabel = (buildingBlock === '') ? false : buildingBlockMenu.querySelector(`[value="${buildingBlock}"]`).textContent;
 
-    const filterString = [type, buildingBlock].join(" ").trim();
+	const filterString = [type, buildingBlock].join(' ').trim();
 
-    let count = 0;
+	let count = 0;
 
-    [...resources.querySelectorAll(".card")].forEach(function (card) {
-        if (filterString === "") {
-            card.removeAttribute("hidden");
-        } else {
-            if (card.dataset.filter.includes(filterString)) {
-                card.removeAttribute("hidden");
-                count++;
-            } else {
-                card.setAttribute("hidden", "");
-            }
-        }
-    });
+	for (const card of resources.querySelectorAll('.card')) {
+		if (filterString === '') {
+			card.removeAttribute('hidden');
+		} else if (card.dataset.filter.includes(filterString)) {
+			card.removeAttribute('hidden');
+			count++;
+		} else {
+			card.setAttribute('hidden', '');
+		}
+	}
 
-    let resultsMessage = `<strong>${count} ${ (count === 1) ? "resource" : "resources" }</strong> matched `;
+	let resultsMessage = `<strong>${count} ${(count === 1) ? 'resource' : 'resources'}</strong> matched `;
 
-    if (typeLabel && buildingBlockLabel) {
-        resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong> for <strong>${buildingBlockLabel}</strong>${ (count === 0) ? "." : ":" }`;
-    } else if (typeLabel) {
-        resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong>${ (count === 0) ? "." : ":" }`;
-    } else if (buildingBlockLabel) {
-        resultsMessage = `${resultsMessage} <strong>${buildingBlockLabel}</strong>${ (count === 0) ? "." : ":" }`;
-    } else {
-        resultsMessage = "";
-    }
-    results.innerHTML = resultsMessage;
+	if (typeLabel && buildingBlockLabel) {
+		resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong> for <strong>${buildingBlockLabel}</strong>${(count === 0) ? '.' : ':'}`;
+	} else if (typeLabel) {
+		resultsMessage = `${resultsMessage} <strong>${typeLabel}</strong>${(count === 0) ? '.' : ':'}`;
+	} else if (buildingBlockLabel) {
+		resultsMessage = `${resultsMessage} <strong>${buildingBlockLabel}</strong>${(count === 0) ? '.' : ':'}`;
+	} else {
+		resultsMessage = '';
+	}
+
+	results.innerHTML = resultsMessage;
 };
 
-applyFilters.addEventListener("click", applyCurrentFilters);
-clearFilters.addEventListener("click", function () {
-    typeMenu.value = "";
-    buildingBlockMenu.value = "";
+applyFilters.addEventListener('click', applyCurrentFilters);
+clearFilters.addEventListener('click', () => {
+	typeMenu.value = '';
+	buildingBlockMenu.value = '';
 
-    applyCurrentFilters();
+	applyCurrentFilters();
 });
