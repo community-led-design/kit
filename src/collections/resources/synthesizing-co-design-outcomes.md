@@ -1,8 +1,12 @@
 ---
 title: Synthesizing Co-design Outcomes
+description: ''
+permalink: ''
+metaImageAlt: ''
 type: Activity
 buildingBlock: Ideas and outcomes
 ---
+
 ## What
 
 Synthesis is the process of transforming the outcomes of a group design activity into a cohesive format, and sharing them in a way that's easy to understand and useful to the design process.
@@ -62,7 +66,7 @@ The themes and insights method is useful when you are in the discovery phase of 
 
 **How to do it**
 
-[Design Kit](https://www.designkit.org/methods/find-themes)
+[IDEO Design Kit: Find Themes](https://www.designkit.org/methods/find-themes.html)
 
 [TiSDD Method: Developing key insights](https://www.thisisservicedesigndoing.com/methods/developing-key-insights)
 
@@ -88,7 +92,7 @@ A journey map is most useful when you're trying to describe an experience with a
 
 **How to do it**
 
-[Design Kit](https://www.designkit.org/methods/journey-map)
+[IDEO Design Kit: Journey Map](https://www.designkit.org/methods/journey-map.html)
 
 [TiSDD Method: Mapping journeys](https://www.thisisservicedesigndoing.com/methods/mapping-journeys)
 
@@ -157,15 +161,12 @@ A feedback prioritization sheet is useful when you're trying to sort through a l
 1. **Add the changes you want to make**. You may choose to include exact feedback from users, or do some grouping of common feedback first.
 2. **Add in supporting information**. This can include:
 
-   * Notes to explain why someone is requesting this specific change
-   * What aspect of the design the change applies to (eg. a specific page on a site, a specific point in the process of accessing a service, etc)
-   * What type of change it is (eg. new feature, usability, language, etc)
+* Notes to explain why someone is requesting this specific change
+* What aspect of the design the change applies to (eg. a specific page on a site, a specific point in the process of accessing a service, etc)
+* What type of change it is (eg. new feature, usability, language, etc)
+
 3. **Decide how to prioritize your changes**. This can include value, effort, or something else. Make sure your team agrees on these things. Put each of these factors in its own column.
 4. **Prioritize together with your team**. Go through all of the feedback and changes, and prioritize them together. By the end of this process you should have a list of feedback and changes, prioritized and ready for your team to implement.
-
-Here's an example of a prioritization sheet used in a previous project:
-
-[Airtable | Everyone's app platform](https://airtable.com/invite/l?inviteId=invJLXIM)
 
 ### How do I decide what framework to use?
 
