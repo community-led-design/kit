@@ -17,7 +17,7 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const eleventyImage = require("@11ty/eleventy-img");
-const {exec} = require("child_process");
+const { exec } = require("child_process");
 
 const exampleBlockShortcode = require("./src/_shortcodes/example-block.js");
 const learningBlockShortcode = require("./src/_shortcodes/learning-block.js");
@@ -34,7 +34,7 @@ function imageShortcode(src, alt, sizes, widths) {
             progressive: true
         }
     };
-    let source = path.join(__dirname, "src/" , src);
+    let source = path.join(__dirname, "src/", src);
     eleventyImage(source, options);
 
     let imageAttributes = {
@@ -64,23 +64,18 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform("parse", parseTransform);
 
     // Passthrough copy
-    eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-    eleventyConfig.addPassthroughCopy({"src/assets/icons/": "/"});
-    eleventyConfig.addPassthroughCopy({"src/assets/images": "assets/images"});
-    eleventyConfig.addPassthroughCopy({"src/assets/media": "assets/media"});
+    eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/icons/": "/" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
+    eleventyConfig.addPassthroughCopy({ "src/assets/media": "assets/media" });
     eleventyConfig.addPassthroughCopy("src/admin/config.yml");
     eleventyConfig.addPassthroughCopy("src/admin/*.js");
     eleventyConfig.addPassthroughCopy({
-        "node_modules/decap-cms/dist/decap-cms.js": "lib/cms/decap-cms.js",
-        "node_modules/decap-cms/dist/decap-cms.js.map": "lib/cms/decap-cms.js.map",
         "node_modules/@babel/standalone/babel.min.js": "lib/cms/babel.min.js",
         "node_modules/@babel/standalone/babel.min.js.map": "lib/cms/babel.min.js.map",
-        "node_modules/markdown-it/dist/markdown-it.min.js": "lib/cms/markdown-it.min.js",
-        "node_modules/prop-types/prop-types.min.js": "lib/cms/prop-types.min.js",
-        "node_modules/react/umd/react.development.js": "lib/cms/react.development.js",
-        "node_modules/react/umd/react.production.min.js": "lib/cms/react.production.min.js"
+        "node_modules/markdown-it/dist/markdown-it.min.js": "lib/cms/markdown-it.min.js"
     });
-    eleventyConfig.addPassthroughCopy({"node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns"});
+    eleventyConfig.addPassthroughCopy({ "node_modules/infusion/src/lib/hypher/patterns": "lib/infusion/src/lib/hypher/patterns" });
 
     // Plugins
     eleventyConfig.addPlugin(fluidPlugin, {

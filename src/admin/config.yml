@@ -1,22 +1,22 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
   squash_merges: true
+  repo: community-led-design/kit
   commit_messages:
     create: 'chore(cms): create "{{path}}"'
     update: 'chore(cms): update "{{path}}"'
     delete: 'chore(cms): delete "{{path}}"'
     uploadMedia: 'chore(cms): upload "{{path}}"'
     deleteMedia: 'chore(cms): delete "{{path}}"'
-local_backend: true
-publish_mode: editorial_workflow
-site_url: "https://co-design.inclusivedesign.ca"
+site_url: https://community-led.design
 media_folder: src/assets/media
 public_folder: /assets/media
 collections:
   - name: pages
     label: Pages
     label_singular: Page
+    icon: article
     folder: src/collections/pages
     slug: "{{title}}"
     create: true
@@ -37,6 +37,7 @@ collections:
   - name: resources
     label: Resources
     label_singular: Resource
+    icon: inventory_2
     folder: src/collections/resources
     slug: "{{title}}"
     preview_path: /resources/
@@ -92,6 +93,7 @@ collections:
   - name: case-studies
     label: Case Studies
     label_singular: Case Study
+    icon: inventory
     folder: src/collections/case-studies
     slug: "{{title}}"
     preview_path: /case-studies/
