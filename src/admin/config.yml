@@ -12,6 +12,9 @@ backend:
 site_url: https://community-led.design
 media_folder: src/assets/media
 public_folder: /assets/media
+logo:
+  src: /assets/images/kit-logo.svg
+  show_in_header: true
 collections:
   - name: pages
     label: Pages
@@ -63,6 +66,9 @@ collections:
         value_field: title
         search_fields: [title]
         display_fields: [title]
+        filters:
+          - field: type
+            values: [Activity]
         multiple: true
         required: false
       - label: Related guides
@@ -72,6 +78,9 @@ collections:
         value_field: title
         search_fields: [title]
         display_fields: [title]
+        filters:
+          - field: type
+            values: [Guide]
         multiple: true
         required: false
       - label: Related tools
@@ -81,6 +90,9 @@ collections:
         value_field: title
         search_fields: [title]
         display_fields: [title]
+        filters:
+          - field: type
+            values: [Tool]
         multiple: true
         required: false
       - label: Further resources
