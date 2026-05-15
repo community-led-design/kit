@@ -1,30 +1,35 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ],
-  "commitMessageSuffix": "[skip netlify]",
-  "packageRules": [
-    {
-      "description": "Group minor updates for backend and frontend packages into single PR",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "minimumReleaseAge": "2 days",
-      "groupName": "minor updates",
-      "groupSlug": "minor-updates",
-      "automerge": true
-    },
-    {
-      "description": "Use dedicated PRs for major updates",
-      "minimumReleaseAge": "2 days",
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": null
-    }
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:recommended"
+	],
+	"labels": [
+		"dependencies"
+	],
+	"schedule": [
+		"* * * * 1"
+	],
+	"packageRules": [
+		{
+			"description": "Group minor updates for backend and frontend packages into single PR",
+			"matchUpdateTypes": [
+				"minor",
+				"patch",
+				"pin",
+				"digest"
+			],
+			"minimumReleaseAge": "2 days",
+			"groupName": "dependencies (minor)",
+			"groupSlug": "minor-updates",
+			"automerge": true
+		},
+		{
+			"description": "Use dedicated PRs for major updates",
+			"minimumReleaseAge": "2 days",
+			"matchUpdateTypes": [
+				"major"
+			],
+			"groupName": null
+		}
+	]
 }
