@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.3](https://github.com/community-led-design/kit/compare/v2.0.2...v2.0.3) (2026-05-15)
+
+
+### Bug Fixes
+
+* resolve issue with links to related resources ([#695](https://github.com/community-led-design/kit/issues/695)) ([01bfb0f](https://github.com/community-led-design/kit/commit/01bfb0f2a33de2ce137a82dcbf3b1b6e9fd449a9))
+
 ## [2.0.2](https://github.com/community-led-design/kit/compare/v2.0.1...v2.0.2) (2026-05-14)
 
 
