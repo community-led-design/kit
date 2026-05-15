@@ -1,8 +1,12 @@
 ---
 title: Accessible Content and Communication
+description: ''
+permalink: ''
+metaImageAlt: ''
 type: Guide
 buildingBlock: Community involvement
 ---
+
 ## About this guide
 
 So much of our communication happens through technology. It's important to make sure that all content shared with participants is accessible. By doing so you'll help to ensure that everyone can get the information they need to fully participate in your co-design session.
@@ -53,12 +57,11 @@ It is good practice to establish preferred ways of communicating early in your p
 
 [PDF Remediation - OCAD Outside-IN - TIGed](https://outside-in.tiged.org/pdf)
 
-
 #### Accessible communication software
 
-Many online software are in the process of becoming more accessible. Here is a crowdsourced resource that continually evaluates the accessibility of various software tools:
+Many online software are in the process of becoming more accessible. Here is a resource for evaluating the accessibility of various software tools: 
 
-[Accessibility Reviews](https://a11y.reviews/)
+[WAVE accessibility evaluation tool](https://wave.webaim.org/)
 
 ## Further resources
 

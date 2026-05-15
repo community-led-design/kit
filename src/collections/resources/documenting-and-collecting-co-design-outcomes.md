@@ -1,12 +1,13 @@
 ---
 title: Documenting and Collecting Co-design Outcomes
+description: ''
+permalink: ''
 metaImage: /assets/media/documenting-outcomes-2.jpg
-metaImageAlt: >-
-  Photo of a desktop covered with sticky notes filled with text, hand-drawn
-  wireframes made of construction paper, pipe cleaners, scissors and tape. 
+metaImageAlt: Photo of a desktop covered with sticky notes filled with text, hand-drawn wireframes made of construction paper, pipe cleaners, scissors and tape.
 type: Activity
 buildingBlock: Ideas and outcomes
 ---
+
 ## What
 
 During co-design, it's easy to get swept up in the energy of the moment and forget to document and collect everything that your co-designers make. Having a clear and realistic plan for documenting your outcomes, whether it be through note-taking, photos, video, or audio, is crucial.
@@ -51,7 +52,7 @@ When documenting co-design artifacts, including notes can help you to recall the
 
 ### Writing summaries or synthesis
 
-Writing summaries is a helpful way of documenting multiple things (ex. audio clips, drawings, videos) in an easy to read and digestible way. Please refer to [Synthesis of Co-design Outcomes](/resources/Synthesizing-Co-design-Outcomes/) for more information on how to do this.
+Writing summaries is a helpful way of documenting multiple things (ex. audio clips, drawings, videos) in an easy to read and digestible way. Please refer to [Synthesizing Co-design Outcomes](/resources/Synthesizing-Co-design-Outcomes/) for more information on how to do this.
 
 ### A note on confidentiality
 
